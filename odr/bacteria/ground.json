@@ -1,0 +1,1090 @@
+{
+  "took": 7,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 17,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "UKe9hZcBcf0G5RgivjKF",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-728/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells, Cultured",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-728",
+          "Identifiers": "GLDS-646",
+          "Study Identifier": "OSD-728",
+          "Study Protocol Name": "Growth Protocol     treatment protocol     sample collection     Nucleic Acid Extraction 1     Library Construction 1     Nucleic Acid Sequencing 1     GeneLab raw data processing protocol - RNAseq     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol - WGS",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)     nucleotide sequencing",
+          "Acknowledgments": "Conceptualization, J.E.B. and A.O.; methodology, J.E.B. and A.O.; formal analysis, B.L., J.L.E. and A.O.; investigation, B.L, L.A., S.C.W; resources, A.O.; data curation, B.L. and A.O.; writing—original draft preparation, B.L. and A.O.; writing—review and editing, B.L., L.A, J.L.E., M.P., M.P., A.R., S.C.W., J.E.B.; visualization, A.O. and B.L.; supervision, A.O.; project administration, A.O. All authors have read and agreed to the published version of the manuscript.",
+          "Study Assay Technology Platform": "Illumina     Illumina",
+          "Study Person": {
+            "Last Name": "Lozzi Adepoju Espinoza Padgen Parra Ricco Castro-Wallace Barrick O'Rourke",
+            "Middle Initials": "",
+            "First Name": "Brittney Lea Josh L Michael Macarena Antonio Sarah Jeffrey E Aubrie"
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation",
+          "Space Program": "NASA, NSF",
+          "Study Title": "Simulated microgravity triggers a membrane adaptation to stress in E. coli REL606",
+          "Study Factor Type": "Weightlessness Simulation     time     Growth Medium",
+          "Study Public Release Date": 1749427200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-728/image",
+          "Study Factor Name": "Microgravity Simulation     Time     Growth Medium",
+          "Study Assay Measurement Type": "transcription profiling     genome sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "Funding acquisition, by A.O through Early Career funding from NASA’s Mars Campaign Office (MCO) Polaris Project. Additional support from the National Science Foundation (DEB-1951307) to J.E.B.",
+          "Study Protocol Description": "From a freezer stock of REL606, a single colony was obtained by plating on a tetrazolium agar (TA) plate. The colony was inoculated into 3 mL DM2000 media and incubated overnight at 37 C to obtain an OD600 of 1. From this, 150 uL aliquots were generated and frozen without glycerol to serve as the starting inoculum for the short-term simulated microgravity experiments performed over four weeks. Two 150 uL aliquots of REL606 were removed from the freezer, pelleted, and washed with DM25 and then were each inoculated into 30 mL of DM25. Cells were allowed to incubate with shaking at 37 C overnight to reach an OD600 of 0.07 and a cell target of 3x10^7 CFU/mL.     One 30 mL culture of REL606 was then inoculated into 600 mL of DM25 and the second 30mL flask of REL606 was inoculated into 600 mL of DM2000. Six 50 mL High Aspect Ratio Vessels (HARVs) were prepared for glucose-limited (DM25: 25 mg/L glucose) experiments and another six 50 mL HARVs were prepared for glucose-replete (DM2000: 2000 mg/L glucose) experiments. Two DM25 HARVs and two DM2000 filled HARVs were loaded on the rotating wall vessel (RWV) vertically for the simulated microgravity (SuG) condition. Two DM25 HARVs and two DM2000 filled HARVs were loaded on the RWV horizontally for the rotating (R) control condition. Two DM25 HARVs and two DM2000 filled HARVs were placed in the incubator horizontally for the static (S) control condition. The experiment was performed in a Percival chamber set to 25 C and 95% relative humidity. HARVs were rotated at 20 rpm, with no forced air from the RWV. The remaining 300 mL of the above 600 mL inoculum for DM25 and DM2000 were sampled as T0 samples and concentrated using the CP SELECT (0.20 um) and eluted in 250 ul 3 times with 0.075% Tween 20/Tris buffer (InnovaPrep, MO).\n\nTo normalize for CFU/mL of all RNA-Seq samples, 20 µL of T0 inoculum was added to 180 µL of DM25 in triplicate and a serial dilution was obtained and plated on TA then incubated overnight at 37 C to obtain a CFU/mL count for T0. The same CFU/mL count procedure was done for subsequent timepoints, T1 and T2 for all samples. One HARV from each of the DM25 SµG, R and S conditions was sampled as T1 at 4.5 hours. One HARV from each of the DM2000 SµG, R and S condition was sampled as T1 at 6.5 hours. The remaining HARVs for DM25 and DM2000 were collected for T2 at 24 hours. At each collection event, 50 mL of culture from each of the HARVs was emptied into a 50mL Falcon tube and then concentrated using the same CP SELECT device as above. Cells were further pelleted, the supernatant removed, and then immediately frozen on dry ice and placed in the -80 C freezer until further processing. The entire procedure including preculture, RWV culture, and sample collection at T0, T1 and T2 was repeated four times to obtain BR1, BR2, BR3 and BR4.     Cells were further pelleted, the supernatant removed, and then immediately frozen on dry ice and placed in the -80 C freezer until further processing.     In total, 64 samples were sent on dry ice to Azenta GeneWiz for RNA extraction, ribosomal depletion, library preparation and 2x150 base pair, paired-end sequencing.     In total, 64 samples were sent on dry ice to Azenta GeneWiz for RNA extraction, ribosomal depletion, library preparation and 2x150 base pair, paired-end sequencing.     Reads were obtained for each library in an amount of 2 million or greater.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of Escherichia rRNA sequences retrieved from NCBI on 13-May-2024.     Freezer stocks for the three biological replicates (BR A, BR C, and BR D) at each of the three timepoints in the respective growth conditions were streaked onto TA agar and two colonies were selected, cultured overnight at 37 C in DM2000, and pelleted with supernatant removed. Subsequently, 76 cell pellets were sent on dry ice to Azenta GeneWiz for DNA extraction, library preparation and sequencing.     Freezer stocks for the three biological replicates (BR A, BR C, and BR D) at each of the three timepoints in the respective growth conditions were streaked onto TA agar and two colonies were selected, cultured overnight at 37 C in DM2000, and pelleted with supernatant removed. Subsequently, 76 cell pellets were sent on dry ice to Azenta GeneWiz for DNA extraction, library preparation and sequencing.     2 million reads were obtained per genome.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Lozzi B  Adepoju L  Espinoza JL  Padgen M  Parra M  Ricco A  Castro-Wallace S  Barrick JE  O'Rourke A.",
+          "Project Link": "",
+          "Study Publication Title": "Simulated microgravity triggers a membrane adaptation to stress in E. coli REL606.",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "Investigating the evolution of Escherichia coli in microgravity offers valuable insights into microbial adaptation to extreme environments. Here the effects of simulated microgravity (SµG) on gene expression and genome evolution of E. coli REL606, a strain evolved terrestrially for 35 years, is explored. The transcriptomic changes for glucose-limited and glucose-replete conditions over 24 h illustrate that SµG increased the expression of genes involved in stress response, biofilm, and metabolism. A greater number of differentially expressed genes related to the general stress response (GSR) and biofilm formation is observed in simulated microgravity cultures under glucose-limited conditions in comparison to glucose-replete conditions. Longer term SµG culture under glucose-limited conditions led to the accumulation of unique mutations when compared to control cultures, particularly in the mraZ/fruR intergenic region and the elyC gene, suggesting changes in peptidoglycan and enterobacterial common antigen (ECA) production. These findings highlight the physiological and genomic adaptations of E. coli to microgravity, offering a foundation for future research into the long-term effects of space conditions on bacterial evolution.",
+          "organism": "Escherichia coli",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/xv03-9v04",
+          "url": "https://doi.org/10.26030/xv03-9v04"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1749427200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "h4k93pUBT6_JreR44zdZ",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-788/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "",
+          "Accession": "OSD-788",
+          "Identifiers": "GLDS-683",
+          "Study Identifier": "OSD-788",
+          "Study Protocol Name": "treatment protocol     sample collection     Extraction     Mass Spectrometry     Data Transformation",
+          "Study Assay Technology Type": "mass spectrometry",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Orbitrap Fusion(Thermo Scientific)",
+          "Study Person": {
+            "Last Name": "Rice Ferraro",
+            "Middle Initials": " J",
+            "First Name": "Kelly Mariola"
+          },
+          "Study Protocol Type": "sample treatment protocol     sample collection     Extraction     Mass Spectrometry     Data Transformation",
+          "Space Program": "NASA",
+          "Study Title": "Impact of simulated microgravity on the growth and proteomic profile of Enterobacter cloacae",
+          "Study Factor Type": "Weightlessness Simulation     growth environment",
+          "Study Public Release Date": 1743120000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-788/image",
+          "Study Factor Name": "Microgravity Simulation     Growth Environment",
+          "Study Assay Measurement Type": "protein expression profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "This study was supported by the Florida Space Grant Consortium (FSGC), funded by the National Aeronautics and Space Administration by Cooperative Agreement number 80NSSC20M0093 (MJF), and NASA grant 80NSSC21K0601 (KCR).",
+          "Study Protocol Description": "E. cloacae was cultured under normal gravity (NG), inverted normal gravity (INV), and low shear modeled microgravity (LSMMG) conditions using the rotary cell culture system and 50 ml disposable HARVs. Cultures were grown for eight hours at 37 degrees C and 25 RPM.     Cells were harvested by centrifugation at 4500 RPM at 4C for 10 minutes. Supernatants were removed, and cell pellets were stored at -80C until lysed and processed for proteomics.     Cellular proteins were extracted by bacterial cell lysis, trichloroacetic acid (TCA) precipitated, and quantified using the Pierce BCA kit.     For proteomics, 25 µg of protein per sample was used, with three biological replicates for each condition. Proteins were separated by SDS-PAGE, followed by in-gel trypsin digestion. Peptide samples were analyzed using UHPLC coupled to an Orbitrap Fusion mass spectrometer, as described in our previous publication (https://doi.org/10.1128/jb.00272-24). Tandem mass spectra were processed with Proteome Discoverer 2.1 and analyzed using Mascot against the UniProt E. cloacae database (5,412 entries). Protein identifications were validated with Scaffold (version 4.11.0), accepting identifications with over 95% probability, and using the Protein Prophet algorithm for grouping by shared peptides. The protein FDR was 0.9%, and the peptide FDR was 0.06%. Protein quantification was based on weighted spectral counts, with fold changes calculated. Missing values were imputed, and only proteins present in at least two out of three replicates were reported. Statistical significance was determined using Fisher’s exact test, with a p-value less than 0.05 and a fold change of at least 1.5 considered significant.     Tandem mass spectra were processed with Proteome Discoverer 2.1 and analyzed using Mascot against the UniProt E. cloacae database (5,412 entries). Protein identifications were validated with Scaffold (version 4.11.0), accepting identifications with over 95% probability, and using the Protein Prophet algorithm for grouping by shared peptides. The protein FDR was 0.9%, and the peptide FDR was 0.06%. Protein quantification was based on weighted spectral counts, with fold changes calculated. Missing values were imputed, and only proteins present in at least two out of three replicates were reported. Statistical significance was determined using Fisher’s exact test, with a p-value less than 0.05 and a fold change of at least 1.5 considered significant.",
+          "Experiment Platform": "High Aspect Ratio Vessels (HARVs)",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Ocampo J  White RE  Ferraro MJ  Rice KC.",
+          "Project Link": "",
+          "Study Publication Title": "Impact of simulated microgravity on the growth and proteomic profile of Enterobacter cloacae",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "The proteomics experiment involved analyzing the protein expression profiles of Enterobacter cloacae under different gravity conditions simulated in High Aspect Ratio Vessels (HARVs). The three conditions studied were normal gravity (NG), inverted normal gravity (INV), and low shear modeled microgravity (LSMMG). The goal was to assess how E. cloacae adapts to microgravity, given its relevance to astronaut health during spaceflight. By comparing the proteomic profiles across these conditions, the study identified significant changes in protein expression in LSMMG and INV compared to NG.",
+          "organism": "Enterobacter cloacae",
+          "Data Source Type": "cgene"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1743120000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "skKymZABFSC8U4d3Pyij",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-683/",
+          "Flight Program": "Not applicable",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "",
+          "Accession": "OSD-683",
+          "Identifiers": "GLDS-614",
+          "Study Identifier": "OSD-683",
+          "Study Protocol Name": "Extraction     Mass Spectrometry     treatment protocol     sample collection",
+          "Study Assay Technology Type": "mass spectrometry",
+          "Acknowledgments": "We thank staff at the University of Florida Interdisciplinary Center for Biotechnology Research (ICBR) Proteomics Core for performing mass spectrometry on secretomics samples. We also dedicate this study to our dear friend and colleague, Dr. Wayne L. Nicholson, whose valuable scientific input, and advice contributed to this project.",
+          "Study Assay Technology Platform": "UHPLC Orbitrap Fusion mass spectrometer (Thermo Scientific)",
+          "Study Person": {
+            "Last Name": "Rice",
+            "Middle Initials": "",
+            "First Name": "Kelly"
+          },
+          "Study Protocol Type": "Extraction     Mass Spectrometry     sample treatment protocol     sample collection",
+          "Space Program": "NASA",
+          "Study Title": "Response of Staphylococcus aureus physiology and Agr quorum sensing to low shear modelled microgravity",
+          "Study Factor Type": "Weightlessness Simulation     growth environment",
+          "Study Public Release Date": 1720483200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-683/image",
+          "Study Factor Name": "Microgravity Simulation     Growth Environment",
+          "Study Assay Measurement Type": "protein expression profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "Quorum Sensing and S. aureus Virulence Potential During Simulated Microgravity Growth - NASA Taskbook ID #15070",
+          "Study Funding Agency": "80NSSC21K0601, 80NSSC19K0139",
+          "Study Protocol Description": "Collected cell-free supernatant samples were subsequently thawed on ice, then 2400 µL of each filtered supernatant was split into two 1200 µL aliquots, both of which were transferred into their own sterile 1.8 mL tubes. A 300 µL volume of 100% trichloroacetic acid was then added to each tube, and samples were incubated for 30 minutes at 4°C. Samples were then centrifuged at 20,000 x g for 5 minutes, and the supernatants were discarded. Protein pellets were resuspended in 200 µL of cold acetone, and the acetone washes from both aliquots of each sample were combined. Samples were centrifuged again as described above, and the acetone wash was repeated for a total of two washes. Pellets were dried by placing tubes open in a Class 2AII biosafety cabinet for 5 minutes to allow the trace acetone to evaporate, then pellets were resuspended in 200 µL of Urea/Tris buffer (6 M Urea dissolved in 0.4 M Tris base, pH 7.8) and stored at -20°C. Protein concentrations were measured using the Biorad Bradford Protein Assay (Bio-Rad Laboratories, Inc.). For SDS-PAGE, 5.7 µg total protein from each sample in a 30 µL volume of Urea/Tris buffer described above was mixed with 10 µL of 4x Laemelli sample buffer containing 5% β-mercaptoethanol (Bio-Rad Laboratories, Inc.). Each sample was then heated for 10 minutes in a 95°C heat block before loading the entire 40 µL volume into each well on a 10% acrylamide gel and running at 150V for 35 minutes. Entire lanes of SDS-PAGE gel were excised with a scalpel and diced into 1 mm2 cubes. In-gel trypsin digestion was then performed.     Protein identification and quantification were performed using a label-free quantitative shotgun mass proteomics approach using an HPLC-Orbitrap Fusion mass spectrometer (UF-ICBR proteomics core). Briefly, the peptide samples were analyzed using a 250 mm Ultrahigh-Performance Liquid Chromatography (UHPLC) system coupled to an Orbitrap Fusion mass spectrometer (Thermo Scientific). The Thermo EASY nano-LC system was used for liquid chromatography, employing a 20 mm C16 pre-column (Thermo Scientific) to remove impurities. A reversed-phase C18 analytical column with a 100Å pore (Thermo Scientific, Acclaim PepMap 100 C18 LC Column) was used for sample separation. The following solvents were used for chromatography: solvent A (0.1% formic acid), solvent B (80% acetonitrile, 0.1% formic acid) with a 2-40% solvent B acetonitrile gradient for 105 minutes, followed by a 14-minute wash with 98% solvent B, and equilibration with 2% solvent A. The LC system was directly interfaced with the Orbitrap Fusion mass spectrometer. The Orbitrap detector acquired MS data at 120K resolution with a scan range of 350-2000 m/z. For MS/MS analysis, ions were isolated by a quadrupole, prioritizing the most intense ions, and ions for all available parallelizable times were injected. Precursor ions were then excluded for 36 seconds. Fragmentation was performed using collision-induced dissociation (CID) at a collision energy of 35% and an activation time of 10 ms.     RCCS growth experiments were performed using 50 ml disposable HARVs. All HARVs were rotated at 20 RPM at room temperature (~23°C), either on a horizontal base (normal gravity and inverted normal gravity controls; axis of rotation parallel to the gravitational vector) or on a vertical base (LSMMG; axis of rotation perpendicular to the gravitational vector). Inverted HARVs were rotated on a horizontal base inverted 180° (inverted normal gravity control; axis of rotation parallel to the gravitational vector). For RCCS growth, approximately 300 µL of TSYG overnight culture was added to 180 mL of TSYG medium and mixed well prior to filling of 3 x 50 ml HARVs (1 each of normal gravity control, inverted control, and LSMMG per experiment, 4 experiments total). At 36 hours growth, each HARV was removed from its rotator base, shaken vigorously to ensure mixing of cells and disruption of any cell clumps, and 40 mL of culture was removed and split into four 10 mL aliquots in Falcon tubes.     Samples were centrifuged for 10 minutes at 4,500 rpm and 4°C, and supernatants were then each filtered through a 0.22 µm filter into new sterile Falcon tubes. Cell-free supernatants were stored at -80°C until processing for secretomics.",
+          "Experiment Platform": "Rotary Cell Culture System  High Aspect Rotating Vessel (HARV)",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Hauserman Matthew R.  Sullivan Leia E.  James Kimberly L.  Ferraro Mariola J.  Rice Kelly C.",
+          "Project Link": "https://taskbook.nasaprs.com/tbp/index.cfm",
+          "Study Publication Title": "Response of Staphylococcus aureus physiology and Agr quorum sensing to low-shear modeled microgravity",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "Staphylococcus aureus is commonly isolated from astronauts returning from spaceflight missions. Previous analysis of BRIC-23 omics data generated from S. aureus low Earth orbit cultures indicated significantly increased expression of the Agr quorum sensing system and its downstream targets in spaceflight samples compared to ground controls. In this current study, the rotary cell culture system (RCCS) was used to investigate the effect of low shear modelled microgravity (LSMMG) on S. aureus physiology and Agr activity. When cultured in BRIC-23 medium and temperature conditions, S. aureus LSMMG cultures exhibited decreased agr expression and altered growth compared to normal gravity control cultures, which are typically oriented with gas permeable membrane on bottom of the high aspect rotating vessel (HARV). However, when grown in an inverted gravity control orientation (membrane on top of the HARV), reduced Agr activity was observed relative to both traditional control and LSMMG cultures, signifying that oxygen availability may affect the observed differences in agr expression. Metabolite assays revealed increased lactate and decreased acetate excretion in both LSMMG and inverted control cultures. Secretomics analysis of LSMMG, control, and inverted control HARV culture supernatants corroborated these results, with inverted and LSMMG cultures exhibiting decreased abundance of Agr-regulated virulence factors and increased abundance of low-oxygen metabolic proteins. Collectively, these studies suggest that orientation of the HARV gas permeable membrane can affect S. aureus physiology and Agr quorum sensing in the RCCS, a variable that should be considered when interpreting data using this ground-based microgravity model.",
+          "organism": "Staphylococcus aureus",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/vvny-4z33",
+          "url": "https://doi.org/10.26030/vvny-4z33"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1720483200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "F3QZwoUBCTSEysl-z-lO",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-528/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-528",
+          "Identifiers": "GLDS-528",
+          "Study Identifier": "OSD-528",
+          "Study Protocol Name": "treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Harrison",
+            "Middle Initials": "",
+            "First Name": "Lynn"
+          },
+          "Study Protocol Type": "sample treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation",
+          "Space Program": "",
+          "Study Title": "Development of an Inexpensive 3D Clinostat and Comparison with Other Microgravity Simulators using Mycobacterium marinum",
+          "Study Factor Type": "Weightlessness Simulation",
+          "Study Public Release Date": 1673913600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-528/image",
+          "Study Factor Name": "Microgravity Simulation",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "This work was funded by NASA grant number 80NSSC18K1467 (LH) and Louisiana Space Research Enhancement Award number PO-0000138470 (LH) and grant P20GM134974 (RSS, JW)",
+          "Study Protocol Description": "Red fluorescent protein (RFP)-expressing M. marinum at OD600 ~0.2 in biofilm-promoting medium (7H9 Middlebrook, 0.5% glycerol, 100 ug/ mL cycloheximide) were sealed without bubbles in a flaskette. The flaskettes were shipped to Kennedy Space Center overnight. The flaskettes were attached to the RPM 2.0 or a lab-developed 3D clinostat. The two devices were positioned in the same humidified incubator at 31 degrees Celsius. Sealed flaskettes were also positioned on the shelf near the devices and these were the normal gravity controls. Three independent cultures were used to generate three independent samples. One sample for each of the 3D clinostat and for the normal gravity were set-up the same way, including overnight incubation at room temperature, but the samples were incubated on the 3D clinostat or at normal gravity at 31 degrees Celsius at LSU Health Sciences Center. All flaskettes were incubated for 4 days at 31 degree Celsius before sample collection. The 3D clinostat was operated with inner frame at 1.5 rpm and outer frame operated at 3.875 rpm. The RPM 2.0 was operated in partial gravity mode using the 0g file to simulate microgravity.     Bacteria in suspension were subjected to centrifugation for 5 minutes at 2000 g. The pellet was resuspended in 1 mL Trizol and and put in a tube with Lysing Matrix B beads.     The lysing matrix beads were subjected to 3 times 30 second cycles in an Omni Bead ruptor at speed 6.45. They were cooled on ice between the cycles. After removing the solution from the beads, a chloroform/isoamyl extraction was performed and the RNA precipitated overnight at 4C. The RNA pellet was washed with 75% ethanol, resuspended in 100 ul nuclease-free water and frozen at -80C. Samples were transported to LSUHSC on dry ice. The RNA was further purified using the Qiagen RNeasy Kit with a 45 minute on-column DNase digestion. RNA was quantitated with a Qubit RNA assay (ThermoFisher Scientific, MA) and RNA quality was determined with the Agilent TapeStation RNA assay (Agilent Technologies, CA). RIN was equal or greater than 7.4 for the samples.     Libraries were prepared from 1 ug RNA from each sample with the Stranded Total RNA Prep, Ligation with Ribo-Zero Plus kit (Illumina, CA). The average library size was determined using an Agilent TapeStation D1000 assay (Agilent Technologies) and libraries were quantitated with qPCR (Bio-rad CFX96 Touch Real-Time PCR, NEB Library Quant Kit for Illumina).     Libraries were normalized to 1 nM and pooled. The library pool was denatured and diluted to approximately 1.5pM. A PhiX library was spiked in as an internal control. Paired-end 99 x 49 base pair sequencing was performed on an Illumina NextSeq 550 and samples had 28-32 million pair-end reads.     Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of Mycobacterium rRNA sequences retrieved from NCBI on 20-Oct-2022.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Clary Joseph L.  France Creighton S.  Lind Kara  Shi Runhua  Alexander J.Steven  Richards Jeffrey T.  Scott Rona S.  Wang Jian  Lu Xiao-Hong  Harrison Lynn",
+          "Project Link": "",
+          "Study Publication Title": "Development of an inexpensive 3D clinostat and comparison with other microgravity simulators using Mycobacterium marinum",
+          "Managing NASA Center": "",
+          "Study Description": "M. marinum is a fish pathogen that usually only infects human skin, but it is genetically related to Mycobacterium tuberculosis and Mycobacterium avium and has similar pathogenic mechanisms to these human pathogens. M. marinum and M. avium have been found in biofilms in water distribution systems and showerheads. Therefore, M. marinum is a biosafety level 2 model organism for biofilm-forming pathogenic mycobacteria. M. marinum prefer to form biofilms on hydrophobic surfaces and hydrophobic materials are used on the ISS, an example is silicone. In this study we wanted to examine the transcriptome changes of M. marinum exposed to simulated microgravity in biofilm-promoting medium. M. marinum expressing red fluorescent protein were grown in biofilm-promoting medium in flaskettes containing a piece of PDMS membrane attached to the slide. After filling the flaskettes, cultures were shipped to Kennedy Space station overnight. The flaskettes were attached to the RPM 2.0, or a lab-designed 3D clinostat which were positioned in the same incubator. For the normal gravity control, the flaskette was positioned on the shelf next to the microgravity simulators. After 4 days at 31 degrees C, the bacteria in suspension were used to prepare RNA and RNA-seq was performed to examine gene expression changes.",
+          "organism": "Mycobacterium marinum",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/r3re-fd65",
+          "url": "https://doi.org/10.26030/r3re-fd65"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1673913600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Cd_6g4QB28eYt3lGS7dq",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-277/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells     3D co-culture",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-277",
+          "Identifiers": "GLDS-277",
+          "Study Identifier": "OSD-277",
+          "Study Protocol Name": "growth protocol     treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     sequence analysis data transformation",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina NexSeq",
+          "Study Person": {
+            "Last Name": "Barrila Nickerson Franco Yang Davis Aronow Bean Davis Forsyth Ott Gangaraju Kang Hanratty Nydam Kong Steel Buss",
+            "Middle Initials": " A J R J D",
+            "First Name": "Jennifer Cheryl Karla Shanshan Trenton Bruce Heather Richard Rebecca C Mark Sandhya Bianca Brian Seth Wei Jason Kristina"
+          },
+          "Study Protocol Type": "growth protocol     treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     sequence analysis data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Spaceflight Analogue Culture Enhances the Host-Pathogen Interaction Between Salmonella and a 3-D Biomimetic Intestinal Co-Culture Model",
+          "Study Factor Type": "Genotype     Weightlessness Simulation     infection     time",
+          "Study Public Release Date": 1652745600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-277/image",
+          "Study Factor Name": "Genotype     Microgravity Simulation     Infection     Time",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "RNA Deep Sequencing and Metabolomic Profiling of Microgravity-Induced Regulation of the Host-Pathogen Interaction: An Integrated Systems Approach",
+          "Study Funding Agency": "Funding for this study was supported by NASA grants NNX13AM01G (C.A.N., J.B., C.M.O., B.J.A.), NNX15AL06G (C.A.N., J.B., C.M.O.) and 80NSSC18K1478 (C.A.N., J.B., C.M.O. and H.B.).",
+          "Study Protocol Description": "For RNA-Seq analysis of the bacteria just prior to infection, bacteria were cultured in Lennox Broth (LB) for 24 hr at 37 C and 25 rotations per minute (r.p.m.) in RWV bioreactors positioned in the LFS and control orientations. For infection studies, the 3-D co-culture model (HT-29 and U937 cells) was grown in the RWV bioreactor for 13-14 days in GTSF-2 medium at 10% CO2.     For infection studies, 3-D models were counted and evenly seeded into multiwell plates at 1x10^6 cells/well. Cells were infected at a multiplicity of infection (m.o.i.) of ~15-30 for 30 minutes, 3 hours or 24 hours with either WT or hfq mutant S. Typhimurium grown in the RWV. To eliminate extracellular bacteria, gentamicin was added to the samples at concentrations of 50 µg/mL and 10 µg/mL at the 30 minute and 3 hour time points, respectively.     For RNA-Seq analysis of bacteria alone just prior to infection, wild type and hfq mutant S. Typhimurium were cultured to stationary phase in RWV bioreactors, fixed in RNAlater at a 2:1 ratio (fixative: sample) and stored at -80 C until processing. For RNA-seq analysis of the host following infection, at the specified time points, infected and time-matched uninfected 3-D co-cultures were fixed in 1 mL Qiazol (Qiagen), vortexed and stored at -80 C until processing.     For RNA-Seq analysis of bacteria alone just prior to infection, bacteria were pelleted and resuspended in 200 µL RNase-free TE buffer (ThermoFisher Scientific) containing 2 mg/mL lysozyme (Sigma-Aldrich). Samples were incubated for 10 min at room temperature with intermittent vortexing to facilitate lysis. Qiazol was added to each sample (700 µL) and incubated at room temperature for 5 min with intermittent vortexing. Samples were transferred into prepared MaXtract tubes, 0.2 µL chloroform added, and shaken for 15 sec to mix. Following a 3 min incubation at room temperature, samples were centrifuged at 12,000 x g for 15 min at 4 C. The aqueous phase was then transferred to an RNase-free microfuge tube and 1.5 volumes of 100% molecular biology grade ethanol (Sigma-Aldrich) was added to each sample and inverted to mix. Samples were applied to a miRNeasy column (Qiagen) and purified with on-column DNase I treatment. Eluted samples were quantified using a Nanodrop spectrophotometer and RNA integrity confirmed using an Agilent Bioanalyzer.\n\nFor RNA-seq analysis of the host following infection, to extract total RNA, samples were thawed, incubated for 5 min at room temperature with intermittent vortexing, and added to a prepared High Density MaXtract tube (Qiagen). To each sample, 0.2 mL chloroform (Sigma-Aldrich) was added and tubes were shaken for 15 seconds. Following a 3 min. incubation at room temperature, samples were centrifuged at 12,000 x g for 15 min. at 4 C. The aqueous phase was then transferred to an RNase-free microfuge tube and 1.5 volumes of 200-proof molecular biology grade ethanol (Sigma-Aldrich) was added and tubes were inverted to mix. Samples were applied to miRNeasy columns (Qiagen) and purified according to manufacturer’s instructions with a 20 min. on-column DNase I treatment. Eluted samples were quantified using a Nanodrop spectrophotometer and DNase-treated a second time using the TURBO DNA-free kit (ThermoFisher). RNA integrity was confirmed on an Agilent Bioanalyzer and all samples had an RNA Integrity Number (RIN) higher than 9.     cDNA was prepared from total RNA using the Ovation RNA-Seq System V2 via single primer isothermal amplification (NuGEN, 7102-A01) and automated on the Apollo 324 liquid handler (Wafergen). cDNA was quantified on the Nanodrop (Thermo Fisher Scientific) and then sheared to approximately 300 bp fragments using the Covaris M220 ultrasonicator. Libraries were generated using the Kapa Biosystem library preparation kit (KK8201). Fragments were end-repaired and A-tailed as described in the Kapa protocol. Individual indexes and adapters (Bioo, 520999) were ligated onto each separate sample. Adapter-ligated molecules were cleaned using AMPure beads (Agencourt Bioscience/Beckman Coulter, A63883) and amplified with Kapa HIFI enzyme (KK2502). Each library was then analyzed for fragment size on an Agilent Tapestation and quantified by qPCR (KAPA Library Quantification Kit, KK4835) on Quantstudio 5 (ThermoFisher Scientific).     Libraries were multiplex pooled and sequenced on a 1x75 flow cell on the NextSeq platform (Illumina) at the Arizona State University Genomics Core facility.     bcl2fastq v2.17.1.14 used for basecalling.\nSTAR v2.5.1b used for alignment.\nStringtie-1.3.4c was used to report FPKM values (Fragments Per Kilobase of transcript per Million mapped reads), read counts and TPM (Transcripts Per Million).\nDifferential expression (DE) analysis was performed with EdgeR package from Bioconductor v3.2 in R 3.2.3.\nHuman: GRCh38.p7 primary assembly; Bacteria: S. Typhimurium LT2 genome",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Jennifer Barrila  Jiseon Yang  Karla P. Franco Meléndez  Shanshan Yang  Kristina Buss  Trenton J. Davis  Bruce J. Aronow  Heather D. Bean  Richard R. Davis  Rebecca J. Forsyth  C. Mark Ott  Sandhya Gangaraju  Bianca Y. Kang  Brian Hanratty  Seth D. Nydam  Eric A. Nauman  Wei Kong  Jason Steel and Cheryl A. Nickerson",
+          "Project Link": "https://lsda.jsc.nasa.gov/Experiment/exper/13473",
+          "Study Publication Title": "Spaceflight Analogue Culture Enhances the Host-Pathogen Interaction Between Salmonella and a 3-D Biomimetic Intestinal Co-Culture Model",
+          "Managing NASA Center": "",
+          "Study Description": "Physical forces associated with spaceflight and spaceflight analogue culture regulate a wide range of physiological responses by both bacterial and mammalian cells that can impact infection. However, our mechanistic understanding of how these environments regulate host-pathogen interactions in humans is poorly understood. Using a spaceflight analogue low fluid shear culture system, we investigated the effect of Low Shear Modeled Microgravity (LSMMG) culture on the colonization of Salmonella Typhimurium in a 3-D biomimetic model of human colonic epithelium containing macrophages. RNA-seq profiling of stationary phase wild type and delta hfq mutant bacteria alone indicated that LSMMG culture induced global changes in gene expression in both strains and that the RNA-binding protein Hfq played a significant role in regulating the transcriptional response of the pathogen to LSMMG culture. However, a core set of genes important for adhesion, invasion, and motility were commonly induced in both strains. LSMMG culture enhanced the colonization (adherence, invasion and intracellular survival) of Salmonella in this advanced model of intestinal epithelium using a mechanism that was independent of Hfq. Although S. Typhimurium delta hfq mutants are normally defective for invasion when grown as conventional shaking cultures, LSMMG conditions unexpectedly enabled high levels of colonization by an isogenic hfq mutant. In response to infection with either the wild type or mutant, host cells upregulated transcripts involved in inflammation, tissue remodeling, and wound healing during intracellular survival. Interestingly, infection by the hfq mutant led to fewer transcriptional differences between LSMMG- and control-infected host cells relative to infection with the wild type strain. This is the first study to investigate the effect of LSMMG culture on the interaction between S. Typhimurium and a 3-D model of human intestinal tissue. These findings advance our understanding of how physical forces can impact the early stages of human enteric salmonellosis.",
+          "organism": "Not Applicable     Salmonella enterica subsp. enterica serovar Typhimurium",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/ejth-8t87",
+          "url": "https://doi.org/10.26030/ejth-8t87"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1652745600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "59_6g4QB28eYt3lGRbao",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "GLDS-391/",
+          "Flight Program": "",
+          "Material Type": "Cells",
+          "Project Identifier": "",
+          "Accession": "OSD-391",
+          "Project Link": "",
+          "Study Identifier": "GLDS-391",
+          "Study Protocol Name": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Assembly",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Peres Venkateswaran",
+            "Middle Initials": "",
+            "First Name": "Julian Kasthuri"
+          },
+          "Study Protocol Type": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Assembly",
+          "Space Program": "",
+          "Study Title": "Draft Genome Sequences of Heat-Shock Tolerant Firmicutes Isolated from a Spacecraft Assembly Facility",
+          "Study Factor Type": "Sample Location",
+          "Study Public Release Date": 1639526400.0,
+          "Parameter Value": "",
+          "thumbnail": "/genelab/img/GLDS391__study_image.png",
+          "Study Factor Name": "Sample Location",
+          "Study Assay Measurement Type": "genome sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA728748",
+          "Data Source Type": "cgene",
+          "Project Title": "",
+          "Study Funding Agency": "This research was funded by project M2020, administered at JPL in 2018. This project also funded a postdoctoral fellowship for J.M.W. and JPL student fellowships for J.B. and J.B.P.",
+          "Study Protocol Description": "Heat shock-tolerant Bacillales and Micrococcales (n = 63 strains) were isolated from a spacecraft assembly facility (SAF) at the Jet Propulsion Laboratory (JPL). These microbes have previously been found in SAFs and are relevant to NASA planetary protection missions. Samples were collected from the floor of the SAF at JPL between 2 February and 28 July 2016 as detailed by Hendrickson et al.. The samples were collected from 1 m2 of the floor using a 23- by 23-cm2 premoistened polyester wipe, placed in a glass bottle containing phosphate-buffered saline, thoroughly mixed for 30 s, and concentrated using a 0.45-um concentrating pipette tip (InnovaPrep, Drexel, MO, USA). An aliquot of 425 ul was heat shocked (80C, 15 min) and grown on tryptic soy agar incubated at 32C as outlined by the NASA standard assay for microbiological contamination of space hardware. A single purified colony was picked, reinoculated into tryptic soy broth, and incubated at 32C for 2 days under aerobic conditions before extracting DNA.      DNA was extracted using the ZymoBIOMICS DNA MagBead kit with the provided instructions.     Whole-genome sequence (WGS) libraries were prepared using the Illumina Nextera DNA Flex kit.     NovaSeq 6000 S4 flow cell (paired-end, 2 × 150-bp format)     The sequences were quality controlled using FastQC v.0.11.7 (16) and fastp v.0.20.0 to remove poor-quality and adapter sequences. The WGS was assembled using SPAdes v.3.11.1, and QUAST v.5.0.2 was used to determine the genome size, number of contigs, and N50 value.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Jason M. Wood  Julian B. Peres  John Bateh  Nitin K. Singh  Heidi S. Aronson  Ryan Hendrickson  Christopher E. Mason and Kasthuri Venkateswaran",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Study Publication Title": "Draft Genome Sequences of Heat Shock-Tolerant Microbes Isolated from a Spacecraft Assembly Facility",
+          "Managing NASA Center": "",
+          "Study Description": "Heat-shock tolerant Firmicutes belonging to Bacillales and Micrococcales were isolated from space-craft relevant surfaces in the Spacecraft and Assembly Facility at the Jet Propulsion Laboratory, and 63 draft genome sequences were assembled and identified. Further analyses of these genomes can provide insight into methods for preventing forward contamination.",
+          "organism": "Bacillus licheniformis     Bacillus altitudinis     Alkalihalobacillus gibsonii     Staphylococcus saprophyticus     Bacillus safensis     Virgibacillus pantothenticus     Alkalihalobacillus clausii     Cytobacillus oceanisediminis     Priestia megaterium     Bacillus glycinifermentans     Oceanobacillus caeni     Bacillus subtilis     Bacillus pumilus     Micrococcus luteus     Brevibacillus parabrevis     Bacillus haynesii     Brevibacterium luteolum     Bacillus paralicheniformis",
+          "Identifiers": "GLDS-391"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1639526400
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "od_6g4QB28eYt3lGO7Ze",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-215/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Spores",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-215",
+          "Identifiers": "GLDS-215",
+          "Study Identifier": "OSD-215",
+          "Study Protocol Name": "treatment protocol     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Nicholson Morrison",
+            "Middle Initials": "L D",
+            "First Name": "Wayne Michael"
+          },
+          "Study Protocol Type": "treatment protocol     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Space Program": "",
+          "Study Title": "HARV replication of the BRIC-21 Bacillus subtilis spaceflight samples",
+          "Study Factor Type": "Weightlessness Simulation",
+          "Study Public Release Date": 1607040000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-215/image",
+          "Study Factor Name": "Microgravity Simulation",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "This study was supported by NASA GeneLab Appendix A grant NNX14AT38G to W.L.N. and M.D.M.",
+          "Study Protocol Description": "Bacillus subtilis clinostat experiments utilized the 4-place Rotary Cell Culture System (RCCS) apparatus (Synthecon, Houston, TX) and 10mL HARVs. From a working suspension (10^8 CFU/mL), spores were diluted into TSYG medium to a final concentration of 10^7 CFU/mL. Eight HARVs were then filled with the inoculated media and mounted on two RCCS machines, one placed in the vertical (VT) orientation (simulated microgravity; n = 4) and one in the horizontal (HZ) orientation (1g control; n = 4). Samples were rotated at 15 rpm. To match the temperature and culture duration aboard the ISS during the BRIC-21 mission, samples were grown at 23C for 25 h in the dark in an environmental chamber at the Space Life Sciences Laboratory. At the end of each growth period, samples were removed from the HARVs with sterile disposable 10mL syringes. The recovered volume of each sample was recorded, samples were transferred into sterile 15mL conical centrifuge tubes, and the experiments were terminated by freezing at -70C.     Samples were thawed on ice and cells collected by centrifugation (7,000g, 20 min, 0C). Cell pellets were immediately processed for total RNA extraction and treatment with RNase-free DNase using the RiboPure RNA Purification Kit, Bacteria (Thermo Fisher Scientific Inc, Waltham, MA) following the manufacturer's protocols. RNA samples were quantified with a Qubit fluorometer (Invitrogen, Thermo Fisher Scientific), and RNA quality was determined by RNA Integrity Number (Schroeder et al., 2006) evaluation using the RNA 6000 Nano Chip on an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA). All RNA samples exhibited high-quality RNA Integrity Number scores ranging from 9.6 to 10.0.     Samples were sent to Hudson Alpha Institute for Biotechnology (Huntsville, AL) for ribosomal RNA depletion, library preparation, and RNA sequencing.     The RNA samples were sequenced as 50 nt paired end reads on an Illumina HiSeq 2500 instrument.",
+          "Experiment Platform": "High Aspect Ratio Vessel (HARV)",
+          "Characteristics": "",
+          "Study Grant Number": "GeneLab Appendix A grant NNX14AT38G",
+          "Study Publication Author List": "Michael D. Morrison and Wayne L. Nicholson",
+          "Project Link": "",
+          "Study Publication Title": "Comparisons of Transcriptome Profiles from Bacillus subtilis Cells Grown in Space versus High Aspect Ratio Vessel (HARV) Clinostats Reveal a Low Degree of Concordance",
+          "Managing NASA Center": "",
+          "Study Description": "Previous spaceflight experiments using Bacillus subtilis have reported altered transcriptome profiles during spaceflight compared to matching ground samples. This study tried to replicate those transcriptome changes using High Aspect Ratio Vessels (HARVs). B. subtilis spores were grown in HARVs using the same protocol and growth conditions as the BRIC-21 spaceflight mission. RNA was extracted from the HARV samples and sequenced for differential expression analysis. HARV differentially expressed genes were then compared to the genes identified as differentially expressed in the BRIC-21 mission to access the accuracy of HARVs as a model for spaceflight experiments.",
+          "organism": "Bacillus subtilis",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/1wnj-kt87",
+          "url": "https://doi.org/10.26030/1wnj-kt87"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1607040000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Zd_6g4QB28eYt3lGNrZl",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-216/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-216",
+          "Identifiers": "GLDS-216",
+          "Study Identifier": "OSD-216",
+          "Study Protocol Name": "treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Nicholson Morrison",
+            "Middle Initials": "L D",
+            "First Name": "Wayne Michael"
+          },
+          "Study Protocol Type": "treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Space Program": "",
+          "Study Title": "HARV replication of the BRIC-23 Bacillus subtilis spaceflight",
+          "Study Factor Type": "Weightlessness Simulation",
+          "Study Public Release Date": 1607040000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-216/image",
+          "Study Factor Name": "Microgravity Simulation",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "This study was supported by NASA GeneLab Appendix A grant NNX14AT38G to W.L.N. and M.D.M.",
+          "Study Protocol Description": "Bacillus subtilis clinostat experiments utilized the 4-place Rotary Cell Culture System (RCCS) apparatus (Synthecon, Houston, TX) and 10mL HARVs. From a working suspension (10^8 CFU/mL), spores were diluted into TSYG medium to a final concentration of 10^7 CFU/mL. Eight HARVs were then filled with the inoculated media and mounted on two RCCS machines, one placed in the vertical (VT) orientation (simulated microgravity; n equals 4) and one in the horizontal (HZ) orientation (1g control; n equals 4). Samples were rotated at 15 rpm. To match the temperature and culture duration aboard the ISS during the BRIC-23 mission, samples were grown at 23C for 36 h in the dark in an environmental chamber at the Space Life Sciences Laboratory. At the end of each growth period, samples were removed from the HARVs with sterile disposable 10mL syringes. The recovered volume of each sample was recorded, samples were transferred into sterile 15mL conical centrifuge tubes, and the experiments were terminated by freezing at -70C.          Samples were thawed on ice and cells collected by centrifugation (7,000g, 20 min, 0C). Cell pellets were immediately processed for total RNA extraction and treatment with RNase-free DNase using the RiboPure RNA Purification Kit, Bacteria (Thermo Fisher Scientific Inc, Waltham, MA) following the manufacturer's protocols. RNA samples were quantified with a Qubit fluorometer (Invitrogen, Thermo Fisher Scientific), and RNA quality was determined by RNA Integrity Number (Schroeder et al., 2006) evaluation using the RNA 6000 Nano Chip on an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA). All RNA samples exhibited high-quality RNA Integrity Number scores ranging from 9.6 to 10.0.     Samples were sent to Hudson Alpha Institute for Biotechnology (Huntsville, AL) for ribosomal RNA depletion, library preparation, and RNA sequencing.     The RNA samples were sequenced as 150 nt paired-end reads on an Illumina NovaSeq 6000 instrument.",
+          "Experiment Platform": "High Aspect Ratio Vessel (HARV)",
+          "Characteristics": "",
+          "Study Grant Number": "GeneLab Appendix A grant NNX14AT38G",
+          "Study Publication Author List": "Michael D. Morrison and Wayne L. Nicholson",
+          "Project Link": "",
+          "Study Publication Title": "Comparisons of Transcriptome Profiles from Bacillus subtilis Cells Grown in Space versus High Aspect Ratio Vessel (HARV) Clinostats Reveal a Low Degree of Concordance",
+          "Managing NASA Center": "",
+          "Study Description": "Previous spaceflight experiments using Bacillus subtilis have reported altered transcriptome profiles during spaceflight compared to matching ground samples. This study tried to replicate those transcriptome changes using High Aspect Ratio Vessels (HARVs). B. subtilis spores were grown in HARVs using the same protocol and growth conditions as the BRIC-23 spaceflight mission. RNA was extracted from the HARV samples and sequenced for differential expression analysis. HARV differentially expressed genes were then compared to the genes identified as differentially expressed in the BRIC-23 mission to access the accuracy of HARVs as a model for spaceflight experiments.",
+          "organism": "Bacillus subtilis",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/mc4a-er92",
+          "url": "https://doi.org/10.26030/mc4a-er92"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1607040000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "4N_6g4QB28eYt3lGRLbA",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "GLDS-452/",
+          "Flight Program": "",
+          "Material Type": "Cells",
+          "Project Identifier": "",
+          "Accession": "OSD-452",
+          "Project Link": "",
+          "Study Identifier": "GLDS-452",
+          "Study Protocol Name": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Tagkopoulos",
+            "Middle Initials": "",
+            "First Name": "Ilias"
+          },
+          "Study Protocol Type": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing",
+          "Space Program": "",
+          "Study Title": "Accelerated knowledge discovery from omics data by optimal experimental design",
+          "Study Factor Type": "treatment",
+          "Study Public Release Date": 1594252800.0,
+          "Parameter Value": "",
+          "thumbnail": "/genelab/img/GLDS452__study_image.png",
+          "Study Factor Name": "Treatment",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE144604",
+          "Data Source Type": "cgene",
+          "Project Title": "",
+          "Study Funding Agency": "This work was supported by NSF ABI award 1743101, NSF OCI award 1516695, and XSEDE award TG-BCS180014 for computational resources, and an unrestricted gift from Mars Inc. to I.T.",
+          "Study Protocol Description": "Escherichia coli MG1655 was grown in minimal media (M9) with 0.4% w/v glucose for 12 h (mid to late exponential growth, optical densitiy (OD600) ~0.8) at 37 C. Next, 30 uL were added to 3 mL M9 0.4% glucose tubes containing one of ten biocides or no biocide. The concentrations used were sub-inhibitory. After 7–12-h growth, when cells reached mid to late exponential phase (OD600 0.6–1.0), the appropriate volume of one out of four antibiotics was added, and the tubes were incubated for an additional hour. Tubes without any antimicrobial (antibiotic or biocide) served as controls. To stop bacterial growth and stabilize cellular RNA, 1.5 mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol) was added to per 3 mL sample. The cells were pelleted by centrifugation at 3166 g at 4 C for 10 min and stored at −80 C until further use. All experiments were performed in triplicate.     Total RNA was extracted from the bacterial samples using the RNeasy mini kit (Qiagen), and any possible DNA contamination was removed by performing oncolumn DNAse digestion (Qiagen). mRNA was enriched by removing ribosomal RNA using the capture oligonucleotide mix (MICROBExpress, Invitrogen).     RNASeq libraries were prepared using the KAPA Stranded RNA-Seq Library Preparation Kit for Illumina platforms (Kapa Biosystems), and instructions suggested by the manufacturer were followed. Double size selection of libraries was performed using Agencourt AMPure XP magnetic beads (Beckman Coulter), where cDNA fragments ranging from 200 to 500 bp were enriched. The concentration for each sample library was determined with Qubit 2.0 fluorometer (Invitrogen). The DNA concentration of the final pooled library was determined with the Bioanalyzer DNA high sensitivity assay (Agilent, DNA Technologies Core, UC Davis).     Sequencing was performed with HiSeq4000 SR50 (DNA Technologies Core, UC Davis).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Wang X  Rai N  Merchel Piovesan Pereira B  Eetemadi A  Tagkopoulos I.",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Study Publication Title": "Accelerated knowledge discovery from omics data by optimal experimental design.",
+          "Managing NASA Center": "",
+          "Study Description": "How to design experiments that accelerate knowledge discovery on complex biological landscapes remains a tantalizing question. Here, we present OPEX, an optimal experimental design method to identify informative omics experiments for both experimental space exploration and model training. OPEX-guided exploration of  Escherichia coli's cross-behavior potential, when exposed to novel biocide and antibiotic combinations, led to accelerated knowledge discovery with predictive models that are more accurate while needing 44% fewer data to train. Selecting experiments favoring broader exploration followed by fine-tuning emerged as the optimal strategy. This led to the discovery of 29 cross-protection and 4 cross-vulnerability conditions, with further validation revealing the central role of chaperones, stress response proteins and transport pumps in cross-stress exposure. This work demonstrates how active learning can be used to automate omics data collection for training accurate predictive models, evidence-driven decision making and accelerated knowledge discovery in life sciences.",
+          "organism": "Escherichia coli",
+          "Identifiers": "GLDS-452"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1594252800
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "id_6g4QB28eYt3lGObYU",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-291/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "",
+          "Accession": "OSD-291",
+          "Identifiers": "GLDS-291",
+          "Study Identifier": "OSD-291",
+          "Study Protocol Name": "sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     sequence assembly",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina HiSeq 2500",
+          "Study Person": {
+            "Last Name": "Venkateswaran Wood",
+            "Middle Initials": "",
+            "First Name": "Kasthuri Jason"
+          },
+          "Study Protocol Type": "sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     sequence assembly",
+          "Space Program": "",
+          "Study Title": "Kineosporiaceae bacterium B12, whole genome shotgun sequencing project",
+          "Study Factor Type": "strain",
+          "Study Public Release Date": 1585699200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-291/image",
+          "Study Factor Name": "Strain",
+          "Study Assay Measurement Type": "genome sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "VWPY01000000",
+          "Project Title": "",
+          "Study Funding Agency": "NASA Planetary Protection grant; NRA ROSES 15-PPR15-0001",
+          "Study Protocol Description": "Samples were collected from the JPL-SAF, Pasadena, California from 10 locations of 1 m^2 area using sterile polyester wipes (23 × 23 cm; ITW Texwipe, Mahwah, NJ) premoisented with phosphate buffer saline (PBS). Subsequently, each wipe was individually transferred to 200 mL PBS and vortexed at maximum speed 10^7 for 5 seconds. The resulting suspension was then concentrated to appropriate volume (~30-fold) with a concentration pipette CP-150 (Innova Prep, Drexel, MO) using a 0.20 um hollow fiber polysulfone tip (Kwan et al., 2011). The concentrated samples were then split in two 3 mL aliquots where one aliquot was treated with 100 ug/mL of chloramphenicol (Sigma, St. Louis, MO) and the other aliquot was untreated. The sample amended with chloramphenicol was incubated at 25C for 24 hrs and subsequently subjected to downstream processing utilizing both traditional microbiology and molecular biological techniques. At the time the experiments were conducted, the aim was the isolation of novel fungal species thriving in the JPL SAF, and hence a 100 uL suspension of the samples that were treated with and without chloramphenicol was spread onto antibiotic supplemented (chloramphenicol 100 ug/mL) media like potato dextrose agar (PDA) and Dichloran Rose Bengal Chloramphenicol Agar (DRBC) and incubated at 25C for 5 days. Among several fungal colonies purified, some bacterial colonies also surfaced onto the PDA and DRBC media, and were selected for further characterization. Since the isolation was carried out on antibiotic treated samples, bacteria exhibiting resistance to chloramphenicol were interesting. The bacterial strains resistant to chloramphenicol that exhibited higher 16S rRNA gene similarities (>99%) with already described species were not further studied in this project. However, one of the several bacterial colonies (strain B12) showed 97.9% 16S rRNA gene sequence similarity with its closest neighbor. Strain B12 was further assayed for its polyphasic taxonomic and WGS characterization. The isolation of strain B12, which forms bright orange colored colonies, was an experimental accident. Distinct colonies of strain B12 were isolated and transferred to fresh PDA medium and subsequently archived in semi-solid R2A media and stored at room temperature as well as in glycerol stock for further characterization.     A loopful of purified B12T culture was subjected to DNA extraction with the Quick DNA Fungal/Bacterial Miniprep kit (Zymo Research, Irvine, CA), as per the manufacturer's protocol. The extracted DNA was eluted in 50 uL of molecular grade water and stored at −20C until further analysis.     The sequencing and analysis of the WGS were carried out as previously described (Singh et al., 2017) with minor modifications. In brief, sequencing libraries from isolated B12 strain DNA was prepared using the Nextera DNA Library Preparation Kit from Illumina as per the manufacturer's instructions.     Paired-end sequencing (100 bp) was performed on an Illumina HiSeq 2500 instrument.     The data was filtered for high-quality vector, and adapter free reads using cutoff read length of 80 bp and quality score of 20 for genome assembly by using the NGS QC Toolkit v2.3 (Patel and Jain, 2012). The high-quality vector filtered reads were then assembled using the SPAdes genome assembler (Nurk et al., 2013) with default parameters.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "NRA ROSES 15-PPR15-0001",
+          "Study Publication Author List": "Mhatre S  Singh NK  Wood JM  Parker CW  Pukall R  Verbarg S  Tindall BJ  Neumann-Schaal N  and Kasthuri Venkateswaran K",
+          "Project Link": "",
+          "Study Publication Title": "Description of chloramphenicol resistant Rubinsicoccus jepli gen. nov., sp. nov., a new member of the family Kineosporiaceae, isolated from a spacecraft assembly facility",
+          "Managing NASA Center": "",
+          "Study Description": "Rubinsicoccus jplei genome, a novel genus isolated from JPL spacecraft environment where Mars 2020 subsystems are assembled.",
+          "organism": "Rubinsicoccus jepli",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/gkkh-gt02",
+          "url": "https://doi.org/10.26030/gkkh-gt02"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1585699200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "iN_6g4QB28eYt3lGObYG",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-263/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "cells",
+          "Project Identifier": "",
+          "Accession": "OSD-263",
+          "Identifiers": "GLDS-263",
+          "Study Identifier": "OSD-263",
+          "Study Protocol Name": "sample collection     nucleic acid sequencing     sequence assembly",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Venkateswaran Seuylemezian Vaishampayan Cooper",
+            "Middle Initials": "",
+            "First Name": "Kasthuri Arman Parag Kerry"
+          },
+          "Study Protocol Type": "sample collection     nucleic acid sequencing     sequence assembly",
+          "Space Program": "",
+          "Study Title": "Draft Genome Sequences of Acinetobacter and Bacillus Strains Isolated from Spacecraft-Associated Surfaces",
+          "Study Factor Type": "Sample Location",
+          "Study Public Release Date": 1513728000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-263/image",
+          "Study Factor Name": "Sample Location",
+          "Study Assay Measurement Type": "genome sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "PISD00000000  PISE00000000  PISK01000000  PISJ01000000",
+          "Project Title": "",
+          "Study Funding Agency": "",
+          "Study Protocol Description": "Bacillus horneckiae strain 1P01SC was isolated from a spacecraft assembly clean room at Kennedy Space Center (KSC), where the Phoenix spacecraft was assembled.\n\nBacillus nealsonii FO-92 was isolated from fall-out particles collected from a spacecraft assembly facility at the Jet Propulsion Laboratory.\n\nAcinetobacter radioresistens 50v1 was isolated from the surface of the Mars Odyssey orbiter.\n\nAcinetobacter proteolyticus strain 2P01AA was isolated from the Payload Hazardous Servicing Facility at KSC during the assembly of the Phoenix spacecraft.     Strains 1P01SC, FO-92, 50v1, and 2P01AA, were sequenced using a shotgun sequencing approach on the Illumina HiSeq paired-end platform.     The reads were de novo assembled using CLC Genomics Workbench version 10.1.1.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Seuylemezian A  Vaishampayan P  Cooper K  Venkateswaran K",
+          "Project Link": "",
+          "Study Publication Title": "Draft Genome Sequences of Acinetobacter and Bacillus Strains Isolated from Spacecraft-Associated Surfaces",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "We report here the draft genome sequences of four strains isolated from spacecraft-associated surfaces exhibiting increased resistance to stressors such as UV radiation and exposure to H2O2. The draft genomes of strains 1P01SC, FO-92, 50v1, and 2P01AA had sizes of 5,500,894 bp, 4,699,376 bp, 3,174,402 bp, and 4,328,804 bp, respectively.",
+          "organism": "Bacillus horneckiae     Aranicola proteolyticus     Acinetobacter radioresistens     Bacillus nealsonii",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/0504-b729",
+          "url": "https://doi.org/10.26030/0504-b729"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1513728000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Gt_6g4QB28eYt3lGMLau",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-199/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "cell pellets",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-199",
+          "Identifiers": "GLDS-199",
+          "Study Identifier": "OSD-199",
+          "Study Protocol Name": "nucleic acid extraction     library construction     nucleic acid sequencing     sample treatment     sample collection",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "We thank Dr. Mark Ott, Microbiologist at the Johnson Space Center and Dr. Yong Jun Goh at North Carolina State University for insightful discussions.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Castro-Wallace",
+            "Middle Initials": "",
+            "First Name": "Sarah"
+          },
+          "Study Protocol Type": "nucleic acid extraction     library construction     nucleic acid sequencing     sample treatment protocol     sample collection",
+          "Space Program": "NASA",
+          "Study Title": "Response to Low Shear Modeled Microgravity Indicates Translation of Lactobacillus acidophilus ATCC 4356 Benefits to Spaceflight",
+          "Study Factor Type": "Weightlessness Simulation",
+          "Study Public Release Date": 1500940800.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-199/image",
+          "Study Factor Name": "Microgravity Simulation",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA309675",
+          "Project Title": "",
+          "Study Funding Agency": "National Aeronautics and Space Administration Human Research Program's Space Human Factors and Habitability",
+          "Study Protocol Description": "Cell pellets were resuspended in 200 μl of Max Bacterial Enhancement Reagent (Ambion, Austin, TX) and incubated for 4 min at 95 °C. One mL of TRIzol reagent (Ambion) was added to the samples and incubated for 5 min at room temperature. The suspension was added to screw-cap tubes containing approximately 250 μl of ice-cold zirconia beads (Ambion) and homogenized at maximum speed for 5 min using the Mini-Beadbeater 8 (Biospec Products, Bartlesville, OK). The lysed cells were transferred to a QIAshredder column (Qiagen) and centrifuged at 10,000 × g for 2 min (Eppendorf centrifuge 5417R). Supernatants were removed, mixed with 200 proof ethanol and RLT buffer containing 2-mercaptoethanol, and then added to an RNeasy mini kit column (Qiagen). The remaining protocol was completed per manufacturer's instructions.\n\nContaminating DNA was removed using Turbo DNA-free (Ambion) following the manufacturer's protocol. A portion of the extracts were amplified with a primer pair for the V3 and V4 region of the 16S rRNA gene and visualized by gel electrophoresis to ensure all contaminating DNA was removed. RNA quality and concentration was determined using a 2100 Agilent Bioanalyzer Pico chip kit (Agilent Technologies, Santa Clara, CA) and Qubit RNA BR assay kit (Life Technologies, Grand Island, NY) along with NanoDrop 1000 (Thermo Fisher Scientific, Waltham, MA).\n\nRibosomal RNA was removed from 1 μg of isolated RNA via the Epicentre Ribo-Zero Magnetic Kit (Bacteria) (Illumina, San Diego, CA) per manufacturer's protocol. Samples were purified using Agencourt AMPure beads (Beckman Coulter, Brea, CA) and tested for quality using an Agilent Bioanalyzer Pico Kit (Agilent Technologies). Purified rRNA-depleted RNA was stored at −70 °C until used for MiSeq library preparation.     Based on manufacturer's suggestions, rRNA-depleted RNA was used to prepare the ScriptSeq v2 RNA-Seq library using the ScritSeq Complete Kit (Bacterial) (Epicentre an Illumina company, San Diego, CA). In brief, the rRNA-depleted RNA was fragmented, converted into single-stranded cDNA and terminally tagged. The 3′ terminally tagged cDNA was purified using Agencourt AMPure beads (Beckman Coulter). Library amplification PCR using the FailSafe Enzyme Primers and the ScriptSeq Index PCR Primers (Set 1; Epicentre an Illumina company) generated the second strand of the cDNA and added a unique Illumina adaptor barcode sequence onto the samples to allow for sample pooling on the MiSeq flow cell. The final library was purified using Agencourt AMPure beads (Beckman Coulter). Library concentrations were determined using the Qubit HS DNA Assay Kit (Life Technologies) and quality and size was assessed using the Agilent High Sensitivity DNA Kit (Agilent Technologies) on the 2100 Agilent Bioanalyzer. Libraries were stored at −20 °C until MiSeq analysis.     Samples were diluted to 0.4 nM with 10 mM Tris pH 8.5, pooled and denatured at room temperature for 5 min. Denatured DNA was diluted to 6 pM in HTI hybridization buffer (Illumina). PhiX control was also prepared to a 6 pM final concentration following the manufacturer's protocol. 5% PhiX control was added to denatured DNA, heated at 96 °C for 2 min, and chilled in an ice bath for 5 min, then carefully loaded into a MiSeq V3 cartridge (600 cycle) (Illumina) and immediately placed in the MiSeq benchtop sequencer to begin the RNA-Seq run. The transcriptome was sequenced for two biological replicates of L. acidophilus cultured under control and LSMMG growth conditions. All samples were multiplexed into one lane of MiSeq sequencing, generating a total of 35,186,530 reads.     Bacterial strain and growth conditions\nL. acidophilus ATCC 4356 strain (strain kindly provided by Klaenhammer lab at North Carolina State University) was used for all studies. L. acidophilus was propagated statically in de Man, Rogosa, and Sharpe (MRS) broth or agar (Hardy Diagnostics, Santa Maria, CA) at 37 °C under anaerobic conditions.\n\nLSMMG growth conditions\nFresh MRS media was prepared to a final concentration of approximately 2.0 × 10^6 colony forming units/mL (CFU/mL) and loaded into two 50 mL rotating-wall vessels (RWV; Synthecon, Houston, TX). Care was taken to ensure that no bubbles were present within the reactors that could disrupt the low-shear growth condition. The RWVs were attached to their base units; one in control orientation and the other in LSMMG orientation. They were rotated at 25 rpm within a 37 °C anaerobic chamber (Coy Lab Products, Grass Lake, MI) flushed at a 1:2 ratio of anaerobic gas mix (5% CO2, 10% H2 and 85% N2), and high purity nitrogen, which kept oxygen levels at or below 10 ppm.\n\nGrowth curve and bacterial enumeration\nA growth curve was determined by collecting samples over 16 h. At 2, 4, 6 and 8 h time points, 1 mL samples were collected from the sampling port on the front of the RWV via the attachment of a sterile luer-lock syringe. Additional RWV units were run for each time point beyond 8 h, as the entire contents of each vessel was removed for enumeration at these time points to ensure homogenous cell distribution, as previously described. Growth curves were determined by enumeration on MRS agar using a minimum of three biological replicates at each time point. The average pH of control and LSMMG cultures were determined at stationary phase (16 h) with a SevenCompact pH/ION (Mettler Toldeo, Columbus, OH). All results are reported as averages of at least three biological replicates ± standard error.     L. acidophilus cultured to stationary phase (16 h) in the control and LSMMG RWV orientations was removed and immediately incubated with a 2:1 ratio of RNAprotect (Qiagen, Valencia, CA) for 5 min at room temperature.  Samples were collected by centrifugation at 2315 × g for 5 min at 4 °C (Eppendorf Centrifuge 5810R).  Supernatants were removed and the resulting cell pellets were stored at −70 °C until RNA isolation was performed.  Two biological replicates of both LSMMG and control cultures were prepared for sequencing per the following protocol.",
+          "Experiment Platform": "rotating-wall vessel (RWV) bioreactor",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Sarah Castro-Wallace  Sarah Stahl  Alexander Voorhies  Hernan Lorenzi  Grace L. Douglas",
+          "Project Link": "",
+          "Study Publication Title": "Response of Lactobacillus acidophilus ATCC 4356 to low-shear modeled microgravity",
+          "Managing NASA Center": "JSC",
+          "Study Description": "The introduction of generally recognized as safe (GRAS) probiotic microbes into the spaceflight food system has the potential for use as a safe, non-invasive, daily countermeasure to crew microbiome and immune dysregulation. However, the microgravity effects on the stress tolerances and genetic expression of probiotic bacteria must be determined to confirm translation of strain benefits and to identify potential for optimization of growth, survival, and strain selection for spaceflight. The work presented here demonstrates the translation of characteristics of a GRAS probiotic bacteria to a microgravity analog environment. Lactobacillus acidophilus ATCC 4356 was grown in the low shear modeled microgravity (LSMMG) orientation and the control orientation in the rotating wall vessel (RWV) to determine the effect of LSMMG on the growth, survival through stress challenge, and gene expression of the strain. No differences were observed between the LSMMG and control grown L. acidophilus, suggesting that the strain will behave similarly in spaceflight and may be expected to confer Earth-based benefits.",
+          "organism": "Lactobacillus acidophilus",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/hrs2-eb96",
+          "url": "https://doi.org/10.26030/hrs2-eb96"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1500940800
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "L9_6g4QB28eYt3lGMrZh",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-106/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-106",
+          "Identifiers": "GLDS-106",
+          "Study Identifier": "OSD-106",
+          "Study Protocol Name": "nucleic acid extraction     library construction     nucleic acid sequencing     sample treatment protocol     sample collection",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina HiSeq 2500",
+          "Study Person": {
+            "Last Name": "Rice",
+            "Middle Initials": "C",
+            "First Name": "Kelly"
+          },
+          "Study Protocol Type": "nucleic acid extraction     library construction     nucleic acid sequencing     sample treatment protocol     sample collection",
+          "Space Program": "",
+          "Study Title": "Streptococcus mutans differential gene expression in response to simulated microgravity",
+          "Study Factor Type": "Weightlessness Simulation",
+          "Study Public Release Date": 1488326400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-106/image",
+          "Study Factor Name": "Microgravity Simulation",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE90166",
+          "Project Title": "",
+          "Study Funding Agency": "Funded by 2012 NASA Space Biology solicitation NNH12ZTT001N.",
+          "Study Protocol Description": "RNA was isolated with the RNeasy Kit (Qiagen) and FASTPREP lysing matrix B tubes (MP Biomedical) using previously-described methods. Each RNA sample was then subjected to a second DNAse treatment using the TURBO DNA-free Kit (Thermo Fisher Scientific) per the manufacturers protocols. Lack of contaminating genomic DNA in each RNA sample was determined using quantitative real-time PCR prior to sending greater than or equal to 5 g of each RNA sample to Seqwright Genomic Services (Houston, TX), who performed all steps of the RNA-seq workflow, data curation, differential expression and corresponding statistical analysis.     Each RNA sample was subjected to an mRNA enrichment step and generation of a library of cDNA template molecules of known strand origin using the TruSeq Total mRNA Sample Preparation Kit (Illumina).     Sequencing was performed using the Illumina HiSeq 2500 platform, generating 2 x 100bp read lengths for a total of 2 x 10M reads per sample.     All S. mutans cultures (including HARV vessels) were grown at 37C in a 5% CO2 incubator. For each experiment, S. mutans was freshly streaked from a frozen 30% (vol vol-1) glycerol stock onto Brain Heart Infusion (BHI) agar and grown for 48 hours. A single colony was then inoculated into 30 ml BHI broth, and grown as a static culture for 16-18 hours prior to inoculation of HARVs. Disposable Vessel Rotary Cell Culture Systems (Synthecon) with vertical and horizontal 4-station rotator bases were used to simulate microgravity (HARV rotated on axis perpendicular to gravitational vector) and normal (1 xg) gravity (HARV rotated on axis parallel to gravitational vector), respectively. HARV vessels were filled with sterile media according to manufacturers recommendations, and incubated at room temperature for 18 hours prior to each experiment. This media was then aseptically removed, and 20x dilute S. mutans overnight culture (approximate OD600 equals 0.06/ml) in room-temperature semi-defined biofilm media containing 11 mM glucose and 10 mM sucrose, was used to fill each HARV. For each experiment (n equals 3 independent experiments total), 3 simulated microgravity and 3 normal gravity HARV cultures were grown in parallel at 37C, 5% CO2, and 30 RPM for 8 hours.     A 10-ml aliquot of each HARV culture was centrifuged at 3,000 RPM, 4C for 20 minutes and immediately placed on ice. Culture supernatants were decanted and 1 ml RNAlater (Ambion) was added to each cell pellet prior to immediate storage at -80C.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "NNX13AM09G",
+          "Study Publication Author List": "Orsini SS  Lewis AM  Rice KC",
+          "Project Link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13475",
+          "Study Publication Title": "Investigation of simulated microgravity effects on Streptococcus mutans physiology and global gene expression",
+          "Managing NASA Center": "ARC",
+          "Study Description": "Astronauts have been previously shown to exhibit decreased salivary lysozyme and increased dental calculus and gingival inflammation in response to space flight, host factors that could contribute to oral diseases such as caries and periodontitis. However, the specific physiological response of caries-causing bacteria such as Streptococcus mutans to space flight and/or ground-based simulated microgravity has not been extensively investigated. In this study, High Aspect Ratio Vessel (HARV) S. mutans simulated microgravity and normal gravity cultures were assessed for changes in metabolite and transcriptome profiles, H2O2 resistance, and competence in sucrose-containing biofilm media. Stationary phase S. mutans simulated microgravity cultures displayed increased killing by H2O2 compared to normal gravity control cultures, but competence was not affected. RNA-seq analysis revealed that expression of 153 genes was up-regulated greater than or equal to 2-fold and 94 genes down-regulated greater than or equal to 2-fold during simulated microgravity HARV growth. These included a number of genes located on extrachromosomal elements, as well as genes involved in carbohydrate metabolism, translation, and stress responses. Collectively, these results suggest that growth under microgravity analog conditions promotes changes in S. mutans gene expression and physiology that may translate to an altered cariogenic potential of this organism during space flight missions. Overall design: Differential gene expression was compared between RNA from S. mutans grown in normal gravity HARVs (n equals 3 independent cultures) and RNA from S. mutans grown in simulated microgravity HARVs (n equals 3 independent cultures)",
+          "organism": "Streptococcus mutans",
+          "Data Source Type": "cgene"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1488326400
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "yd_6g4QB28eYt3lGKrU-",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-90/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-90",
+          "Identifiers": "GLDS-90",
+          "Study Identifier": "OSD-90",
+          "Study Protocol Name": "nucleic acid extraction     library construction     nucleic acid sequencing     sample collection",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Harrison",
+            "Middle Initials": "",
+            "First Name": "Lynn"
+          },
+          "Study Protocol Type": "nucleic acid extraction     library construction     nucleic acid sequencing     sample collection",
+          "Space Program": "NASA",
+          "Study Title": "RNA-seq analysis of mycobacteria stress response to microgravity",
+          "Study Factor Type": "Weightlessness Simulation     duration",
+          "Study Public Release Date": 1481846400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-90/image",
+          "Study Factor Name": "Microgravity Simulation     Duration",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "The Effect of Microgravity on Mycobacteria",
+          "Study Funding Agency": "This study was funded by the NASA Space Biology Program Office, Space Life and Physical Sciences Research and Applications Division (2012 Space Biology NNH12ZTT001N).",
+          "Study Protocol Description": "The RNA was DNase-treated and purified through an RNeasy MinElute Cleanup kit prior to determination of the concentration using the Quibit 2.0 RNA BR (Broad-Range) assay and RNA integrity score (RIN) using the Agilent 2100 Bioanalyzer, RNA 6000 Nano assay.     Ribosomal RNA was removed from approximately 4.6 micrograms of total RNA using the Ribo-Zero Magnetic Kit for Bacteria (Epicentre, an Illumina company, Madison, WI) following the manufacturer's instructions. The rRNA-depleted RNA was purified using the RNeasy MinElute Cleanup Kit (QIAGEN, Germantown, MD). The quality of the rRNA-depleted RNA was estimated using an Agilent 2100 Bioanalyzer RNA Pico chip. The ScriptSeq v2 kit (Epicentre) was used to prepare stranded and indexed RNA-Seq libraries.  Briefly, rRNA-depleted RNA was chemically fragmented, and cDNA was synthesized from a tagged random hexamer. The cDNA was terminal tagged using a 3′-end blocked and tagged oligo followed by purification on a MinElute column. The di-tagged cDNA was then used as template for PCR (15 cycles) using the FailSafe PCR Enzyme (Epicentre), a forward primer and an indexed/barcoded reverse primer. The amplified libraries were purified using Agencourt AMPure XP beads (Beckman Coulter, Indianapolis, IN) resulting in an average library size of approximately 350 base pairs when assessed on an Agilent 2100 Bioanalyzer High Sensitivity DNA chip. Libraries were quantitated using a Qubit Double Stranded DNA High Sensitivity assay.  Libraries were normalized to 4 nM, pooled, denatured, and diluted to approximately 6 pM.  A 1% library of 20 pM PhiX was spiked in as an internal control.     The library pool was sequenced on an Illumina MiSeq (Illumina, San Diego, CA) using v3 chemistry and a paired-end read length of 2 x 75 base pairs.  Base calling and quality scoring were performed with Illumina Real Time Analysis software.     Bacteria were exposed to either normal gravity (NG) or low shear modeled microgravity (LSMMG) for either ~40 hrs (short exposure) or for 4 days prior to re-dilution and exposure for a further ~36 hrs (long exposure). It was necessary to re-dilute the 4 day culture to make sure that the bacteria were all in the same phase of growth when RNA was prepared from the culture.",
+          "Experiment Platform": "High aspect ratio vessels (HARV) in a rotary cell culture system (RCCS)",
+          "Characteristics": "",
+          "Study Grant Number": "NNX13AM02G",
+          "Study Publication Author List": "Abshire CF  Prasai K  Soto I  Shi R  Concha M  Baddoo M  Flemington EK  Ennis DG  Scott RS  Harrison L.",
+          "Project Link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13484",
+          "Study Publication Title": "Exposure of Mycobacterium marinum to low-shear modeled microgravity: effect on growth, the transcriptome and survival under stress.",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "The aim of this work is to determine whether mycobacteria have enhanced virulence during space travel and what mechanisms they use to adapt to microgravity. M. marinum and LHM4 were grown in high aspect ratio vessels (HARV) in a rotary cell culture system (RCCS) under normal gravity (NG) or low shear simulated microgravity (MG). To determine the effect of MG on the stress responses activated by the growth conditions, we used RNAseq to examine what genes were expressed. For RNAseq, the bacteria are harvested, RNA isolated and converted DNA (cDNA), and the cDNA sequenced. Using bioinformatics, the amount of expression of the different M. marinum genes were compared between the NG and MG samples. To make sure that we were examining only gene expression changes due to MG, only bacteria in early exponential growth were used in the RNAseq studies. Triplicate NG and MG cultures were used to generate samples of bacteria grown for ~40 hrs. We also grew triplicate cultures for 4 days and then diluted them again and grew them for another ~40 hrs so we could examine gene expression from bacteria exposed for a longer time. In summary, this study determined that waterborne mycobacteria alter their growth, expression of stress responses, and their sensitivity to oxidizing conditions when subjected to growth under MG.",
+          "organism": "Mycobacterium marinum",
+          "Data Source Type": "cgene"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1481846400
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Ut_6g4QB28eYt3lGNLb-",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-81/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "",
+          "Project Identifier": "Simulated_Environmental_Factors",
+          "Accession": "OSD-81",
+          "Identifiers": "GLDS-81",
+          "Study Identifier": "OSD-81",
+          "Study Protocol Name": "P-GSE50653-10     P-GSE50653-11     library construction     P-GSE50653-12     P-GSE50653-13     P-GSE50653-9",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "We thank Uwe Volker and Chet Price for the generous donation of strains.",
+          "Study Assay Technology Platform": "Agilent",
+          "Study Person": {
+            "Last Name": "Waters Robles-Martinez Nicholson",
+            "Middle Initials": " A L",
+            "First Name": "Samantha Jose Wayne"
+          },
+          "Study Protocol Type": "nucleic acid extraction protocol     labelling protocol     library construction     hybridization protocol     array scanning protocol     growth protocol",
+          "Space Program": "NASA",
+          "Study Title": "Bacillus subtilis strains at low-pressure: 5 kPa versus 101 kPa growth",
+          "Study Factor Type": "strain     Atmospheric Pressure",
+          "Study Public Release Date": 1394755200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-81/image",
+          "Study Factor Name": "Strain     Atmospheric Pressure",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-GEOD-50653",
+          "Project Title": "",
+          "Study Funding Agency": "This work was funded in part by grants from the NASA Astrobiology: Exobiology and Evolutionary Biology program (NNX08AO15G) to W.L.N., the NASA Planetary Biology Internship (PBI) program to J.A.R.-M., and the NASA Earth and Space Science Fellowship (NESSF) program (13-PLANET13F-0084) to S.M.W.",
+          "Study Protocol Description": "Total RNA was extracted from cells and treated with RNase-free DNase using the RiboPure Bacteria Kit (Ambion) following the manufacturer's protocol     Total RNA samples were sent to the University of Florida Interdisciplinary Center for Biotechnology Research (UF-ICBR) for fluorescent labeling and microarray analysis.          Total RNA samples were sent to the University of Florida Interdisciplinary Center for Biotechnology Research (UF-ICBR) for fluorescent labeling and microarray analysis.     A custom glass slide microarray (GE 8x15K 60-mer; Agilent Technologies) was designed and built using the B. subtilis strain 168 genome sequence (Kunst et al. 1997)     Strains grown in LB under specific pressure condition for 24 hours before RNA extraction.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "NNX08AO15G ; 13-PLANET13F-0084",
+          "Study Publication Author List": "Waters SM  Robles-Martinez JA  Nicholson WL.",
+          "Project Link": "",
+          "Study Publication Title": "Exposure of Bacillus subtilis to\nlow pressure (5 kilopascals) induces several global regulons, including those\ninvolved in the SigB-mediated general stress response.",
+          "Managing NASA Center": "",
+          "Study Description": "Comparing the transcriptional responses of Bacillus subtilis strains WN624 and WN1106 at 5 kPa and 101 kPa. WN1106 is a 5 kPa-evolved strain with increased fitness compared to ancestor-WN624 strain at 5 kPa. This experiment probed the difference in response when the strains are grown at 5 kPa. Two-condition experiment, 5 kPa vs. 101 kPa, for both strains. And two component condition of WN1106 compared to WN624 at either 5 kPa or 101 kPa. 4 pressure comparisons.",
+          "organism": "Bacillus subtilis",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/cgma-hh84",
+          "url": "https://doi.org/10.26030/cgma-hh84"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1394755200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "O9_6g4QB28eYt3lGM7YW",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-43/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-43",
+          "Identifiers": "GLDS-43",
+          "Study Identifier": "OSD-43",
+          "Study Protocol Name": "P-GSE40648-3     P-GSE40648-2     P-GSE40648-4     P-GSE40648-5     P-GSE40648-6     P-GSE40648-7     P-GSE40648-8     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "We would like to thank Santosh Bhaskaran, Vascular Biology Lab, AU-KBC research centre, Anna University, Chennai for deducing gravity calculations of the study. We would also like to thank Dr. Mohammed Idris for help in using DAVID software and P. Ramesh and M.B. Madhavi for microarray data analysis all from the Centre for Cellular and Molecular Biology, Hyderabad.",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Arunasri Shivaji Arunasri",
+            "Middle Initials": "",
+            "First Name": "kotakonda S K"
+          },
+          "Study Protocol Type": "grow     specified_biomaterial_action     nucleic_acid_extraction     labeling     hybridization     image_acquisition     feature_extraction     data transformation",
+          "Space Program": "ISRO",
+          "Study Title": "Effect of simulated microgravity on E. coli K12 MG1655 growth and gene expression",
+          "Study Factor Type": "Weightlessness Simulation",
+          "Study Public Release Date": 1346889600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-43/image",
+          "Study Factor Name": "Microgravity Simulation",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-GEOD-40648",
+          "Project Title": "",
+          "Study Funding Agency": "The project was funded by ISRO, India up to March 2012. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.",
+          "Study Protocol Description": "E.coli was cultured in both noraml amd microgravity conditions. Three biological replicates were maintained under each condition.     When the OD600nm reached 0.8, 10 ml of the culture was suspended in 3 volumes of RNAlater solution (Ambion Inc., USA) and stored at 4 degrees centigrade until use.     Extraction of total RNA was performed according to the manufacturer's instructions (Qiagen RNeasy mini-prep kit ).     The cDNA was fragmented with DNAse 1 (Promega Corporation, Madison, USA) and then labeled with biotin at the 3' end using the labeling reagent from Affymetrix (CA, USA) and Terminal transferase enzyme (Promega).     DNA micro array chips were hybridized with the labelled cDNA using the Affymetrix protocol (www.affymetrix.com).     Microarray slides were then scanned using Affymetrix 428 Array Scanner and GCOS software to obtain images of the chips and further processed to get intensity cell files for the probe sets.     The intensity cell files were then imported, normalized for background correction and data analysed using GCOS. MAS algorithm was used to normalize the data.     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Gene annotations were retrieved for each probeset from ThermoFisher (https://www.thermofisher.com/order/catalog/product/sec/assets?url=TFS-Assets/LSG/Support-Files/E_coli_2-na36-annot-csv.zip, created March 2016, accessed June 2024). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Arunasri K  Adil M  Venu Charan K  Suvro C  Himabindu Reddy S  Shivaji S",
+          "Project Link": "",
+          "Study Publication Title": "Effect of Simulated Microgravity on E. coli K12 MG1655 Growth and Gene Expression.",
+          "Managing NASA Center": "",
+          "Study Description": "This study demonstrates simulated microgravity effects on E. coli K 12 MG1655 when grown on LB medium supplemented with glycerol. The results imply that E. coli readily reprograms itself to combat the multiple stresses imposed due to microgravity. Under these conditions it survives by upregulating oxidative stress protecting genes and simultaneously down regulating the membrane transporters and synthases to maintain cell homeostasis. In this study, a clinostat that mimics microgravity conditions was used to investigate the effects of microgravity on E. coli grown in LB medium supplemented with glycerol to monitor the effects on growth and global gene expression using Affymetrix DNA microarrays.",
+          "organism": "Escherichia coli",
+          "Data Source Type": "cgene"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1346889600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "ut_6g4QB28eYt3lGKbVB",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-14/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-14",
+          "Identifiers": "GLDS-14",
+          "Study Identifier": "OSD-14",
+          "Study Protocol Name": "P-GSE16970-4     P-GSE16970-5     P-GSE16970-6     P-GSE16970-7     P-GSE16970-8     GeneLab microarray data processing protocol     P-GSE16970-3     P-GSE16970-2",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "The authors would like to express their gratitude to Ann Janssen and Ilse Coninx (SCK-CEN) for technical assistance. We are grateful to Dr Proto Pippia and Dr Mariantonia Meloni for providing us access to their ESA RPM facility and Gavino Campus for technical support (University of Sassari, Italy). We thank Dr Mark Ott (Johnson Space Center, Houston, USA) and Ir. Hugo Moors (SCK-CEN) for fruitful discussions.",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Nickerson Pycke Cornelis Van Houdt Monsieurs Leys Crabbe",
+            "Middle Initials": "",
+            "First Name": "Cheryl Benny Pierre Rob Pieter Natalie Aurelie"
+          },
+          "Study Protocol Type": "nucleic_acid_extraction     labeling     hybridization     image_aquisition     feature_extraction     data transformation     grow     specified_biomaterial_action",
+          "Space Program": "",
+          "Study Title": "Response of Pseudomonas aeruginosa PAO1 to low shear modeled microgravity",
+          "Study Factor Type": "Weightlessness Simulation",
+          "Study Public Release Date": 1280361600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-14/image",
+          "Study Factor Name": "Microgravity Simulation",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-GEOD-16970",
+          "Project Title": "",
+          "Study Funding Agency": "This research was funded by a space research grant from the European Space Agency (ESA) and the Belgian Science Policy (Belspo). Benny Pycke was supported by the Institute for the Promotion of Innovation through Science and Technology in Flanders (IWT-Vlaanderen) through the PhD scholarship IWT-SB/53360. Cheryl Nickerson was funded by NASA grants NNX09AH40G, NCC2-1362 and NNJ04HF75F.",
+          "Study Protocol Description": "After 24 hours of cultivation, the contents of every bioreactor was gently mixed by pipetting and divided into several aliquots. Ten millilitres of culture from each growth condition was immediately fixed with RNA Protect Reagent (Qiagen), following the manufacturer's instructions, and fixed cell pellets were frozen at -20C until RNA extraction. Samples were immediately exposed to different stresses. The extraction of total RNA was performed with the Total RNA Isolation System (Promega). RNA quality and quantity were assessed using the Agilent Bioanalyzer 2100 electrophoresis system and the Nanodrop ND-1000 spectrophotometer (NanoDrop technologies) respectively. cDNA synthesis and further processing for the transcriptomic analysis were performed according to the protocol of the GeneChip manufacturer (Affymetrix). Ten micrograms of total RNA per sample was used for cDNA synthesis and a Poly-A RNA control was added to the RNA sample using the GeneChip eukaryotic poly-A control kit (Affymetrix). The synthesis of cDNA was performed using denatured total RNA (70 C for 10 min), 13 ng/ul random hexamer primers (Roche), 0.5 U/ul SUPERase In (Ambion), 25 U/ul SuperScript II reverse transcriptase (Invitrogen), 0.5 nmol/ul deoxynucleoside triphosphates in 1x first strand buffer with 10 nmol/ul dithiothreitol. The latter mix was placed in a Thermocycler operated at 25 C for 10 min, 37 C for 60 min, 42 C for 60 min and 70 C for 10 min. The remaining RNA was degraded by treatment with 1 N NaOH, incubation for 30 min at 65 C and subsequent neutralization with 1 N HCl. cDNA was purified using a MiniElute PCR purification kit (Qiagen), where after the concentration of cDNA was assessed using the Nanodrop ND-1000 spectrophotometer (NanoDrop technologies). Eight micrograms of cDNA was fragmented to a size range of 50-200 nucleotides with DNase I (Promega) for 10 min at 37 C where after the enzyme was inactivated at 99 C for 10 min. The fragmented cDNA was verified by loading a sample on a 2% agarose gel containing 0.1 %0  (v/v) GelRed (Biotium).     Fragmented cDNA was end-labelled with biotin-dUTP using the GeneChip DNA labelling reagent (Affymetrix) and terminal deoxynucleotidyl transferase (Promega) in 1x reaction buffer  (Promega) at 37C for 60 min. The reaction was stopped using 0.5 M EDTA.     Biotinylated cDNA was hybridized to GeneChip P. aeruginosa Genome arrays (Affymetrix) by incubation in a GeneChip hybridization oven 640 at 50C with orbital shaking at 60 r.p.m. for 16 h in the following MES-buffer [2-(N-morpholino) ethanesulfonic acid]: 0.1 ul herring sperm DNA (Promega), 0.5 ul bovine serum albumine (Invitrogen), 7.8% dimethyl sulfoxide (Sigma-Aldrich), 50 mM B2 control oligo (Affymetrix) in 1x hybridization buffer (made according to instructions of Affymetrix GeneChip). Microarray slides were washed according to the manufacturer's protocol and stained using a fluidics station 450 (Affymetrix) and applying the Midi_euk2v3_450 protocol. Briefly, the staining procedure was comprised of the following steps: (i) binding of streptavidin (Invitrogen) to the biotin-labeled hybridized cDNA, (ii) binding of a biotin-conjugated streptavidin antibody (Labconsult) and (iii) binding of R-phycoerythrin-conjugated streptavidin (Invitrogen).     Microarrays were scanned at the emission wavelength of 570 nm where after the data analysis took place.     Raw Affymetrix data were pre-processed using the Affy package in BioConductor as follows: (i) background correction based on the robust multichip average (RMA) convolution model (Irizarry et al., 2003), (ii) quantile normalization to make expression values from different arrays more comparable (Bolstad et al., 2003), (iii) summarization of multiple probe intensities for each probe set to one expression value per gene using RMA (Irizarry et al., 2003). To test for differential expression between the different simulated microgravity (LSMMG and RG) conditions and the reference condition (NG) the Bayesian adjusted t-statistics was used as implemented in the LIMMA package (version 2.5.15) (Smyth, 2004). P-values were corrected for multiple testing using the Benjamini and Hochber's method to control the false discovery rate (Benjamini and Hochberg, 1995). Microarray analysis was performed on all three biological replicates.     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Gene annotations were retrieved for each probeset from ThermoFisher (https://www.thermofisher.com/order/catalog/product/sec/assets?url=TFS-Assets/LSG/Support-Files/Pae_G1a-na36-annot-csv.zip, created March 2016, accessed June 2024). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value.     The wild type P. aeruginosa PAO1 strain (ATCC 15692) was used in this study and all cultures were grown in Lennox L Broth Base (LB) (Life Technologies) at 28C. An overnight shaking culture (125 r.p.m.) of P. aeruginosa in LB was washed and diluted in 0.85% NaCl solution to an OD600 of 1. This bacterial suspension was used to inoculate fresh LB medium at a final concentration of 10-4 CFU/ml.     Synthecon Rotating Wall Vessel bioreactors (RWV) (50 ml or 10 ml) were filled with inoculated medium so that no headspace (i.e. no bubbles) was present. Other than for stress resistance assays, for which 10 ml capacity bioreactors were used, RWV bioreactors with a capacity of 50 ml were adopted for all experiments. Identical bioreactors were mounted in triplicate on (i) a RWV device in vertical position (LSMMG) (Cellon), (ii) a RWV device in horizontal position (NG) and (iii) the center of the inner Random Positioning Machine (RPM) frame (RG) (Fokker Space), and placed in a large humidified (70%-80% relative humidity) culture chamber, to avoid evaporation of culture medium through the gas-permeable membrane at the back of each vessel. A 25 r.p.m. rotation speed was adopted for the RWV cultures, while RPM-cultures were randomly rotated at 10 r.p.m. Bacteria were grown in the three described test conditions for 24 hours.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "NNX09AH40G  NCC2-1362 and NNJ04HF75F",
+          "Study Publication Author List": "Crabbe A  Pycke B  Van Houdt R  Monsieurs P  Nickerson C  Leys N  Cornelis P",
+          "Project Link": "",
+          "Study Publication Title": "Response of Pseudomonas aeruginosa PAO1 to low shear modelled microgravity involves AlgU regulation.",
+          "Managing NASA Center": "",
+          "Study Description": "Anticipating the risk for infectious disease during space exploration and habitation is a critical factor to ensure safety, health and performance of the crewmembers. As a ubiquitous environmental organism that is occasionally part of the human flora, Pseudomonas aeruginosa could pose a health hazard for the immuno-compromised astronauts. In order to gain insights in the behavior of P. aeruginosa in spaceflight conditions, two spaceflight-analogue culture systems, i.e. the rotating wall vessel (RWV) and the random position machine (RPM), were used. Microarray analysis of P. aeruginosa PAO1 grown in the low shear modeled microgravity (LSMMG) environment of the RWV compared to the normal gravity control (NG), revealed a regulatory role for AlgU (RpoE). Specifically, P. aeruginosa cultured in LSMMG exhibited increased alginate production and up-regulation of AlgU-controlled transcripts, including those encoding stress-related proteins. This study also shows the involvement of Hfq in the LSMMG response, consistent with its previously identified role in the Salmonella LSMMG- and spaceflight response. Furthermore, cultivation in LSMMG increased heat and oxidative stress resistance and caused a decrease in the culture oxygen transfer rate. Interestingly, the global transcriptional response of P. aeruginosa grown in the RPM was similar to that in NG. The possible role of differences in fluid mixing between the RWV and RPM is discussed, with the overall collective data favoring the RWV as the optimal model to study the LSMMG-response of suspended cells. This study represents a first step towards the identification of specific virulence mechanisms of P. aeruginosa activated in response to spaceflight-analogue conditions, and could direct future research regarding the risk assessment and prevention of Pseudomonas infections for the crew in flight and the general public.",
+          "organism": "Pseudomonas aeruginosa",
+          "Data Source Type": "cgene"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1280361600
+        ]
+      }
+    ]
+  }
+}

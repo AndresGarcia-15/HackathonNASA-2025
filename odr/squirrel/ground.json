@@ -1,0 +1,80 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Jt_6g4QB28eYt3lGMban",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-319/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Quadriceps Muscle",
+          "Project Identifier": "",
+          "Accession": "OSD-319",
+          "Identifiers": "GLDS-319",
+          "Study Identifier": "OSD-319",
+          "Study Protocol Name": "nucleic acid extraction     library construction     nucleic acid sequencing     treatment protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "We thank Jeanette Moore for collecting physiological data and tissue sampling from arctic ground squirrels. This work was supported by the National Institute of Arthritis and Musculoskeletal and Skin Diseases of the National Institute of Health (Award Number R21AR064995), an Institutional Development Award (IDeA) from the National Institute of General Medical Sciences of the National Institutes of Health under grant number, 10.13039/100000057 [P20GM103395] and Centre of Biomedical Research Excellence under grant umber [P20GM130443]. The content is solely responsibility of the authors and does not necessarily represent the official view of the National Institutes of Health.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Goropashnaya Fedorov",
+            "Middle Initials": " B",
+            "First Name": "Anna Vadim"
+          },
+          "Study Protocol Type": "nucleic acid extraction     library construction     nucleic acid sequencing     treatment protocol",
+          "Space Program": "",
+          "Study Title": "Muscle atrophy, osteoporosis prevention in hibernating mammals",
+          "Study Factor Type": "time",
+          "Study Public Release Date": 1531872000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-319/image",
+          "Study Factor Name": "Time",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA481834",
+          "Project Title": "",
+          "Study Funding Agency": "This work was supported by the National Institute of Arthritis and Musculoskeletal and Skin Diseases of the National Institute of Health (Award Number R21AR064995), an Institutional Development Award (IDeA) from the National Institute of General Medical Sciences of the National Institutes of Health under grant number, 10.13039/100000057 [P20GM103395] and Centre of Biomedical Research Excellence under grant umber [P20GM130443].",
+          "Study Protocol Description": "Frozen muscle samples (approximately 250mg) were homogenized directly in 2ml Lysing Matrix D tubes with specialized beads and RTL buffer using a Mini-Beadbeater-1 (BioSpec Products, Inc., Bartlesville, OK, USA) for 1min at 4800 oscillations/minute. Total RNA was isolated from the tissue using RNeasy mini kit (Qiagen Inc., Valencia, CA, USA). All RNA samples received a DNase I (Qiagen) treatment to remove DNA contamination. The RNA quality and concentration were obtained with an Agilent 2100 Bioanalyzer and a Nanodrop ND-1000.     Poly-A RNA was isolated from total RNA and chemically fragmented. First and second strand synthesis was followed by end repair, and adenosines was added to the 3' ends. Adapters were ligated to the cDNA and 200 25 bp fragments were gel purified and enriched by PCR. Then the cDNA was run on the Illumina HiSeq 4000 Sequencer.     RNA samples were used for cDNA library construction and sequencing 40 million of 100 nucleotide paired-end reads for each sample on Illumina HiSeq. 4000 system at BGI Americas Corporation (Cambridge, MA)     Arctic ground squirrels were trapped in two locations in Northern part of Alaska (100km north of Fairbanks and West of Pump Station #4, north of the Brooks Range) and transported to the University of Alaska Fairbanks. Squirrels were individually housed initially at 20+/-2 degrees Celsius with a 16h: 8h light: dark photoperiod and provided with Mazuri Rodent Chow and water ad libitum with supplements of sunflower seeds, carrots and apples. In late September animals with abdominally implanted with temperature-sensitive radio transmitters and transferred into an environmental chamber with +2 degrees celsius temperature and 4h: 20h light: dark photoperiod. Squirrels were provided with ample cotton for constructing nests and rodent chow, water and carrots until they first entered torpor, then all food was removed. Core body temperature (Tb) was monitored to detect stages of torpor and arousal by an automated telemetry system that measured and recorded core Tb every 10min. All animals sampled during hibernation had completed at least three full-length torpor bouts. Four animals were sampled during re-entry into torpor (Tb = 27+/-1C) following an interbout arousal and four animals during late in a torpor bout (Tb = 2.2+/-0.3C, after 80-90% of the duration of about, 8-12 days). Four summer active squirrels were sampled in July after completion of reproductive regression as assessed by external inspection of gonads and genitalia. The mean body weight was 613.75+/-48.69g during hibernation and 719.00+/-144.83g for summer active squirrels but the difference is nonsignificant (P=0.22). To decrease biological variation, animals included in the study were all adult males with the exception of one female in the entering torpor hibernation group. Torpid animals were euthanized by decapitation without anesthesia, summer active animals were deeply anesthetized with isoflurane vapors, entering torpor animals were anesthetized with sodium pentobartitol before decapitation. Quadriceps skeleton muscle tissue was rapidly dissected and frozen in liquid nitrogen within 9 min of death and stored at -80C until RNA extraction. All experiments were carried out in accordance with animal protocols approved by the University of Alaska Fairbanks, Institutional Animal Care and Use Committee (IACUC number 569666).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "R21AR064995  10.13039/100000057 [P20GM103395]  P20GM130443",
+          "Study Publication Author List": "Anna V. Goropashnaya  Brian M. Barnes  and Vadim B. Fedorov     Vadim B Fedorov   Anna V Goropashnaya  Nathan C Stewart  Oivind Toien  Celia Chang  Haifang Wang  Jun Yan  Louise C Showe  Michael K Showe  Brian M Barnes",
+          "Project Link": "",
+          "Study Publication Title": "Transcriptional changes in muscle of hibernating arctic ground squirrels (Urocitellus parryii): implications for attenuation of disuse muscle atrophy     Comparative functional genomics of adaptation to muscular disuse in hibernating mammals",
+          "Managing NASA Center": "",
+          "Study Description": "Physical inactivity decreases the mechanical load on the skeleton, which when prolonged leads to losses of muscle strength and bone mass in humans and most mammalian species. Hibernating mammals show no loss in bone mass and less muscle atrophy than would be anticipated over such a prolonged period of physical inactivity. This suggests that diverse hibernating mammals have evolved natural mechanisms that reduce muscle atrophy and conserve bone mass.",
+          "organism": "Urocitellus parryii",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/mgd8-ne91",
+          "url": "https://doi.org/10.26030/mgd8-ne91"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1531872000
+        ]
+      }
+    ]
+  }
+}

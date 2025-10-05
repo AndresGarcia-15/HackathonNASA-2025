@@ -1,0 +1,80 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "89_6g4QB28eYt3lGLbWq",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-192/",
+          "Flight Program": "Bion-M1 biosatellite",
+          "Mission": {
+            "End Date": "05/19/2013",
+            "Start Date": "04/19/2013",
+            "Name": "Bion_M1"
+          },
+          "Material Type": "statocyst",
+          "Project Identifier": "Bion-M1",
+          "Accession": "OSD-192",
+          "Identifiers": "GLDS-192",
+          "Study Identifier": "OSD-192",
+          "Study Protocol Name": "animal housing     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Ion Proton",
+          "Study Person": {
+            "Last Name": "Aseyev",
+            "Middle Initials": "",
+            "First Name": "Nikolay"
+          },
+          "Study Protocol Type": "Housing, Animal     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Space Program": "",
+          "Study Title": "Adaptive changes in the vestibular system of land snail to a 30-day spaceflight and readaptation on return to Earth",
+          "Study Factor Type": "Space Flight     controlled light/dark cycle     Food Deprivation     Water Deprivation     Housing, Animal",
+          "Study Public Release Date": 1509494400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-192/image",
+          "Study Factor Name": "Spaceflight     Light Cycle     Food Deprivation     Water Deprivation     Animal Housing",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA400816",
+          "Project Title": "",
+          "Study Funding Agency": "Russian Foundation for Basic Research (RFBR) and Russian Science Foundation (RSF)",
+          "Study Protocol Description": "Land snails, Helix lucorum L., served as experimental subjects in this study. Snails were collected in vineyards of Crimea, kept in terraria, and fed on cabbage leaves in humid air conditions to prevent aestivation (a prolonged rest in hot and dry periods where the snail covers its shell opening with a special secretion). Experimental animals were assigned to 5 separate groups based on experimental condition. The prime group was the population of postflight snails (PF, n = 15) exposed to μG for 30 days on the Bion-M1 orbital satellite. PF snails were housed in the dark during the mission and thus no orientation cues from a light source were available. Four ground-based asynchronous groups were designed for comparison to the PF snails. A Naïve group (NV, n = 15) of snails survived for 30 days under normal conditions (Light:Dark cycle was 12:12 and water and food were available ad libitum) in a lab terrarium having large spatial dimensions. A Starvation group (ST, n = 17) survived for 30 days at the Institute of Biomedical Problems (IMBP, Moscow) facilities as asynchronous control subjects under conditions more closely similar to the PF group, such as a congested habitat, no food or water except a bottom layer of wet paper, a fixed temperature, but a normal light/dark cycle.     The statocyst was dissected under a dissecting microscope to visualize the inertial mass using fine neurosurgery forceps. After removal of overlying structures, the statoconia preparations were left for few minutes to desiccate. Statocysts were frozen −80°C in microRNA buffer for sequencing.     Cellular RNA from statocyst samples was prepared by the guanidine thiocyanate method described by Chomczynski and Sacchi. RNA for cDNA synthesis was treated with DNaseI (Boehringer, Mannheim, Germany) for 30 min at 37°C followed by phenol: chloroform extraction and ethanol precipitation.\n\nTotal RNA samples were analyzed using Agilent 2100 Bioanalyzer to confirm RNA isolation purity and absence of RNA degradation. The peak of 28S rRNA is invisible in some species of snails because their 28S rRNA consists of two separate pieces held together by ribosome proteins, and after purification each half of 28S rRNA has the same length as 18S rRNA, so 28S peak merges with 18S peak. According to this, we checked only 18S peak integrity to estimate total RNA quality.     Reverse transcription of RNA samples was performed using oligo-dT(M1) primer and SuperScript® III Enzyme Mix, and second strand of cDNA was created with Mint cDNA synthesis kit (Evrogen). Then we amplified cDNA samples for 27 cycles in the T100 thermal cycler (Bio-Rad) with universal primer M1. Concentration of amplified cDNA was measured using NanoDrop 2000 spectrophotometer. cDNA libraries were then prepared using Ion Plus Fragment library Kit (Ion Torrent, Life Technologies) following manufacturer's protocols. cDNA libraries were purified using Magnetic Bead Cleanup Module (Ion Torrent, Life Technologies).\n\nThe quality of each prepared cDNA library was evaluated using Qubit® 2.0 Fluorometer (with Qubit® dsDNA HS Assay Kit) and Agilent 2100 Bioanalyzer (with High Sensitivity DNA chip and Agilent High Sensitivity DNA Kit). In our samples, the amount of short cDNA fragments with length of 25–160 bp did not exceed 10%.\n\nDuring the next step, clonal amplification was performed using Ion PI™ Template OT2 200 Kit v3 and Ion OneTouch™ 2 system (Life Technologies) in accordance with manufacturer's recommendations. After amplification, the samples were centrifuged, and precipitates were resuspended in bidistilled water and stored at +4°C for 14–18 h.     Sequencing was performed using Ion PI™ Sequencing 200 Kit v3 and Ion PI™ Chip v2 on Ion Proton™ sequencer. One chip contained four libraries tagged with different barcodes.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "12-04-01166-a and 14-25-00072",
+          "Study Publication Author List": "Nikolay Aseyev  Alia Kh. Vinarskaya  Matvey Roshchin  Tatiana A. Korshunova  Aleksey Yu. Malyshev  Alena B. Zuzina  Victor N. Ierusalimsky  Maria S. Lemak  Igor S. Zakharov  Ivan A. Novikov  Peter Kolosov  Ekaterina Chesnokova  Svetlana Volkova  Artem Kasianov  Leonid Uroshlev  Yekaterina Popova  Richard D. Boyle and Pavel M. Balaban",
+          "Project Link": "",
+          "Study Publication Title": "Adaptive Changes in the Vestibular System of Land Snail to a 30-Day Spaceflight and Readaptation on Return to Earth",
+          "Managing NASA Center": "",
+          "Study Description": "The vestibular system receives a permanent influence from gravity and reflexively controls equilibrium. If we assume gravity has remained constant during the species' evolution, will its sensory system adapt to abrupt loss of that force? We address this question in the land snail Helix lucorum exposed to 30 days of near weightlessness aboard the Bion-M1 satellite, and studied geotactic behavior of postflight snails, differential gene expressions in statocyst transcriptome, and electrophysiological responses of mechanoreceptors to applied tilts. Each approach revealed plastic changes in the snail's vestibular system assumed in response to spaceflight. Absence of light during the mission also affected statocyst physiology, as revealed by comparison to dark-conditioned control groups. Readaptation to normal tilt responses occurred at ~20 h following return to Earth. Despite the permanence of gravity, the snail responded in a compensatory manner to its loss and readapted once gravity was restored.",
+          "organism": "Helix lucorum",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/emxk-4k03",
+          "url": "https://doi.org/10.26030/emxk-4k03"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1509494400
+        ]
+      }
+    ]
+  }
+}

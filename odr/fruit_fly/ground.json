@@ -1,0 +1,336 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 5,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "jp4TG44BKCnU7lGjRrkO",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-590/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "Low_Dose_Irradiation, Multiple_Radiation_Types",
+          "Accession": "OSD-590",
+          "Identifiers": "GLDS-577",
+          "Study Identifier": "OSD-590",
+          "Study Protocol Name": "Animal Husbandry     irradiation protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "The authors would like to thank Dr. Dmitry Naumov for initiation of experiments and support during the development of this research work.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Zarubin Gangapshev Gavriljuk Kazalov Kravchenko",
+            "Middle Initials": "",
+            "First Name": "Mikhail Albert Yuri Vladimir Elena"
+          },
+          "Study Protocol Type": "Animal Husbandry     chronic     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation     data transformation",
+          "Space Program": "",
+          "Study Title": "First transcriptome profiling of D. melanogaster after development in a deep underground low radiation background laboratory",
+          "Study Factor Type": "Ionizing Radiation     ionizing radiation categorized by source",
+          "Study Public Release Date": 1709769600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-590/image",
+          "Study Factor Name": "Ionizing Radiation     ionizing radiation device or source",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE159477",
+          "Project Title": "",
+          "Study Funding Agency": "The authors received no specific funding for this work.",
+          "Study Protocol Description": "We used wild-type D. melanogaster strain Oregon-R cultured on a medium containing 1000 mL water, 16 g yeast, 30 g sugar, 40 g semolina, 7 g agar and 0.5 mL propionic acid at 24°C in dark. The experiments were simultaneously carried out in a chamber of the low-background underground laboratory DULB-4900 in the horizontal tunnel of the Baksan Neutrino Observatory (BNO) equipped with temperature control and ventilation systems, and in the laboratory of the BNO ground institute building located near the entrance of the tunnel where the control biological group was maintained in natural background conditions. During one experiment, twenty Oregon-R males and females were placed in each laboratory in vials with the medium for egg-laying and were discarded after 48 hours, then three vials were kept in DULB-4900 and two vials in the ground laboratory for the entire fruit fly development cycle (14 days) before getting 2–3 days adult flies.     Our experiment was performed in the low-background laboratory DULB-4900 of the Baksan Neutrino Observatory of the Institute for Nuclear Research of the Russian Academy of Sciences (BNO INR RAS / Neutrino village, North Caucasus, Russia) which has unique shielding properties. It is located in the farthest part (3700 meters from the entrance) of the horizontal tunnel in the Andyrchy mountain at the depth of 1800 meters under the rock mass (4900 m.w.e.). To efficiently shield the area against surrounding rock mass radiation and to provide stable experimental conditions the underground laboratory is equipped with special chambers with individual multilayer shielding consisting from 20 cm of polyethylene, 2 mm of cadmium and 15 cm of lead (from outer layer to inner one). Cosmic-ray flux deprivation in DULB-4900 results in residual values: the muon flux is 3.0E-9 per square centimeter per second (Natural Background (NB)– 2.0E-2 per square centimeter per second), the neutron flux is less than 3.8E−7 per square centimeter per second (NB—4.67E−3 per square centimeter per second), the gamma-ray flux is 0.02 nanogray per hour (NB– 120 nanogray per hour). Due to the special ventilation system and implementation of constructing materials with a low content of radionuclides, the radon activity in the underground laboratory chamber is 25.2 becquerel per cubic meter (NB– 35 becquerel per cubic meter) and it stays near this level throughout the year. Not only monitoring of muon and neutron fluxes, gamma-ray background and radon concentration but also the control of non-radiation parameters, such as temperature, atmospheric pressure and gas composition in the laboratory are important for biological experiments. Atmospheric pressure in DULB-4900 and in the ground laboratory was about 620 mmHg, temperature was stabilized at 24°C, gas composition underground was maintained with the general tunnel ventilation system and the local low-background chamber ventilation system. In the reference ground laboratory there were no physical installations or significant physical equipment that could influence the experiment.     Twenty five 2–3 days adult males from each vial from DULB-4900 and the ground laboratory were homogenized in RNA-intact (Evrogen, Russia) and transferred on the ice to the Evrogen company (Moscow, Russia).     Twenty five 2–3 days adult males from each vial from DULB-4900 and the ground laboratory were homogenized in RNA-intact (Evrogen, Russia) and transferred on the ice to the Evrogen company (Moscow, Russia). Total RNA was isolated from these samples using ExtractRNA reagent (Evrogen, Russia) according to the manufacturer’s standard protocol. The quality of total RNA was verified by gel electrophoresis using ~1 μg of extracted RNA.     Using the TruSeq mRNA Stranded reagent kit (Illumina, USA) poly (A+) fractions of total RNA were enriched and then cDNA was synthesized by random hexamer priming. The resulting cDNA was used to prepare libraries compatible with Illumina sequencing technology in the Evrogen company. The quality of the resulting libraries was determined using the Fragment Analyzer system (Agilent, USA). The quantitative analysis was performed by qPCR.     After the quality control and DNA quantity estimation the library pool was sequenced with 100 bp single-end reads on Illumina NovaSeq 6000 platform (Illumina, USA). FASTQ files were obtained using bcl2fastq v2.20 Conversion Software (Illumina, USA). As a result, 556 979 047 reads were received.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of D-melanogaster rRNA sequences retrieved from NCBI on 01-Sep-2021.     Data were processed as described in GL-DPPD-7101-F (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-F.md), using NF_RCP-F version 1.0.4 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_RCP-F_1.0.4/RNAseq/Workflow_Documentation/NF_RCP-F). In short, raw fastq files were filtered using Trim Galore! (version 0.6.7) powered by Cutadapt (version 3.7). Trimmed fastq file quality was evaluated with FastQC (version 0.11.9), and MultiQC (version 1.12) was used to generate MultiQC reports. Drosophila melanogaster STAR and RSEM references were built using STAR (version 2.7.10a) and RSEM (version 1.3.1), respectively, Ensembl release 107, genome version BDGP6.32 (Drosophila_melanogaster.BDGP6.32.dna.toplevel.fa) and the following gtf annotation file: Drosophila_melanogaster.BDGP6.32.107.gtf. Trimmed reads were aligned to the Drosophila melanogaster STAR reference with STAR (version 2.7.10a) and alignment log files were compiled with MultiQC (version 1.12). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 4.0.0), gene body coverage using RSeQC geneBody_coverage.py (version 4.0.0), and distribution of RNA features using RSeQC read_distribution.py (version 4.0.0). Aligned reads from all samples were quantified using RSEM (version 1.3.1), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.12). The runsheet was generated with dp_tools (version 1.3.4) and the runsheet and quantification data were imported to R (version 4.1.3) with tximport (version 1.27.1) and normalized with DESeq2 (version 1.34.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.1.3) using DESeq2 (version 1.34.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Dm.eg.db (version 3.15.0).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Zarubin M  Gangapshev A  Gavriljuk Y  Kazalov V  Kravchenko E.",
+          "Project Link": "",
+          "Study Publication Title": "First transcriptome profiling of D. melanogaster after development in a deep underground low radiation background laboratory.",
+          "Managing NASA Center": "",
+          "Study Description": "Natural background radiation is a permanent multicomponent factor. It has an influence on biological organisms, but effects of its deprivation still remain unclear. The aim of our work was to study for the first time responses of D. melanogaster to conditions of the Deep Underground Low-Background Laboratory DULB-4900 (BNO, INR, RAS, Russia) at the transcriptome level by RNA-seq profiling. Overall 77 transcripts demonstrated differential abundance between flies exposed to low and natural background radiation. Enriched biological process functional categories were established for all genes with differential expression. The results showed down-regulation of primary metabolic processes and up-regulation of both the immune system process and the response to stimuli. The comparative analysis of our data and publicly available transcriptome data on D. melanogaster exposed to low and high doses of ionizing radiation did not reveal common DEGs in them. We hypothesize that the observed changes in gene expression can be explained by the influence of the underground conditions in DULB-4900, in particular, by the lack of stimuli. Thus, our study challenges the validity of the LNT model for the region of background radiation doses below a certain level (~16.4 nGy h-1) and the presence of a dose threshold for D. melanogaster.",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/1vjp-h438",
+          "url": "https://doi.org/10.26030/1vjp-h438"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1709769600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "0t_6g4QB28eYt3lGQ7Zm",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-85/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "Simulated_Hypergravity",
+          "Accession": "OSD-85",
+          "Identifiers": "GLDS-85",
+          "Study Identifier": "OSD-85",
+          "Study Protocol Name": "nucleic acid extraction     library construction     nucleic acid sequencing     sequence analysis data transformation     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol     growth protocol     treatment protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina HiSeq 2000",
+          "Study Person": {
+            "Last Name": "Pachter Bhattacharya",
+            "Middle Initials": "",
+            "First Name": "Lior Sharmila"
+          },
+          "Study Protocol Type": "nucleic acid extraction     library construction     nucleic acid sequencing     sequence analysis data transformation     data transformation     data transformation     growth protocol     treatment protocol",
+          "Space Program": "NASA",
+          "Study Title": "Transcriptomic response of Drosophila melanogaster pupae developed in hypergravity",
+          "Study Factor Type": "Hypergravity",
+          "Study Public Release Date": 1474243200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-85/image",
+          "Study Factor Name": "Hypergravity",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE80323",
+          "Project Title": "Gravity and oxidative stress responses in Drosophila melanogaster",
+          "Study Funding Agency": "This work was funded by NASA grants to SB (NNX15AB42G and NNX13AN38G). RH was supported by a NASA Post-Doctoral Program (NPP) Fellowship. SH was supported by the NSF Graduate Research Fellowship. This work used the Vincent J. Coates Genomics Sequencing Laboratory at UC Berkeley, supported by NIH S10 Instrumentation Grants S10RR029668 and S10RR027303.",
+          "Study Protocol Description": "Total RNA was extracted from four replicates of four pooled pupae from 3 g and four replicates of four from control conditions using Qiagen RNeasy mini kit, Cat. No.74104. 1mg RNA per sample was treated with turboDNase prior to library preparation.     Total RNA for these 8 samples (4 from each condition) were treated with DNase (turboDNase) and prepared for sequencing (Illumina mRNA TruSeq vol. 2 kit) as per the manufacturer's protocol. Size distribution and concentration of DNA fragments were measured using chip electrophoresis (Agilent Bioanalyzer) and fluorometer (Qubit 2.0).     Sequenced on 1 lane of the Illumina HiSeq-2000 100bp PE reads. Sample:Index:Sequence G1R1:2:CGATGTG1R2:4:TGACCAG1R3:5:ACAGTGG1R4:6:GCCAATG3R1:7:CAGATCG3R2:12:CTTGTAG3R3:16:CCGTCCG3R4:18:GTCCGC     Raw reads were filtered to remove reads not passing Illumina's Casava quality score using casava illumina filter 0.1 05-Aug-2011 SETTINGS: fastq_illumina_filter --keep N -v -v -o Filtered reads were trimmed with Trimmomatic-0.30 to remove adapters and low-quality reads. SETTINGS: trimmomatic.jar PE -phred33 read1_filtered.fastq read2_filtered.fastq read1_trimmed_paired.fastq.gz read1_trimmed_unpaired.fastq.gz read2_trimmed_paired.fastq.gz read2_trimmed_unpaired.fastq.gz ILLUMINACLIP:../TruSeq3-PE.fa:2:30:10:8:TRUE TRAILING:20 MINLEN:35 ADAPTERS PrefixPE/1 TACACTCTTTCCCTACACGACGCTCTTCCGATCT, PrefixPE/2 GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT, PE1 TACACTCTTTCCCTACACGACGCTCTTCCGATCT, PE1_rc AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA, PE2 GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT, PE2_rc AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC, postindex ATCTCGTATGCCGTCTTCTGCTTG, postindex_rc CAAGCAGAAGACGGCATACGAGAT Trimmed reads were aligned with bowtie2 version2.1.0, default settings. bowtie2-build --offrate 1. Reference from ftp://ftp.flybase.net/genomes/Drosophila_melanogaster/dmel_r6.02_FB2014_05/fasta/dmel-all-transcript-r6.02.fasta.gz Aligned reads were quantified with eXpress 1.5.1, default settings. Transcript TPMs were merged to gene level and scaled up (x100) for downstream analysis. Differential expression analysis was performed using DE-Seq2. Genes with pad-j values less than 0.05 were considered differentially expressed. Genome_build: flybase dmel_r6.02_FB2014_05 Supplementary_files_format_and_content: Normalized TPM for across all eight samples. Transcript abundance estimates from eXpress were merged to gene level using flybase fbgn_fbtr_fbpp_fb_2015_04.tsv.gz and gene 'TPM' multiplied by 100 to scale. Gene-level 'TPM' normalized across samples using DESeq command ' estimateSizeFactors'.     rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of D-melanogaster rRNA sequences retrieved from NCBI on 13-May-2024.     Data were processed as described in GL-DPPD-7101-F (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-F.md), using NF_RCP-F version 1.0.4 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_RCP-F_1.0.4/RNAseq/Workflow_Documentation/NF_RCP-F). In short, raw fastq files were filtered using Trim Galore! (version 0.6.7) powered by Cutadapt (version 3.7). Trimmed fastq file quality was evaluated with FastQC (version 0.11.9), and MultiQC (version 1.12) was used to generate MultiQC reports. Drosophila melanogaster STAR and RSEM references were built using STAR (version 2.7.10a) and RSEM (version 1.3.1), respectively, Ensembl release 107, genome version BDGP6.32 (Drosophila_melanogaster.BDGP6.32.dna.toplevel.fa) and the following gtf annotation file: Drosophila_melanogaster.BDGP6.32.107.gtf. Trimmed reads were aligned to the Drosophila melanogaster STAR reference with STAR (version 2.7.10a) and alignment log files were compiled with MultiQC (version 1.12). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 4.0.0), gene body coverage using RSeQC geneBody_coverage.py (version 4.0.0), inner distance was assessed using RSeQC inner_distance.py (version 4.0.0), and distribution of RNA features using RSeQC read_distribution.py (version 4.0.0). Aligned reads from all samples were quantified using RSEM (version 1.3.1), with strandedness set to none and RSEM count log files were compiled with MultiQC (version 1.12). The runsheet was generated with dp_tools (version 1.3.4) and the runsheet and quantification data were imported to R (version 4.1.3) with tximport (version 1.27.1) and normalized with DESeq2 (version 1.34.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.1.3) using DESeq2 (version 1.34.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Dm.eg.db (version 3.15.0).     Flies were cultivated at 25 C and 50% relative humidity on standard fly food with 12 hour light-dark cycles. To generate synchronized 2 to 3 day old F1 flies, adult flies were allowed to lay for 48 hours in a bottle, then parent flies were discarded, and the bottles with eggs were allowed to grow into adult flies at 25 C. From the F1 generation, 2 to 3 day old flies were used for the chronic hypergravity studies.     We define our hypergravity condition as 3 times the Earth's gravitational acceleration (3 g). Hypergravity was mimicked using the standard centrifugation method (using a modified BECKMAN GS-6R centrifuge designed to attain low g levels 97 RPM is equal to 3 g). For chronic hypergravity exposure, 20 female and 20 male synchronized 2 to 3 day old flies were allowed to lay eggs while being maintained in the 3 g environment. Centrifugation was briefly stopped to discard the parent flies after 24 h of egg laying, and then immediately continued until the eggs developed into P6-staged pupae. P6-stage of pupae typically lasts between 25 and 43 h after pupation initiation (white puparium stage). We ascertained this stage by isolating pupae at 40 h after pupation, which is well within the P-6 stage. The development of green malpighian tubules is the hallmark of this stage, and we confirmed this by dissecting representative pupae. Similarly, 1 g controls were maintained in the dark, with the same angle of vial orientation so as to mimic the hypergravity-exposed flies. It is not possible to sex pupae at stage P6, as the differentiating male sex combs do not darken and become visible until stage P12.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "NASA Grant number: NNX15AB42G and NNX13AN38G; NIH S10 Grant number: S10RR029668 and S10RR027303.",
+          "Study Publication Author List": "Hateley S  Hosamani R  Bhardwaj SR  Pachter L  Bhattacharya S.",
+          "Project Link": "https://lsda.jsc.nasa.gov/Experiment/exper/13465",
+          "Study Publication Title": "Transcriptomic response of Drosophila melanogaster pupae developed in hypergravity.",
+          "Managing NASA Center": "NASA Ames Reseach Center (ARC)",
+          "Study Description": "Physical forces greatly influence the growth and function of an organism. Altered gravity can perturb normal development and induce corresponding changes in gene expression. Understanding this relationship between the physical and biological realms is important for NASA's space travel goals. We use combined RNA-Seq and qRT-PCR to profile changes in early Drosophila melanogaster pupae exposed to chronic hypergravity (3 g, three times Earth's gravity) to highlight gravity-dependent pathways and gene products. Robust transcriptional response was evident among the pupae developed in a hypergravity environment compared to control. 1,513 genes showed significantly (p less than 0.05) altered gene expression in the 3 g samples. These findings were supported with qRT-PCR data. Major biological processes affected include ion transport, redox homeostasis, immune and humoral stress response, proteolysis, and cuticle development.",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/r54r-wq28",
+          "url": "https://doi.org/10.26030/r54r-wq28"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1474243200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "eN_6g4QB28eYt3lGN7bp",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-70/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "",
+          "Project Identifier": "Simulated_Hypergravity, Simulated_Microgravity, Simulated_Environmental_Factors",
+          "Accession": "OSD-70",
+          "Identifiers": "GLDS-70",
+          "Study Identifier": "OSD-70",
+          "Study Protocol Name": "growth protocol     treatment protocol     GeneLab microarray data processing protocol     RNA extraction     labeling     nucleic acid hybridization     scan protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "We also thank Mrs. Aida Villa (IIB-UAM, Madrid, Spain), Mr. Allan Dowson and Mrs. Lobke Zuijderduijn (ESTEC-ESA, Noordwijk, The Netherlands) and Dr. Camelia Dijkstra and Dr. Michael Davey (University of Nottingham, UK) for excellent technical assistance during our visit to the ground base facilities and Prof. Laurence Eaves for a helpful review of the manuscript. Last but not least, we want to dedicate this paper to the memory of our colleague and friend Roberto Marco, on the fifth anniversary of his passing away last 27 June 2008, whose mentorship was crucial to allow this research to be completed.",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Herranz",
+            "Middle Initials": "",
+            "First Name": "Raul"
+          },
+          "Study Protocol Type": "growth protocol     treatment protocol     data transformation     RNA extraction     labeling     nucleic acid hybridization     scan protocol",
+          "Space Program": "",
+          "Study Title": "Environmental and facility conditions promote singular gravity responses of transcriptome during Drosophila metamorphosis",
+          "Study Factor Type": "Gravity, Altered     temperature     oxygen     Altered Gravity Simulator",
+          "Study Public Release Date": 1372204800.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-70/image",
+          "Study Factor Name": "Altered Gravity     Temperature     O2 Level     Altered Gravity Simulator",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE33779",
+          "Project Title": "",
+          "Study Funding Agency": "This work was supported by grants from the Spanish Space Program in the Plan Nacional de Investigacion Cientifica y Desarrollo Tecnologico and MICINN; the Dutch NWO-ALW-SRON grant and the UK Engineering and Physical Sciences Research Council (EPSRC), Basic Technology grants. Access to GBFs was granted by ESA. R. Herranz was supported by Spanish Ministerio de Educacion y Ciencia International Research Centers fellowships program in ESTEC and by the Consejo Superior de Investigaciones Cientificas CSIC JAE-Doc contract. RJAH acknowledges EPSRC for support under a Research Fellowship.",
+          "Study Protocol Description": "OreR late larvae were developed at 24C during 3.5 days into different gravitational and environmental conditions.     Early pupae were exposed to a cold step (delta-T) previous to the gravitational treatment or not. During the gravitational treatment pupae have a limited amount of oxigen (O2) in a closed container or not. Flies were exposed to different altered gravity simulators (RPM, Magnetic levitator, centrifgue) and immediately after the treatment were placed on ice in the Trizol solution (GibcoBRL). Descriptions of different GBFs (treatments''): LDC means ''Large Diameter Centrifuge''. Samples can be placed under three conditions: inside LDC (at certain g level), at the LDC rotational control and at external 1g control (outside the LDC). RPM means ''Random Positioning Machine''. Samples can be placed under two conditions: inside RPM (at nearly 0g, Microgravity level) and at external 1g control (outside the RPM). At the magnet, means INSIDE the Magnetic levitator (another GBF). Samples can be placed under four conditions: inside Magnet 0g* (at microgravity with magnetic field), inside Magnet at 1g* (internal control with magnetic field) or inside the magnet 2g* (at hypergravity with magnetic field) and at external 1g control (outside the magnet).     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Dm.eg.db (version 3.15.0).     Trizol extraction of total RNA was performed according to the manufacturer's instructions.     Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 4 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).     Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome 2.0 Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.     GeneChips were scanned using GeneChip Scanner 3000 7G System",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "This work was supported by grants from the Spanish Space Program in the Plan Nacional de Investigacion Cientifica y Desarrollo Tecnologico [ESP2006-13600-C02-01] and MICINN [AYA2009-07792-E]; the Dutch NWO-ALW-SRON grant [MG-057] and the UK Engineering and Physical Sciences Research Council (EPSRC)  Basic Technology grants [GR/S83005/01 and EP/G037647/1]. Access to GBFs was granted by ESA contract number 4200022650. R. Herranz was supported by Spanish Ministerio de Educacion y Ciencia International Research Centers fellowships program in ESTEC and by the Consejo Superior de Investigaciones Cientificas CSIC JAE-Doc contract. RJAH acknowledges EPSRC for support under a Research Fellowship [EP/I004599/1 and EP/J005452/1].",
+          "Study Publication Author List": "Herranz R  Larkin OJ  Hill RJ  Lopez-Vidriero I  van Loon JJ  Medina FJ.",
+          "Project Link": "",
+          "Study Publication Title": "Suboptimal evolutionary novel environments promote singular altered gravity responses of transcriptome during Drosophila metamorphosis.",
+          "Managing NASA Center": "",
+          "Study Description": "Genome-wide transcriptional profiling showed that reducing gravity levels in the International Space Station (ISS) causes important alterations in Drosophila gene expression intimately linked to imposed spaceflight-related environmental constrains during Drosophila metamorphosis. However, simulation experiments on ground testing space-related environmental constraints, show differential responses. Curiously, although particular genes are not common in the different experiments, the same GO groups including a large multigene family related with behavior, stress response and organogenesis are over represented in them. A global and integrative analysis using the gene expression dynamics inspector (GEDI) self-organizing maps, reveals different degrees in the responses of the transcriptome when using different environmental conditions or microgravity/hypergravity simulation devices. These results suggest that the transcriptome is finely tuned to normal gravity. In regular environmental conditions the alteration of this constant parameter on Earth can have mild effects on gene expression but when environmental conditions are far from optimal, the gene expression is much more intense and consistent effects.",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/syws-9962",
+          "url": "https://doi.org/10.26030/syws-9962"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1372204800
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "vN_6g4QB28eYt3lGKbVv",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-34/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "Simulated_Microgravity, Simulated_Hypergravity",
+          "Accession": "OSD-34",
+          "Identifiers": "GLDS-34",
+          "Study Identifier": "OSD-34",
+          "Study Protocol Name": "P-GSE33801-3     P-GSE33801-2     P-GSE33801-4     P-GSE33801-5     P-GSE33801-7     P-GSE33801-6     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Herranz",
+            "Middle Initials": "",
+            "First Name": "Raul"
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     nucleic acid extraction protocol     labelling protocol     array scanning protocol     hybridization protocol     data transformation",
+          "Space Program": "Spanish Space Program",
+          "Study Title": "Environmental and simulation facility conditions can modulate a behavioral-driven altered gravity response of Drosophila imagoes transcriptome",
+          "Study Factor Type": "age     Sex     temperature     Gravity, Altered     Altered Gravity Simulator",
+          "Study Public Release Date": 1372204800.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-34/image",
+          "Study Factor Name": "Age     Sex     Temperature     Altered Gravity     Altered Gravity Simulator",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-GEOD-33801",
+          "Project Title": "",
+          "Study Funding Agency": "This work was supported by grants from the Spanish Space Program [ESP2006-13600-C02-01] and MICINN [AYA2009-07792-E]; the Dutch NWO-ALW-SRON grant [MG-057] and the UK Engineering and Physical Sciences Research Council, Basic Technology grant [GR/S83005/01] and Basic Technology Translation grant [EP/G037647/1].",
+          "Study Protocol Description": "OreR young (2 days-old)/mature (2 week-old) male/females were exposed to different gravitational facilities at 14C or 24C during 3-5 days.     Flies were exposed to different altered gravity simulators (RPM, Magnetic levitator, centrifgue) and immediately after the treatment were placed on ice in the Trizol solution (GibcoBRL).     Trizol extraction of total RNA was performed according to the manufacturer's instructions.     Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 4 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).     GeneChips were scanned using GeneChip Scanner 3000 7G System     Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome 2.0 Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Dm.eg.db (version 3.15.0).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Herranz R  Hill R J  Dijkstra C E  Eaves L  van Loon J J and Medina F J.",
+          "Project Link": "",
+          "Study Publication Title": "The behavioural-driven response of the Drosophila imago transcriptome to different types of modified gravity.",
+          "Managing NASA Center": "",
+          "Study Description": "Genome-wide transcriptional profiling shows that reducing gravity levels in the International Space Station (ISS) causes important alterations in Drosophila gene expression. However, simulation experiments on ground, without space constraints, show weaker effects than space environment. A global and integrative analysis using the gene expression dynamics inspector (GEDI) self-organizing maps, reveals a subtle response of the transcriptome using different populations and microgravity and hypergravity simulation devices. These results suggest that, in addition to behavioural responses that can be detected also at the gene expression level, the transcriptome is finely tuned to normal gravity. The alteration of this constant parameter on Earth can have effects on gene expression that depends both on the environmental conditions and the ground based facility used to compensate the gravity vector. Alternative and commons effects of mechanical facilities, like the Random Positioning Machine and a centrifuge, and strong magnetic field ones, like a cryogenically cooled superconductive magnet, are discussed. We compare the effects over the gene expression profile of different sex/age Drosophila imagoes in 3-4 days-long experiments under altered gravity conditions into three GBF (Ground Based Facilities for micro/hyper- gravity simulation) using whole genome microarray platforms. Descriptions of different GBFs (treatments): LDC means Large Diameter Centrifuge. Samples can be placed under three conditions: inside LDC (at certain g level), at the LDC rotational control and at external 1g control (outside the LDC). RPM means Random Positioning Machine. Samples can be placed under two conditions: inside RPM (at nearly 0g, Microgravity level) and at external 1g control (outside the RPM). At the magnet, means INSIDE the Magnetic levitator (another GBF). Samples can be placed under four conditions: inside Magnet 0g* (at microgravity with magnetic field), inside Magnet at 1g* (internal control with magnetic field) or inside the magnet 2g* (at hypergravity with magnetic field) and at external 1g control (outside the magnet)",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.25966/8h5h-ab49",
+          "url": "https://doi.org/10.25966/8h5h-ab49"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1372204800
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Od_6g4QB28eYt3lGMrb3",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-27/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "Simulated_Microgravity, Simulated_Hypergravity",
+          "Accession": "OSD-27",
+          "Identifiers": "GLDS-27",
+          "Study Identifier": "OSD-27",
+          "Study Protocol Name": "treatment protocol     P-MTAB-3463     P-AFFY-2     Affymetrix:Protocol:Hybridization-Unknown     P-AFFY-6     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "RJAH acknowledges EPSRC for support of a Research Fellowship (EP/I004599/1). RH acknowledges CSIC for support of a Research Fellowship (JAE-Doc 2008 program).",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Herranz",
+            "Middle Initials": "",
+            "First Name": "Raul"
+          },
+          "Study Protocol Type": "treatment protocol     nucleic_acid_extraction     labeling     hybridization     feature_extraction     data transformation",
+          "Space Program": "ESA",
+          "Study Title": "Transcription profiling of Drosophila exposed to a levitation magnet for different lengths of time",
+          "Study Factor Type": "duration     sex     temperature     Weightlessness Simulation",
+          "Study Public Release Date": 1277942400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-27/image",
+          "Study Factor Name": "Duration     Sex     Temperature     Microgravity Simulation",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-MEXP-2082",
+          "Project Title": "",
+          "Study Funding Agency": "This work was supported by grants from the Spanish Space Program in the Plan Nacional de Investigacion Cientifica y Desarrollo Tecnologico ESP2006-13600-C02-01 and -02, AYA2009-07792-E awarded to RM, FJM and RH. RPM access was possible due to the Dutch Space Research Organization NWO-ALW-SRON grant MG-057 to JJWAvL. Research using the superconducting magnet was supported by grants from the UK Engineering and Physical Sciences Research Council (EPSRC), Nos. GR/S83005/01 and EP/G037647/1.",
+          "Study Protocol Description": "To maximise the output of our magnet experimental time we performed three experiments under different environmental conditions inside the magnet, which, for convenience, we refer to by the duration of the experiment ('short-term', 'medium-term', 'long-term'). 1) Short-term'' (1 day) experiment Virgin females were mated overnight with an excess of young males. Male and female 1-2 day old Oregon R Drosophila melanogaster flies were both exposed to diamagnetic levitation for the following 26 hours at 14C. During this time, their behaviour was monitored using CCD cameras. After exposure to the magnetic field, the eggs laid inside the magnet were counted and were allowed to hatch in order to monitor the normality of the developmental process of eggs formed during levitation conditions. Both males and females were homogenised separately to study their gene expression profiles by microarray analysis. Our choice of 14C for the bore temperature was based on preliminary observations indicating that any effects may be amplified by suboptimal growth conditions. For comparison, we performed an additional control well away from the magnet (i.e. far enough away that it was not influenced by the field of the superconducting magnet), but otherwise under similar conditions. 2) ''Medium-term'' (5 day) experiment Pupae (OregonR Drosophila early pupae) collected in Madrid and transported to Nottingham at 14C were incubated in the magnet for 5 days at 24C, to analyse the effect on the metamorphosis of the flies replicating the design of a real space experiment performed on-board the ISS. Pupae were allowed to develop into adults inside the magnet to study phenotypic alterations. Recently-hatched flies were separated into males and females and then homogenised in bulk. RNA was extracted and assayed using microarrays to determine the effect of the magnetic field on the expression profile. 3) ''Long-term'' (22 day) experiment The samples (recently-laid OregonR Drosophila eggs) were exposed to the magnetic field for 22 days at 19C to analyse the effect of the magnetic field and altered effective net weight of the flies on their entire life cycle, from embryo to embryo. The larvae were allowed to pupate in situ and a second generation of flies hatched under these conditions. The second generation imagoes were removed from the magnet and separated into males and females. The males were homogenised to extract the RNA and assayed for gene expression using microarrays. The females were allowed to lay eggs in order to monitor embryo development. In addition to the 19C experiments, we also performed an additional external control (i.e. outside the magnet) at 24C, and a replicate long-term experiment (i.e. 22 days at 19C) in the RPM (0 gRPM, 1 gRPM) at the Dutch Experiment Support Center, DESC at OCB-ACTA, VU-University of Amsterdam, the Netherlands.''     TRIZOL commertial protocol\n(Parameters: Extracted product equals total_RNA, Amplification equals none)     Affymetrix in vitro transcription.     Affymetrix Generic Hybridization     Affymetrix CEL analysis     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Dm.eg.db (version 3.15.0).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "This work was supported by grants from the Spanish Space Program in the Plan Nacional de Investigacion Cientifica y Desarrollo Tecnologico ESP2006-13600-C02-01 and -02  AYA2009-07792-E awarded to RM  FJM and RH. RPM access was possible due to the Dutch Space Research Organization NWO-ALW-SRON grant MG-057 to JJWAvL. Research using the superconducting magnet was supported by grants from the UK Engineering and Physical Sciences Research Council (EPSRC)  Nos. GR/S83005/01 and EP/G037647/1.",
+          "Study Publication Author List": "Herranz R  Larkin OJ  Dijkstra CE  Hill RJ  Anthony P  Davey MR  Eaves L  van\nLoon JJ  Medina FJ  Marco R.",
+          "Project Link": "",
+          "Study Publication Title": "Microgravity simulation by diamagnetic levitation:\neffects of a strong gradient magnetic field on the transcriptional profile of\nDrosophila melanogaster.",
+          "Managing NASA Center": "",
+          "Study Description": "Drosophila samples were exposed to the levitation magnet inside a 25mm diameter tubes with 3 ml of yeast-based Drosophila food in the bottom and a chamber of only 5 mm of height over the food. This small region is needed in order to guarantee that all the flies were located in the effective g area so a maximum of 35 to 40 imagos or pupa can be exposed to each condition per experiment. All experiments were carried out with a parallel 1g external control in a temperature regulated incubator outside the magnet. Three experiments of different duration were performed inside the magnet system to analyze the effect of strong magnetic fields and magnetic levitation during different stages of the Drosophila development",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.25966/yrtm-xr04",
+          "url": "https://doi.org/10.25966/yrtm-xr04"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1277942400
+        ]
+      }
+    ]
+  }
+}

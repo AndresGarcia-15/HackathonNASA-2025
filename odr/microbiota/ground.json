@@ -1,0 +1,652 @@
+{
+  "took": 3,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 10,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "TKfaRZcBcf0G5Rgi1jI6",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-701/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Dust",
+          "Project Identifier": "",
+          "Accession": "OSD-701",
+          "Identifiers": "GLDS-631",
+          "Study Identifier": "OSD-701",
+          "Study Protocol Name": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Analysis Data Transformation     GeneLab raw data processing protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "The authors would like to thank Dr. Mark Ott, staff at the NASA Microbiology Laboratory, and staff at the Toxicology and Environmental Chemistry (TEC) for help in obtaining dust from the International Space Station.  The authors would also like to acknowledge National Aeronautics and Space Administration (NASA) grant 80NSSC19K0429 and National Science Foundation (NSF) grant 1942501 to support the work. The authors would also like to thank the Ohio Supercomputer for computational time to complete the analysis.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Balasubrahmaniam Dannemiller",
+            "Middle Initials": " C.",
+            "First Name": "Neeraja Karen"
+          },
+          "Study Protocol Type": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Analysis Data Transformation     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Exposure to elevated relative humidity in laboratory chambers alters fungal gene expression in dust from the International Space Station (ISS)",
+          "Study Factor Type": "relative humidity",
+          "Study Public Release Date": 1749168000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-701/image",
+          "Study Factor Name": "Relative Humidity",
+          "Study Assay Measurement Type": "metatranscriptome sequencing assay",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "National Aeronautics and Space Administration (NASA) grant 80NSSC19K0429 and National Science Foundation (NSF) grant 1942501",
+          "Study Protocol Description": "Dust was collected from the International Space Station (ISS) HEPA filter covering using a vacuum cleaner. The filter is part of the ISS air ventilation system. Dust samples in the vacuum bag were returned to Earth and sent to the Indoor Environmental Quality (IEQ) Laboratory at the Ohio State University. Four different vacuum bags that were sealed and returned to Earth over a period of 12 months in 2019 and 2020 on SpaceX Commercial Resupply Services (CRS) missions from the ISS. Dust samples were stored at ambient temperature on the ISS, during transit, and at the IEQ lab until ready for incubation.     RNA was extracted using the Qiagen RNeasy Powermicrobiome kit with 10X the amount of B-mercaptoethanol and 70% ethanol instead of PM4 during the PM3 and PM4 addition to account for RNA degradation as per the extraction kit protocol.\nQA was performed at Yale Center for Genome Analysis (CT, USA) prior to being sequenced using an Agilent 2100 Bioanalyzer with a Pico assay.     RNASeq library preparation was performed using the NEBNext Single Cell/Low Input RNA Library Prep Kit and the NEB Ultra II FS workflow for Illumina at Yale Center of Genome Analysis (YCGA). The polyA protocol was used to select for eukaryotic mRNA.     RNA extracts were reverse transcribed and then sequenced on a NovaSeq 6000 2x100 lane with 25 million reads per sample at Yale Center for Genomic Analysis (Yale University, CT, USA).     Briefly, quality assessment of sequences was performed using FastQC. Erroneous k-mers were removed using the tool rCorrector.\nDe novo metranscriptome assembly was carried out using Trinity with the default settings. All contigs with length less than 300 base pairs (bp) were removed using Trimmomatic. Contigs from the Trinity assembly were clustered using CD-HIT-EST and these clusters represent all expressed contigs of the full transcriptome. RSEM was used to estimate transcript abundance in each sample and Bowtie2 was used to determine transcript-level estimates of RNA-Seq fragments. Differentially gene expression of transcripts (and genes) was performed using DESeq2 within Trinity. Trinotate (in combination with TransDecoder) was used for annotation utilizing a BLAST search against Swiss-Prot, as well as PFAM. Trinotate also annotated for Gene Ontology (GO) and KEGG ontology (KO) terms. GO enrichment was performed using GOseq within the Trinity pipeline.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12.",
+          "Experiment Platform": "HEPA Filter Covering Dust/Debris",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Ashleigh Bope  Neeraja Balasubrahmaniam  Nicholas Nastasi  Bridget Hegarty  John M. Horack  Marit E. Meyer  Sarah R. Haines  Karen C. Dannemiller",
+          "Project Link": "",
+          "Study Publication Title": "Exposure to elevated relative humidity in laboratory chambers alters fungal gene expression in dust from the International Space Station (ISS)",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "Microbes are present in all occupied indoor environments, including the International Space Station (ISS). An unexpected ventilation system failure may lead to microbial and fungal growth that is associated with material degradation or negative health effects. There is a need for improved understanding of fungal function when exposed to moisture in indoor spaces. A de novo metatranscriptomic study was performed using dust collected from within the ISS. After returning to Earth, dust was incubated in laboratory chambers to simulate relative humidity conditions of 50%, 85%, or 100% equilibrium relative humidity (ERH) for 1-week. Changes in fungal function (gene expression) were associated with moisture exposure. Genes associated with secondary metabolism and fungal growth were significantly upregulated (p ≤ 0.001, log2FC ≥ 2) at elevated RH conditions (85% or 100% ERH). Elevated moisture conditions showed an increased expression of mycotoxin and fungal allergen genes such as Asp f 4 and Alt a 7 (log2FC ≥ 5). These results demonstrate that understanding microbial gene expression in response to elevated moisture will help improve microbial monitoring standards for confined spacecraft environments and help protect astronaut health and spacecraft integrity.",
+          "organism": "Microbiota",
+          "Data Source Type": "cgene"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1749168000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "HwsqKpUBWrv14Z5vEBEy",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-809/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells     Attached Biofilms",
+          "Project Identifier": "Simulated_Environmental_Factors",
+          "Accession": "OSD-809",
+          "Identifiers": "GLDS-696",
+          "Study Identifier": "OSD-809",
+          "Study Protocol Name": "growth protocol     treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     human read contaminant filtering     GeneLab raw data processing protocol",
+          "Study Assay Technology Type": "Whole-Genome Shotgun Sequencing",
+          "Acknowledgments": "This work was supported by the NASA Mars Campaign Office. The authors would like to thank the support of those at the NASA Kennedy Space Center and University of South Florida who made this work possible.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Saetta",
+            "Middle Initials": "",
+            "First Name": "Daniella"
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation     data transformation",
+          "Space Program": "",
+          "Study Title": "Effects of an anaerobic membrane bioreactor upset event on nitrogen speciation and microbial community in a downstream phototrophic membrane bioreactor",
+          "Study Factor Type": "time",
+          "Study Public Release Date": 1740096000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-809/image",
+          "Study Factor Name": "Time",
+          "Study Assay Measurement Type": "Metagenomic sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "NASA Mars Campaign Office",
+          "Study Protocol Description": "Chlorella sorokiniana (UTEX B 2805) was used as the primary microalgae species for this study. The algae culture was initially grown in the nitrate-based Modified Bold 3M medium. To mimic conditions for the influent of the PMBR, the algae culture was acclimated to an ammonia-based medium before inoculation of the reactor. The recipe of the ammonia-based medium was created based on values described by Sueoka, 1960, Hwang and Hudock, 1971, Surzycki, 1971, and Lidholm et al., 1987. 21–24 It has an ammonium (NH4+) concentration of 169.6 mg/L and a C/N ratio of 0.16. The medium recipe is provided in Table S1. The mother culture was grown in a 5 L bottle with mixing at 125 RPM, constant temperature (30°C), and constant light (400 μmol/m²/s) (Heliospectra Elixia, LX601C grow light). Room air was continuously pumped into the bottle at a flow rate of 1 L/min. The bottle was sealed and the air delivery was filtered through a 0.22 µm PTFE filter, but other aseptic methods were not followed when handling the culture. This allowed for a consortium of algae and bacteria to grow in the mother culture. Weekly feeding of the mother culture consisted of removing ¼ of the culture volume and replacing it with an equal volume of the ammonia-based medium. The mother culture was fed in this manner for 1.5 years prior to the beginning of this study period. The PMBR was seeded with a mixture of the mother culture and tap water to a measured optical density of 1 at 680 nm at the beginning of the experiment.     The photomembrane bioreactor (PMBR) is a technology designed to continuously treat anaerobic membrane bioreactor (AnMBR) permeate using an algal-bacterial culture. In this study, the PMBR experienced a transient event that altered nominal conditions. The C/N ratio in the AnMBR permeate increased from less than 1 to greater than 11. This caused a shift in the culture. The samples taken on Day 101 were taken while the culture was experiencing the effects of the transient event. The samples taken on Day 161 were taken after the C/N ratio in the AnMBR permeate decreased to nominal values. Mother culture samples were taken to show the difference between the reactor samples and the mother culture used to seed the reactor.     Whole genome sequencing samples were taken for three sample types: (1) the mother culture used to inoculate the reactor, (2) the reactor and biofilm samples during the peak in the transient event (day 101), and (3) the reactor samples post transient event (day 161). The biofilm samples were taken from the corner where the AnMBR permeate was introduced into the PMBR (called the “Biofilm Feed Corner” sample), the area around the float switch used for level sensing (called the “Biofilm Float Switch” sample), and the corner where the membrane recirculation was reintroduced into the reactor (called the “Biofilm Recirc Corner” sample). Only reactor contents were sampled for the time point after the reactor recovered from the transient event because the thick biofilms were no longer present.     Whole genome sequencing was performed on DNA samples extracted with Qiagen’s DNeasy PowerLyzer PowerSoil Kit.     DNA libraries were prepared for shotgun metagenomic sequencing with unique dual indices using Illumina’s DNA Prep kit and protocols (Illumina, San Diego, CA, United States).     Libraries were diluted to 8 pM, and loaded onto a 500-cycle V2 kit and run on an Illumina Miseq sequencing platform following manufacturer’s instructions (Illumina, San Diego, CA, United States).     Utilizing kraken2 v2.1.1, a human genome reference database was constructed from NCBI's RefSeq (GCF_000001405.39) GRCh38.p13, with --no-masking, and defaults of kmer-length 35 and minimizer-length of 31. FASTQ files were screened against this database, and all successfully classified reads were removed.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Daniella Saetta  Jason A. Fischer  Ashley Triana  Talon Bullard  Alexandra Smith  Cory J. Spern  Anirudha Dixit  Christina L. Khodadad  Daniel H. Yeh  and Luke B. Roberson.",
+          "Project Link": "",
+          "Study Publication Title": "Effects of an anaerobic membrane bioreactor upset event on nitrogen speciation and microbial community in a downstream phototrophic membrane bioreactor",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "A wastewater treatment architecture with an anaerobic membrane bioreactor and a phototrophic membrane bioreactor was created to close resource loops for use on the Moon and Mars. During an anomaly, an increase of carbon-to-nitrogen ratio led to a shift in the microbial community within PMBR photomembrane bioreactor (PMBR). It is imperative to understand failure modes of the system and the system’s ability to respond to perturbations in treatment because of their proposed application in remote, resource-limited locations. During this transient event, the carbon-to-nitrogen ratio in the AnMBR permeate increased from 0.341 to 11.2. Results showed that the microbial community became more diverse during the event and enriched in species related to the remediation of aromatic compounds. The community shift led to conditions required for greater than 90% carbon removal by the PMBR. The inclusion of the PMBR in the treatment architecture increased resilience and robustness for treating high-strength wastewaters in extreme environments.",
+          "organism": "Microbiota",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/vmzd-0s72",
+          "url": "https://doi.org/10.26030/vmzd-0s72"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1740096000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "RdwFkZIB5gkSzr3qQdmG",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-723/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "",
+          "Project Identifier": "Simulated_Environmental_Factors",
+          "Accession": "OSD-723",
+          "Identifiers": "GLDS-645",
+          "Study Identifier": "OSD-723",
+          "Study Protocol Name": "Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     human read contaminant filtering     GeneLab raw data processing protocol     growth protocol     treatment protocol     sample collection",
+          "Study Assay Technology Type": "Whole-Genome Shotgun Sequencing",
+          "Acknowledgments": "We would like to thank our KSC resource officers, Sean Dunne and Dinah Dimapilis, for ensuring access to funds to complete this work. We would like to thank our Life Support Systems colleague, Michael Callahan, of Johnson Space Center for communication on exploration plans for the use of silver in water systems.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Spencer Costine Irwin Dixit Spern Diaz Lozzi Li Khodadad Smith Wheeler O'Rourke",
+            "Middle Initials": "",
+            "First Name": "LaShelle Blake Tesia Anirudha Cory Angie Brittney Wenyan Christina Trent Raymond Aubrie"
+          },
+          "Study Protocol Type": "Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation     data transformation     growth protocol     sample treatment protocol     sample collection",
+          "Space Program": "NASA",
+          "Study Title": "Substrate Matters: Ionic Silver Alters Lettuce Growth, Nutrient Uptake, and Root Microbiome in a Hydroponics System",
+          "Study Factor Type": "Organism Part     Growth Time     treatment     Growth Medium",
+          "Study Public Release Date": 1728950400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-723/image",
+          "Study Factor Name": "Organism Part     Growth Time     Treatment     Growth Medium",
+          "Study Assay Measurement Type": "Metagenomic sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "This research was made possible by Center Innovation Funding (CIF) from NASA’s Science and Technology Mission Directorate (STMD) to Kennedy Space Center (KSC) Exploration and Research Technology (ER and T) Division.",
+          "Study Protocol Description": "For DNA extractions, shoot and root tissue (48 arcillite shoots, 48 arcillite root samples, 48 hydroponic shoots, and 48 hydroponic roots) were ground to a coarse powder in liquid nitrogen using a mortar and pestle. Approximately 100 mg of shoot/root tissue was processed for DNA extraction using the ZymoBIOMICS DNA Miniprep kit (Zymo Research, Irvine, CA, USA) following the manufacturer's recommendations.     A total of 108 water samples from the hydroponic trays were concentrated using the CP SELECT (0.20 um) instrument and eluted in 750 uL 0.075% Tween 20/Tris buffer (InnovaPrep, Drexel, MO, USA). Following DNA isolation, 1 ug of each sample was processed using NEBNext Microbiome DNA Enrichment Kit (New England Biolabs, Ipswich, MA, USA) following the manufacturer's recommendations. Microbial enriched fractions were quantified using a Qubit dsDNA HS kit (Invitrogen, Carlsbad, CA, USA). Shotgun metagenomic sequencing libraries were prepared using an Illumina DNA Prep library preparation kit with unique dual indexes via IDT for Illumina DNA/RNA UD Indexes (Illumina Inc., San Diego, CA, USA).     Libraries were sequenced as paired-end 150 bp sequences on a NextSeq 1000 instrument (V1.5.0.42699) at Kennedy Space Center.     Utilizing kraken2 v2.1.1, a human genome reference database was constructed from NCBI's RefSeq (GCF_000001405.39) GRCh38.p13, with --no-masking, and defaults of kmer-length 35 and minimizer-length of 31. FASTQ files were screened against this database, and all successfully classified reads were removed.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12.     Plant Growth Environmental Conditions\nLettuce (Lactuca sativa cv. ‘Outredgeous’) was grown in environmental growth chambers (Percival PGW-48, Perry, IA, USA) located in the Space Station Processing Facility at NASA Kennedy Space Center, Florida (located at sea level with an atmospheric pressure of ~101 kPa). The chamber air temperature, relative humidity (RH), and CO2 levels were maintained at 23 C, 50%, and 3000 ppm, respectively, for all tests. These set points were selected to simulate an average environment of the ISS. Lighting was provided by overhead light-emitting diode (LED) grow lights (Percival, Perry, IA, USA). The photosynthetic photon flux density (PPFD) target was 300 umol m^−2 s^−1 averaged over the entire canopy, with a 16 h (16 h light/8 h dark) photoperiod. Spectral quality consisted of 23% blue (400–500), 27% green (500–600 nm), 50% red (600–700 nm), and 25 µmol m^−2 s^−1 of far red using a combination of 450 nm, 660 nm, 730 nm, and white (6000 K) LEDs.     Ionic Silver Treatment\nThe design specifications for a silver dosing device in a spacecraft potable water system include the ability to add between 200 to 500 ppb (0.2–0.5 mg/L) of silver. Accordingly, we selected a dilution series of ionic silver to encompass: (1) the highest possible dose (500 ppb) to dispense from the potable water system; (2) a dose (~125 ppb) close to the acceptable drinking water dose limits of silver, which is 100 ppb; and (3) the lowest dose (31 ppb) to represent a dose thought to have next to no adverse effects in a substrate-based system as reported in the literature. An AgFoam cartridge was used as the Ag+ doser and consists of a 290 mL in-line flow-through polypropylene cartridge filled with an AgFoam. The AgFoam is a polyurethane and silver chloride nanoparticle (AgClNP) composite material that releases Ag+ into the water via the dissolution of the AgCl. This was used to produce the three separate Ag+ concentrations (31 ppb, 125 ppb, 500 ppb). Deionized water was pumped through the AgFoam cartridge at a constant flow rate and the effluent was collected in 20 L carboys. The flow rate was adjusted to provide enough contact time to reach a 500 ppb concentration of Ag+ in the effluent water. The Ag+ concentration was determined using a silver ion selective electrode (ISE). From this stock silver water, the appropriate dilutions were made using deionized water and confirmed using the ISE. The final silver solutions were then filtered using a 0.22 μm filter and stored in a sterile carboy with a spigot for dispensing. The starting concentrations were measured using ISE and checked weekly to ensure no silver depletion.\n\nExperimental Design\nTreatments included one control and three dilutions of Ag+ residual biocide water (0 ppb/control, 31 ppb, 125 ppb, and 500 ppb). Each treatment was applied to two arcillite trays or Nutrient Film Technique (NFT) hydroponic systems (each containing 8 plants) providing n equals 16 technical replicates. Trays/systems were randomly positioned to minimize chamber effects. Each experiment was repeated with three grow outs for the arcillite and NFT hydroponics systems to obtain a biological replication of three. This amounted to 16 subsample plants per control and treatment for a total of 48 samples per control and each of the treatments. Plants were grown for 28 days to achieve a mature specimen, similar to what would be ingested by the crew in an ISS operation setting.\n\nArcillite Testing\nSanitized lettuce seeds were sown in square plastic pots (9 cm tall, 10.2 cm width) containing autoclaved arcillite (Turface Athletics Pro League Elite, PROFILE Products LLC; Buffalo Grove, IL, USA) amended with 7.5 g/L T70 16-6-8 Nutricote controlled-release fertilizer (Florikan, Bowling Green, FL, USA). Arcillite consists of particles of calcined clay and has commonly been used for spaceflight testing with plants [4]. In each pot, four seeds were sown on the surface of moistened media. Then, pots were placed in trays (size: 1020; dimensions: 10.94″ W × 21.44″ L × 2.44″ D). Plots were manually irrigated and checked daily. Each tray was irrigated with the above-outlined dilutions of filter-sterilized residual biocide-treated water. Trays were covered with a clear dome for 2–3 days to promote germination. Once true leaves emerged, seedlings were thinned to one per pot. Arcillite growth experiments were conducted in three grow-outs to obtain a biological replication of three with 16 subsamples per control and treatment.\n\nHydroponic Testing\nSanitized lettuce seeds were sown in rockwool cubes (Grodan, Roermond, The Netherlands). Two seeds were sown per cube and then placed in Crop King desktop NFT systems (Cropking, Lodi, OH, USA). Each system was supplied with non-filter sterilized modified 0.5 × Hoagland’s/Arnon solution made with the above-outlined dilutions of filter sterilized Ag+ residual biocide treated water. Each system had pH and electrical conductivity (EC) checked and adjusted manually daily. Additions of 1 M nitric acid were used to maintain pH levels to 5.7–5.8 and EC to 1.2 mS cm^−1. Nutrient solution changeouts were completed weekly with freshly prepared solutions to maintain biocide treatment conditions and replenish nutrients. NFT systems were covered with a clear dome for 2–3 days to promote germination. Once true leaves emerged, seedlings were thinned to one per plug. Hydroponic growth experiments were conducted in three grow-outs to obtain a biological replication of three with 16 technical replicates per control and treatment.     Twelve water control samples were processed at the start of the hydroponics and arcillite experiment. Tissue and water were flash-frozen in 50 mL conical tubes in liquid nitrogen and stored at 80 C until further use.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Spencer L  Costine B  Irwin T  Dixit A  Spern C  Diaz A  Lozzi B  Li W  Khodadad C  Smith T  Wheeler R  O'Rourke A.",
+          "Project Link": "",
+          "Study Publication Title": "Substrate Matters: Ionic Silver Alters Lettuce Growth, Nutrient Uptake, and Root Microbiome in a Hydroponics System.",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "Ionic silver (Ag+) is being investigated as a residual biocide for use in NASA spacecraft potable water systems on future crewed missions. This water will be used to irrigate future spaceflight crop production systems. We have evaluated the impact of three concentrations (31 ppb, 125 ppb, and 500 ppb) of ionic silver biocide solutions on lettuce in an arcillite (calcinated clay particle substrate) and hydroponic (substrate-less) growth setup after 28 days. Lettuce plant growth was reduced in the hydroponic samples treated with 31 ppb silver and severely stunted for samples treated at 125 ppb and 500 ppb silver. No growth defects were observed in arcillite-grown lettuce. Silver was detectable in the hydroponic-grown lettuce leaves at each concentration but was not detected in the arcillite-grown lettuce leaves. Specifically, when 125 ppb silver water was applied to a hydroponics tray, Ag+ was detected at an average amount of 7 ug/g (dry weight) in lettuce leaves. The increase in Ag+ corresponded with a decrease in several essential elements in the lettuce tissue (Ca, K, P, S). In the arcillite growth setup, silver did not impact the plant root zone microbiome in terms of alpha diversity and relative abundance between treatments and control. However, with increasing silver concentration, the alpha diversity increased in lettuce root samples and in the water from the hydroponics tray samples. The genera in the hydroponic root and water samples were similar across the silver concentrations but displayed different relative abundances. This suggests that ionic silver was acting as a selective pressure for the microbes that colonize the hydroponic water. The surviving microbes likely utilized exudates from the stunted plant roots as a carbon source. Analysis of the root-associated microbiomes in response to silver showed enrichment of metagenomic pathways associated with alternate carbon source utilization, fatty-acid synthesis, and the ppGpp (guanosine 3'-diphosphate 5'-diphosphate) stringent response global regulatory system that operates under conditions of environmental stress. Nutrient solutions containing Ag+ in concentrations greater than 31 ppb in hydroponic systems lacking cation-exchange capacity can severely impact crop production due to stunting of plant growth.",
+          "organism": "Microbiota",
+          "Data Source Type": "cgene"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1728950400
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "gxtk9okBiXs0LFsRdsg1",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-594/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Plant Roots     root     leaf     Cells     stem",
+          "Project Identifier": "",
+          "Accession": "OSD-594",
+          "Identifiers": "LSDS-32     GLDS-582",
+          "Study Identifier": "OSD-594",
+          "Study Protocol Name": "growth protocol     treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     human read contaminant filtering",
+          "Study Assay Technology Type": "Whole-Genome Shotgun Sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Oxford Nanopore Technologies",
+          "Study Person": {
+            "Last Name": "Haveman Schuerger Yu Brown Doebler Paul Ferl",
+            "Middle Initials": " C J",
+            "First Name": "Natasha Andrew Pei-Ling Mark Robert Anna-Lisa Robert"
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Advancing the automation of plant nucleic acid extraction for rapid diagnosis of plant diseases in space",
+          "Study Factor Type": "Organism Part     treatment",
+          "Study Public Release Date": 1691971200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-594/image",
+          "Study Factor Name": "Organism Part     Treatment",
+          "Study Assay Measurement Type": "Metagenomic sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "NASA SMD TIDES 80NSSC22K0160",
+          "Study Protocol Description": "Pathosystem  1 Lettuce-Pythium: Lettuce seeds (Lactuca sativa) cv., ‘Outredgeous Red’ (Johnny’s Selected Seeds, Winslow, ME, USA) were propagated into autoclaved silica sand and irrigated.  Plants were grown under LED arrays for 21 days.\n\nPathosystem  2 Tomato-Fusarium: Tomato seeds (Solanum lycopersicum) cv., ‘Red Robin’ (Totally Tomatoes, Inc., Randolph, WI, USA), were propagated in 0.5% Phytagel/0.5×MS media in Magenta Vessels. Plants were grown under a broad-spectrum LED light bank (100 µmoles/m2) at 22°C +/- 2°C. Tomato seedlings were allowed to develop for approximately 21 days until true leaves were observed.     Plants were grown under red, blue, green, and white light-emitting diode (LED) arrays that delivered approx. 275 µmol m-2 s-1 photosynthetic active radiation (PAR; 400-700 nm) in a 12:12 diel cycle.  The LED arrays were purchased from Fairchild Tropical Botanic Garden (Coral Gables, FL, USA).  The red/green/blue/white LED bands were set at ratios of approx. 150:40:20:125. All LED arrays were installed in microbial incubators set at the temperatures indicated below for each plant species. Each pathosystem was tested separately as to avoid cross-contamination of the phytopathogens among diverse crops.\n\nPathosystem  1 Lettuce-Pythium: After 21 days plants were inoculated with the fungal phytopathogen, Pythium aphanidermatum (strain P1717; from Erica Goss, Dept. of Plant Pathology, Univ. of Florida, Gainesville, FL, USA).  Lettuce canopies were incubated at 24°C +/- 1°C; and P. aphanidermatum cultures were maintained on V-8 agar (Dhingra and Sinclair, 2000) for 48 hours prior to root inoculations. Lettuce root systems were inoculated by boring two, 1-cm wide holes in the silica sand to the depths of the Magenta Vessels (Sigma-Aldrich Chemical, Co., St. Louis, MO, USA) (approx. 5 cm), placing six individual 0.8-cm agar discs of P. aphanidermatum mycelia into each bore-hole, and covering the holes with silica sand from the same Magenta vessel.  Fungal mycelium was allowed to ramify through the sand interstitial spaces and infect roots.\n\nPathosystem  2 Tomato-Fusarium: Tomato seedlings were allowed to develop for approximately 21 days until true leaves were observed. Fusarium oxysporum f. sp. lycopersici (FOL) race 2 fungus were grown on potato dextrose agar (PDA) plates and 5 mm agar discs were punched out from the edge of actively growing colony and placed on a wound site on the crown of the tomato seedlings. Symptoms were allowed to develop for 7 days, and inoculated plants showing wilting and root discoloration were harvested.\n\n\nTreatment duration is defined as the time between incoculation and sample harvest.     Arabidopsis thaliana: After large leaf rosettes developed (approximately 30 days), a single leaf was either infiltrated with Escherichia coli (E. coli) or just harvested. Pathosystem  1 Lettuce-Pythium: Infected lettuce roots were harvested at 21 days post-inoculation by washing away the silica sand in autoclaved 600 mL glass beakers using sterile deionized water. Pathosystem  2 Tomato-Fusarium:  Symptoms were allowed to develop for 7 days, and inoculated plants showing wilting and root discoloration were harvested. Pathosystem   3 Pepper-ToMV: ToMV symptoms were allowed to develop for 5 d and inoculated leaves showing local lesions were harvested. The upper true leaves in the canopies with systemic symptoms were harvested at 14 days post-inoculation.  All plant materials were harvested, weighed, and diced before being placed into CBIO microHomogenizer™ 2 mL tubes.     Plant materials were harvested, weighed, and diced before being placed into CBIO microHomogenizer™ 2 ml tubes. Lysis beads, prefilter columns, fast-flow nucleic acid binding columns, PureLyse 8× CBBB binding solution, and PureLyse 1× CBBB wash solution were obtained from Claremont BioSoluitons (Upland, CA). For DNA extractions, 1.1 g of CBIO lysis beads, lysis buffer (0.2 M Tris-HC1 [pH 8], 10 mM EDTA [pH 8], 0.5 M NaC1, 1% SDS), and 20 µl of Proteinase K (catalog   19131, Qiagen, Hilden, Germany) were added to the CBIO microHomogenizer 2 ml tubes and homogenized for approximately 10 min at room temperature. Lysate was filtered through the CBIO prefilter column using a 3-ml syringe and incubated with 10 µl of RNase A (catalog   19101, Qiagen, Hilden, Germany) at room temperature for 5 min. Precipitation of nucleic acids in solution was performed by adding 500 µl of isopropanol (ThermoFisher Scientific, Waltham, MA, USA) to the filtered lysate. A 1:1 volume ratio of CBIO 8× CBBB binding solution was added to the sample-isopropanol mixture and the entire volume was then loaded onto the CBIO binding column. The binding column was washed twice with 4 ml of CBIO 1× CBBB wash solution and purged with air using a 5-ml syringe. Elution buffer (10 mM Tris, 1 mM EDTA [pH 8]) of 200 µl was then added to the column, incubated for 2 min, and collected. For RNA extractions, an additional 40 µl dithiothreitol (DTT) was added to the lysis buffer and the RNase A incubation step was eliminated.\n\nTo evaluate the presence of phytopathogen nucleic acids in the inoculated samples, species-specific PCR tests were performed. Specific primers were used for each of the phytopathogens. The PCR amplification of each of the listed primers was performed as described in the respective references. For HSP70 (AT1G09080), the PCR was carried out with an initial denaturing step at 95°C for 5 min, followed by 35 cycles of denaturing at 95°C for 30 s, annealing at 55°C for 30 s, and extension at 72°C for 30 s. The final extension was performed at 72°C for 10 min. From all the DNA extracted, 4 μl was used as a template for each PCR reaction. RNA extracted from the pepper–tomato mosaic virus pathosystem was first converted into cDNA using the high-capacity RNA-to-CDNA kit (Applied Biosystems, Waltham, MA, USA) according to manufacturing guidelines before PCR was performed.     For nanopore sequencing, the eluted DNA samples were cleaned and concentrated (catalog   D4011, Zymo, Irvine, CA, USA) to ensure compliance with nanopore’s quality and quantity guidelines. The DNA-PCR library preparation was performed using the Rapid PCR Barcoding Kit (SQK-RPB004) according to the manufacturer’s instructions (Oxford Nanopore Technologies, Oxford, UK). Libraries for barcodes 1–4 and 5–6 were prepared separately and run on separate flow cells.     Sequencing was performed on a MinION Mk1C device using MinION FLO-Min106 R9.4 version flow cells (Oxford Nanopore Technologies, Oxford, UK).     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12. Utilizing kraken2 v2.1.1, a human genome reference database was constructed from NCBI's RefSeq (GCF_000001405.39) GRCh38.p13, with --no-masking, and defaults of kmer-length 35 and minimizer-length of 31. FASTQ files were screened against this database, and all successfully classified reads were removed.",
+          "Experiment Platform": "Magenta Vessels",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Haveman Natasha J.  Schuerger Andrew C.  Yu Pei-Ling  Brown Mark  Doebler Robert  Paul Anna-Lisa  Ferl Robert J.",
+          "Project Link": "",
+          "Study Publication Title": "Advancing the automation of plant nucleic acid extraction for rapid diagnosis of plant diseases in space",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "Human space exploration missions will continue the development of sustainable plant cultivation in what are obviously novel habitat settings. Effective pathology mitigation strategies are needed to cope with plant disease outbreaks in any space-based plant growth system. However, few technologies currently exist for space-based diagnosis of plant pathogens. Therefore, we developed a method of extracting plant nucleic acid that will facilitate the rapid diagnosis of plant diseases for future spaceflight applications. The microHomogenizer from Claremont BioSolutions, originally designed for bacterial and animal tissue samples, was evaluated for plant–microbial nucleic acid extractions. The microHomogenizer is an appealing device in that it provides automation and containment capabilities that would be required in spaceflight applications. Two different plant pathosystems were used to assess the versatility of the extraction process. Tomato and lettuce plants were respectively inoculated with a fungal plant pathogen, an oomycete pathogen, and a plant viral pathogen. The microHomogenizer, along with the developed protocols, proved to be an effective mechanism for producing DNA from two pathosystems, in that PCR and sequencing of the resulting samples demonstrated clear DNA-based diagnoses. Thus, this investigation advances the efforts to automate nucleic acid extraction for future plant disease diagnosis in space.",
+          "organism": "Microbiota",
+          "Data Source Type": "alsda     cgene",
+          "DOI": "10.26030/qc04-a934",
+          "url": "https://doi.org/10.26030/qc04-a934"
+        },
+        "highlight": {
+          "all": [
+            "<em>alsda</em>     <em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1691971200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "ULNV_ogBBfToLCVNNaLI",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-386/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "",
+          "Project Identifier": "",
+          "Accession": "OSD-386",
+          "Identifiers": "GLDS-386",
+          "Study Identifier": "OSD-386",
+          "Study Protocol Name": "growth protocol     treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol     GeneLab amplicon-seq data processing protocol",
+          "Study Assay Technology Type": "16S",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Khodadad Dixit Hummerick Spern Spencer Fischer Curry Gooden Maldonado Vazquez Wheeler Massa Romeyn Dixit",
+            "Middle Initials": " R",
+            "First Name": "Christina Anirudha Mary E. Cory J. LaShelle E. Jason A. Aaron B. Jennifer L. Gretchen J. Raymond M. Gioia D. Matthew W. Anirudha R."
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Persistence of Escherichia coli in the microbiomes of mizuna mustard (Brassica rapa var. japonica) - does seed sanitization matter?",
+          "Study Factor Type": "treatment     Seed Sanitization     Organism Part",
+          "Study Public Release Date": 1687824000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-386/image",
+          "Study Factor Name": "Treatment     Seed Sanitization     Organism Part",
+          "Study Assay Measurement Type": "Amplicon Sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "Funding for this research and manuscript development was provided by NASA, Biological and Physical Sciences (BPS).",
+          "Study Protocol Description": "Four seeds were planted in 10-cm (4-in.) square pots containing (~ 500 ml) greens grade, Turface, calcined clay (arcillite) (Ewing Irrigation, St Petersburg, FL, United States) and 7.5 g liter− 1 of 18–6-8, type 180-day time-release fertilizer (Nutricote Florikan ESA, Sarasota, FL, United States). Seeds were germinated and grown in controlled-environment growth chambers simulating environmental conditions aboard the ISS (50% relative humidity, 3000-ppm CO2, temperature 23 C). The photoperiod was set at 16 h/8 h light dark cycles with fluorescent lights providing 200–300 μmol m− 2 s− 1 photosynthetically active radiation (PAR). All plants of the same treatments were contained in a single tray and bottom watered with DI water using an automated watering system and monitored daily.     Crop seeds were sanitized using a bleach/HCl fuming method as described previously. Approximately 75–100 seeds were batch sanitized by adding 0.5 ml concentrated HCl to 30 ml bleach (5% sodium hypochlorite solution) in a 500 ml wide-mouth jar and placing an open petri dish containing the seeds into the bleach container, without submersion, then sealing the container to maintain the chlorine fumes around the seeds. Seeds were sanitized for 1 h before being removed from the acid/bleach container for off-gassing overnight (approximately 24 h) in a laminar flow hood. Seed sanitization was confirmed for both bacterial and fungal contaminants as well as germination rate. To verify effectiveness of sanitization, 20 seeds were placed on 2 plates of Trypticase Soy Agar (TSA) and 2 plates of Inhibitory Mold Agar (ISA) thus 5 seeds per plate. Enumeration of bacteria and fungi was also done by placing 20 seeds in 1 ml sterile phosphate buffered saline (PBS) with sterile glass beads (3 mm) vortexing for 2 min and plating in duplicate 100 ul on TSA and IMA. All plates were incubated at 30 C for 24–48 h for TSA and up to 5 days for IMA. Plates containing seeds were observed daily for any growth around the seed while colonies were counted at the end of the incubation period from those plated for enumeration. The same analysis was performed on unsanitized controls. CFUs per seed on sanitized seeds were below detection limits (0.5 CFU/seed) for TSA plates. CFUs per unsanitized seed were 0.5 on red Romaine lettuce and 1.0 on mizuna mustard. Germination rate was determined by the number of seeds (out of 10) that germinated on moist filter paper within that same period. Seeds from both crops were prescreened for the presence of E. coli prior to use by 16S rRNA sequencing and determined to be E. coli free. Seeds from each of the two crop plants were prepared in sufficient quantities with four treatments: 1) sanitized seeds exposed to E. coli; 2) sanitized seeds without exposure to E. coli; 3) unsanitized seeds exposed to E. coli; and 4) unsanitized seeds without exposure to E. coli. A cell culture of E. coli was prepared in trypticase soy broth (TSB) and incubated at 30 C for 16 h in a shaking incubator. Fifty seeds were inoculated by submersion in a 5 ml culture of 106 E. coli cells ml− 1, overnight, at room temperature just prior to planting. Seeds not treated with E. coli were submerged in sterile TSB under the same conditions.     Pots were thinned to a single plant per pot at day 7 and additional harvests were completed every 7 days until day 28. Each harvest included three plants, chosen at random, separated into leaf and root tissue. All harvests were completed using aseptic techniques to minimize contamination. Plant tissues were separated into leaf and root and placed in pre-weighed 50-ml tubes containing sterile water and glass beads.     The liquid was centrifuged at 13,000 x g and the pellet was processed for DNA isolation using the UltraClean Microbial DNA Isolation Kit per manufacturer’s protocol (Qiagen, Carlsbad, CA, United States). DNA was quantified with the Qubit ds DNA assay (Invitrogen Inc., Grand Island, NY) for downstream qPCR, 16S PCR, and sequencing.     Samples were diluted to 4 nM and an equimolar concentration library was created per Illumina’s library preparation guidelines. The library was spiked with a 10% PhiX aliquot to add diversity to the library.     Samples were sequenced on the Illumina MiSeq platform (Illumina Inc., San Diego, CA, United States) with a 500-cycle V2 kit with 250-bp paired ends and FASTQ reads at greater than 30 quality score.     Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12.     Data were processed as described in GL-DPPD-7104-A (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Amplicon/Illumina/Pipeline_GL-DPPD-7104_Versions/GL-DPPD-7104-A.md), using workflow SW_AmpIllumina v1.1.1 (https://github.com/nasa/GeneLab_Data_Processing/tree/SW_AmpIllumina-A_1.1.1/Amplicon/Illumina/Workflow_Documentation/SW_AmpIllumina-A). Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.9.  Primers were already removed from the submitted raw data. DADA2 v1.20.0 was utilized for quality-trimming and filtering and inference of amplicon sequence variants (ASVs), and taxonomy was assigned with DECIPHER v2.20 using the SILVA r138 reference database. Sample MM_MMSan-ECPos-T0_S6_L001 had very poor read quality, and most of its reads were dropped during processing.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Dixit Anirudha R.  Khodadad Christina L. M.  Hummerick Mary E.  Spern Cory J.  Spencer LaShelle E.  Fischer Jason A.  Curry Aaron B.  Gooden Jennifer L.  Maldonado Vazquez Gretchen J.  Wheeler Raymond M.  Massa Gioia D.  Romeyn Matthew W.",
+          "Project Link": "",
+          "Study Publication Title": "Persistence of Escherichia coli in the microbiomes of red Romaine lettuce (Lactuca sativa cv. ‘Outredgeous’) and mizuna mustard (Brassica rapa var. japonica) - does seed sanitization matter?",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "Seed sanitization via chemical processes removes/reduces microbes from the external surfaces of the seed and thereby could have an impact on the plants' health or productivity. To determine the impact of seed sanitization on the plants' microbiome and pathogen persistence, sanitized and unsanitized seeds from two leafy green crops, red Romaine lettuce (Lactuca sativa cv. 'Outredgeous') and mizuna mustard (Brassica rapa var. japonica) were exposed to Escherichia coli and grown in controlled environment growth chambers simulating environmental conditions aboard the International Space Station. Plants were harvested at four intervals from 7 days post-germination to maturity. The bacterial communities of leaf and root were investigated using the 16S rRNA sequencing while quantitative polymerase chain reaction (qPCR) and heterotrophic plate counts were used to reveal the persistence of E. coli. Result: E. coli was detectable for longer periods of time in plants from sanitized versus unsanitized seeds and was identified in root tissue more frequently than in leaf tissue. 16S rRNA sequencing showed dynamic changes in the abundance of members of the phylum Proteobacteria, Firmicutes, and Bacteroidetes in leaf and root samples of both leafy crops. We observed minimal changes in the microbial diversity of lettuce or mizuna leaf tissue with time or between sanitized and unsanitized seeds. Beta-diversity showed that time had more of an influence on all samples versus the E. coli treatment. Conclusion: Our results indicated that the seed surface sanitization, a current requirement for sending seeds to space, could influence the microbiome. Insight into the changes in the crop microbiomes could lead to healthier plants and safer food supplementation.",
+          "organism": "Microbiota",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/thwa-cn80",
+          "url": "https://doi.org/10.26030/thwa-cn80"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1687824000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "4H-ByYcBrYApgeM-LpdQ",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-385/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "",
+          "Project Identifier": "",
+          "Accession": "OSD-385",
+          "Identifiers": "GLDS-385",
+          "Study Identifier": "OSD-385",
+          "Study Protocol Name": "growth protocol     treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol     GeneLab amplicon-seq data processing protocol",
+          "Study Assay Technology Type": "16S",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Dixit Khodadad Hummerick Spern Spencer Fischer Curry Gooden Maldonado Vazquez Wheeler Massa Romeyn",
+            "Middle Initials": "",
+            "First Name": "Anirudha R. Christina L. M. Mary E. Cory J. LaShelle E. Jason A. Aaron B. Jennifer L. Gretchen J. Raymond M. Gioia D. Matthew W."
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation     data transformation",
+          "Space Program": "",
+          "Study Title": "Persistence of Escherichia coli in the microbiomes of red Romaine lettuce (Lactuca sativa cv. ‘Outredgeous’)- does seed sanitization matter?",
+          "Study Factor Type": "treatment     Seed Sanitization     Organism Part",
+          "Study Public Release Date": 1682640000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-385/image",
+          "Study Factor Name": "Treatment     Seed Sanitization     Organism Part",
+          "Study Assay Measurement Type": "Amplicon Sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "Funding for this research and manuscript development was provided by NASA, Biological and Physical Sciences (BPS).",
+          "Study Protocol Description": "Four seeds were planted in 10-cm (4-in.) square pots containing (~ 500 ml) greens grade, Turface, calcined clay (arcillite) (Ewing Irrigation, St Petersburg, FL, United States) and 7.5 g liter− 1 of 18–6-8, type 180-day time-release fertilizer (Nutricote Florikan ESA, Sarasota, FL, United States). Seeds were germinated and grown in controlled-environment growth chambers simulating environmental conditions aboard the ISS (50% relative humidity, 3000-ppm CO2, temperature 23 C). The photoperiod was set at 16 h/8 h light dark cycles with fluorescent lights providing 200–300 μmol m− 2 s− 1 photosynthetically active radiation (PAR). All plants of the same treatments were contained in a single tray and bottom watered with DI water using an automated watering system and monitored daily.     Crop seeds were sanitized using a bleach/HCl fuming method as described previously. Approximately 75–100 seeds were batch sanitized by adding 0.5 ml concentrated HCl to 30 ml bleach (5% sodium hypochlorite solution) in a 500 ml wide-mouth jar and placing an open petri dish containing the seeds into the bleach container, without submersion, then sealing the container to maintain the chlorine fumes around the seeds. Seeds were sanitized for 1 h before being removed from the acid/bleach container for off-gassing overnight (approximately 24 h) in a laminar flow hood. Seed sanitization was confirmed for both bacterial and fungal contaminants as well as germination rate. To verify effectiveness of sanitization, 20 seeds were placed on 2 plates of Trypticase Soy Agar (TSA) and 2 plates of Inhibitory Mold Agar (ISA) thus 5 seeds per plate. Enumeration of bacteria and fungi was also done by placing 20 seeds in 1 ml sterile phosphate buffered saline (PBS) with sterile glass beads (3 mm) vortexing for 2 min and plating in duplicate 100 ul on TSA and IMA. All plates were incubated at 30 C for 24–48 h for TSA and up to 5 days for IMA. Plates containing seeds were observed daily for any growth around the seed while colonies were counted at the end of the incubation period from those plated for enumeration. The same analysis was performed on unsanitized controls. CFUs per seed on sanitized seeds were below detection limits (0.5 CFU/seed) for TSA plates. CFUs per unsanitized seed were 0.5 on red Romaine lettuce and 1.0 on mizuna mustard. Germination rate was determined by the number of seeds (out of 10) that germinated on moist filter paper within that same period. Seeds from both crops were prescreened for the presence of E. coli prior to use by 16S rRNA sequencing and determined to be E. coli free. Seeds from each of the two crop plants were prepared in sufficient quantities with four treatments: 1) sanitized seeds exposed to E. coli; 2) sanitized seeds without exposure to E. coli; 3) unsanitized seeds exposed to E. coli; and 4) unsanitized seeds without exposure to E. coli. A cell culture of E. coli was prepared in trypticase soy broth (TSB) and incubated at 30 C for 16 h in a shaking incubator. Fifty seeds were inoculated by submersion in a 5 ml culture of 106 E. coli cells ml− 1, overnight, at room temperature just prior to planting. Seeds not treated with E. coli were submerged in sterile TSB under the same conditions.     Pots were thinned to a single plant per pot at day 7 and additional harvests were completed every 7 days until day 28. Each harvest included three plants, chosen at random, separated into leaf and root tissue. All harvests were completed using aseptic techniques to minimize contamination. Plant tissues were separated into leaf and root and placed in pre-weighed 50-ml tubes containing sterile water and glass beads.     The liquid was centrifuged at 13,000 x g and the pellet was processed for DNA isolation using the UltraClean Microbial DNA Isolation Kit per manufacturer’s protocol (Qiagen, Carlsbad, CA, United States). DNA was quantified with the Qubit ds DNA assay (Invitrogen Inc., Grand Island, NY) for downstream qPCR, 16S PCR, and sequencing.     Samples were diluted to 4 nM and an equimolar concentration library was created per Illumina’s library preparation guidelines. The library was spiked with a 10% PhiX aliquot to add diversity to the library.     Samples were sequenced on the Illumina MiSeq platform (Illumina Inc., San Diego, CA, United States) with a 500-cycle V2 kit with 250-bp paired ends and FASTQ reads at greater than 30 quality score.     Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12.     Data were processed as described in GL-DPPD-7104-A (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Amplicon/Illumina/Pipeline_GL-DPPD-7104_Versions/GL-DPPD-7104-A.md), using workflow SW_AmpIllumina v1.0.2 (https://github.com/nasa/GeneLab_Data_Processing/tree/SW_AmpIllumina-A_1.0.2/Amplicon/Illumina/Workflow_Documentation/SW_AmpIllumina-A). Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.9.  Primers were already removed from the submitted raw data. DADA2 v1.20.0 was utilized for quality-trimming and filtering and inference of amplicon sequence variants (ASVs), and taxonomy was assigned with DECIPHER v2.20 using the SILVA r138 reference database. Sample D7PEcSan67L_S13_L001 had very poor read quality, and most of its reads were dropped during processing.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Dixit AR  Khodadad CLM  Hummerick ME  Spern CJ  Spencer LE  Fischer JA  Curry AB  Gooden JL  Maldonado Vazquez VGJ  Wheeler RM  Massa GD  Romeyn MW.",
+          "Project Link": "",
+          "Study Publication Title": "Persistence of Escherichia coli in the microbiomes of red Romaine lettuce (Lactuca sativa cv. ‘Outredgeous’) and mizuna mustard (Brassica rapa var. japonica) - does seed sanitization matter?",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "Seed sanitization via chemical processes removes/reduces microbes from the external surfaces of the seed and thereby could have an impact on the plants‚health or productivity. To determine the impact of seed sanitization on the plants‚microbiome and pathogen persistence, sanitized and unsanitized seeds from two leafy green crops, red Romaine lettuce (Lactuca sativa cv. ‚Outredgeous‚) and mizuna mustard (Brassica rapa var. japonica) were exposed to Escherichia coli and grown in controlled environment growth chambers simulating environmental conditions aboard the International Space Station. Plants were harvested at four intervals from 7 days post-germination to maturity. The bacterial communities of leaf and root were investigated using the 16S rRNA sequencing while quantitative polymerase chain reaction (qPCR) and heterotrophic plate counts were used to reveal the persistence of E. coli. E. coli persisted for longer periods of time in plants from sanitized versus unsanitized seeds and was identified in root tissue more frequently than in leaf tissue. 16S rRNA sequencing showed dynamic changes in the abundance of members of the phylum Proteobacteria, Firmicutes, and Bacteroidetes in leaf and root samples of both leafy crops. We observed minimal changes in the microbial diversity of lettuce or mizuna leaf tissue with time or between sanitized and unsanitized seeds. Beta-diversity showed that time had more of an influence on all samples versus the E. coli treatment. Our results indicated that the seed surface sanitization a requirement for sending seeds to space influences the microbiome. Insight into the changes in the crop microbiomes could lead to healthier plants and safer food supplementation.",
+          "organism": "Microbiota",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/esef-7r30",
+          "url": "https://doi.org/10.26030/esef-7r30"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1682640000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "sN_6g4QB28eYt3lGPLbf",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-307/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "leaf",
+          "Project Identifier": "Simulated_Environmental_Factors",
+          "Accession": "OSD-307",
+          "Identifiers": "GLDS-307",
+          "Study Identifier": "OSD-307",
+          "Study Protocol Name": "growth protocol     sample collection protocol     nucleic acid extraction     library construction     nucleic acid sequencing     sequence analysis data transformation",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "MinION",
+          "Study Person": {
+            "Last Name": "Haveman Khodadad Dixit Louyakis Massa Venkateswaran Foster",
+            "Middle Initials": "J S S",
+            "First Name": "Natasha Christina Anirudha Artemis Gioia Kasthuri Jamie"
+          },
+          "Study Protocol Type": "growth protocol     sample collection protocol     nucleic acid extraction     library construction     nucleic acid sequencing     sequence analysis data transformation",
+          "Space Program": "",
+          "Study Title": "Evaluating the Lettuce Metatranscriptome with MinION Sequencing for Future Spaceflight Food Production Application",
+          "Study Factor Type": "relative humidity     CO2 Concentration     temperature",
+          "Study Public Release Date": 1628640000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-307/image",
+          "Study Factor Name": "Relative Humidity     CO2 Concentration     Temperature",
+          "Study Assay Measurement Type": "metatranscriptome sequencing assay",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "This work was supported in part by NASA through the University of Central Florida’s NASA Florida Space Consortium and Space Florida (NX15AI10H) awarded to J.S.F. N.J.S. was supported by a NASA Space Biology Postdoctoral Fellowship (80NSSC19K0520). Part of the research was performed at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with NASA. This research was also in part funded by a 2012 Space Biology NNH12ZTT001N grant no. 19-12829-26 under Task Order NNN13D111T award to K.V.",
+          "Study Protocol Description": "Red romaine lettuce, Lactuca sativa cv ‘Outredgeous’ were grown in environmentally controlled growth chambers at Kennedy Space Center (KSC), FL. Seeds were batch sanitized with a bleach-hydrochloric acid solution for 1 h and allowed to off-gas for 24 h prior to planting. Sanitization was verified by placing seeds on trypticase soy agar (TSA) and inhibitory mold agar (IMA) plates and allowed to incubate for 48-72 h at 30°C. Four sanitized seeds were place in each 4-inch pots containing greens grade arcillite, a calcined clay, and time release fertilizer. Plants were then grown in Environmental Controlled Growth Chambers under conditions simulating those aboard the ISS (RH-50%, CO2-3000 ppm, and temperature 23 ºC). The growth cycle was established at 16h/8h light dark cycles with 200-300 µmol fluorescent lights and all were on automatic watering with DI water with daily monitoring. Pots were thinned to one plant each at day 7 and samples were harvested at day 28 for leafy greens.  Leaf tissue from each pf the three pots (L93, L96, and L101) were placed immediately into RNAlater™ (Ambion, Grand Island, NY, USA) and stored at -80 ºC until ready for RNA extraction.\n\nBaseline lettuce leaf metatranscriptomics was performed with 3 replicates. No other treatment was compared to the baseline samples.     Leaf tissue from each pf the three pots (L93, L96, and L101) were placed immediately into RNAlater™ (Ambion, Grand Island, NY, USA) and stored at -80 ºC until ready for RNA extraction. Baseline lettuce leaf metatranscriptomics was performed with 3 replicates. No other treatment was compared to the baseline samples.     Total RNA was extracted from each of the three lettuce leave replicates (denoted as L93, L96 and L101) with the RNeasy Plant Mini Kit following the manufacturer’s protocol (Qiagen, Valencia, CA, USA). RNA was DNase-treated with the optional on column digestion following the manufacturer’s protocol (Qiagen, Valencia, CA, USA). A modified enrichment method was developed to remove plant mRNA and rRNA for compatibility with Nanopore library preparation protocols. Using an average of 14µg total RNA, the Invitrogen Dynabeads polyA enrichment protocol (Thermo Fisher, Carlsbad, CA, USA) was performed keeping the polyA depleted material and discarding the polyA enriched material. The polyA depleted material was then purified with the Zymo RNA clean and concentration kit according to the manufacturer’s protocol (Zymo Research, Irvine, CA, USA). Purified RNA was processed using the Invitrogen RiboMinusTM plant kit for removal of plant ribosomal RNA per the manufacturer’s protocol (Thermo Fisher, Carlsbad, CA, USA). 1-10ug of host depleted RNA form each sample was then A-tailed using Poly(A) polymerase (New England Biolabs, Ipswich, MA, USA) for 25 mins at 37ºC.  RNA quantity and quality were assessed with QubitTM fluorometer (Version 4.0, InvitrogenTM, Thermo Fisher Scientific) and Agilent 2100 Bioanalyzer (Agilent Technologies, Inc.) respectively. Bioanalyzer 6000 Nano RNA Eukaryotic program was used to assess the quality of the RNA. The samples were stored at -80°C until ready for library preparation.     Library preparation for cDNA-PCR sequencing was performed using the SQK-PCS109 sequencing kit following the manufacturer’s instructions (Oxford Nanopore Technologies, Oxford, UK). Briefly, 50ng of processed RNA sample from L93, L96 and L101were reverse transcribed using Maxima H Minus Reverse Transcriptase (Thermo Fisher), and left to incubate in the thermal cycler at 42°C for 90 min and 85°C for 5 min. To amplify the products without introducing biasness, full length transcripts were selected by PCR using LongAmp Taq 2x Master Mix (New England Biolabs, Ipswich, MA, USA) with the following cycling conditions, an initial denaturing step at 95°C for 5 min, then 14 cycles of 15 s at 95°C, 15 s at 62°C, and 1 min at 65°C, followed by a final extension step at 65°C for 6 mins and a hold at 4°C. The products were then using Agencourt AMPure XP beads (Beckman Coulter, Indianapolis, IN) with 1.8 (v/v) ratio of beads to reaction mixture.     cDNA library using 100 fmol of amplified cDNA with adapters was loaded onto a FLO-MIN106 flowcell and the RNA library was sequenced on a MinION device for 48 h. Basecalling was perform in real-time using the MinIT device. L93, L96 and L101 replicates were sequenced on individual flowcells FAL87564, FAL08147, and FAL1190 respectively to provide information about the process reproducibility and variability.     RNA sequencing data were based called in real time using the MinKNOW software on the MinIT device. All FASTQ files (with a threshold of Q5) for each sample were concatenated and used in the downstream bioinformatics pipeline. Briefly, MinION sequencing statistics were analyzed using Nanoplot v1.0.0 and filtered for reads with read length 100 bp to 30000 bp and minimum Q score of 5 using filtlong v0.2.0. Adapters were trimmed using Porechop v0.2.4.38 Host transcripts that mapped to the Lactuca sativa (Lettuce) (GCF_002870075.1_Lsat_Salinas_v7_genomic.fna.gz ) and Helianthus annuus (common sunflower)(GCA_002127325.1_HanXRQr1.0_genomic.fna.gz) genomes were removed using bowtie2 and rRNA was removed using SortMeRNA v2.1.40. Taxonomic classification of the removed 16S and 18S rRNA reads was performed with Kraken2 v2.0.8b using the curated RefSeq NCBI microbial genome database containing archaea, bacteria, fungi, protozoa and viruses reference genome sequences.\nThe remaining metatranscriptome sequences were annotated through BLAST+ v2.9.0 and Trinotate v3.0 (http://trinotate.github.io) Uniprot database. No assembly was performed on the reads before the annotation. Coding sequences (CDS) assigned to viruses and eukaryotes apart from fungi were excluded in the analysis (https://www.uniprot.org/uploadlists/). In addition, taxa assigned to Cyanobacteria which represents a substantial number of reads were excluded  as well as transcripts associated with photosynthesis genes. These steps were performed to prevent the inclusion of possible mis-assigned chloroplast transcripts. Abundance of transcripts that had Kyoto Encyclopedia of Genes and Genomes (KEGG) annotations were normalized using the transcripts per million method (TMM). KEGG annotated association with their respective pathways were performed using the R package KEGGREST.  The gene networking analysis was completed using the R package Phyloseq v1.19.1.\n\n.kraken2.report.txt: a taxonomy diversity report, raw counts; .bacterial.all.merge.data.csv: raw counts and gene descriptions for bacterial genes; .fungal.all.merge.data.csv: raw counts and gene descriptions for fungal genes; bacteria.combined.KEGGmap.evalue0.05.csv: bacterial metatranscriptome combined normalized counts and gene descriptions; fungi.combined.KEGGmap.evalue0.05.csv: fungal metatranscriptome normalized counts and gene descriptions",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Haveman NJ  Khodadad CLM  Dixit AR  Louyakis AS  Massa GD  Venkateswaran K  Foster JS.",
+          "Project Link": "",
+          "Study Publication Title": "Evaluating the lettuce metatranscriptome with MinION sequencing for future spaceflight food production applications.",
+          "Managing NASA Center": "",
+          "Study Description": "Healthy plants are vital for successful, long-duration missions in space, as they provide the crew with life support, food production, and psychological benefits. The microorganisms that associate with plant tissues play a critical role in improving plant growth, health, and production. To that end, it is necessary to develop methodologies that investigate the metabolic activities of the plant’s microbiome in orbit to enable rapid responses regarding the care of plants in space. In this study, we developed a protocol to characterize the endophytic and epiphytic microbial metatranscriptome of red romaine lettuce, a key salad crop that was grown under International Space Station (ISS)-like conditions. Microbial transcripts enriched from host-microbe total RNA were sequenced using the Oxford Nanopore MinION sequencing platform. Results showed that this enrichment approach was highly reproducible and effective for rapid on-site detection of microbial transcriptional activity. Taxonomic analysis based on 16S and 18S rRNA transcripts identified that the top five most abundant phyla in the lettuce microbiome were Firmicutes, Proteobacteria, Actinobacteria, Bacteroidetes, and Ascomycota. The metatranscriptomic analysis identified the expression of genes involved in many metabolic pathways, including carbohydrate metabolism, energy metabolism, and signal transduction. Network analyses of the expression data show that, within the signal transduction pathway of the fungal community, the Mitogen-Activated Protein Kinase signaling pathway was tightly regulated across all samples and could be a potential driver for fungal proliferation. Our results demonstrated the feasibility of using MinION-based metatranscriptomics of enriched microbial RNA as a method for rapid, on-site monitoring of the transcriptional activity of crop microbiomes, thereby helping to facilitate and maintain plant health for on-orbit space food production.",
+          "organism": "Microbiota",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/1yxz-hb69",
+          "url": "https://doi.org/10.26030/1yxz-hb69"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1628640000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "N5laCpQBshXIgv93IeyA",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-794/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Swab",
+          "Project Identifier": "",
+          "Accession": "OSD-794",
+          "Identifiers": "GLDS-690",
+          "Study Identifier": "OSD-794",
+          "Study Protocol Name": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     human read contaminant filtering     GeneLab raw data processing protocol",
+          "Study Assay Technology Type": "Whole-Genome Shotgun Sequencing",
+          "Acknowledgments": "We thank XSEDE and Philip Blood for their support of this project. AR and MB were supported by the Astromaterials Acquisition and Curation Office at NASA’s Johnson Space Center. EVA Swab Kit development and spacesuit testing was funded via a Johnson Space Center Independent Research and Development award for MR. Part of the research described in this publication was carried out at the Jet Propulsion Laboratory (JPL), California Institute of Technology, under a contract with NASA. Government sponsorship acknowledged.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Danko Malli Mohan Sierra Rucker Singh Regberg Bell O'Hara Ounit Mason Venkateswaran",
+            "Middle Initials": "",
+            "First Name": "David Ganesh Babu Maria A Michelle Nitin K Aaron B Mary S Niamh B Rachid Christopher E Kasthuri"
+          },
+          "Study Protocol Type": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation     data transformation",
+          "Space Program": "NASA, NIH",
+          "Study Title": "Characterization of Spacesuit Associated Microbial Communities and Their Implications for NASA Missions.",
+          "Study Factor Type": "Sample Location     treatment",
+          "Study Public Release Date": 1559347200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-794/image",
+          "Study Factor Name": "Sample Location     Treatment",
+          "Study Assay Measurement Type": "Metagenomic sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA545796",
+          "Project Title": "",
+          "Study Funding Agency": "This research was supported by the JPL Advanced Concept Development fund awarded to KV that funded a fellowship for GM. DD was supported by the Tri-Institutional Training Program in Computational Biology and Medicine (CBM) funded by the NIH grant 1T32GM083937.",
+          "Study Protocol Description": "Three different kinds of spacesuits were sampled. Briefly, the Extravehicular Mobility Unit (EMU) suits are currently used for EVA on ISS, but are not designed for use in planetary missions. We sampled stainless steel wrist joints and cloth gauntlets covering the joints on these suits. The outer fabric of the EMU is made of Ortho-Fabric, which is a blend of Gortex (ePTFE), Kevlar (a para-aramid type fiber related to nylon) and Nomex (a meta-aramid type fiber). The Modified Advanced Crew Escape System (MACES) and Orion Crew Survival System (OCSS) suits designed for internal cabin use, such as inside Orion during launch and reentry through Earth’s atmosphere, use similar wrist joint as the EMU but without a gauntlet to cover it. The outer layer of the MACES and OCSS suits is comprised of orange Nomex. NASA has conducted a series of ground tests intended to evaluate the EVA swab kit’s form, fit, and function under mission operations scenarios, in preparation for eventual sample collection from outside the ISS. For samples collected from the EMU, EVA swabbing was an add-on to a routine suit familiarization test that all flight crew are required to perform. Familiarization involves suit fit and functional checks, followed by a 4-h prebreathe protocol (to mitigate potential for decompression sickness) before exposure to vacuum in the Space Station Airlock Test Article chamber. Spacesuit samples were collected during the prebreathe protocol, when the crew member was breathing pure oxygen at a suit internal pressure 4.3 psi higher than ambient external pressure, but not yet at external vacuum pressure. Although standard laboratory swabs could have been used under these conditions, this test provided an opportunity for suited crew to practice self-swabbing with the flight-like EVA swab kit, which will be necessary in future studies where samples will be taken under external vacuum conditions. A second series of tests was conducted with the MACES and OCSS suits. In these tests, four test subjects sampled their own suits (two MACES suits and two OCSS suits) inside the 11-foot vacuum chamber while the chamber was at vacuum (0.01 torr). The internal pressure inside the suits was 4.3 psi. Samples collected during these tests were exposed to a maximum of 4 h of vacuum.\n\nSample kit cleaning, sterilization, and assembly were performed at JSC according to a purpose-developed protocol. Each sample canister (assembled with filter and ball plungers) and swab end effector assembly was placed into separate autoclave bags. Bagged components were placed into Steris LV 250 laboratory steam sterilizer and sterilized using a gravity cycle of 45 min at 121°C (250°F) and 103.4 kPa (15 psi). Note that neither the sample caddy itself nor the tool handle which was never in contact with the swab head were autoclaved. Bagged components were allowed up to 1 h of cool-down time at approximately 22C (71.6°F) for safe handling. Following autoclaving, bagged components were transferred to a Labconco Horizontal Clean Bench (Model   36100000, ISO Class 5). With the commercial swab inside its sterile packaging, the swab stem was cut to optimal length [approximately 6.0 cm (2.4 in)] using sterilized wire cutters, making sure the swab head remained inside its packaging until the final assembly step. The cut end of the swab was then inserted into the end effector slot, and set screws were tightened to hold the swab in place. Sterile packaging was removed from the swab head immediately before inserting each swab assembly into its sterile container. Each container/swab assembly was then mounted into the tool caddy, wiped clean with isopropanol and placed into bonded storage until the test.\n\nDuring swab assembly, technicians wore sterile gloves, and both the gloves and assembly tools (Allen wrench, scissors, and forceps) were sprayed with 70% ethanol surface disinfectant. All parts were handled either with sterile forceps or the autoclave bags, with no contact between the gloves and tool areas that must remain sterile. After assembly, the EVA sample kits were transported to the test site packed inside hard-sided storage cases. Once at the test site, the analog crew were briefed on tool usage and were given an opportunity to practice with a spare handle and sample caddy assembly. Over a period of 7 months between December 2016 and June 2017, 176 spacesuits, environmental control, and floor samples were collected during eight sampling time periods at JSC. Figure 1 shows sample collection from various parts of the spacesuits, EVA sampling kits, and number of samples associated with various spacesuits. The specific location for each sampling event of these 48 samples, surface area, and collection dates are given in Table 1 and detailed metadata about spacesuit types used, fabrics composition, microbial burden, cultivable diversity, are given in the Supplementary Tables.\n\nControls\nAmong 48 spacesuit samples including five controls samples were further analyzed for various microbiological characteristics using traditional and shotgun metagenomic sequence analyses. Environmental controls were the swabs that were removed from the canister during testing but not touched to any surface. Negative controls were swabs that were not opened at all during testing. Among these 48 samples, 36 were from EMU and 12 were from MACES spacesuits.     After sample collection, sample processing took place in an ISO 7 (10K class) cleanroom at JPL. Under ISO 5 certified biosafety cabinet, each swab was aseptically severed with a sterile cutter and transferred to a 50 mL Falcon tube containing 15 mL of sterile phosphate-buffered saline (PBS; pH 7.4). The tube with the swab was shaken for 2 min followed by concentration with a Concentrating Pipette (Innova Prep, Drexel, MO, United States) using 0.22 μm Hollow Fiber Polysulfone tips (Cat : CC08022) and PBS as elution fluid. Each sample was concentrated to 5 mL. A 100 μL concentrated aliquots were plated on various agar plates to estimate cultivable population using traditional plate count methods (described below). One mL of the diluted solution (200 μL plus 1.8 mL PBS) was used to conduct an ATP assay (Kikkoman Corp., Noda, Japan) to rapidly measure total and viable microbial population (Venkateswaran et al., 2003), enabling appropriate serial dilutions. Furthermore, 3 mL of each concentrated sample was split into two 1.5 mL- aliquots and one aliquot was treated with PMA to assess viability (Vaishampayan et al., 2013), while the second aliquot was handled similarly but without the addition of PMA. Briefly, 18.25 μL of 2 mM PMA was added to one half of the 3-mL sample (final concentration 25 μM) followed by 5 min incubation at room temperature in the dark and 15 min exposure to the activation system (PMA LED device, Biotium, Hayward, CA, United States). Each sample was then split into two 0.75 mL aliquots. One aliquot was transferred to bead beating tubes containing Lysing Matrix E (MP Biomedicals, Santa Ana, CA, United States), followed by bead beating for 60 s using the vortex sample holder (MO Bio, Carlsbad, CA, United States). The bead-beaten aliquot and the aliquot without bead beating were combined for their corresponding PMA-treated and non-treated samples. DNA extraction was accomplished with the Maxwell 16 automated system (Promega, Madison, WI, United States), in accordance with manufacturer instructions. A Maxwell control (MC) without any sample added in its cartridge was run concurrently with each flight sample set to account for microbial contamination associated with reagents (kitome) used in the automated DNA extraction. The extracted DNA was eluted in 50 μL of water and stored at −20C and processed with the rest of the samples later.\n\nThe initial DNA yield and metagenome library quantitation of all 96 samples tested (48 samples PMA treated and 48 samples PMA untreated) were measured by Qbit (Thermo Fisher Scientific Inc., United States).     DNA libraries for all 96 samples were prepared for shotgun metagenome sequencing using the Nextera DNA Library Preparation Kit from Illumina. The quality and fragment size of each library were assessed on a Bioanalyzer 2100 (Agilent). Separate adapters were added to the DNA from each library, normalized to 2 nM, pooled, denatured, and diluted to 1.8 pM according to the standard recommendations by Illumina.     The HiSeq4000 platform (Illumina) was used for sequencing, resulting in 100-bp paired-end reads.     Utilizing kraken2 v2.1.1, a human genome reference database was constructed from NCBI's RefSeq (GCF_000001405.39) GRCh38.p13, with --no-masking, and defaults of kmer-length 35 and minimizer-length of 31. FASTQ files were screened against this database, and all successfully classified reads were removed.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Danko D  Malli Mohan GB  Sierra MA  Rucker M  Singh NK  Regberg AB  Bell MS  O'Hara NB  Ounit R  Mason CE  Venkateswaran K.",
+          "Project Link": "",
+          "Study Publication Title": "Characterization of Spacesuit Associated Microbial Communities and Their Implications for NASA Missions.",
+          "Managing NASA Center": "Jet Propulsion Laboratory (JPL)",
+          "Study Description": "Background: Crewed National Aeronautics and Space Administration (NASA) missions to other solar system bodies are currently being planned. One high-profile scientific focus during such expeditions would be life detection, specifically the discovery of past or present microbial life, if they exist. However, both humans and associated objects typically carry a high microbial burden. Thus, it is essential to distinguish between microbes brought with the expedition and those present on the exploring planets. Modern spacesuits are unique, customized spacecraft which provide protection, mobility and life support to crew during spacewalks, yet they vent, and the mobility of microbes through spacesuits has not been studied. Results:To evaluate the microbial colonization of spacesuits, NASA used an Extravehicular Activity swab kit to examine viable microbial populations of 48 samples from spacesuits using both traditional microbiological methods and molecular sequencing methods. The cultivable microbial population ranged from below the detection limit to 9 × 10^2 colony forming units per 25 cm^2 of sample and also significantly varied by the location. The cultivable microbial diversity was dominated by members of Bacillus, Arthrobacter, and Ascomycota. However, 16S rRNA-based viable bacterial burden ranged from 10^5 to 10^6 copies per 25 cm^2 of sample. Shotgun metagenome sequencing revealed the presence of a diverse microbial population on the spacesuit surfaces, including Curtobacterium and Methylobacterium from across all sets of spacesuits in high abundance. Among bacterial species identified, higher abundance of Cutibacterium acnes, Methylobacterium oryzae, and M. phyllosphaerae reads were documented. Conclusion:The results of this study provide evidence that identical microbial strains may live on the wrist joint, inner gauntlet, and outer gauntlet of spacesuits. This raises the possibility, but does not confirm that microbial contaminants on the outside of the suits could contaminate planetary science operations unless additional measures are taken. Overall, these data provide the first estimate of microbial distribution associated with spacesuit surfaces, which will help future mission planners develop effective planetary protection strategies.",
+          "organism": "Microbiota",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/j86v-m203",
+          "url": "https://doi.org/10.26030/j86v-m203"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1559347200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "3N_6g4QB28eYt3lGLLUB",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-146/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Feces",
+          "Project Identifier": "Heavy_Ion_HZE_Irradiation, High_Dose_Irradiation, Low_Dose_Irradiation, High_LET_Irradiation",
+          "Accession": "OSD-146",
+          "Identifiers": "GLDS-146",
+          "Study Identifier": "OSD-146",
+          "Study Protocol Name": "Animal Husbandry     irradiation protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     GeneLab amplicon-seq data processing protocol",
+          "Study Assay Technology Type": "16S",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Casero Cheema",
+            "Middle Initials": " K.",
+            "First Name": "David Amrita"
+          },
+          "Study Protocol Type": "Animal Husbandry     acute     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     data transformation",
+          "Space Program": "",
+          "Study Title": "Mouse fecal microbiome after exposure to high LET radiation",
+          "Study Factor Type": "ionizing radiation     absorbed radiation dose     Time of Sample Collection After Treatment",
+          "Study Public Release Date": 1508025600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-146/image",
+          "Study Factor Name": "Ionizing Radiation     Absorbed Radiation Dose     Time of Sample Collection After Treatment",
+          "Study Assay Measurement Type": "amplicon sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA368790",
+          "Project Title": "",
+          "Study Funding Agency": "This study was supported by the National Space Biomedical Research Institute [RE03701 through NCC 9-58] and the NIH National Center for Advancing Translational Science (NCATS) UCLA CTSI Grant Number UL1TR00188.",
+          "Study Protocol Description": "Male C57BL/6J mice (Jackson Laboratory) were purchased at 4 weeks of age and housed at the Division of Laboratory Animal Medicine, University of Arkansas for Medical Sciences (UAMS), on a 12:12 light-to-dark cycle with free access to food (soy-free rodent diet 2020X, Harlan Teklad) and water. At 6 months of age, mice were transported to Brookhaven National Laboratories (BNL) and housed under comparable conditions (12:12 light-to-dark cycle, free access to rodent diet 2020X and water).     After a one-week acclimation period, mice were individually placed in well-ventilated clear Lucite cubes and exposed to whole-body 16O irradiation (600 MeV/n; 0.1, 0.25, or 1.0 Gy, 0.21-0.28 Gy/min) at the NASA Space Radiation Laboratory. Sham-irradiated mice were placed in the same holders, but were not exposed to radiation. A total of 10 mice per dose group were used. Dosimetry details and schematics along with dose distribution curves are reported elsewhere. One day after (sham-) irradiation, all mice were returned to UAMS and placed on 2020X diet containing 0.68 g/kg fenbendazole (Harlan Teklad) as part of the standard UAMS rodent quarantine procedure.     At 10 and 30 days after irradiation, mice were individually placed in a Plexiglas box to obtain fresh fecal pellets. Fecal pellets were stored at -80C until processing. Each pellet was divided into two parts under liquid nitrogen, one halve was shipped to the University of California Los Angeles for 16S rRNA amplicon sequencing and the other halve to Georgetown University for metabolomics.     Genomic DNA was extracted using the PowerSoil DNA Isolation Kit (MO BIO Laboratories, Carlsbad, CA, USA) with a 30-s beat-beating step using a Mini-Beadbeater-16 (BioSpec Products, Bartlesville, OK, USA).     Polymerase chain reaction amplification of bacterial 16S rRNA genes was performed using extracted genomic DNA as the template. The 100 ul reactions contained 50 mM Tris (pH 8.3), 500 ug/ml bovine serum albumin, 2.5 mM MgCl2, 250 uM of each deoxynucleotide triphosphate, 400 nM of each primer, 4 ul of DNA template, and 2.5 units JumpStart Taq DNA polymerase (Sigma-Aldrich, St. Louis, MO, USA). The PCR primers (F515/R806) targeted the V4 hypervariable region of the 16S rRNA gene, with the reverse primers including a 12-bp Golay barcode. Thermal cycling were performed in an MJ Research PTC-200 (Bio-Rad Inc., Hercules, CA, USA) with the following parameters: 94 C for 5 min; 35 cycles of 94 C for 20 s, 50 C for 20 s, and 72 C for 30 s; 72 C for 5 min. PCR products were purified using the MinElute 96 UF PCR Purification Kit (Qiagen, Valencia, CA, USA).     DNA sequencing was performed using an Illumina HiSeq 2500 (Illumina, Inc., San Diego, CA, USA), in paired-ended mode. Clusters were created using template concentrations of 4 pM and PhiX at 65 K/mm2. Sequencing primers targeted 101 base pair reads of the 5' end of the amplicons and 7 base pair barcode reads. Reads were filtered using the following parameters: minimum Q-score--30, maximum number of consecutive low-quality base calls allowed before truncating--3, and maximum number of N characters allowed--0. All filtered V4 reads had a length of 150 bp.     Quality assessment of reads was performed with FastQC v0.11.8 and reports were combined with MultiQC v1.7. Primers had been removed prior to deposition into GeneLab. DADA2 v1.12 was utilized for quality-trimming and filtering and inference of amplicon sequence variants (ASVs), and taxonomy was assigned with DECIPHER v2.14 using the SILVA r138 reference database.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "National Space Biomedical Research Institute [RE03701 through NCC 9-58]  NCATS UCLA CTSI Grant Number UL1TR00188",
+          "Study Publication Author List": "Casero D  Gill K  Sridharan V  Koturbash I  Nelson G  Hauer-Jensen M  Boerma M  Braun J  Cheema AK",
+          "Project Link": "",
+          "Study Publication Title": "Space-type radiation induces multimodal responses in the mouse gut microbiome and metabolome",
+          "Managing NASA Center": "",
+          "Study Description": "Space travel is associated with continuous low-dose-rate exposure to high Linear Energy Transfer (LET) radiation. Pathophysiological manifestations after low-dose radiation exposure are strongly influenced by non-cytocidal radiation effects including microbiome and cellular gene expression. Using a mouse model for exposure to high LET radiation, we observed substantial changes in the composition and functional potential of the microbiome. These were paralleled by changes in the abundance of multiple metabolites, which were related to the enzymatic activity of the altered metagenome by means of metabolic network modeling. There was a complex dynamic in microbial and metabolic composition at different radiation doses, suggestive of transient, dose-dependent interactions between microbial ecology and signals from the host's cellular damage repair processes. Functional shifts included features associated with dysbiosis at the onset of chronic inflammatory responses, which could prMouse fecal microbiome after exposure to high LET radiatione-dispose space travelers to systemic, long-term health risks.",
+          "organism": "Microbiota",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/pwch-ec23",
+          "url": "https://doi.org/10.26030/pwch-ec23"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1508025600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "UN_6g4QB28eYt3lGNLbY",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-191/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Feces",
+          "Project Identifier": "Simulated_Environmental_Factors",
+          "Accession": "OSD-191",
+          "Identifiers": "GLDS-191",
+          "Study Identifier": "OSD-191",
+          "Study Protocol Name": "diet     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     sequence analysis data transformation     GeneLab amplicon-seq data processing protocol",
+          "Study Assay Technology Type": "16S",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "illumina",
+          "Study Person": {
+            "Last Name": "Candela",
+            "Middle Initials": "",
+            "First Name": "Marco"
+          },
+          "Study Protocol Type": "Diet     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     sequence analysis data transformation     data transformation",
+          "Space Program": "",
+          "Study Title": "Temporal dynamics of the gut microbiota in people sharing a confined environment, a 520-day ground-based space simulation, MARS500",
+          "Study Factor Type": "time",
+          "Study Public Release Date": 1490313600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-191/image",
+          "Study Factor Name": "Time",
+          "Study Assay Measurement Type": "amplicon sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "MGP79314",
+          "Project Title": "",
+          "Study Funding Agency": "European Programme for Life and Physical Sciences in Space (ELIPS)",
+          "Study Protocol Description": "The composition of food rations fulfilled the recommendations of World Health Organization (WHO) and also Russian-American norms on the food composition of rations for the crew of ISS. Specifically, three food rations were designed: (1) first variant, from the 1st till the 250th day of the mission (time of flight from Earth to Mars); (2) second variant, from the 251st till the 270th day for three crewmembers (simulation of the egress to the Martian surface); (3) third variant, from the 271st till the 520th day for the three crewmembers participating in the egress to the planet surface (returning to Earth), and from the 251st till the 520th day for the other three crewmembers. The food rations included different types of products, ready or semi-ready for consumption, by Russian, European, Korean, and Chinese firms, with up to four menu variants, providing on average 15.1% protein, 33.4% fat, and 51.2% carbohydrate.     Crewmembers were asked to collect faecal samples 10 days (minus 10 days) before entering the isolation facility, at various time intervals throughout the entire 520-day simulation experiment, and after exiting the module up to 6 months later. Samples were collected in sterile vials, after cleaning the table top of the toilet with a hydrogen peroxide solution, washing hands with disinfectant gel, and wearing disposable gloves. In particular, for each time point inside the MARS500 modules, the vials were stored at 4 C and, when samples from all six astronauts had been collected, they were moved outside the ground-based experimental facility (NEK facility) to the IBMP lab, where they were transferred to a -80 C freezer into a Ziploc bag. Every 6 months, the samples collected were shipped to Italy in dry ice.     Total bacterial DNA was extracted from faeces using the repeated bead-beating plus column method with only minor modifications. Briefly, cell lysis was achieved by introducing three 1-min steps in a FastPrep instrument (MP Biomedicals, Irvine, CA) at 5.5 movements per second, in the presence of 500 mM NaCl, 50 mM Tris-HCl pH 8, 50 mM EDTA, 4% (w/v) SDS, four 3-mm glass beads, and 0.5 g of 0.1-mm zirconia beads (BioSpec Products, Bartlesville, OK). After incubation at 95 C for 15 min and centrifugation at full speed for 5 min to pellet stool particles, nucleic acids were precipitated by adding 10 M ammonium acetate and one volume of isopropanol. Seventy percent ethanol-washed pellets were resuspended in TE buffer, treated with 10 mg/ml DNase-free RNase at 37 C for 15 min, and then subjected to protein removal and column-based DNA purification following the manufacturer's instructions (QIAamp DNA Stool Mini Kit; QIAGEN, Hilden, Germany).     The V3-V4 hypervariable region of the 16S rRNA gene was amplified using the 341F and 805R primers with added Illumina adapter overhang sequences as previously reported. Amplicons were purified with a magnetic bead-based cleanup system (Agencourt AMPure XP; Beckman Coulter, Brea, CA). Indexed libraries were prepared by limited-cycle PCR using Nextera technology and further cleaned up as described above. The final library, prepared by pooling samples at equimolar concentrations, was denatured with 0.2 N NaOH and diluted to 6 pM with a 20% PhiX control.     Sequencing was performed on Illumina MiSeq platform using a 2x300 bp paired end protocol, according to the manufacturer's instructions.     Raw sequences were processed using a pipeline combining PANDAseq and QIIME. High-quality reads were clustered into OTUs at 97% sequence similarity using UCLUST. The filtering of chimeric OTUs was performed by using ChimeraSlayer. All singleton OTUs were discarded.     Quality assessment of reads was performed with FastQC v0.11.8 and reports were combined with MultiQC v1.7. Primers were removed with cutadapt v2.3. DADA2 v1.12 was utilized for quality-trimming and filtering and inference of amplicon sequence variants (ASVs), and taxonomy was assigned with DECIPHER v2.14 using the SILVA r138 reference database.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Silvia Turroni  Simone Rampelli  Elena Biagi  Clarissa Consolandi  Marco Severgnini  Clelia Peano  Sara Quercia  Matteo Soverini  Franck G. Carbonero  Giovanna Bianconi  Petra Rettberg  Francesco Canganella  Patrizia Brigidi  and Marco Candela",
+          "Project Link": "http://www.esa.int/Our_Activities/Human_Spaceflight/Mars500",
+          "Study Publication Title": "Temporal dynamics of the gut microbiota in people sharing a confined environment, a 520-day ground-based space simulation, MARS500",
+          "Managing NASA Center": "",
+          "Study Description": "The MARS500 project, the longest ground-based space simulation ever, provided us with a unique opportunity to trace the crew microbiota over 520 days of isolated confinement, such as that faced by astronauts in real long-term interplanetary space flights, and after returning to regular life, for a total of 2 years.",
+          "organism": "Microbiota",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/pppc-dn95",
+          "url": "https://doi.org/10.26030/pppc-dn95"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1490313600
+        ]
+      }
+    ]
+  }
+}

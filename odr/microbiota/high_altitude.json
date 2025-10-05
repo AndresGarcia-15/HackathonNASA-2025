@@ -1,0 +1,80 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "R9_6g4QB28eYt3lGNLYH",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-256/",
+          "Flight Program": "NASA Airborne Science Program",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "bioaerosol",
+          "Project Identifier": "",
+          "Accession": "OSD-256",
+          "Identifiers": "GLDS-256",
+          "Study Identifier": "OSD-256",
+          "Study Protocol Name": "sample collection     GeneLab metagenomic data processing protocol     nucleic acid extraction     library construction     nucleic acid sequencing     human read contaminant filtering     GeneLab raw data processing protocol",
+          "Study Assay Technology Type": "Whole-Genome Shotgun Sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Jaing Smith Morrison",
+            "Middle Initials": " J. D",
+            "First Name": "Crystal David Michael"
+          },
+          "Study Protocol Type": "sample collection     data transformation     nucleic acid extraction     library construction     nucleic acid sequencing     data transformation     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "NASA Aircraft Bioaerosol Collector (ABC) -2",
+          "Study Factor Type": "Altitude",
+          "Study Public Release Date": 1595808000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-256/image",
+          "Study Factor Name": "Altitude",
+          "Study Assay Measurement Type": "Metagenomic sequencing",
+          "Project Type": "High Altitude Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "Aircraft Bioaerosol Collector - 2",
+          "Study Funding Agency": "This project was funded by the LLNL Laboratory Research and Development program, grant number 18-ERD-044.",
+          "Study Protocol Description": "Flight sample collection procedures were carried out using the Aircraft Bioaerosol Collector (ABC). Gamma-irradiated gelatinous filter membranes (Part  16799-1001-02500, Sartorius, Bohemia, NY) were used to capture bioaerosols. The gelatinous filters were placed in the ABC using sterile techniques, and the valve that was upstream of the cascade sampler was opened to allow air into the sampler. The valve was then closed during the aircraft's descent to the next altitude. The filters were taken out and stored in whirl-pak sterile plastic bags and new filters were placed in the sampler. Two different cascade impactor stages were used to size separate the bioaerosols (Product TE-10–860; Tisch Environmental, Cleves, OH). Each sampler stage had 400 small, round, drilled orifices (1.18 mm on first stage; 0.25 mm on second stage). As described by Smith et al., the first stage should capture aerosols larger than 8 μm (if traveling into the inlet) while the second stage would capture smaller aerosols between 1 and 8 μm (nominal). The first stage holds Filter A and second stage holds Filter B. An upstream valve was used to regulate atmospheric air flowing into the system. With the air flow off, fresh filters were aseptically swapped into the sampling system before the next altitude was sampled. A total of 16 filter samples were collected at the four different altitudes on two consecutive flight days with two filters staged at each altitude.  Ground controls: pre-flight and post-flight ground controls were collected on the C-20A window plate, air probe inlet, and an exterior portion of the aircraft upstream of the sampling probe using a pre-wetted, DNA-free sterile applicator. Swabs were stored in 5 ml of sterile deionized water within a 15 ml Falcon tube and kept at 4C until laboratory processing.   Cabin controls: To characterize contaminants inside the aircraft, a blank gelatinous filter was placed in a petri dish resting on the work bench and exposed to ambient aircraft cabin air during every filter exchange.   Process controls: sample 3 was a water blank that was run though all the sample processing steps, and Samples 33 and 34 were water blanks that were added during the DNA extraction step.     Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.11. Quality-trimming and filtering was performed with bbmap v38.86. Read-based processing was performed with humann v3.6. Individual samples were assembled with megahit v1.2.9. Genes were called with prodigal v2.6.3. Taxonomic classification of genes and contigs was performed with CAT v5.2.2. Functional annotation was done with KOFamScan v1.3.0. Reads were mapped to assemblies with bowtie2 v2.3.5.1, and coverage information was extracted for reads and contigs with samtools v1.9 and bbmap v38.86. Binning of contigs was performed with metabat2 v2.15. Bins were summarized with bit v1.8.53 and estimates of quality were generated with checkm v1.1.3. High-quality bins (less than 90% est. completeness and higher than 10% est. redundancy) were taxonomically classified with gtdb-tk v1.5.0.     For each sample, one filter half was dissolved in 40 ml of warm (37C) molecular grade water and concentrated using the InnovaPrep CP Select concentrating pipette (InnovaPrep, Drexel, MO). For each concentrated volume, 200 ul was used for DNA extraction. DNA was extracted using the Qiagen AllPrep PowerViral DNA/RNA Kit (#28000, Hilden, Germany). Starndard manufacture protocols with bead beating were followed to extract DNA from each sample. Extracted DNA was quantified using the ThermoFisher Qubit Fluorometer (Waltham, MA).     DNA libraries were prepared for sequencing using the Illumina Nextera Flex DNA Library Preparation Kit (#20018705). For each sample, approximately 500 pg was input into the kit and standard manufacturer protocols were followed. Quality, concentration, and fragment sizes of the completed libraries were assessed on the Agilent Tapestation 4200 (Santa Clara, CA). Libraries were normalized and pooled according to the Agilent Tapestation determined concentrations at a concentration of 100-200 pM. The pooled library sample was quantified using the ThermoFisher Qubit fluorometer.     The Illumina NextSeq 500 was used for shotgun metagenomic sequencing with the Illumina NextSeq Series High Output Kit v2 (San Diego, CA), using 150 base pair, paired-end reads.     Human Read Contaminant Filtering: A Kraken2 database was constructed from the Kraken2 GRCh38 Homo sapiens data library with k-mer length 35, minimizer length 31, and low complexity sequence mapping options. The Kraken2 classifier was run on FASTQ against this database and unclassified reads retained as contaminant free.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12.",
+          "Experiment Platform": "C-20A Gulfstream III aircraft",
+          "Characteristics": "",
+          "Study Grant Number": "18-ERD-044",
+          "Study Publication Author List": "Jaing C  Thissen J  Morrison M  Dillon MB  Waters SM  Graham GT  Be NA  Nicoll P  Verma S  Caro T  Smith DJ",
+          "Project Link": "https://airbornescience.nasa.gov/",
+          "Study Publication Title": "Sierra Nevada sweep: metagenomic measurements of bioaerosols vertically distributed across the troposphere",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "Several studies have reported that microorganisms are co-transported with globally dispersed aerosols and that microbial DNA and viable cells have been detected at both low and high altitudes. In an effort to investigate how microbial patterns change with altitude, two research flights were flown using NASA's C-20A Gulfstream III aircraft over the Sierra mountains in the Southern California/Nevada region over two consecutive days. During each flight, the aircraft reached 40,000 ft and lowered to 30,000 ft, 20,000 ft, and 10,000 ft in a stair-step pattern. Bioaerosol samples were collected at each altitude for 30 minutes on gelatinous filters using the Aircraft Bioaerosol Collector (ABC). DNA was extracted from the bioaerosol sample. Whole genome sequencing was performed on the extracted DNA using an Illumina NextSeq 500.",
+          "organism": "Microbiota",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/7c82-bd04",
+          "url": "https://doi.org/10.26030/7c82-bd04"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1595808000
+        ]
+      }
+    ]
+  }
+}

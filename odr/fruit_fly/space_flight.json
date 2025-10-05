@@ -1,0 +1,790 @@
+{
+  "took": 3,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 12,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "t_Lky4wBVhd_IT1AtbED",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-588/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "05/05/2018",
+            "Start Date": "04/02/2018",
+            "Name": "SpaceX-14"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "FFL03",
+          "Accession": "OSD-588",
+          "Identifiers": "GLDS-583",
+          "Study Identifier": "OSD-588",
+          "Study Protocol Name": "Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol     sequence analysis data transformation     GeneLab RNAseq data processing protocol     treatment protocol     sample collection",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "Project team",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Saravia-Butler Govind",
+            "Middle Initials": "M.",
+            "First Name": "Amanda Shubha"
+          },
+          "Study Protocol Type": "Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation     sequence analysis data transformation     data transformation     treatment protocol     sample collection",
+          "Space Program": "NASA",
+          "Study Title": "Drosophila parasitoids go to space: Unexpected effects of spaceflight on hosts and their parasitoids - Drosophila data",
+          "Study Factor Type": "Space Flight     Genotype     developmental stage     infection",
+          "Study Public Release Date": 1704153600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-588/image",
+          "Study Factor Name": "Spaceflight     Genotype     Developmental Stage     Infection",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "Fruit fly lab 03 (FFL-03)",
+          "Study Funding Agency": "NASA NNX15AB42G",
+          "Study Protocol Description": "For adult flies, three males and females each, of (a) y w G0; (b) y w S0; (c) hopTum-l G0; (d) hopTum-l S0 were used for extraction. Larval RNA was isolated from G1 and S1 y w animals. In addition, RNA was also extracted from hopTum-l larvae as follows: (a) uninfected G1; (b) uninfected S1; (c) G0 Lb-infected G1 hosts; (d) S0 Lb-infected G1 hosts; (e) G0 Lb-infected S1 hosts; (f) S0 Lb-infected S1 hosts; (g) G0 Lh-infected G1 hosts; (h) S0 Lh-infected G1 hosts; (i) G0 Lh-infected S1 hosts; (j) S0 Lh-infected S1 hosts. The RNA/protein purification plus kit from Norgen Biotek Corp. was used for RNA preparation and extracted total RNA was stored in Norgen RNA isolation kit elution buffer.     RNA from G0 and S0 adult flies was processed at Genewiz, Inc. as follows: After polyA+ extraction, libraries for adult flies and wasps were prepared using the non-stranded NEBNext Ultra RNA Library Prep Kit E7775, following manufacturer’s instructions (NEB, Ipswich, MA, USA). The libraries were validated by using the Agilent TapeStation. Quantification was performed using the Qubit 2.0 Fluorometer. Total RNA prepared from G1 and S1 larval samples (stored at -80C) was processed as follows at NASA’s GeneLab Sample Processing Laboratory. RNA concentration was determined using a Qubit 4.0 Fluorometer and 400 ng of each sample was used for polyA+ extraction. RNAseq sequencing libraries were prepared using the non-stranded NEBNext Ultra RNA Library Prep Kit (cat E7775), following manufacturer’s instructions (NEB, Ipswich, MA, USA). The libraries were validated by using the Agilent TapeStation D1000 tape. Quantification was performed using the Qubit 4.0 Fluorometer. Libraries were pooled and sequenced on Illumina iSeq 100 sequencer to confirm library balancing and to screen for ribosomal RNA.     Libraries of G0 and S0 adult flies were sequenced on the Illumina HiSeq 4000 machine for HiSeq 2x150bp, dual index, at Genewiz. Data output was ~300- 350 million raw paired-end reads per lane. Libraries of G1 and S1 y w and hopTum-l larvae prepared at NASA GeneLab was sequenced on Illumina NovaSeq 6000 sequencer using S1 Reagent Kit v1.5, dual index, (2x150 (300 cycles), 2 lanes).     Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of D-melanogaster rRNA sequences retrieved from NCBI on 01-Sep-2021.     Raw fastq files were assessed for % rRNA using HTStream SeqScreener (version 1.3.2) and filtered using Trim Galore! (version 0.6.7) powered by Cutadapt (version 2.6). Raw and trimmed fastq file quality was evaluated with FastQC (version 0.11.9), and MultiQC (version 1.11) was used to generate MultiQC reports. Drosophila melanogaster STAR and RSEM references were built using STAR (version 2.7.8a) and RSEM (version 1.3.1), respectively, Ensembl release 101, genome version BDGP6.28 (Drosophila_melanogaster.BDGP6.28.dna.toplevel.fa) concatenated with ERCC92.fa from ThermoFisher (https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip), and the following gtf annotation file: Drosophila_melanogaster.BDGP6.28.101.gtf concatenated with the ERCC92.gtf file from ThermoFisher (https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip). Trimmed reads were aligned to the Drosophila melanogaster + ERCC STAR reference with STAR (version 2.7.8a) and aligned reads were assessed for strandedness using RSeQC Infer Experiment (version 4.0.0) then aligned reads from all samples were quantified using RSEM (version 1.3.1), with strandedness set to none. Quantification data was imported to R (version 4.0.3) with tximport (version 1.18.0), ERCC genes were removed, then the data were normalized with DESeq2 (version 1.30.0) median of ratios method. The normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.0.3) using DESeq2 (version 1.30.0); all groups were compared pair-wise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the following Bioconductor and annotation packages: STRINGdb (v2.2.0), PANTHER.db (v1.0.10), and org.Dm.eg.db (v3.12.0).     Data were processed as described in GL-DPPD-7101-F (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-F.md), using NF_RCP-F version 1.0.4 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_RCP-F_1.0.4/RNAseq/Workflow_Documentation/NF_RCP-F). In short, raw fastq files were filtered using Trim Galore! (version 0.6.7) powered by Cutadapt (version 3.7). Trimmed fastq file quality was evaluated with FastQC (version 0.11.9), and MultiQC (version 1.12) was used to generate MultiQC reports. Drosophila melanogaster STAR and RSEM references were built using STAR (version 2.7.10a) and RSEM (version 1.3.1), respectively, Ensembl release 107, genome version BDGP6.32 (Drosophila_melanogaster.BDGP6.32.dna.toplevel.fa) and the following gtf annotation file: Drosophila_melanogaster.BDGP6.32.107.gtf. Trimmed reads were aligned to the Drosophila melanogaster STAR reference with STAR (version 2.7.10a) and alignment log files were compiled with MultiQC (version 1.12). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 4.0.0), gene body coverage using RSeQC geneBody_coverage.py (version 4.0.0), inner distance was assessed using RSeQC inner_distance.py (version 4.0.0), and distribution of RNA features using RSeQC read_distribution.py (version 4.0.0). Aligned reads from all samples were quantified using RSEM (version 1.3.1), with strandedness set to none and RSEM count log files were compiled with MultiQC (version 1.12). The runsheet was generated with dp_tools (version 1.3.4) and the runsheet and quantification data were imported to R (version 4.1.3) with tximport (version 1.27.1) and normalized with DESeq2 (version 1.34.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.1.3) using DESeq2 (version 1.34.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Dm.eg.db (version 3.15.0).     D. melanogaster strains, yellow white (y w) and y w hopTum-l msn-Gal4; UAS-mCD8-GFP, and wasp species, L. heterotoma strain 14 (Lh14) and L. boulardi strain 17 (Lb17) (Schlenke et al., 2007) were included in the flight and ground control experiments. The hopTum-l strain carries a dominant point mutation in the human JAK-kinase homolog, hopscotch (Luo et al., 1995). This gain-of-function mutation confers constitutive JAK-STAT signaling. High rates of hematopoietic proliferation in larval stages result in small, melanized tumors that can be scored through the adult stages. In this strain, the misshapen (msn)- promoter directs GAL4 expression to lamellocytes (Tokusumi et al., 2009), which drives the expression of the UAS-mCD8-GFP transgene to visualize lamellocytes that make up the bulk of the tumors. Extensive pre-flight testing was done to estimate the diet volume and insect numbers for optimal growth during the 33-day flight period (April 2–May 5, 2018). Six conditions (two fly-only cultures, four fly/wasp co-cultures) were distributed between six Vented Fly Boxes (VFBs). The fly-only cultures were reared in polystyrene vials containing 12 ml ± 1 ml fly food, while the co-culture vials contained 10 ml ± 1 ml fly food. This volume of fly food supported optimal insect growth for 33 days, while keeping carbon dioxide production to a minimum. Fifteen y w fly-only cultures were initiated with 8 female and 5 male flies. Fifteen hopTum-l cultures were similarly initiated with 20 female and 10 male flies. Fly-wasp co-cultures were set up by first adding the flies to vials for three days whereupon flies were removed and adult wasps introduced prior to launch. For the y w co-cultures, 30 adult females and 15 adult males were added to each polystyrene vial for egg-lay. For hopTum-l, egg-lays, 35 females and fifteen males were used. Fifteen egg-lays were made for each genotype and 15 female and 15 male wasps were added to each egg-lay for infection. Each VFB holds 15 vials and six VFBs were placed inside a Cargo Transfer Bag (CTB) before launch of the SpaceX-14 mission to the ISS. The ISS crew installed the samples into the Columbus Module endcone with the CTB lid open to promote air exchange between the VFBs and cabin air, where they remained until approximately two days prior to return when they were returned to the Dragon capsule for return to Earth. Samples remained at ambient temperature (~22C) and humidity data in each VFB was collected throughout the 33-day flight mission. The radiation dosimeter on the ISS was the COL1A2 Radiation Assessment Detector, ISS-RAD, that detects charged particles (Zeitlin C, 2023). Dosimetry measurements on SpaceX-14 recorded an average absorbed dose rate of 0.3 mGy/day, or 9.6 mGy for the 32-day duration in the ISS. A full-scale near-synchronous ground control was conducted that was staggered 48 hours from launch using the environmental data streamed to a Space Station Processing Facility Environmental Simulator at the Kennedy Space Center (KSC). These ground samples were manually set to recapitulate the temperature and humidity conditions of the space samples.     Samples were flash-frozen in dry ice and stored at -80C.",
+          "Experiment Platform": "Vented Fly Box  Cargo Transfer Bag (CTB)",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Chou Jennifer  Ramroop Johnny R.  Saravia-Butler Amanda M.  Wey Brian  Lera Matthew P.  Torres Medaya L.  Heavner Mary Ellen  Iyer Janani  Mhatre Siddhita D.  Bhattacharya Sharmila  Govind Shubha",
+          "Project Link": "https://www.nasa.gov/ames/research/space-biosciences/fruit-fly-lab-03-spacex-14",
+          "Study Publication Title": "Drosophila parasitoids go to space: Unexpected effects of spaceflight on hosts and their parasitoids",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "In this study, fruit flies and their parasitic wasps were sent to the ISS to examine changes in host immunity and parasite virulence. Key findings from this work are as follows: (a) Spaceflight spiked the expression of inflammation genes in fruit flies; (b) Spaceflight enhanced tumor growth in flies already suffering from chronic inflammation; (c) Spaceflight did not significantly affect parasitic wasp development, emergence, or the expression of virulence genes; (d) Parasite mutants with visible wing color and shape alterations were obtained. This study contains Drosophila melanogaster data. The Leptopilina heterotoma14 data is deposited in OSD-609, https://osdr.nasa.gov/bio/repo/data/studies/OSD-609, and the Leptopilina boulardi17 data is deposited in OSD-610, https://osdr.nasa.gov/bio/repo/data/studies/OSD-610.",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/v9rh-5a70",
+          "url": "https://doi.org/10.26030/v9rh-5a70"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1704153600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "rhPnsIgBuupM187WwDvP",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-592/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "05/05/2018",
+            "Start Date": "04/02/2018",
+            "Name": "SpaceX-14"
+          },
+          "Material Type": "brain",
+          "Project Identifier": "MVP-Fly-01",
+          "Accession": "OSD-592",
+          "Identifiers": "LSDS-31",
+          "Study Identifier": "OSD-592",
+          "Study Protocol Name": "sample collection     Image File Dimensions     Platform And Sample     Labeling Information     Labeling Protocol     Treatment Protocol     ALSDA Transformed Data",
+          "Study Assay Technology Type": "Immunohistochemistry",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Zeiss LSM 880",
+          "Study Person": {
+            "Last Name": "Gilbert Bhattacharya Mhatre Petereit Dolling-Boreham Tyryshkina Paul Jensen Woolsey Anand Sowa Quilici Costes Girirajan Iyer",
+            "Middle Initials": " D",
+            "First Name": "Rachel Sharmila Siddhita Juli Roberta M. Anastasia Amber M. Matthew Rebekah J. Sulekha Marianne B. David R. Sylvain V. Santhosh Janani"
+          },
+          "Study Protocol Type": "sample collection     Image File Dimensions     Platform And Sample     Labeling Information     Labeling Protocol     sample treatment protocol     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster (Immunohistochemistry)",
+          "Study Factor Type": "Gravity, Altered     Sex     Space Flight",
+          "Study Public Release Date": 1686528000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-592/image",
+          "Study Factor Name": "Altered Gravity     Sex     Spaceflight",
+          "Study Assay Measurement Type": "Molecular Cellular Imaging",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "NASA JSC Grant no. NASA-OZ (2017-2018)",
+          "Study Protocol Description": "F1 generation flies returned live were dissected (R+0 and R+25) and brains were immediately fixed for 20 minutes in PBS (Phosphate buffered saline) containing 4% paraformaldehyde, 6.7% sucrose, and 0.01% tween-20, and stored at 4°C in PBS with 0.05% sodium azide.     Stained brains were imaged using Zeiss LSM 880 laser scanning confocal microscope in the histology and microscopy core facility at the Gladstone Institute, University of California San Francisco (UCSF). Image dimensions were 1028x1028 and slides per image varied based on thickness of sample.     4-8 fly brains were mounted on a slide and separated by a spacer.     F1 generation flies returned live were dissected (R+0 and R+25) and brains were immediately fixed for 20 minutes in PBS (Phosphate buffered saline) containing 4% paraformaldehyde, 6.7% sucrose, and 0.01% tween-20, and stored at 4°C in PBS with 0.05% sodium azide. The R+0 and R+25 brains were stained for immunohistochemical analysis where staining for different antibody markers was conducted at the same time to facilitate comparison and reduce variability. The brains were stained following a standard protocol.     Briefly, the fixed brains were washed with PBS and PBT (0.2% Triton X-100 in PBS) for 10 min each, incubated with blocking buffer (5% normal goat serum (Catalog   566380, Sigma) in PBT) for one hour, and then incubated overnight at 4°C with primary antibodies. One set of brains (labeled Set 2) were stained with anti-elav (1:100, Catalog   7E8A10, Developmental Studies Hybridoma Bank (DSHB), host species - rat) to label all the neurons, anti-cc3 (1:100, Catalog   9661, Cell signaling Technology, host species - rabbit) as apoptotic marker, and anti-8-oxo-dG (1:100, Catalog   4354-MC-050, RandD systems, host species - mouse) as the DNA oxidative damage marker. Another set of brains (labeled Set 1) were stained with anti-Repo (1:50, Catalog   8D12, DSHB), University of Iowa, host species - mouse) to label the glia, and anti-TH (1:300, Catalog   AB152, EMD Millipore, host species - rabbit) to label the dopaminergic neurons. These preparations were then washed three times with PBT for 10 min each, and incubated with fluorophore-conjugated secondary antibodies, Alexa fluor 568 goat anti-mouse (1:200; Catalog   A-11031, Invitrogen), Alexa fluor 488 goat anti-rabbit (1:200; Catalog   A-11034, Invitrogen), or Alexa fluor 633 goat anti-rat (1:200; Catalog   A21094, Invitrogen). Final washes were performed once with PBT and twice with PBS, each for 10 min, and mounted in Vectashield (Vector Labs, H-1000) for imaging.     The w1118 wildtype line (Bloomington Stock Center) was used in this study. Thirty hours prior to launch, one-day-old virgin male (10) and female (25) fruit flies were loaded into the adult food cylinder 3 in each of the six MVP modules (F0 generation). The food cylinder was then immediately opened to adult fly chamber 2. The modules were then placed inside of a standard cargo transfer bag for launch. Prepared food cylinders were stored at 4°C for the duration of launch and ISS operations. Approximately 3.7 days (90 h) after launch, the payload was delivered to the ISS and the crew installed a food cylinder 2 inside the MVP module and opened the food cylinder 2 to adult fly chamber 2 (Mission day equals 5), giving flies access to the new food. Food cylinder 3 was closed at this time. This procedure was repeated for all MVP modules, and the modules were loaded into the previously installed MVP habitat hardware by the ISS crew. At this time, the six SF1g modules started spinning at 68 rpm to maintain 1g in spaceflight while the six SFμg modules were maintained at microgravity levels. After 5.5 days of egg laying (Mission Day equals 10), food cylinder 2 was opened to adult fly chamber 1 to allow the eggs laid in space to develop and emerge into adult flies in chamber 1. At the same time food cylinder 2 was closed to adult fly chamber 2, such that the launch populations of flies were prevented from entering food cylinder 2, thus keeping the generations separated. Food cylinder 3 was reopened to adult fly chamber 2 to continue providing food to this population for the remainder of the experiment. The larvae and flies that emerged from the food cylinder 2 into the adult fly chamber 1 had undergone their entire developmental life cycle during spaceflight (F1 generation). At this time, food cylinder 1 was inserted and opened to chamber 1 to allow egg laying in cylinder 1, which will produce the second generation of spaceflight-developed flies (F2 generation). Food cylinder 2 remained open to chamber 1 during egg lay to allow adults to continue emerging. This also allowed us to know the age range of the adult flies returned for postflight experiments (∼11-17-day adults). The MVP locker was powered down after the experiment. All the science operations, including food cylinder changes and fixation and opening/closing of chambers, were performed by the ISS crew. Unforeseen weather conditions delayed the mission by 4 days, during which the crew repowered the MVP hardware on mission day 31 and powered it off on mission day 34 for return to Earth. The total duration of spaceflight exposure for the samples in this study was approximately 29 days, as the egg laying period began on day 1 (April 6 2018, 14:50 UTC) and the Dragon capsule undock took place on day 29 (May 5 2018, 13:22 UTC). Ground control samples were asynchronous, and went from May 31, 2018 0:10 UTC to June 28 2018 22:52 UTC.     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining.",
+          "Experiment Platform": "Multi-use Variable-gravity Platform (MVP)",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Mhatre SD  Iyer J  Petereit J  Dolling-Boreham RM  Tyryshkina A  Paul AM  Gilbert R  Jensen M  Woolsey RJ  Anand S  Sowa MB  Quilici DR  Costes SV  Girirajan S  Bhattacharya S.",
+          "Project Link": "",
+          "Study Publication Title": "Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster.",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "Spaceflight poses risks to the central nervous system (CNS), and understanding neurological responses is important for future missions. We report CNS changes in Drosophila aboard the International Space Station in response to spaceflight microgravity (SFμg) and artificially simulated Earth gravity (SF1g) via inflight centrifugation as a countermeasure. While inflight behavioral analyses of SFμg exhibit increased activity, postflight analysis displays significant climbing defects, highlighting the sensitivity of behavior to altered gravity. Multi-omics analysis shows alterations in metabolic, oxidative stress and synaptic transmission pathways in both SFμg and SF1g; however, neurological changes immediately postflight, including neuronal loss, glial cell count alterations, oxidative damage, and apoptosis, are seen only in SFμg. Additionally, progressive neuronal loss and a glial phenotype in SF1g and SFμg brains, with pronounced phenotypes in SFμg, are seen upon acclimation to Earth conditions. Overall, our results indicate that artificial gravity partially protects the CNS from the adverse effects of spaceflight. This study derives results from the immunohistochemistry (cellular and molecular imaging) assay from whole brains.",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "alsda",
+          "DOI": "10.26030/nbbs-bc37",
+          "url": "https://doi.org/10.26030/nbbs-bc37"
+        },
+        "highlight": {
+          "all": [
+            "Dimensions     Platform And Sample     Labeling Information     Labeling Protocol     Treatment Protocol     <em>ALSDA</em>",
+            "with a reusable template, which was created through feedback provided by subject matter experts in the <em>ALSDA</em>",
+            "<em>alsda</em>"
+          ]
+        },
+        "sort": [
+          1686528000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "pxMJVYgBuupM187WXzsx",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-595/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "05/05/2018",
+            "Start Date": "04/02/2018",
+            "Name": "SpaceX-14"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "MVP-Fly-01",
+          "Accession": "OSD-595",
+          "Identifiers": "LSDS-42",
+          "Study Identifier": "OSD-595",
+          "Study Protocol Name": "Drosophila In Flight Video     treatment protocol     ALSDA Transformed Data",
+          "Study Assay Technology Type": "Video Recording",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Multi-use Variable Gravity Drosophila hardware (UI-1491LE camera)",
+          "Study Person": {
+            "Last Name": "Gilbert Iyer Mhatre Bhattacharya Petereit Dolling-Boreham Tyryshkina Paul Jensen Woolsey Anand Sowa Quilici Costes Girirajan",
+            "Middle Initials": " D",
+            "First Name": "Rachel Janani Siddhita Sharmila Juli Roberta M. Anastasia Amber M. Matthew Rebekah J. Sulekha Marianne B. David R. Sylvain V. Santhosh"
+          },
+          "Study Protocol Type": "Drosophila In Flight Video     sample treatment protocol     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster",
+          "Study Factor Type": "Gravity, Altered     Space Flight",
+          "Study Public Release Date": 1684972800.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-595/image",
+          "Study Factor Name": "Altered Gravity     Spaceflight",
+          "Study Assay Measurement Type": "Behavior",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "NASA JSC Grant no. NASA-OZ (2017-2018)",
+          "Study Protocol Description": "The mission used the MVP hardware (Redwire/Techshot, Inc., Greenville, Indiana) that supports easy food changes, allowing for a large population of flies to be maintained over multiple generations. It is also equipped with UI-1491LE video cameras used to capture time course footage of D. melanogaster. The hardware consists of uniform white LED illumination which was programmed for a 12-h:12-h (light: dark) cycle for each habitat. Fresh cabin air was continuously circulated through the habitat to maintain steady CO2 and O2 levels. The housing system consists of two independent centrifuge units maintained within the same habitat enclosure, each containing six MVP modules. For this experiment, one centrifuge was rotated at 68 rpm to artificially simulate Earth’s gravity (SF1g) in space. The other centrifuge was rotated at 2.2 rpm, making the g-level at the outer edge of the carousel at approximately 0.00095g (SFμg). This minimal rotation of SFμg ensured temperature uniformity between all experimental modules, while maintaining the microgravity levels of the ISS.\n\nTo quantify fly activity on the ISS, a simple but robust algorithm was developed using image-processing techniques in Matlab 2018 (MathWorks, Inc., Natick, MA) and DIPimage running on a MacBook Pro with an i7 core processor. Only the videos from adult fly chamber 1 SF1g and SFμg were analyzed in this study (Mission days 13–28) since these chambers contained the flies bred entirely in space (F1 generation). The age of the flies assessed from video imaging of the inflight behavior ranged from 1 to 16-days (Postflight assays were conducted with flies with a smaller age range as described in the relevant sections). Similar video recording arrangements were made for Earth condition, but the videos could not be recorded due to technical issues. Full resolution 8-bit images (1986x1064) were used for analysis. The individual frames from the video images have a predominant intensity in the blue channel. Therefore, each video image was separated into its three RGB components, and the blue channel (shown in grayscale) was inverted and used for further analysis as it provided best visualization of the flies. Once inverted, resulting images had individual flies that appeared as white pixels on a gray background. For each movie, maximum intensity projections (MIP) were computed by overlaying individual video frames and keeping the brightest pixels across all time points, resulting in a stroboscopic motion-like effect. The pixel location of the MIP was mapped on a composite image to visualize the locomotion of individual flies during each video. These tracks had a higher intensity and appeared brighter than the background. Flies that did not move did not create a track, indicated in green. However, flies that were active during the video recording created a white track in blue and red. This process resulted in a single image that displayed the tracks of the fly population throughout a series of 28-s video recordings.  Using the MIP images of adult fly chamber 1, we could determine when flies were active. The videos from mission day 13 to 28 that tracked the F1 generation of flies. In other words, this time frame included initial fly emergence when the majority of the space-bred generation of flies entered adult fly chamber 1 from food cylinder 2 but ended prior to fly numbers and debris levels increasing to a point where the camera view was obstructed. The number of flies in a chamber increased over time due to reproduction based on the life cycle of D. melanogaster. Six videos per day, each 28 s in duration that spanned the 12-h light period, were processed to produce MIP images for each fly module. One of the six modules containing the population bred in μg malfunctioned during flight, so our analysis includes six modules in SF1g and five modules in SFμg. Videos from adult fly chamber 2 were not used for analysis because 1) the build-up of debris due to more extended periods of growth compared to adult fly chamber 1 obscured the camera view, and 2) the chamber contained mixed generations of flies. The pixel intensities were summed for each MIP image, resulting in a single numerical value for every video. The more a fly moves, the longer are the white streaks that can be observed along its path on the MIP and the higher is the total measured intensity. The process was repeated for each video producing a series of numerical values to quantify the overall activity of the fly population during the mission. Video S1 and S2 is a representative video showing the fly chambers of SF1g and SFμg, where suspended flies are seen in microgravity condition. The color map was generated by setting the minimum value in the color map to the baseline intensity obtained from the first frame of the video. The intensities across all modules and treatments were scaled such that the video with the MIP image having the highest summated intensity (and therefore highest activity) was set to the maximum color on the color scale. Note: No videos were analyzed for activity past day 28 due to the increased fly numbers and debris interfering with the image quality.     The w1118 wildtype line (Bloomington Stock Center) was used in this study. Thirty hours prior to launch, one-day-old virgin male (10) and female (25) fruit flies were loaded into the adult food cylinder 3 in each of the six MVP modules (F0 generation). The food cylinder was then immediately opened to adult fly chamber 2. The modules were then placed inside of a standard cargo transfer bag for launch. Prepared food cylinders were stored at 4°C for the duration of launch and ISS operations. Approximately 3.7 days (90 h) after launch, the payload was delivered to the ISS and the crew installed a food cylinder 2 inside the MVP module and opened the food cylinder 2 to adult fly chamber 2 (Mission day equals 5), giving flies access to the new food. Food cylinder 3 was closed at this time. This procedure was repeated for all MVP modules, and the modules were loaded into the previously installed MVP habitat hardware by the ISS crew. At this time, the six SF1g modules started spinning at 68 rpm to maintain 1g in spaceflight while the six SFμg modules were maintained at microgravity levels.  After 5.5 days of egg laying (Mission Day equals 10), food cylinder 2 was opened to adult fly chamber 1 to allow the eggs laid in space to develop and emerge into adult flies in chamber 1. At the same time food cylinder 2 was closed to adult fly chamber 2, such that the launch populations of flies were prevented from entering food cylinder 2, thus keeping the generations separated. Food cylinder 3 was reopened to adult fly chamber 2 to continue providing food to this population for the remainder of the experiment. The larvae and flies that emerged from the food cylinder 2 into the adult fly chamber 1 had undergone their entire developmental life cycle during spaceflight (F1 generation). At this time, food cylinder 1 was inserted and opened to chamber 1 to allow egg laying in cylinder 1, which will produce the second generation of spaceflight-developed flies (F2 generation). Food cylinder 2 remained open to chamber 1 during egg lay to allow adults to continue emerging. This also allowed us to know the age range of the adult flies returned for postflight experiments (∼11-17-day adults). The MVP locker was powered down after the experiment. All the science operations, including food cylinder changes and fixation and opening/closing of chambers, were performed by the ISS crew. Unforeseen weather conditions delayed the mission by 4 days, during which the crew repowered the MVP hardware on mission day 31 and powered it off on mission day 34 for return to Earth. The total duration of spaceflight exposure for the samples in this study was approximately 28 days, as the egg laying period began on day 1 (April 6 2018, 14:50 UTC) and the video recording period ended on Day 28 (May 4 2018 at 08:30 UTC).     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining.",
+          "Experiment Platform": "Multi-use Variable-gravity Platform (MVP)",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Mhatre SD  Iyer J  Petereit J  Dolling-Boreham RM  Tyryshkina A  Paul AM  Gilbert R  Jensen M  Woolsey RJ  Anand S  Sowa MB  Quilici DR  Costes SV  Girirajan S  Bhattacharya S.",
+          "Project Link": "",
+          "Study Publication Title": "Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "Spaceflight poses risks to the central nervous system (CNS), and understanding neurological responses is important for future missions. We report CNS changes in Drosophila aboard the International Space Station in response to spaceflight microgravity (SFμg) and artificially simulated Earth gravity (SF1g) via inflight centrifugation as a countermeasure. While inflight behavioral analyses of SFμg exhibit increased activity, postflight analysis displays significant climbing defects, highlighting the sensitivity of behavior to altered gravity. Multi-omics analysis shows alterations in metabolic, oxidative stress and synaptic transmission pathways in both SFμg and SF1g; however, neurological changes immediately postflight, including neuronal loss, glial cell count alterations, oxidative damage, and apoptosis, are seen only in SFμg. Additionally, progressive neuronal loss and a glial phenotype in SF1g and SFμg brains, with pronounced phenotypes in SFμg, are seen upon acclimation to Earth conditions. Overall, our results indicate that artificial gravity partially protects the CNS from the adverse effects of spaceflight. This study derives results from the in-flight video analysis (video recording assay).",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "alsda",
+          "DOI": "10.26030/vsya-2v22",
+          "url": "https://doi.org/10.26030/vsya-2v22"
+        },
+        "highlight": {
+          "all": [
+            "Drosophila In Flight Video     treatment protocol     <em>ALSDA</em> Transformed Data",
+            "with a reusable template, which was created through feedback provided by subject matter experts in the <em>ALSDA</em>",
+            "<em>alsda</em>"
+          ]
+        },
+        "sort": [
+          1684972800
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "qBNkVYgBuupM187Wezte",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-596/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "05/05/2018",
+            "Start Date": "04/02/2018",
+            "Name": "SpaceX-14"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "MVP-Fly-01",
+          "Accession": "OSD-596",
+          "Identifiers": "LSDS-43",
+          "Study Identifier": "OSD-596",
+          "Study Protocol Name": "treatment protocol     Drosophila Climbing 1     ALSDA Transformed Data",
+          "Study Assay Technology Type": "Locomotory Behavior",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Manual Counting",
+          "Study Person": {
+            "Last Name": "Gilbert Mhatre Iyer Petereit Dolling-Boreham Tyryshkina Paul Jensen Woolsey Anand Sowa Quilici Costes Girirajan Bhattacharya",
+            "Middle Initials": " D",
+            "First Name": "Rachel Siddhita Janani Juli Roberta M. Anastasia Amber M. Matthew Rebekah J. Sulekha Marianne B. David R. Sylvain V. Santhosh Sharmila"
+          },
+          "Study Protocol Type": "sample treatment protocol     Drosophila Climbing     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster (Behavior, Climbing)",
+          "Study Factor Type": "Gravity, Altered     Space Flight     Sex",
+          "Study Public Release Date": 1684972800.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-596/image",
+          "Study Factor Name": "Altered Gravity     Spaceflight     Sex",
+          "Study Assay Measurement Type": "Behavior",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "NASA JSC Grant no. NASA-OZ (2017-2018)",
+          "Study Protocol Description": "The w1118 wildtype line (Bloomington Stock Center) was used in this study. Thirty hours prior to launch, one-day-old virgin male (10) and female (25) fruit flies were loaded into the adult food cylinder 3 in each of the six MVP modules (F0 generation). The food cylinder was then immediately opened to adult fly chamber 2. The modules were then placed inside of a standard cargo transfer bag for launch. Prepared food cylinders were stored at 4°C for the duration of launch and ISS operations. Approximately 3.7 days (90 h) after launch, the payload was delivered to the ISS and the crew installed a food cylinder 2 inside the MVP module and opened the food cylinder 2 to adult fly chamber 2 (Mission day equals 5), giving flies access to the new food. Food cylinder 3 was closed at this time. This procedure was repeated for all MVP modules, and the modules were loaded into the previously installed MVP habitat hardware by the ISS crew. At this time, the six SF1g modules started spinning at 68 rpm to maintain 1g in spaceflight while the six SFμg modules were maintained at microgravity levels. After 5.5 days of egg laying (Mission Day equals 10), food cylinder 2 was opened to adult fly chamber 1 to allow the eggs laid in space to develop and emerge into adult flies in chamber 1. At the same time food cylinder 2 was closed to adult fly chamber 2, such that the launch populations of flies were prevented from entering food cylinder 2, thus keeping the generations separated. Food cylinder 3 was reopened to adult fly chamber 2 to continue providing food to this population for the remainder of the experiment. The larvae and flies that emerged from the food cylinder 2 into the adult fly chamber 1 had undergone their entire developmental life cycle during spaceflight (F1 generation). At this time, food cylinder 1 was inserted and opened to chamber 1 to allow egg laying in cylinder 1, which will produce the second generation of spaceflight-developed flies (F2 generation). Food cylinder 2 remained open to chamber 1 during egg lay to allow adults to continue emerging. This also allowed us to know the age range of the adult flies returned for postflight experiments (∼11-17-day adults). The MVP locker was powered down after the experiment. All the science operations, including food cylinder changes and fixation and opening/closing of chambers, were performed by the ISS crew. Unforeseen weather conditions delayed the mission by 4 days, during which the crew repowered the MVP hardware on mission day 31 and powered it off on mission day 34 for return to Earth. The total duration of spaceflight exposure for the samples in this study was approximately 28 days, as the egg laying period began on day 1 (April 6 2018, 14:50 UTC) and the video recording period ended on Day 28 (May 4 2018 at 08:30 UTC). Ground control samples were asynchronous, and went from May 31, 2018 0:10 UTC to June 27 2018 18:00 UTC.     Climbing assay was performed on F1 generation of flies returned to Earth using a modified version of Le Bourg and Lints. For each condition, flies were sorted and collected by sex, in groups of ten per food vial (F100, M100) as soon as the live flight samples were returned on earth (splash at L+34, 2 days for samples turnover (Long Beach, CA) and arrived at NASA ARC (R+0) and the assay was conducted. During the climbing assay, flies were transferred to a clean, empty vial and allowed to adjust for 1 min. The flies were tapped down to the bottom, and the number of flies climbing past the 5 cm mark measured from the bottom of the vial in 18 s was recorded as a percentage of flies able to climb per vial (climbing ability). This assay was repeated three times for each vial, with a 30 s rest between trials. An average of three trials was reported per vial.     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining.",
+          "Experiment Platform": "Multi-use Variable-gravity Platform (MVP)",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Mhatre SD  Iyer J  Petereit J  Dolling-Boreham RM  Tyryshkina A  Paul AM  Gilbert R  Jensen M  Woolsey RJ  Anand S  Sowa MB  Quilici DR  Costes SV  Girirajan S  Bhattacharya S.",
+          "Project Link": "",
+          "Study Publication Title": "Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "Spaceflight poses risks to the central nervous system (CNS), and understanding neurological responses is important for future missions. We report CNS changes in Drosophila aboard the International Space Station in response to spaceflight microgravity (SFμg) and artificially simulated Earth gravity (SF1g) via inflight centrifugation as a countermeasure. While inflight behavioral analyses of SFμg exhibit increased activity, postflight analysis displays significant climbing defects, highlighting the sensitivity of behavior to altered gravity. Multi-omics analysis shows alterations in metabolic, oxidative stress and synaptic transmission pathways in both SFμg and SF1g; however, neurological changes immediately postflight, including neuronal loss, glial cell count alterations, oxidative damage, and apoptosis, are seen only in SFμg. Additionally, progressive neuronal loss and a glial phenotype in SF1g and SFμg brains, with pronounced phenotypes in SFμg, are seen upon acclimation to Earth conditions. Overall, our results indicate that artificial gravity partially protects the CNS from the adverse effects of spaceflight. This study derives results from the climbing assay (locomotor assay).",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "alsda",
+          "DOI": "10.26030/eybf-jv71",
+          "url": "https://doi.org/10.26030/eybf-jv71"
+        },
+        "highlight": {
+          "all": [
+            "treatment protocol     Drosophila Climbing 1     <em>ALSDA</em> Transformed Data",
+            "with a reusable template, which was created through feedback provided by subject matter experts in the <em>ALSDA</em>",
+            "<em>alsda</em>"
+          ]
+        },
+        "sort": [
+          1684972800
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "I9_6g4QB28eYt3lGTrcJ",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-514/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "5/5/18",
+            "Start Date": "4/2/18",
+            "Name": "SpaceX-14"
+          },
+          "Material Type": "head",
+          "Project Identifier": "MVP-Fly-01",
+          "Accession": "OSD-514",
+          "Identifiers": "GLDS-514",
+          "Study Identifier": "OSD-514",
+          "Study Protocol Name": "treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     sequence analysis data transformation     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol     protein extraction     Labeling     Mass Spectrometry     Data Transformation",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)     mass spectrometry",
+          "Acknowledgments": "We would like to thank Redwire (previously Techshot, Inc.), for supporting the mission and developing the hardware used. We gratefully acknowledge assistance from C. Cheung, P. Bhavsar, E. Pane, C. Angadi, E. Cekanaviciute, I. Fernandes, M. Torres. We thank Dr. Alwood and Dr. Govind for careful reading of the manuscript. We would like to thank the flight crew for technical assistance aboard the ISS.",
+          "Study Assay Technology Platform": "Illumina     Orbitrap Fusion",
+          "Study Person": {
+            "Last Name": "Iyer Mhatre Bhattacharya",
+            "Middle Initials": " D",
+            "First Name": "Janani Siddhita Sharmila"
+          },
+          "Study Protocol Type": "treatment protocol     sample collection     extraction     Library Construction     Nucleic Acid Sequencing     sequence analysis data transformation     data transformation     data transformation     extraction     Labeling     Mass Spectrometry     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster",
+          "Study Factor Type": "Sex     Space Flight     Gravity, Altered",
+          "Study Public Release Date": 1662595200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-514/image",
+          "Study Factor Name": "Sex     Spaceflight     Altered Gravity",
+          "Study Assay Measurement Type": "transcription profiling     protein expression profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "Multi-use Variable-gravity Platform Validation (SpaceX-14)",
+          "Study Funding Agency": "NASA JSC Grant no. NASA-OZ (2017-2018)",
+          "Study Protocol Description": "The mission used the MVP hardware (Redwire/Techshot, Inc., Greenville, Indiana) that supports easy food changes, allowing for a large population of flies to be maintained over multiple generations. It is also equipped with UI-1491LE video cameras used to capture time course footage of D. melanogaster. The w1118 wildtype line (Bloomington Stock Center) was used in this study. Thirty hours prior to launch, one-day-old virgin male (10) and female (25) fruit flies were loaded into the adult food cylinder 3 in each of the six MVP modules (F0 generation) (therefore age at launch is 54 hours). The modules were then placed inside a standard cargo transfer bag for launch. The MVP-Fly01 mission was launched on SpaceX-14 to the ISS at 20:30 UTC (Coordinated Universal Time) on April 2nd, 2018. Flies were kept in the MVP hardware throughout the 34-day mission on the ISS. Approximately 3.7 days (90 hrs) after launch, the payload was delivered to the ISS and the crew installed a food cylinder 2 inside the MVP module. This procedure was repeated for all MVP modules, and the modules were loaded into the previously installed MVP habitat hardware by the ISS crew. At this time, the six SF1g modules started spinning at 68 rpm to maintain 1g in spaceflight while the six SFµg modules were maintained at microgravity levels. The flies were returned back to Earth in the Dragon capsule, which was unberthed at 13:22 UTC on May 5th, 2018, and splashdown in the Pacific Ocean was the same day at 20:00 UTC.     Samples were placed in the MELFI-2 freezer at -80˚C until the samples returned. Once thawed, cylinders were opened, and flies (F1 generation frozen at L+29 days) were removed and sorted by sex. The head was removed using spring scissors and placed in RNAlater to preserve the RNA and protein integrity.     Total RNA was extracted using RNA/Protein Purification plus (Norgen) from adult heads with four biological replicates in each condition (12-15 heads per replicate). This kit isolated total RNA and protein from the same samples.     Library was constructed by Novogene USA using NEBNext Ultra II Directional RNA Library Prep Kit.     Isolated RNA was used to perform paired-end RNA sequencing on Illumina Novaseq 6000 platform, with an average of 20M reads of PE150 per sample (Novogene, Sacramento, CA).     Data validation and quality control with FASTQC were conducted by Novogene, Inc. The standardized Genelab pipeline was used for the analysis (Overbey et al., 2021). Briefly, raw RNA sequences were trimmed using Trim Galore! v0.6.2 (Krueger, 2019), aligned to the Drosophila reference genome (Dmel release 6.08) and transcriptome with STAR Version 2.7.1a (Dobin et al., 2013), and read counts for each transcript were generated using RSEM v1.3.1. Differentially expressed gene lists were generated using a custom Genelab R script, GeneLab_DGE_noERCC.R, utilizing the DESeq2 v1.22.2 R package (Lai Polo et al., 2020). False discovery rate (adjusted p-value) corrections were performed using Benjamini-Hochberg multiple testing adjustment, and the differentially expressed genes with an adjusted p-value of less than 0.05 were considered statistically significant.     Quality assessment of reads was performed with FastQC v0.12.1 and reports were combined with MultiQC v1.26. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of D-melanogaster rRNA sequences retrieved from NCBI on 01-Sep-2021.     Data were processed as described in GL-DPPD-7101-G (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-G.md), using NF_RCP version 2.0.1 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_RCP-2.0.1/RNAseq/Workflow_Documentation/NF_RCP). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.2). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports. Drosophila Melanogaster STAR and RSEM references were built using STAR (version 2.7.11b) and RSEM (version 1.3.3), respectively, Ensembl release 112, genome assembly BDGP6 (Drosophila_melanogaster.BDGP6.46.dna.toplevel.fa) and the following gtf annotation file: Drosophila_melanogaster.BDGP6.46.112.gtf. Trimmed reads were aligned to the Drosophila Melanogaster STAR reference with STAR (version 2.7.11b) and alignment log files were compiled with MultiQC (version 1.26). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 5.0.4), gene body coverage using RSeQC geneBody_coverage.py (version 5.0.4), inner distance was assessed using RSeQC inner_distance.py (version 5.0.4), and distribution of RNA features using RSeQC read_distribution.py (version 5.0.4). Aligned reads from all samples were quantified using RSEM (version 1.3.3), with strandedness set to none and RSEM count log files were compiled with MultiQC (version 1.26). To create a set of rRNA-removed quantification data, Ensembl IDs mapping to ribosomal RNA (rRNA) were removed from the RSEM gene count data. Both the original set of RSEM quantification data and the rRNA-removed data were subject to differential gene expression analysis as follows. A runsheet was generated with dp_tools (version 1.3.8) and the runsheet and quantification data were imported to R (version 4.4.2) with tximport (version 1.34.0) and normalized with DESeq2 (version 1.46.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.4.2) using DESeq2 (version 1.46.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110-A (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable-A_1.1.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110-A/GL-DPPD-7110-A.md), with STRINGdb (version 2.16.4), PANTHER.db (version 1.0.12), and org.Dm.eg.db (version 3.19.1).     Proteins isolated from adult heads (F1 generation frozen at L+29 days) using the Norgen Biotek kit were used to determine the global proteomic changes. Three replicates in each condition (12-15 heads per replicate) were used for protein isolation and enzymatic digestion. Isolated protein samples were digested and desalted according to Lundby et al. (Lundby et al., 2012). Protein concentrations were then determined using a bicinchoninic acid assay (BCA) (Thermo-Fisher Scientific, San Jose, CA). Proteins were then reduced, alkylated and subjected to acetone precipitation prior to digestion with endoproteinase Lys-C, 1:50 enzyme to protein (Wako, Richmond, VA). This was followed by digestion with trypsin, 1:50 enzyme to protein (Promega, Madison, WI), and desalting and concentrating using C18 Sep-Pak cartridges (Waters).     Peptides were mass tagged using Thermo-Fisher’s TMT 10-plex isobaric label kit (Catalog   90061) following the included protocol and pooled for analysis. Six experimental conditions were labeled in triplicate across three TMT-runs, including two internal control channels.     Basic Reversed-Phase Fractionation – Pooled TMT-labeled peptides were fractionated by basic pH reversed-phase (BPRP) fractionation on an Ultimate 3000 HPLC (Thermo Scientific) using an integrated fraction collector. Elution was performed using a 10-minute gradient of 0-20% solvent B followed by a 50-minute gradient of solvent B from 20-45% (Solvent A 5.0% Acetonitrile, 10mM ammonium bicarbonate pH 8.0, Solvent B 90.0% Acetonitrile, 10mM ammonium bicarbonate pH 8.0) on a Zorbax 300Extend-C18 column (Agilent) at a flow rate of 0.4 ml/min. A total of 24 fractions were collected at 37-second intervals in a looping fashion for 60 minutes then combined to produce 12 super fractions. Peptide elution was monitored at a wavelength of 220nm using a Dionex Ultimate 3000 variable wavelength detector (Thermo Scientific). Each fraction was then centrifuged to near dryness and desalted using C18 Sep-Pak Cartridges followed again by centrifugation to near dryness and reconstitution with 20 ul of 5% acetonitrile and 0.1% formic acid.\n\nLiquid Chromatography and Mass Spectrometry- BPRP fractions were then separated using an UltiMate 3000 RSLCnano system (Thermo Scientific, San Jose, CA) on a self-packed C18 column (100 um x 35 cm). Separation was performed using a 180-minute gradient of solvent B from 2-27% (Solvent A 0.1% Formic Acid, Solvent B Acetonitrile, 0.1% Formic Acid) at 50ºC using a digital PicoView nanospray source (New Objectives, Woburn, MA) that was modified with a custom-built column heater and an ABIRD background suppressor (ESI Source Solutions, Woburn, MA). An in-house column was prepared by packing a 100μm inner diameter picofrit column (New Objectives, Woburn, MA) with 1.9μm ReproSil-Pure C18 (Dr. Maisch, Ammerbuch, Germany) and packed to a length of 30 cm at 9000 psi using a nano-LC column packing kit (nanoLCMS, Gold River, CA). Mass spectral analysis was performed using an Orbitrap Fusion mass spectrometer (Thermo Scientific, San Jose, CA). TMT analysis was performed using an MS3 multi-notch approach. The MS1 precursor selection range is from 400-1400 m/z at a resolution of 120K and automatic gain control (AGC) target of 2.0 x 10^5 with a maximum injection time of 100 ms. Quadrupole isolation at 0.7 Th for MS2 analysis using CID fragmentation in the linear ion trap with a collision energy of 35%. The AGC was set to 4.0 x 10^3 with a maximum injection time of 150ms.  The instrument was operated in a top-speed data-dependent mode with a most intense precursor priority with dynamic exclusion set to an exclusion duration of 60 seconds with a 10ppm tolerance. MS2 fragment ions were captured in the MS3 precursor population. These MS3 precursors were then isolated within a 2.5 Da window and subjected to high energy collision-induced dissociation (HCD) with a collision energy of 55%. The ions were then detected in the Orbitrap at a resolution of 60,000 with an AGC of 5.0 x 10^4 and a maximum injection time of 150 ms. The data was then analyzed using SEQUEST (Thermo Fisher Scientific, San Jose, CA, version v.27, rev. 11.) and Proteome Discoverer (Thermo Scientific, San Jose, CA. version 2.1).     Tandem mass spectra were extracted, and charge states were deconvoluted by Proteome Discoverer version 2.1. Assignment of MS/MS spectra was performed using SequestHT (Thermo Fisher Scientific, San Jose, CA, USA) by searching the data against a protein database, including all entries from the Uniprot Drosophila proteome (UniProt UP00000803, containing 21,041 sequences, download date 10-29-2019) combined with the common contaminants sequences from the Global Proteome Machine. Sequest searches were performed using a parent ion tolerance of 1.25 Da, fragment ion mass tolerance of 1.00005 Da, and requiring each peptides’ termini to have trypsin protease specificity while allowing up to two missed cleavages. Carbamidomethylation of cysteine residues (+57.02146 Da) was set as static modification, while TMT tags on peptide N termini/lysine residues (+229.162932 Da), acetylation of the protein N-terminus, and methionine oxidation (+15.99492 Da) was set as variable modification. Reporter Ions Quantifier settings were set to include unique and razor peptides, Quan value correction factors from manufacturer applied, co-isolation threshold 50%, average reporter S/N 10, and no normalization or scaling of the channels.",
+          "Experiment Platform": "Multi-use Variable-gravity Platform (MVP)",
+          "Characteristics": "",
+          "Study Grant Number": "NASA-OZ (2017-2018)",
+          "Study Publication Author List": "Mhatre Siddhita D.  Iyer Janani  Petereit Juli  Dolling-Boreham Roberta M.  Tyryshkina Anastasia  Paul Amber M.  Gilbert Rachel  Jensen Matthew  Woolsey Rebekah J.  Anand Sulekha  Sowa Marianne B.  Quilici David R.  Costes Sylvain V.  Girirajan Santhosh  Bhattacharya Sharmila",
+          "Project Link": "https://www.nasa.gov/ames/research/space-biosciences/mvp-spacex-14",
+          "Study Publication Title": "Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "Spaceflight poses risks to the central nervous system (CNS), and understanding neurological responses is important for future missions. We report CNS changes in Drosophila aboard the International Space Station in response to microgravity (SFμg) and artificially simulated Earth-gravity (SF1g) via inflight centrifugation as a countermeasure. While inflight behavioral analyses of SFμg exhibit increased activity, postflight analysis displays significant climbing defects, highlighting the sensitivity of behavior to altered gravity. Multi-omics analysis shows alterations in metabolic, oxidative stress, and synaptic transmission pathways in both SFμg and SF1g; however, neurological changes immediately postflight, including neuronal loss, glial cell count alterations, oxidative damage, and apoptosis, are seen only in SFμg. Additionally, progressive neuronal loss and a glial phenotype in SF1g and SFμg brains, with pronounced phenotypes in SFμg, are seen upon acclimation to Earth conditions. Overall, our results indicate that artificial gravity partially protects the CNS from the adverse effects of spaceflight.",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/vsge-cp98",
+          "url": "https://doi.org/10.26030/vsge-cp98"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1662595200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "p9_6g4QB28eYt3lGO7bQ",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-347/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "07/03/2017",
+            "Start Date": "06/03/2017",
+            "Name": "SpaceX-11"
+          },
+          "Material Type": "Heart",
+          "Project Identifier": "FFL-02",
+          "Accession": "OSD-347",
+          "Identifiers": "GLDS-347",
+          "Study Identifier": "OSD-347",
+          "Study Protocol Name": "treatment protocol     sample collection     radiation dosimetry     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     GeneLab RNAseq data processing protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "We would like to thank Nanoracks and Space Florida for initiating these studies with their award to us of the vented fly box.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Ocorr",
+            "Middle Initials": "",
+            "First Name": "Karen"
+          },
+          "Study Protocol Type": "treatment protocol     sample collection     chronic     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Heart Flies - effect of microgravity on heart function in Drosophila",
+          "Study Factor Type": "Space Flight     genotype",
+          "Study Public Release Date": 1606867200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-347/image",
+          "Study Factor Name": "Spaceflight     Genotype",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "The Effects of Microgravity on Cardiac Function Structure and Gene Expression using the Drosophila Model",
+          "Study Funding Agency": "This work was supported in part by the following grants: K.O., NASA NN13AN38694, AHA SDG 0835243N, NIH HL132241, and NIA AG061598; R.B., NASA NN13AN38694, NIA AG058075, and NIH HL05432 and HL149992; and S.B., NASA NN13AN38694 and A.M., R01 HL137100",
+          "Study Protocol Description": "Fly lines used in this study were Canton S laboratory wildtype lines (Bloomington Stock Center) and a K+ channel mutant seizure (seizurets1, a gift from Dr. Barry Ganetsky). The sei/hERG mutants were previously isolated in a screen for ethylmethane sulfonate (EMS)-induced paralytic mutations on the second chromosome(Titus et al., 1997). Flies launched to the International Space Station and the corresponding ground controls were housed in polystyrene vials (75 x24 mm) with 10 ml of standard cornmeal-based fly food containing double the usual amount of 10% Tegosept and cellulose acetate plugs. Approximately 24 hours prior to launch, 15 vials were each loaded with 8 virgin females and 5 male adult virgin flies. Loaded vials were placed in a Plexiglas tray and inserted into a vented fly box (VFB), a modified version of a Nanoracks box. The VFB was placed into a canvas case for loading into the Dragon capsule. Launch of SpaceX CRS-3 occurred at 19:25 UTC on April 18, 2014. Flies were kept in the VFB throughout the 30-day mission and were stored aboard the docked Dragon capsule that shared atmosphere with the ISS. The Dragon capsule unberthed at 13:26 UTC (Co-ordinated Universal Time) on May 18, 2014 and re-entry into the Earth’s atmosphere occurred the same day at 19:05 UTC. Following retrieval of the Dragon capsule off the coast of Mexico, the VFB was offloaded at Long Beach Port, California and transported by car to La Jolla, California in a climate-controlled vehicle. The VFB was oriented such that the g‐load was directed down into the food supply located at the bottom of the vials. This orientation was maintained throughout the entirety of the mission, from point of transfer at the lab at NASA Kennedy Space Center through stowage on the Dragon capsule, and again from Dragon un-berthing to opening of the VFB in the lab at SBP Medical Discovery Institute in La Jolla, California. Ground control flies were prepared and reared under identical conditions in ground-based incubators with temperature and humidity controlled to levels recorded on the ISS.     For each genotype, adult Drosophila were dissected under artificial hemolymph as described in (Vogler and Ocorr, 2009), on ice to expose the heart. These hearts were then carefully cleaned of surrounding fat cells, extracted, and pooled in groups of 6-15 hearts. Hearts were placed into tubes containing 300 ul of Qiazol lysis reagent, homogenized per the Qiagen protocol, flash frozen in liquid nitrogen, and transferred to - 80C for storage.     The absorbed dose of ionizing radiation received by biological payloads on the International Space Station (ISS) depends on a number of factors, including date and duration of exposure and location of the payload on the ISS. Some of the factors that lead to variations in the absorbed dose rate in orbit are ISS altitude, period during the solar cycle, and location of the sample—the ISS module and the specific location within that module. Shielding effects from the biological payload container or habitat have not been taken into account. The measured absorbed dose can vary based on the dosimetry instrument(s) used. Radiation monitoring on the ISS is not standardized across modules; each international partner has its own suite of instruments, with differing technologies, sensitivities and analysis methodologies, including criteria for distinguishing between lightly ionizing particles (mainly protons) and highly ionizing particles (mainly galactic cosmic ray nuclei). Both active and passive dosimeters are used. Active dosimeters are powered and data are read out and stored and/or telemetered to ground. Some active dosimeters provide additional levels of detail such as time resolution, energy deposition and particle identification. Passive dosimeters are unpowered, record constantly and are read out upon return to the ground. The dose in the metadata is the dose recorded by the radiation detector closest to the sample. In most cases that detector will be in the same ISS module; in cases where data from a detector in the same module are not available, the dose is extrapolated using data from periods where data are available from detectors in multiple modules, including the module containing the payload. The duration of the experiment is defined as the time in space during which the specimen was “living”, including the time on the delivery vehicle (e.g. SpaceX Dragon). Once the specimen was frozen or fixed, the experiment was considered stopped. Details of ISS dosimetry and a table with doses for all GeneLab ISS experiment ISS datasets are available at https://genelab.nasa.gov/environmental/radiation.     Total RNA from each sample was extracted and purified using the miRNeasy Mini kit from Qiagen (Cat. No. 217004), yielding 173~551 ng of RNA eluted in 30 ul of RNAse free water. The integrity of the extracted RNA was assessed by Agilent 2200 Tapestation system (Agilent, Santa Clara, CA), indicating RIN numbers in the range of 8.3 to 9.6. RNA samples of high quality and sufficient RNA quantities were selected for further processing.     Libraries of extracted RNA samples were built using the Illumina TruSeq RNA sample preparation kit and yielded fragments with 200~500 base pairs.     The qualified fragments were ligated with indexed adapters, amplified and subjected for sequencing by Illumina HiSeq 2000 (Illumina, San Diego, CA) to generate paired end reads with a length of 100 bases.     Raw fastq files were assessed for % rRNA using HTStream SeqScreener (version 1.3.2) and filtered using Trim Galore! (version 0.6.6). Raw and trimmed fastq file quality was evaluated with FastQC (version 0.11.9), and MultiQC (version 1.9) was used to generate MultiQC reports. Drosophila melanogaster STAR and RSEM references were built using STAR (version 2.7.7a) and RSEM (version 1.3.1), respectively, Ensembl release 101, genome version Drosophila_melanogaster.BDGP6.28 (Drosophila_melanogaster.BDGP6.28.dna.toplevel.fa), and the following gtf annotation file: Drosophila_melanogaster.BDGP6.28.101.gtf. Trimmed reads were aligned to the Drosophila melanogaster STAR reference with STAR (version 2.7.7a) and aligned reads were quantified using RSEM (version 1.3.1). The runsheet was generated with dp_tools (version 1.1.8) and the runsheet and quantification data were imported to R (version 4.1.3) with tximport (version 1.27.1) and normalized with DESeq2 (version 1.34.0). Differential expression analysis was performed in R (version 4.1.3) using DESeq2 (version 1.34.0); all groups were compared using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the GeneLab Reference Annotations pipeline (https://github.com/nasa/GeneLab_Data_Processing/blob/master/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Dm.eg.db (version 3.15.0). Processing scripts used can be found on GitHub here: https://github.com/nasa/GeneLab_Data_Processing/tree/master/RNAseq/GLDS_Processing_Scripts/GLDS-347/GLDS_version_4",
+          "Experiment Platform": "NanoRack",
+          "Characteristics": "",
+          "Study Grant Number": "NN13AN38694 SDG 0835243N HL132241 HL05432 HL149992 AG058075 AG061598",
+          "Study Publication Author List": "Walls Stanley Mark  Diop Soda  Birse Ryan  Elmen Lisa  Gan Zhouhui  Kalvajuri Sreehari  Reddy Curran  Taylor Erika  Trinh Bosco  Vogler Georg  Zardnt Rachel  McCulloch Andrew  Lee Peter  Bhattacharya Sharmila  Bodmer Rolf  Ocorr Karen",
+          "Project Link": "https://lsda.jsc.nasa.gov/Experiment/exper/13465",
+          "Study Publication Title": "Prolonged Exposure to Microgravity Reduces Cardiac Contractility and Initiates Remodeling in Drosophila",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "Canton S laboratory wildtype lines (Bloomington Stock Center) and a K+ channel mutant seizure (seizurets1, a gift from Dr. Barry Ganetsky, published in Titus et al., 1997), a homolog of human hERG, were used in this study. Flies launched to the International Space Station and the corresponding ground controls were housed in polystyrene vials (75 x24 mm) with 10 ml of standard cornmeal-based fly food containing double the usual amount of 10% Tegosept and cellulose acetate plugs. Approximately 24 hours prior to launch, 15 vials were each loaded with 10 virgin females and 5 male adult flies. Loaded vials were placed in a Plexiglas tray and inserted into a vented fly box (VFB), a modified version of a Nanoracks box. The VFB was placed into a canvas case for loading into the Dragon capsule. Launch of SpaceX CRS-3 occurred at 19:25 UTC on April 18, 2014. Flies were kept in the VFB throughout the 30-day mission and were stored aboard the docked Dragon capsule that shared atmosphere with the ISS. The Dragon capsule unberthed at 13:26 UTC (Co-ordinated Universal Time) on May 18, 2014 and re-entry into the Earth’s atmosphere occurred the same day at 19:05 UTC. Following retrieval of the Dragon capsule off the coast of Mexico, the VFB was offloaded at Long Beach Port, California and transported by car to La Jolla, California in a climate-controlled vehicle. Surviving adult flies born on the ISS were collected from the vials at 23:30 UTC on May 20, 2014. Data collection, which included negative geotaxis assays, heart function studies, tissue collection for RNAseq, and tissue preservation for immunohistochemistry, was completed by 07:30 UTC on May 21, 2014 on all microg spaceflown and corresponding ground control flies. The VFB was oriented such that the g‐load was directed down into the food supply located at the bottom of the vials. This orientation was maintained throughout the entirety of the mission, from point of transfer at the lab at NASA Kennedy Space Center through stowage on the Dragon capsule, and again from Dragon un-berthing to opening of the VFB in the lab at SBP Medical Discovery Institute in La Jolla, California. Ground control flies were prepared and reared under identical conditions in ground-based incubators with temperature and humidity controlled to levels recorded on the ISS.",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/xh8y-yz34",
+          "url": "https://doi.org/10.26030/xh8y-yz34"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1606867200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "it_6g4QB28eYt3lGObYj",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-278/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "02/11/2015",
+            "Start Date": "01/10/2015",
+            "Name": "SpaceX-5"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "FFL01",
+          "Accession": "OSD-278",
+          "Identifiers": "GLDS-278",
+          "Study Identifier": "OSD-278",
+          "Study Protocol Name": "growth protocol     treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "We would like to thank Matthew Lera (M.L.), Amy Gresser (A.G.) and Kevin Martin (K.M.) for spaceflight project support",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Gilbert Torres Clemens Hateley Hosamani Wade Bhattacharya",
+            "Middle Initials": "",
+            "First Name": "Rachel Medaya Rachel Shannon Ravikumar William Sharmila"
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     data transformation     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model",
+          "Study Factor Type": "Space Flight     infection",
+          "Study Public Release Date": 1569628800.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-278/image",
+          "Study Factor Name": "Spaceflight     Infection",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE138116",
+          "Project Title": "",
+          "Study Funding Agency": "NASA’s Space Life and Physical Sciences Research Program (SLPSRA) for the following grants to S.B.: NNX13AN38G and NNX15AB42G",
+          "Study Protocol Description": "The hardware used in this study was the FIT (Fly Immunity and Tumors) cassette and changeout platform, as described in our previous Drosophila experiments on the ISS. Food trays were prepared using the methods described below, and stored in a cargo transfer bag (CTB) at 4 C for launch. Serratia marcescens Db11 was obtained from the University of Minnesota C. elegans stock center. To prepare for the spaceflight experiment, the Db11 strain was grown for 20 h in liquid LB broth with 100  ug/mL streptomycin at 37 C and then diluted to an OD600 of 0.100 in PBS. Next, 100  uL of the diluent was spread onto the surface of two trays containing 2 mL of solid semi-defined fly food media containing 4% Brewer’s yeast (Redstar), 6% glucose, 3% sucrose, 2% yeast extract, 2% peptone, 1% agar, 0.05% magnesium sulfate heptahydrate, 0.05% calcium chloride dihydrate (Sigma), 0.5% of blue food dye (Smart and Final), 0.001% p-hydroxybenzoate, and 0.6% of propionic acid (Sigma) dissolved in water. Similarly, we prepared two additional trays (Ground 1 and Ground 2) from the same source sample. These two trays were grown in the same FIT hardware on the ground, inside an incubator (Percival model DR36VL), which was programmed to match the gas composition, temperature, and humidity profiles measured during the flight. After preparing the bacterial sample trays for flight, they were placed into plastic bags and stored at 4 C, then sent to the ISS on SpaceX CRS-5. Control trays were stored on the ground at 4 C.     Towards the end of the 30 day spaceflight (Fruit Fly Lab – 01 on SpaceX-CRS 5 mission), the food trays containing S. marcescens were retrieved from 4 C storage and placed within the FIT food changeout platform. The platform was placed in a canvas CTB at ISS ambient temperature (23–25 C) for 5 days, plus 2 days in the SpaceX Dragon (22–25 C) for undocking/descent and retrieval. During the growth period, environmental data (CO2, O2, temperature, and relative humidity) was recorded and used to match the growth conditions for ground control experiments. Flies were cultivated at 25C and 50% relative humidity on standard fly food with 12 hour light-dark cycles. To generate synchronized 2 to 3 day old F1 flies, adult flies were allowed to lay for 48 hours in a bottle, then parent flies were discarded, and the bottles with eggs were allowed to grow into adult flies at 25C. Flies were collected on day 2 and allowed to mature for 24 hours after collection before injections of the bacteria samples. Injections of bacteria were performed according to methods described previously by our group and others.     RNA was extracted from live flies 18 hours post-injection.     RNA was extracted using the Qiagen RNeasy Mini Kit with 2-mercaptoethanol added in triplicate from 2 pooled adult (2-3 day old female) Drosophila melanogaster (w1118) per treatment, with 4 total treatment groups (no injection control, sham injection with PBS, ground bacteria-injected, and space bacteria-injected)\nindexed, polyA+ RNA libraries were prepared for sequencing using standard Illumina protocols at the Vincent J. Coates Genomics Sequencing Laboratory at UC Berkeley     polyA+ RNA libraries were prepared for sequencing using standard Illumina protocols at the Vincent J. Coates Genomics Sequencing Laboratory at UC Berkeley.     Samples were sequenced on the Illumina HiSeq 4000 platform with 100bp reads and paired-end library prep.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.12.1 and reports were combined with MultiQC v1.26. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of D-melanogaster rRNA sequences retrieved from NCBI on 13-May-2024.     Data were processed as described in GL-DPPD-7101-G (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-G.md), using NF_RCP version 2.0.2 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_RCP-2.0.2/RNAseq/Workflow_Documentation/NF_RCP). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.2). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports. Drosophila Melanogaster STAR and RSEM references were built using STAR (version 2.7.11b) and RSEM (version 1.3.3), respectively, Ensembl release 112, genome assembly BDGP6 (Drosophila_melanogaster.BDGP6.46.dna.toplevel.fa) and the following gtf annotation file: Drosophila_melanogaster.BDGP6.46.112.gtf. Trimmed reads were aligned to the Drosophila Melanogaster STAR reference with STAR (version 2.7.11b) and alignment log files were compiled with MultiQC (version 1.26). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 5.0.4), gene body coverage using RSeQC geneBody_coverage.py (version 5.0.4), inner distance was assessed using RSeQC inner_distance.py (version 5.0.4), and distribution of RNA features using RSeQC read_distribution.py (version 5.0.4). Aligned reads from all samples were quantified using RSEM (version 1.3.3), with strandedness set to forward and RSEM count log files were compiled with MultiQC (version 1.26). To create a set of rRNA-removed quantification data, Ensembl IDs mapping to ribosomal RNA (rRNA) were removed from the RSEM gene count data. Both the original set of RSEM quantification data and the rRNA-removed data were subject to differential gene expression analysis as follows. A runsheet was generated with dp_tools (version 1.3.8) and the runsheet and quantification data were imported to R (version 4.4.2) with tximport (version 1.34.0) and normalized with DESeq2 (version 1.46.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.4.2) using DESeq2 (version 1.46.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110-A (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable-A_1.1.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110-A/GL-DPPD-7110-A.md), with STRINGdb (version 2.16.4), PANTHER.db (version 1.0.12), and org.Dm.eg.db (version 3.19.1).",
+          "Experiment Platform": "FIT (Fly Immunity and Tumors) cassette and changeout platform",
+          "Characteristics": "",
+          "Study Grant Number": "NNX13AN38G and NNX15AB42G.",
+          "Study Publication Author List": "Rachel Gilbert  Medaya Torres  Rachel Clemens  Shannon Hateley  Ravikumar Hosamani  William Wade  and Sharmila Bhattacharya",
+          "Project Link": "https://lsda.jsc.nasa.gov/Experiment/exper/13623",
+          "Study Publication Title": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "While it has been shown that astronauts suffer immune disorders after spaceflight, the underlying causes are still poorly understood and there are many variables to consider when investigating the immune system in a complex environment. Additionally, there is growing evidence that suggests that not only is the immune system being altered, but the pathogens that infect the host are significantly influenced by spaceflight and ground-based spaceflight conditions. In this study, we demonstrate that Serratia marcescens (strain Db11) was significantly more lethal to Drosophila melanogaster after growth on the International Space Station than ground-based controls, but that the host immune system is not significantly altered amongst known immune genes. High-throughput sequencing of wild-type (w1118) adult hosts infected with either space or ground-reared S. marcescens revealed few changes in gene expression, with 11 genes significantly differentially expressed (q-values  less than 0.05) and only one gene related to the immune system. This data supports the main findings of the paper, which state that both spaceflight and low-shear modeled microgravity conditions increase the virulence of this pathogen, independent of the host immune system. This data, which shows that there are no significant immune-related changes to the host when infected with space-grown sample compared to ground-grown sample, provides further evidence that there are likely phenotypic changes to the pathogen itself that is causing increased virulence in spaceflight and in low-shear modeled microgravity. RNA was extracted in triplicate from 2 pooled adult (2-3 day old female) Drosophila melanogaster (w1118) per treatment, with 4 total treatment groups (no injection control, sham injection with PBS, ground bacteria-injected, and space bacteria-injected) with poly(A)+ RNA libraries. Samples were multiplexed and sequenced 100bp paired-end ready were sequenced on one lane of the Illumina HiSeq-4000.",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/5cd0-qt74",
+          "url": "https://doi.org/10.26030/5cd0-qt74"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1569628800
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "qt_6g4QB28eYt3lGPLY_",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-207/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "07/03/2017",
+            "Start Date": "06/03/2017",
+            "Name": "SpaceX-11"
+          },
+          "Material Type": "Head",
+          "Project Identifier": "FFL-02",
+          "Accession": "OSD-207",
+          "Identifiers": "GLDS-207",
+          "Study Identifier": "OSD-207",
+          "Study Protocol Name": "treatment     sample collection     nucleic acid extraction     spike-in control protocol     RNA sequencing library construction     nucleic acid sequencing     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol     protein extraction     mass spectrometry",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)     mass spectrometry",
+          "Acknowledgments": "SBP Medical Discovery Institute Proteomics and Genomics Core Facilities",
+          "Study Assay Technology Platform": "     ",
+          "Study Person": {
+            "Last Name": "Ocorr Rolf Sharmila Soda Brian Alexander",
+            "Middle Initials": " B",
+            "First Name": "Karen Bodmer Bhattacharya Diop James Rosa Campos"
+          },
+          "Study Protocol Type": "treatment     sample collection     nucleic acid extraction     spike-in control     library construction     nucleic acid sequencing     data transformation     data transformation     extraction     mass spectrometry",
+          "Space Program": "NASA",
+          "Study Title": "Correlated Gene and Protein Expression in heads from Drosophila reared in microgravity",
+          "Study Factor Type": "Space Flight     genotype     strain",
+          "Study Public Release Date": 1543536000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-207/image",
+          "Study Factor Name": "Spaceflight     Genotype     Strain",
+          "Study Assay Measurement Type": "transcription profiling     protein expression profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "Microgravity-induced alterations in gene expression in the Drosophila CNS",
+          "Study Funding Agency": "Space Florida, Nanoracks & NASA GeneLab",
+          "Study Protocol Description": "Fly lines used in this study were Canton S laboratory wildtype lines (Bloomington Stock Center), a K+ channel mutant seizure (seizurets1, a gift from Dr. Barry Ganetsky), a K+ channel mutant KCNQ180 and genetic control KCNQ97 (precise and imprecise p-element excisions respectively, Ocorr et. al., PNAS 2007). Flies launched to the International Space Station (ISS) as well as ground controls were housed in polystyrene vials (75 x24 mm) with 10 ml of standard cornmeal-based fly food containing double the usual amount of 10% tegasept and cellulose acetate plugs. Approximately 24 hours prior to launch, 15 vials were each loaded with 8 female and 5 male adult virgin flies; loaded vials were placed in a Plexiglas tray and inserted into a vented fly box (VFB), a modified version of a Nanoracks box. The VFB was placed into a canvas case for loading into the Dragon capsule. Launch occurred at 19:25 UTC on 04/18/14. Flies were kept in the VFB throughout the 30 day mission and were stored aboard the Dragon capsule that was docked and sharing atmosphere with the ISS. Ambiant temperature (~21˚C) for rearing. The Dragon capsule unberthed at 13:26 UTC (Co-ordinated Universal Time) on 05/18/14 and re-entry occurred the same day at 19:05 UTC.  After retrieval of the Dragon Capsule off the coast of Mexico the VFB was offloaded at Long Beach Port, CA and transported by car to La Jolla, CA in a climate controlled vehicle.   Asynchronous ground control flies were prepared and reared under identical conditions in ground-based incubators with temperature and humidity controlled to levels recorded on the ISS.     Surviving adult flies were collected from the vials at 23:30 UTC on 05/20/14 and by 07:30 UTC on 05/21/14 the heads of from Flynap anesthetized flies were collected (4 per tube) in Qiazol, frozen in liquid nitrogen and stored at -80 C until processing.     RNA extraction was performed using the Norgen RNA/Protein/DNA Purification Kit (Cat#51600).     100ng total RNA was used as input, and followed the recommended 2 uL (1:1000) dilution of ERCC ExFold RNA Spike-In Mixes 1 or 2 from the manual (Thermo Fisher Scientific, Waltham, MA, cat# 4456739).     Sequencing libraries were prepared with poly-A enrichment using the NEBNext Ultra II Directional RNA kit (New England BioLabs, Ipswich, MA), and AMPure XP Beads were used for fragment size selection. Library multiplexing was prepared using the NEBNext Multiplex Oligos for Illumina (96 Index Primers).     The resulting fragment libraries were sequenced using Illumina NextSeq 500 (Illumina, USA) with high output 150 cycles and 2x75 paired end. Approximately 30-40 million readings were obtained for each sample.     Raw fastq files from each sample were assessed for % rRNA using HTStream SeqScreener (version 1.3.2) screened against a fasta file of Drosophila melanogaster rRNA sequences retrieved from NCBI on 01-Sep-2021. Raw fastq file quality was evaluated with FastQC (version 0.11.9) and MultiQC (version 1.9) was used to generate MultiQC reports.     Data were processed as described in GL-DPPD-7101-F (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-F.md), using NF_RCP-F version 1.0.4 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_RCP-F_1.0.4/RNAseq/Workflow_Documentation/NF_RCP-F). In short, raw fastq files were filtered using Trim Galore! (version 0.6.7) powered by Cutadapt (version 3.7). Trimmed fastq file quality was evaluated with FastQC (version 0.11.9), and MultiQC (version 1.12) was used to generate MultiQC reports. Drosophila melanogaster STAR and RSEM references were built using STAR (version 2.7.10a) and RSEM (version 1.3.1), respectively, Ensembl release 107, genome version BDGP6.32 (Drosophila_melanogaster.BDGP6.32.dna.toplevel.fa) concatenated with ERCC92.fa from ThermoFisher (https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip), and the following gtf annotation file: Drosophila_melanogaster.BDGP6.32.107.gtf concatenated with the ERCC92.gtf file from ThermoFisher (https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip). Trimmed reads were aligned to the Drosophila melanogaster + ERCC STAR reference with STAR (version 2.7.10a) and alignment log files were compiled with MultiQC (version 1.12). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 4.0.0), gene body coverage using RSeQC geneBody_coverage.py (version 4.0.0), inner distance was assessed using RSeQC inner_distance.py (version 4.0.0), and distribution of RNA features using RSeQC read_distribution.py (version 4.0.0). Aligned reads from all samples were quantified using RSEM (version 1.3.1), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.12). The runsheet was generated with dp_tools (version 1.3.4) and the runsheet and quantification data were imported to R (version 4.1.3) with tximport (version 1.27.1) and normalized with DESeq2 (version 1.34.0) median of ratios method. The data were normalized twice, each time using a different size factor. The first used non-ERCC genes for size factor estimation, and the second used only ERCC group B genes to estimate the size factor*. Both sets of normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.1.3) using DESeq2 (version 1.34.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Dm.eg.db (version 3.15.0). Assessment of ERCC spiked genes was performed as detailed in the ERCC_analysis.html report. *ERCC-normalized data are available upon request.     Protein extraction was performed using the Norgen RNA/Protein/DNA Purification Kit (Cat#51600).     Samples were processed using the Thermo Orbitrap Fusion Lumos. The extracted proteins were trypsin-digested. The C18 Reversed Phase columns (75 um x 500 mm, particle size 2 um, pore size 100A) were used for separation before nanoelectrospray ionization and Higher-energy C-trap dissociation (HCD) were done. Data collection was run in data-dependent acquisition mode, top speed method. The raw files contain detailed (all settings) information about the method. MS raw data were processed using MaxQuant. Peak lists were searched using Andromeda search engine implemented in MaxQuant against UniProt database (Proteome ID: UP000000803).",
+          "Experiment Platform": "Vented Vly Box (VFB)  a modified Nanoracks Box",
+          "Characteristics": "",
+          "Study Grant Number": "NASA Grant: NNX13AN38G",
+          "Study Publication Author List": "",
+          "Project Link": "https://lsda.jsc.nasa.gov/Experiment/exper/13465",
+          "Study Publication Title": "",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "Omics analyses of RNA and protein isolated from heads of microgravity reared adult Drosophila.",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/p34h-q377",
+          "url": "https://doi.org/10.26030/p34h-q377"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1543536000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "x9_6g4QB28eYt3lGQLbs",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-96/",
+          "Flight Program": "Foton-M4 satellite and International Space Station (ISS)",
+          "Mission": {
+            "End Date": "9-Nov-2014",
+            "Start Date": "10-Sep-2014",
+            "Name": "Foton-M4 and ISS Expedition 40/41"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "",
+          "Accession": "OSD-96",
+          "Identifiers": "GLDS-96",
+          "Study Identifier": "OSD-96",
+          "Study Protocol Name": "growth protocol     nucleic acid extraction     library construction     nucleic acid sequencing     sequence analysis data transformation     GeneLab RNAseq data processing protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "The authors thank Vladislav Sedletskiy for developing the habitat for flies and support during the mission, Daniil Maksimov for technical assistance with NGS data analysis, Irina Larina for support during critical moments, Igor Ushakov and Vladimir Sychev for organizing these two space missions and allowing us to participate.",
+          "Study Assay Technology Platform": "Illumina MiSeq",
+          "Study Person": {
+            "Last Name": "Maksimov Ogneva",
+            "Middle Initials": " V",
+            "First Name": "Daniil Irina"
+          },
+          "Study Protocol Type": "growth protocol     nucleic acid extraction     library construction     nucleic acid sequencing     sequence analysis data transformation     data transformation",
+          "Space Program": "Russian Federal Space Agency",
+          "Study Title": "The development of Drosophila melanogaster during space flight",
+          "Study Factor Type": "Space Flight     Generation     Time of Sample Collection After Treatment",
+          "Study Public Release Date": 1476835200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-96/image",
+          "Study Factor Name": "Spaceflight     Generation     Time of Sample Collection After Treatment",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE88866",
+          "Project Title": "",
+          "Study Funding Agency": "The study was supported by the program of fundamental research SSC RF-IBMP RAS, program Cell and Molecular Biology of the RAS Presidium.",
+          "Study Protocol Description": "The research material was the third-stage larvae of Drosophila melanogaster Canton S line obtained after the 44.5-day space flight of the Foton-M4 satellite (flight dates: 19.07.14, 0:50 Moscow time, Baikonur, Kazakhstan-  01.09.14, 13:20 Moscow time, Orenburg Region, Russia) and the 12-day space flight in the Russian Segment of the International Space Station (29.10.14, 10:06 Moscow time, Baikonur, Kazakhstan- 10.11.14, 06:58 Moscow time, an area to the north of Arkalyk, Kazakhstan).  The research objects were placed in the Foton-M4 satellite in 50-ml plastic Falcon-type tubes in three BB-2 blocks of the BB-1F scientific equipment and exposed to passive oxygenation using the air medium of the satellite. Thirty tubes with air-permeable stoppers were placed into each BB-2 block. The tubes contained the firm standard (for breeding Drosophila) nutrient medium with the following composition: water- 1,000 ml, agar-agar- 7 g, sugar- 40 g, semolina-  40 g, baker's yeast- 25 g, and propionic acid- 10 ml.  Eighty hours before the launch of the satellite, the imago of Drosophila melanogaster, Canton S line (3-5 pairs of males and females), aged 2 days, were placed in the tubes that were subsequently placed in the BB-1F scientific equipment. All procedures were conducted at room temperature (24-26C).  The temperature and gas composition of the medium were controlled during the placement of the equipment on the launch pad, and during the satellite's flight, the medium status in the satellite was monitored. During the flight, the average temperature was 18.1 +/- 2.4C, the unit pressure was 100529 Pa, the O2 content was 135 +/- 11 mm Hg, the CO2 content was 2.22 +/- 0.17 mm Hg, and the relative humidity was 40 +/- 7%. The synchronous ground monitoring study was conducted under the same temperature conditions and air medium composition similar to the values measured during the satellite's flight. Biological object preparation and loading procedures, as well as the distribution of the biomaterial for research after the end of the experiment were similar to the procedures applied before the launch of the satellite.  The distribution and recording of the biomaterial after the satellite landed were conducted as described below. The biomaterial (third-stage larvae) from the first BB-2 block was recorded 1.5 hours after the satellite landed (3LF group- the 3rd generation larvae during the flight), 12 hours after the satellite landed from the second BB-2 block (3LF+12h group,), and 24 hours after the satellite landed from the third BB-2 block (3LF+24h group). Some of the larvae remained in the tubes to create adult flies for re-exposure in space.  We used early third instar larvae for our experiments. After receiving the containers at the landing place, several larvae were dissected to determine the presence of food in their gut. We estimated size of larvae, which had food in their gut and, next, collected larvae with the same size due to limited time at the landing place.  Thus, the control groups were formed from the material of synchronous control: 3LS group (third-stage larvae recorded 1.5 hours after the end of the experiment), 3LS+12h group (larvae recorded 12 hours after the end of the experiment), and 3LS+24h group (larvae recorded 24 hours after the end of the experiment).  Following the landing of the Foton-M4 satellite, the unrecorded 3rd generation larvae were used to create the imago, which subsequently generated the 4th generation. Similarly, the 3rd generation larvae obtained during the synchronous control also generated the 4th generation. The 4th generation larvae of the third stage of development (5 pairs of males and females) were sent to the Russian Segment of the ISS in Progress M-25M424 spacecraft. Twelve days after landing with the ISS 40/41 crew in Soyuz TMA-13M713 spacecraft, the living 4th generation imago and the 5th generation larvae were created. The material was recorded on the landing site 1.5 hours after the landing of the spacecraft.  After the 12-day space flight, the following study groups were formed: 5LFF-the 5th generation larvae of the line from which the 3rd generation larvae were created during the flight of the Foton-M4 satellite, and 5LSF-the 5th generation larvae of the line from which the 3rd generation larvae were created as a result of the synchronous experiment during the flight of the Foton-M4 satellite. Due to the limited amount of biomaterial in the 5LSF and 5LFF groups (the weight of useful load delivery to the ISS is limited), we had no opportunity to analyze the adaptation effects 12 and 24 hours after the end of the 12-day flight.  The synchronous ground experiment conducted during this 12-day flight (under the same temperature conditions and air medium composition similar to the values measured during the space flight at the ISS board) also allowed us to create the 5th generation larvae and form the following groups: 5LFS-the 5thgeneration larvae of the line from which the 3rd generation larvae were created during the flight of the Foton-M4 satellite, and 5LSS-the 5th generation larvae of the line from which the 3rd generation larvae were created as a result of the synchronous experiment during the flight of the Foton-M4 satellite.     Each group contained 20 larvae. The total RNA was isolated from the larvae of all study groups using TRIzol reagent (Invitrogen, USA) according to the manufacturer's instructions.     Equal amounts of RNA from each sample were selected and the cDNA libraries were prepared using Illumina TruSeq RNA Library Preparation Kit v2 (Illumina, USA), according to the manufacturer's instructions.     The resulting fragment libraries were sequenced using Illumina MiSeq (Illumina, USA). The reading length was 250 bps at each end. Approximately 10-14 million paired 250 bp readings were obtained for each sample.     The data obtained after sequencing were analysed using Galaxy (www.usegalaxy.org). The intersection analisys and the comparison of direct and reverse reads, as well as the alignment relative to the reference genome were performed using the tophat2 application. The identification of transcripts was performed using Cufflinks. The FPKM was used to determine the mRNA content of each gene The absolute log2ratio greater than equal 1 was used as the limit to assess the differential gene expression in different comparison groups Genome_build: BDGP R5/dm3 Supplementary_files_format_and_content: Microsoft Excel table summarising FPKM values for each gene in all samples.     Raw fastq files were assessed for % rRNA using HTStream SeqScreener (version 1.0.0) and filtered using Trim Galore! (version 0.6.2). Raw and trimmed fastq file quality was evaluated with FastQC (version 0.11.8), and MultiQC (version 1.7) was used to generate MultiQC reports. Drosophila melanogaster STAR and RSEM references were built using STAR (version 2.7.1a) and RSEM (version 1.3.1), respectively, Ensembl genome version BDGP6.22, release-98 (Drosophila_melanogaster.BDGP6.22.dna.toplevel.fa) and the following gtf annotation file: Drosophila_melanogaster.BDGP6.22.98.gtf. Trimmed reads were aligned to the Drosophila melanogaster STAR reference with STAR (version 2.7.1a) and aligned reads from 3 samples were assessed for strandedness using RSeQC Infer Experiment (version 4.0.0) then aligned reads from all samples were quantified using RSEM (version 1.3.1), with strandedness set to none. Quantification data was imported to R (version 4.0.3) with tximport (version 1.18.0) to generate unnormalized (raw) counts table. Differential expression analysis was not performed due to lack of biological replicates.",
+          "Experiment Platform": "BB-2 blocks of the BB-1F scientific equipment",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Irina V. Ogneva  Stepan N. Belyakin  Svetlana V. Sarantseva     Andrea Stradi  Jozsef K. Palfalvi  Julianna Szabo  Tamas Pazmandi  Olga A. Ivanova  Vyacheslav A. Shurshakov",
+          "Project Link": "",
+          "Study Publication Title": "The Development Of Drosophila Melanogaster under Different Duration Space Flight and Subsequent Adaptation to Earth Gravity     Cosmic radiation measurements on the Foton-M4 satellite by passive detectors",
+          "Managing NASA Center": "",
+          "Study Description": "In prospective human exploration of outer space, the need to maintain a species over several generations under changed gravity conditions may arise. This paper reports the analysis of the third generation of fruit fly Drosophila melanogaster obtained during the 44.5-day space flight (Foton-M4 satellite, 2014, Russia), followed by the fourth generation on Earth and the fifth generation under conditions of a 12-day space flight (2014, in the Russian Segment of the ISS). The obtained results show that it is possible to obtain the third-fifth generations of a complex multicellular Earth organism under changed gravity conditions (in the cycle weightlessness - Earth - weightlessness), which preserves fertility and normal development. However, there were a number of changes in the expression levels and content of cytoskeletal proteins that are the key components of the spindle apparatus and the contractile ring of cells.",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/12cf-fb14",
+          "url": "https://doi.org/10.26030/12cf-fb14"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1476835200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "J9_6g4QB28eYt3lGTrde",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-1/",
+          "Flight Program": "Space Transportation System (STS)",
+          "Mission": {
+            "End Date": "07/17/2006",
+            "Start Date": "07/04/2006",
+            "Name": "STS-121"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "FIT",
+          "Accession": "OSD-1",
+          "Identifiers": "GLDS-1",
+          "Study Identifier": "OSD-1",
+          "Study Protocol Name": "treatment protocol     radiation dosimetry     RNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     Normalization Data Transformation     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "George Kimbrell",
+            "Middle Initials": "",
+            "First Name": "Michael Deborah"
+          },
+          "Study Protocol Type": "treatment protocol     chronic     RNA extraction     labeling     Nucleic Acid Hybridization     array scanning protocol     normalization data transformation protocol     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Expression data from drosophila melanogaster",
+          "Study Factor Type": "Space Flight     Infection",
+          "Study Public Release Date": 1386720000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-1/image",
+          "Study Factor Name": "Spaceflight     Infection",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-GEOD-53196",
+          "Project Title": "Drosophila as a model of immune function in conditions of altered gravitational force",
+          "Study Funding Agency": "NASA grants NNA04CC76A and NNA05CV40A",
+          "Study Protocol Description": "Bacterial infections with E. coli ATCC 25922 were as previously described. A single spore isolate of Beauveria bassiana (strain GHA) was cultured on Sabouraud dextrose agar. Conidia and hyphae were harvested by passing culture through a sterile ASTM No. 100 sieve. Spores were also flown on the space shuttle and we are happy to provide information upon request. Natural infection by B. bassiana used a dosage of 9.5x10^6 spores/fly, with procedures and survival assays as previously described. Ten replicates of 20 flies each for all strains were used in all 3 experiments for the CARU hypergravity tests. The centrifuge was stopped once per day to conduct survival counts. Control survival assays after bacterial and fungal infections on wild-type, hemolectin-Gal4; UAS-GFP, imd1, imdEY08573 and spz4 were conducted at Kennedy Space Center to establish that space and Earth fly infections were proceeding in accordance with our standardized conditions.     The absorbed dose from ionizing radiation received by the flight specimens was estimated using TLD passive dosimeters located in the middeck of the space shuttle, where the payload was located. More specifically, we computed the average between three dosimeters (DLOC1, DLOC2, and DLOC3) for the mission and we divided it by the total duration of the mission to estimate the average absorbed dose rate in mGy/day. This dose rate did not include any shielding effects from the hardware where the specimens resided. The total absorbed dose in water was then computed by simply multiplying the average dose rate with the duration of the experiment. The duration of the experiment was defined as the time in space during which the specimen was 'living'. Once the specimen was frozen or fixed, the experiment was considered stopped. A table with these detailed computations for all space shuttle datasets is available on GeneLab at https://genelab.nasa.gov/environmental/radiation. The ground samples were not assessed for radiation exposure.     RNA was extracted with the Qiagen Rneasy kit according to the manufacturer's instructions.     Biotinylated cRNA were prepared according to the standard protocols described in the Affymetrix Gene Expression Analysis Technical Manual.     Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila mlanogaster 3' IVT arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.     GeneChips were scanned using the Affymetrix GeneChip Scanner 3000.     The data were analyzed with Partek Genomics Suite ID_REF equals VALUE equals Partek signal intensity.     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.0 (GitHub link coming soon). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.2). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Dm.eg.db (version 3.15.0).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "NNA04CC76A",
+          "Study Publication Author List": "Taylor Katherine  Kleinhesselink Kurt  George Michael D.  Morgan Rachel  Smallwood Tangi  Hammonds Ann S.  Fuller Patrick M.  Saelao Perot  Alley Jeff  Gibbs Allen G.  Hoshizaki Deborah K.  von Kalm Laurence  Fuller Charles A.  Beckingham Kathleen M.  Kimbrell Deborah A.",
+          "Project Link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13676",
+          "Study Publication Title": "Toll Mediated Infection Response Is Altered by Gravity and Spaceflight in Drosophila",
+          "Managing NASA Center": "NASA Ames Research Center (ARC)",
+          "Study Description": "Space travel presents unlimited opportunities for exploration and discovery, but requires a more complete understanding of the immunological consequences of long-term exposure to the conditions of spaceflight. To understand these consequences better and to contribute to design of effective countermeasures, we used the Drosophila model to compare innate immune responses to bacteria and fungi in flies that were either raised on earth or in outer space aboard the NASA Space Shuttle Discovery (STS-121). Microarrays were used to characterize changes in gene expression that occur in response to infection by bacteria and fungus in drosophila that were either hatched and raised in outer space (microgravity) or on earth (normal gravity). Whole Oregon R strain drosophila melanogaster fruit flies either raised on earth or in space that were (1) uninfected, (2) infected with bacteria (Escherichia coli), or (3) infected with fungus (Beauveria bassiana) were used for RNA extraction and hybridization on Affymetrix microarrays.",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.25966/t6db-f633",
+          "url": "https://doi.org/10.25966/t6db-f633"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1386720000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "N9_6g4QB28eYt3lGMrbU",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-3/",
+          "Flight Program": "Space Transportation System (STS)",
+          "Mission": {
+            "End Date": "07/17/2006",
+            "Start Date": "07/04/2006",
+            "Name": "STS-121"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "FIT",
+          "Accession": "OSD-3",
+          "Identifiers": "GLDS-3",
+          "Study Identifier": "OSD-3",
+          "Study Protocol Name": "P-GSE23880-2     P-GSE23880-3     P-GSE23880-4     P-GSE23880-5     GeneLab microarray data processing protocol     growth protocol     treatment protocol     sample collection protocol     Radiation Dosimetry",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "We thank David Schneider for helping us with the design of this experiment. We thank Kevin Sato, Emily Holton, Sid Sun, Ken Souza, Sue Suffel, David Heathcote, Cecilia Wigley and BJ Navarro for ensuring the success of our experiment on the space shuttle. We also thank Kelly Norwood, Michael Roberts, Joseph Benjamin, Ashleigh Ruggles, and Jennifer Devich for their technical assistance during flight operations. The hml-Gal4 line was a kind gift of Sergey Sinenko. We would like to acknowledge the Protein and Nucleic Acid Facility, Beckman Center, Stanford University for the processing of gene microarrays and thank Elizabeth Zhou and Michael Eckhart for their help with sample and data processing. We also thank Anuran Chatterjee for his help with editorial comments on the manuscript.",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Bhattacharya Marcu Lera Sanchez Levic Higgins Shmygelska Fahlen Nichol",
+            "Middle Initials": "",
+            "First Name": "Sharmila Oana Matthew Max Edina Laura Alena Thomas Helen"
+          },
+          "Study Protocol Type": "nucleic_acid_extraction     labeling     hybridization     image_aquisition     data transformation     growth protocol     treatment protocol     sample collection protocol     Radiation Dosimetry",
+          "Space Program": "NASA",
+          "Study Title": "Drosophila melanogaster gene expression changes after spaceflight.",
+          "Study Factor Type": "developmental stage     Space Flight",
+          "Study Public Release Date": 1314835200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-3/image",
+          "Study Factor Name": "Developmental Stage     Spaceflight",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-GEOD-23880",
+          "Project Title": "Fungal Pathogenesis  Tumorigenesis  and Effects of Host Immunity in Space",
+          "Study Funding Agency": "This study work was supported by a NASA grant to SB for Fungal Pathogenesis, Tumorigenesis, and Effects of Host Immunity in the Space Environment (FSB-FIT-2005). The funder had a role in study design and in supporting data collection.",
+          "Study Protocol Description": "Qiagen RNeasy Kit     Affymetrix One Cycle Target Labeling according to manufacturer's protocol (GeneChip Expression Analysis Technical Manual)     Affymetrix Eukaryotic Target Hybridization protocol (GeneChip Expression Analysis Technical Manual)     Affymetrix GeneChip Scanner 3000 with GCOS software according to manufactuer's protocol (GeneChip Expression Analysis Technical Manual)     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Dm.eg.db (version 3.15.0).     The Drosophila melanogaster Gal4-UAS transgenic line expressing two copies of eGFP under the control of the hemolectin promoter was used in all experiments. This line expresses GFP in all plasmatocytes and has no other phenotype. Flies were grown on semi-defined medium (1 percent agar, 4 percent brewer's yeast, 2 percent yeast extract, 2 percent peptone, 3 percent sucrose, 6 percent glucose, 0.05 percent MgSO4, 0.05 percent CaCl2 and tegosept) to which 0.5 percent blue food dye was added to facilitate the recognition of late 3rd instar larvae at wandering stage by the absence of colored food in the gut.     Flies for both the flight and the ground control experiments were transferred from fresh cultures to fly kits 24 hours in advance of the onset of the experiment. Each fly kit, consisted of a polycarbonate fly cassette with a 2 ml food tray held in a ventilated aluminum container. These kits were originally developed by the European Space Agency and used previously for Drosophila experiments in space, and were subsequently modified by us for use in this experiment. Ten virgin females and 5 males were housed in each fly cassette. Ten kits (5 with flies and 5 empty) flew on the space shuttle and 10 remained on the ground. The fly kits were placed in stowage foam on the shuttle middeck, at ambient temperature and in total darkness. The identical procedure was followed for the ground control flies. For both ground and flight experiments, on day 6 the food trays containing eggs and larvae were transferred to the 5 empty cassettes and fresh food was given to the original flies. The temperature and relative humidity in the spaceflight and ground payloads were monitored minute-by-minute using a HOBO data logger (Onset Computer Corporation). Values were tracked in real time and paralleled for the ground control in the OES (Orbital Environmental Simulator) at the Kennedy Space Center. Environmental data from flight and ground experiments were provided by the operations team as part of the routine shuttle flight logistics. The average temperature on the flight deck was 23.5 deg C, ranging between 21.71 deg C and 25.56 deg C. The ground control average temperature was 22.5 deg C, with a minimum of 19.42 deg C and a maximum of 25.56 deg C. The relative humidity was 27.2 percent on the shuttle deck and 25.4 percent on ground.     Larval RNA for microarrays was prepared from 6 sets of 50 mid 3rd instar larvae reared in microgravity and collected on the day of landing of the space shuttle, and the same number of control larvae raised on ground. The space shuttle flight had a total duration of 12 days and 18.5 hours. Adult RNA was prepared from 3 sets of 20 adult females each that emerged during the flight and within 4 hours of landing (Flight Day 1) and from adult females from the corresponding ground control cassettes (Ground Day 1). The original parental flies were removed. Given the known generation time at 24 deg C, the adults that emerged in space (F1) would have been no more than 2 days old.     The absorbed dose from ionizing radiation received by the flight specimens was estimated using TLD passive dosimeters located in the middeck of the space shuttle, where the payload was located. More specifically, we computed the average between three dosimeters (DLOC1, DLOC2, and DLOC3) for the mission and we divided it by the total duration of the mission to estimate the average absorbed dose rate in mGy/day. This dose rate did not include any shielding effects from the hardware where the specimens resided. The total absorbed dose in water was then computed by simply multiplying the average dose rate with the duration of the experiment. The duration of the experiment was defined as the time in space during which the specimen was living. Once the specimen was frozen or fixed, the experiment was considered stopped. A table with these detailed computations for all space shuttle datasets is available on GeneLab at https://genelab-data.ndc.nasa.gov/genelab/environmental/radiation.  The ground samples were not assessed for radiation exposure.",
+          "Experiment Platform": "Shuttle Life Sciences Research (Middeck)",
+          "Characteristics": "",
+          "Study Grant Number": "FSB-FIT-2005",
+          "Study Publication Author List": "Marcu O  Lera MP  Sanchez ME  Levic E  Higgins LA  Shmygelska A  Fahlen TF  Nichol H  Bhattacharya S.",
+          "Project Link": "http://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=1325&string=drosophila&CURRENT_STRING2=drosophila",
+          "Study Publication Title": "Innate Immune Responses of Drosophila melanogaster Are Altered by Spaceflight",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "Gene expression levels were determined in 3rd instar and adult Drosophila melanogaster reared during spaceflight, to elucidate the genetic and molecular mechanisms underpinning the effects of microgravity on the immune system. The goal was to validate the Drosophila model for understanding alterations of innate immune responses in humans due to spaceflight. Five containers of flies, with ten female and five male fruit flies in each container, were housed and bred on the space shuttle (average orbit altitude of 330.35 km) for 12 days and 18.5 hours, with a new generation reared in microgravity. RNA was extracted on the day of shuttle landing from whole body animals (3rd instar larvae and adults), hybridized to Drosophila 2.0 Affymetrix genome arrays, and the expression level of all genes was normalized against the gene expression level from the corresponding developmental stage animals raised on ground. Spaceflight altered the expression of larval genes involved in the maturation of plasmatocytes (macrophages) and their phagocytic response, as well as the level of constitutive expression of pattern recognition receptors and opsonins that specifically recognize bacteria, and of lysozymes, antimicrobial peptide pathway and immune stress genes, hallmarks of humoral immunity. Larval microarrays (FL 6 samples) are based on RNA extracted from 6 independent sets of 50 mid 3rd instar larvae reared in microgravity and collected on the day of landing after 12 days and 18.5 hours on the space shuttle and the same number of control larvae raised on ground (GL 6 samples). Adults microarrays (F1 3 samples) are based on RNA from 3 sets of 20 adult females each, that emerged during spaceflight and within 4 hours of landing and the same number of adult females from the corresponding ground control containers (G1 3 samples).",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.25966/t04h-r165",
+          "url": "https://doi.org/10.25966/t04h-r165"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1314835200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "dd_6g4QB28eYt3lGN7aa",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-36/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "10/28/2003  04/30/2004",
+            "Start Date": "04/26/2003  10/18/2003",
+            "Name": "Soyuz TMA-2  Soyuz TMA-3"
+          },
+          "Material Type": "",
+          "Project Identifier": "GENE",
+          "Accession": "OSD-36",
+          "Identifiers": "GLDS-36",
+          "Study Identifier": "OSD-36",
+          "Study Protocol Name": "P-MTAB-3322     P-MTAB-3321     P-AFFY-2     Affymetrix:Protocol:Hybridization-Unknown     P-AFFY-6     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "We also like to recognize the European and Russian space agencies for supporting our experiment during the Cervantes Soyuz mission, particularly to the skilful work of the ESA astronaut Pedro Duque in the ISS. We also thank Mrs. Aida Villa (IIB-UAM, Madrid, Spain) and Mrs. Brigitte Eche (GSBMS-CNES, Toulouse, France) for excellent technical assistance in the ground experiments. The supply of MAMBAs is acknowledged to Dutch Space B.V. (Leiden, The Netherlands). The ESA personnel at ESTEC (Noordwijk, The Netherlands) were of great help in the preparation of the ISS Mission; in particular, we thank Mr. Jes˙s JimÈnez, Ms. Natalie Pottier and Mr. Fabrizio Festa, as well as Dr. Didier Chaput (CNES, Toulouse, France). Last but not least, we want to express our gratitude to Prof. Ebberhard Horn, Prof. John Sparrow, Prof. Rob Knight, Dr. Richard Hill and the anonymous referees for their helpful and inspiring review of this article manuscript.",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Herranz",
+            "Middle Initials": "",
+            "First Name": "Raul"
+          },
+          "Study Protocol Type": "grow     nucleic_acid_extraction     labeling     hybridization     feature_extraction     data transformation",
+          "Space Program": "ESA",
+          "Study Title": "Transcription profiling of Drosophila after exposure to microgravity in the International Space Station and in a microgravity simulator",
+          "Study Factor Type": "Gravity, Altered     treatment     Space Flight     Altered Gravity Simulator",
+          "Study Public Release Date": 1277942400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-36/image",
+          "Study Factor Name": "Altered Gravity     Treatment     Spaceflight     Altered Gravity Simulator",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-MEXP-2064",
+          "Project Title": "The “Gene” Experiment in the Spanish Soyuz Mission to the ISS. Effects of the cold transportation step",
+          "Study Funding Agency": "This work was supported by grants from the Spanish Space Program in the 'Plan Nacional de Investigacion Cientifica y Desarrollo Tecnologico' [ESP2001-4522-PE and ESP2006-13600-C02-01 to Marco and ESP2006-13600-C02-02 to Medina] and the Dutch NWO-ALW-SRON grant [MG-057 to van Loon]. R. Herranz during the Cervantes mission and D. Lavan during the post-flight analysis were supported by Spanish Ministerio de Educacion y Ciencia within the FPI fellowship program.",
+          "Study Protocol Description": "Larvae-Pupae transition flies were recovered and transport for 3 days at 12-14C until the launch site, then exposed to RT (18-20C) for some hours and exposed to microgravity in the ISS for 4 days and a half at 22C. Then the pupae were fixed on acetone and frozen until recovery on Earth. (Parameters: start time = 8, time unit = days, min temperature = 14, max temperature = 22, temperature unit = C, media = Yeast based regular media)     TRIZOL commertial protocol\n(Parameters: Extracted product = total_RNA, Amplification = none)     Affymetrix in vitro transcription     Affymetrix Generic Hybridization.     Affymetrix CEL analysis.     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Dm.eg.db (version 3.15.0).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "This work was supported by grants from the Spanish Space Program in the 'Plan Nacional de Investigacion Cientifica y Desarrollo Tecnologico' [ESP2001-4522-PE and ESP2006-13600-C02-01 to Marco and ESP2006-13600-C02-02 to Medina] and the Dutch NWO-ALW-SRON grant [MG-057 to van Loon]. R. Herranz during the Cervantes mission and D. Lavan during the post-flight analysis were supported by Spanish Ministerio de Educacion y Ciencia within the FPI fellowship program.",
+          "Study Publication Author List": "Herranz R  Benguria A  Lavn DA  Lopez-Vidriero I  Gasset G  Javier Medina F  van Loon JJ  Marco R.",
+          "Project Link": "https://digital.csic.es/bitstream/10261/22008/1/Ref12-Herranz2007_edited.pdf",
+          "Study Publication Title": "Spaceflight-related suboptimal conditions can accentuate\nthe altered gravity response of Drosophila transcriptome.",
+          "Managing NASA Center": "",
+          "Study Description": "Larvae-Pupae transition flies (Drosophila) were recovered and transport for 3 days at 12-14C to arrest development until the launch site, then exposed to RT (18-20C) for some hours including the launch and trip to the International Space Station, then pupae were exposed to microgravity in the ISS for 4 days and a half at 22C. Finally pupae were fixed on acetone and frozen until recovery on Earth. Four groups of samples: 1 ISS (+ground control) as described, 2 RPM (microgravity simulator on Earth) as described, 3 RPM without constrains (No MAMBA container and only 5 days exposure without cold transport) and 4 centrifuge 10g without constrains control.",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "DOI": "10.25966/a7vj-4s55",
+          "url": "https://doi.org/10.25966/a7vj-4s55"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1277942400
+        ]
+      }
+    ]
+  }
+}

@@ -81,4 +81,17 @@ Ejecutar aparte (otro servicio) o en otra imagen. Evitar correr API y Streamlit 
 - Añadir pre-commit (black, isort, flake8).
 - Incluir logging estructurado.
 
-Última edición: (actualizar)
+Última edición: 2025-10-05
+
+## 12. Warm-up & Recarga
+Tras desplegar:
+1. Hacer `GET /health` para verificar carga inicial.
+2. Si se añadieron nuevos archivos JSON montar volumen y llamar `POST /reload`.
+
+## 13. Workers y Concurrencia
+- Desarrollo: `uvicorn app.main:app --reload`.
+- Producción (ejemplo): `gunicorn -k uvicorn.workers.UvicornWorker app.main:app -w 2 -b 0.0.0.0:8000`.
+- Ajustar número de workers = 2 * cores disponibles (regla heurística) sin exceder memoria por dataset in-memory.
+
+## 14. Variables de Entorno (Futuras)
+Ver Apéndice A en `BACKEND_DOCUMENTACION.md`.

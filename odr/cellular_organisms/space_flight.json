@@ -1,0 +1,458 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 7,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "39_6g4QB28eYt3lGLLVR",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-280/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "not applicable     Saliva",
+          "Project Identifier": "",
+          "Accession": "OSD-280",
+          "Identifiers": "GLDS-280",
+          "Study Identifier": "OSD-280",
+          "Study Protocol Name": "sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     GeneLab amplicon-seq data processing protocol",
+          "Study Assay Technology Type": "16S",
+          "Acknowledgments": "Part of the research described in this publication was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with NASA. We would like to thank all the astronauts who participated in this study and provided saliva.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Urbaniak Venkateswaran Lorenzi Thissen Jaing Crucian Sams Pierson Mehta",
+            "Middle Initials": " J",
+            "First Name": "Camilla Kasthuri Hernan James Crystal Brian Clarence Duane Satish"
+          },
+          "Study Protocol Type": "sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     data transformation",
+          "Space Program": "",
+          "Study Title": "Salivary microbiome sequencing of astronauts",
+          "Study Factor Type": "Space Flight     time",
+          "Study Public Release Date": 1583712000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-280/image",
+          "Study Factor Name": "Spaceflight     Time",
+          "Study Assay Measurement Type": "Amplicon Sequencing",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA539937",
+          "Project Title": "",
+          "Study Funding Agency": "Part of the research described in this publication was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with NASA. We would like to thank all the astronauts who participated in this study which is funded by the NASA Human Research Program SMO-015 (CS) and NNX12AB02G (HL). This research was also funded by a 2012 Space Biology NNH12ZTT001N grant no. 19-12829-26 under Task Order NNN13D111T award to KV. This grant and NASA Post-doctoral Program sponsored by Space Biology are funded fellowship for CU. © 2019 California Institute of Technology. Government sponsorship acknowledged.",
+          "Study Protocol Description": "Saliva samples were collected from 10 male astronauts at  various time points over the course of their mission. The duration of spaceflight ranged from 2–9 months with an  average ISS mission being 4.4 months. Samples were collected (i) two times pre-flight, at 180 days (L-180) and 90 (L-90) days before launch, (ii) three times during flight, at early (1–2months on ISS) and mid (2–4 months on ISS), and late (10 days before landing) time points and (iii) four times post-flight, on landing day (R + 0), 30days (R + 30), 60days (R + 60), and 180days (R + 180) after return. These time points were adjusted (+/− 30days) according to the convenience of crew members. The samples were collected by the astronauts themselves by placing a synthetic polymer swab (Salimetrics LLC, State College, PA) in one’s mouth and swirling it around for 2–3 min until saturation. The samples were stored at − 80 °C until ready to process. Once all samples from a given subject was collected, they were thawed and then centrifuged at ×1400g for 5 min to separate the fluid from the swab. The separated fluid was stored at − 80°C until DNA extraction and the swab discarded.     The frozen fluid was allowed to thaw on ice and then vortexed and centrifuged at ×16,000g for 20 min to make a cell pellet at the bottom of the tube. The supernatant was discarded, and the cell pellet was re-suspended in 200 μL PBS. DNA was extracted from this re-suspended pellet with a QIA-Amp DNA kit (Qiagen; Germantown, MD). DNA concentration was determined with the NanoDrop ND-1000 spectrophotometer (NanoDrop Technologies, Inc. Wilmington, DE).     The V3/V4 region (~ 460bp) of the isolated genomic DNA was paired-end sequenced (2 × 300 bp) on the Illumina Mi-Seq platform following the protocol outlined by Illumina (https://support.illumina.com/documents/documentation/chemistry_documentation/16s/16s-metagenomic-library-prep-guide-15044223-b.pdf). To summarize, amplicon PCR was performed by adding 2.5ul of 5 ng/ul of DNA to 5 ul of 1uM Forward primer, 5ul of 1uM reverse primer, and 12.5 ul of 2× KAPA HiFi HotStart ReadyMix. Forward primer sequences are 5′TCGTCGGCAGCGTCAGATGTGTATAAGAGA-CAGCCTACGGGNGGCWGCAG 3′. Reverse primer sequences are 5′GTCTCGTGGGCTCGGAGATGGTA-TAAGAGACAGGACTACHVGGGTATCTAATCC 3′.\nThe PCR condition were as follows: 95 °C for 3min followed by 25 cycles of 95 °C for 30 s, 55 °C for 30s, and 72 °C for 30s. A final elongation step was performed at 72°C for 5min.\nFollowing quality control and PCR clean up, index PCR was set up with the Nextera XT index kit and a limited-cycle amplification (8 cycles) to attach dual indices and adapters to the amplicons. The library was quantified using Qubit and normalized to 4 nM for all samples, after which all samples were pooled together.     The pooled library was loaded onto the sequencer at 6pM with 10% phiX spiked in. The Miseq run utilized the v3 chemistry and 2 × 300 cycle sequencing kit (MS-102-3003). Samples were demultiplexed and adaptors removed using bcl2fastq from Illumina.     Quality assessment of reads was performed with FastQC v0.11.8 and reports were combined with MultiQC v1.7. Primers were removed with cutadapt v2.3. DADA2 v1.12 was utilized for quality-trimming and filtering and inference of amplicon sequence variants (ASVs), and taxonomy was assigned with DECIPHER v2.14 using the SILVA r138 reference database.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "19-12829-26 under Task Order NNN13D111T award to KV.",
+          "Study Publication Author List": "Camilla Urbaniak  Hernan Lorenzi  James Thissen  Crystal Jaing  Brian Crucian  Clarence Sams  Duane Pierson \nKasthuri Venkateswaran and Satish Mehta",
+          "Project Link": "",
+          "Study Publication Title": "The influence of spaceflight on the astronaut salivary microbiome and the search for a microbiome biomarker for viral reactivation",
+          "Managing NASA Center": "Jet Propulsion Laboratory (JPL)",
+          "Study Description": "This study's goal was to examine if any salivary microbiome changes were observed in astronauts as a result of spaceflight. In addition, this study looked for any microbiome signature that may be associated with viral reactivation in humans",
+          "organism": "cellular organisms",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/q6n1-hh96",
+          "url": "https://doi.org/10.26030/q6n1-hh96"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1583712000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "nN_6g4QB28eYt3lGOrbG",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-279/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "11-Jun-2017",
+            "Start Date": "18-Apr-2017",
+            "Name": "Orbital ATK flight CRS-7"
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "",
+          "Accession": "OSD-279",
+          "Identifiers": "GLDS-279",
+          "Study Identifier": "OSD-279",
+          "Study Protocol Name": "sample collection     Nucleic Acid Extraction 1     Library Construction 1     Nucleic Acid Sequencing 1     GeneLab amplicon-seq data processing protocol",
+          "Study Assay Technology Type": "16S",
+          "Acknowledgments": "We are thankful for financial support by the FFG (Austrian Research Promotion Agency, Project No. 847977) and thank the European Space Agency (ESA) for financing and realization of this space project as part of the ELIPS program (ILSRA-2009-1053 ARBEX). We are very grateful for the scientific and technical support by Lobke Zuijderduijn (ESA), Stefanie Raffestin (sampling in Kourou), the BIOTESC team (Lucerne University of Applied Sciences), astronaut Jack Fischer and all other involved members of space agencies and attached institutes. We thank R. van Houdt for providing a Staphylococcus arlettae isolate. The authors acknowledge the support of the ZMF Galaxy Team: Core Facility Computational Bioanalytics, Medical University of Graz, funded by the Austrian Federal Ministry of Education, Science and Research, Hochschulraum-Strukturmittel 2016 grant as part of BioTechMed Graz. We thank Thomas Rattei (Computational Systems Biology (CUBE), University of Vienna) for scientific discussion and computational support. PhD student Maximilian Mora was supported by the local PhD program MolMed and some of the results presented here are also published in M. Mora´s PhD thesis on the website of the Medical University Graz. C.S.C. acknowledges funding support from the Science and Technology Facilities Grant (No. ST/R000875/1).",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Mora",
+            "Middle Initials": "",
+            "First Name": "Maximilian"
+          },
+          "Study Protocol Type": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation",
+          "Space Program": "ESA",
+          "Study Title": "International Space Station flight project EXTREMOPHILES",
+          "Study Factor Type": "Space Flight     Sample Location",
+          "Study Public Release Date": 1567641600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-279/image",
+          "Study Factor Name": "Spaceflight     Sample Location",
+          "Study Assay Measurement Type": "Amplicon Sequencing",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJEB30994",
+          "Project Title": "EXTREMOPHILES",
+          "Study Funding Agency": "We are thankful for financial support by the FFG (Austrian Research Promotion Agency, Project No. 847977) and thank the European Space Agency (ESA) for financing and realization of this space project as part of the ELIPS program (ILSRA-2009-1053 ARBEX). PhD student Maximilian Mora was supported by the local PhD program MolMed and some of the results presented here are also published in M. Mora´s PhD thesis on the website of the Medical University Graz. C.S.C. acknowledges funding support from the Science and Technology Facilities Grant (No. ST/R000875/1).",
+          "Study Protocol Description": "The obtained sample material was either available as wipes or swabs (clean room). Wipes were submerged in 80 ml DNA-free 0.9% (w/v) NaCl solution (NaCl was heat treated to destroy DNA residues for 24 h, 250 °C), vortexed (10 s) and shaken manually (15 s), ultra-sonicated at 40 kHz for 2 min and vortexed (10 s). The sampling material was aseptically removed from the extraction solution before cultivation- and molecular analyses. Swabs were submerged in 15 ml of NaCl solution and processed identically.     After aliquots were removed for cultivation assays, the rest of the wipe solutions were filled into Amicon Ultra-15 filter tubes (Sigma Aldrich) and were centrifuged at 4000 × g for 10–30 min at 4 °C. The flow-through was discarded and the remaining liquid in the filters was pipetted into 1.5 ml Eppendorf tubes for DNA extraction with the modified XS- buffer method. Briefly, samples were incubated with XS-buffer (2 × , 20 ml stock solution: 1 M Tris/HCl (pH 7.4) (4 ml); 7 M ammonium acetate (4.56 ml); 250 m ethylene diamine tetraacetic acid (3.2 ml); 10% sodium dodecyl sulfate (w/v) (4 ml); potassium ethyl xanthogenate (0.4 g); PCR-grade water (4.99 ml)) for 2 h at 65 °C to open the cells. Phenol/chloroform extraction was used afterwards to isolate the DNA. DNA concentrations were determined using Qubit (High Sensitivity Kit, Life Technologies, US).     To investigate the detectable molecular diversity, we used a 'universal' and an Archaea-targeting approach. The 16S rRNA gene amplicons for the universal approach were amplified using Illumina-tagged primers F515 (5′- TCGTCGG-CAGCGTCAGATGTGTATAAGAGACAGGTGCCAGCMGCCGCGGTAA-3′) and R806 (5′-GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGGGAC-TACHVGGGTWTCTAA-3′). Archaeal amplicons were obtained by a nested approach: First, a ~550 bp-long 16S rRNA gene amplicon was generated with the primers Arch344F (5′-ACGGGGYGCAGCAGGCGCGA-3′) and Arch915R (5′-GTGCTCCCCCGCCAATTCCT-3′), and in a second PCR, the amplicons for Illumina sequencing were generated by the tagged primers Arch519F (5′-TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGCAGCMGCCGCGGTAA-3′) and Arch785R (5′-GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGGACTACHVGGGTATCTAATCC-3′), using the purified product of the first PCR as template. The cycling conditions for the universal approach were initial denaturation at 94 °C for 3 min, followed by 35 cycles of denaturing at 94 °C for 45 s, annealing at 60 °C for 60 s and elongation at 72 °C for 90 s, followed by a final elongation step at 72 °C for 10 min. For the first PCR of the nested archaeal approach, the cycling conditions were initial denaturation at 95 °C for 2 min, followed by 10 cycles of denaturing at 96 °C for 30 s, annealing at 60 °C for 30 s, and elongation at 72 °C for 60 s, followed by another 15 cycles of denaturing at 94 °C for 30 s, annealing at 60 °C for 30 s, and elongation at 72 °C for 60 s, and a final elongation step at 72 °C for 10 min. For the second amplification the cycling conditions were initial denaturation at 95 °C for 5 min, followed by 25 cycles of denaturing at 95 °C for 40 s, annealing at 63 °C for 120 s and elongation at 72 °C for 60 s, followed by a final elongation step at 72 °C for 10 min.     Library preparation and sequencing were carried out at the Core Facility Molecular Biology at the Center for Medical Research at the Medical University Graz, Austria. In brief, DNA concentrations were normalized using a SequalPrep™ normalization plate (Invitrogen), and each sample was indexed with a unique barcode sequence (eight cycles index PCR). After pooling of the indexed samples, a gel cut was carried out to purify the products of the index PCR. Sequencing was performed using the Illumina MiSeq device and MS-102-3003 MiSeq® Reagent Kit v3-600cycles (2 × 251 cycles).     Quality assessment of reads was performed with FastQC v0.11.8 and reports were combined with MultiQC v1.7. Primers were removed with cutadapt v2.3. DADA2 v1.12.1 was utilized for quality-trimming and filtering and inference of amplicon sequence variants (ASVs), and taxonomy was assigned with DECIPHER v2.12 using the SILVA r138 reference database.",
+          "Experiment Platform": "International Space Station (ISS)",
+          "Characteristics": "",
+          "Study Grant Number": "ST/R000875/1",
+          "Study Publication Author List": "Maximilian Mora  Lisa Wink  Ines Kögler  Alexander Mahnert  Petra Rettberg  Petra Schwendner  René Demets  Charles Cockell  Tatiana Alekhova  Andreas Klingl  Robert Krause  Anna Zolotariof  Alina Alexandrova & Christine Moissl-Eichinger",
+          "Project Link": "https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7370",
+          "Study Publication Title": "Space Station conditions are selective but do not alter microbial characteristics relevant to human health",
+          "Managing NASA Center": "",
+          "Study Description": "The International Space Station (ISS) is a unique habitat for humans and microorganisms. Here, we report the results of the ISS experiment EXTREMOPHILES, including the analysis of microbial communities from several areas aboard at three time points. We assess microbial diversity, distribution, functional capacity and resistance profile using a combination of cultivation-independent analyses (amplicon and shot-gun sequencing) and cultivation-dependent analyses (physiological and genetic characterization of microbial isolates, antibiotic resistance tests, co-incubation experiments). We show that the ISS microbial communities are highly similar to those present in ground-based confined indoor environments and are subject to fluctuations, although a core microbiome persists over time and locations. The genomic and physiological features selected by ISS conditions do not appear to be directly relevant to human health, although adaptations towards biofilm formation and surface interactions were observed. Our results do not raise direct reason for concern with respect to crew health, but indicate a potential threat towards material integrity in moist areas.",
+          "organism": "cellular organisms",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/yq3h-6a61",
+          "url": "https://doi.org/10.26030/yq3h-6a61"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1567641600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "3t_6g4QB28eYt3lGLLUq",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-170/",
+          "Flight Program": "NASA Airborne Science Program",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": "UAVSAR"
+          },
+          "Material Type": "bioaerosol",
+          "Project Identifier": "ABC-1",
+          "Accession": "OSD-170",
+          "Identifiers": "GLDS-170",
+          "Study Identifier": "OSD-170",
+          "Study Protocol Name": "sample collection     nucleic acid extraction     nucleic acid library construction protocol     nucleic acid sequencing     GeneLab amplicon-seq data processing protocol",
+          "Study Assay Technology Type": "16S",
+          "Acknowledgments": "C-20A ride along flights were generously provided by the Airborne Science Program at NASA Armstrong Flight Research Center and members of the UAVSAR science team from the Jet Propulsion Laboratory.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Smith",
+            "Middle Initials": "J",
+            "First Name": "David"
+          },
+          "Study Protocol Type": "sample collection protocol     nucleic acid extraction protocol     nucleic acid library construction protocol     nucleic acid sequencing protocol     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "NASA Aircraft Bioaerosol Collector (ABC)",
+          "Study Factor Type": "Altitude     Sample Location     time",
+          "Study Public Release Date": 1539475200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-170/image",
+          "Study Factor Name": "Altitude     Sample Location     Time",
+          "Study Assay Measurement Type": "Amplicon Sequencing",
+          "Project Type": "Flight Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "Survey of Airborne Microorganisms in Earth's Lower Stratosphere",
+          "Study Funding Agency": "NASA Office of the Chief Scientist (FY17 Science Innovation Fund award), a FY17/18 Biodiversity grant from the NASA Earth Science Division, internal awards from NASA Ames Research Center and Lawrence Livermore National Laboratory in FY18",
+          "Study Protocol Description": "Using sterile scissors and forceps, gelatinous filters were halved inside a Class II Type A Biosafety Cabinet (NU-540-600, Nuaire, Plymouth, MN). For each sample, one filter half was archived in a -80 °C freezer (TSU-600A, Thermo Scientific, Asheville, NC) and the other half was dissolved in 40 ml of warm (37 °C) molecular grade water (H2OMB0124, Millipore, Billerica, MA). Next, we used a concentrating pipette (CP Select, InnovaPrep, Drexel, MO) which passed the entire dissolved sample volume (40 ml) through a 0.1 µm flat membrane polyethersulfone membrane (part number CC08001), followed by elution with Tris buffer into a final output concentration of 1 ml. Similarly, swabs contained in 15 ml tubes (wetted with 5 ml of sterile water) from Ground and Hardware control samples obtained from the window plate, probe, and side of the aircraft were concentrated in 1 ml of Tris. For each concentrated volume, 800 µl of was used for DNA extraction and subsequent 16S V4 sequencing; 100 µl was used for culture-based recovery assays; and 100 µl was archived at -80 °C in the freezer.     DNA from each 800 µl concentrated sample aliquot was extracted using an AllPrep PowerViral DNA/RNA kit (product # 28000-50, Qiagen) then quantified by the Quant-iT PicoGreen dsDNA Assay Kit (Invitrogen, Life Technologies, Grand Island, NY). PCR amplification of the V4 hypervariable region of the bacterial 16S rDNA gene enriched samples prior to MiSeq (Illumina, San Diego, CA) sequencing.     For library construction and normalization, we used two differently bar coded V4 fusion primers designed against the surrounding conserved regions tailed with sequences to incorporate Illumina adapters and indexing barcodes. Post amplification, each sample was quantified by fluorometric methods (Qubit or PicoGreen from Invitrogen, Life Technologies, Grand Island, NY) before sequencing.     Every amplicon (containing 16S V4 enriched, amplified, barcoded samples) was loaded into a single MiSeq cartridge and flow cell for paired-end sequencing runs.     Quality assessment of reads was performed with FastQC v0.11.8 and reports were combined with MultiQC v1.7. Primers had been removed prior to deposition into GeneLab. DADA2 v1.12 was utilized for quality-trimming and filtering and inference of amplicon sequence variants (ASVs), and taxonomy was assigned with DECIPHER v2.14 using the SILVA r138 reference database.",
+          "Experiment Platform": "C-20A aircraft",
+          "Characteristics": "",
+          "Study Grant Number": "NNX16AQ38G",
+          "Study Publication Author List": "Smith  Ravichandar  Jain  Griffin  Yu  Tan  Lusby  Nicoll  Shedler  Martinez  Osorio  Lechniak  Choi  Sabino  Iverson  Chan  Jaing  McGrath",
+          "Project Link": "https://airbornescience.nasa.gov/aircraft/C-20A_G-III_-_Armstrong",
+          "Study Publication Title": "Airborne Bacteria in Earth's Lower Stratosphere Resemble Taxa Detected in the Troposphere: Results from a New NASA Aircraft Bioaerosol Collector (ABC)",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "Airborne microorganisms in the upper troposphere and lower stratosphere remain elusive due to a lack of reliable sample collection systems. To address this problem, we designed, installed, and flight-validated a novel Aircraft Bioaerosol Collector (ABC) for NASA's C-20A that can make collections for microbiological research investigations up to altitudes of 13.7 km. Herein we report results from the first set of science flights—four consecutive missions flown over the United States (US) from 30 October to 2 November, 2017. To ascertain how the concentration of airborne bacteria changed across the tropopause, we collected air during aircraft Ascent/Descent (0.3 to 11 km), as well as sustained Cruise altitudes in the lower stratosphere (~12 km). Bioaerosols were captured on DNA-treated gelatinous filters inside a cascade air sampler, then analyzed with molecular and culture-based characterization. Several viable bacterial isolates were recovered from flight altitudes, including Bacillus sp., Micrococcus sp., Arthrobacter sp., and Staphylococcus sp. from Cruise samples and Brachybacterium sp. from Ascent/Descent samples. Using 16S V4 sequencing methods for a culture-independent analysis of bacteria, the average number of total OTUs was 305 for Cruise samples and 276 for Ascent/Descent samples. Some taxa were more abundant in the flight samples than the ground samples, including OTUs from families Lachnospiraceae, Ruminococcaceae and Erysipelotrichaceae as well as the following genera: Clostridium, Mogibacterium, Corynebacterium, Bacteroides, Prevotella, Pseudomonas, and Parabacteroides. Surprisingly, our results revealed a homogeneous distribution of bacteria in the atmosphere up to 12 km. The observation could be due to atmospheric conditions producing similar background aerosols across the western US, as suggested by modeled back trajectories and satellite measurements. However, the influence of aircraft-associated bacterial contaminants could not be fully eliminated and that background signal was reported throughout our dataset. Considering the tremendous engineering challenge of collecting biomass at extreme altitudes where contamination from flight hardware remains an ever-present issue, we note the utility of using the stratosphere as a proving ground for planned life detection missions across the solar system.",
+          "organism": "cellular organisms",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/fn35-a336",
+          "url": "https://doi.org/10.26030/fn35-a336"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1539475200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "mt_6g4QB28eYt3lGOrZ_",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-276/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "28-May-2014",
+            "Start Date": "11-Mar-2014",
+            "Name": "Expedition 39"
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "",
+          "Accession": "OSD-276",
+          "Identifiers": "GLDS-276",
+          "Study Identifier": "OSD-276",
+          "Study Protocol Name": "sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     GeneLab amplicon-seq data processing protocol",
+          "Study Assay Technology Type": "16S",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Lang",
+            "Middle Initials": "M",
+            "First Name": "Jenna"
+          },
+          "Study Protocol Type": "sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     data transformation",
+          "Space Program": "NASA, JAXA, Roscosmos",
+          "Study Title": "Swabs from the International Space Station Raw sequence reads",
+          "Study Factor Type": "Space Flight     Sample Location",
+          "Study Public Release Date": 1492560000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-276/image",
+          "Study Factor Name": "Spaceflight     Sample Location",
+          "Study Assay Measurement Type": "Amplicon Sequencing",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA376404",
+          "Project Title": "",
+          "Study Funding Agency": "This work was supported by the Space Florida ISS Research Competition (http://www.spaceflorida.gov/iss-research-competition), http://SciStarter.com, and a grant to Jonathan A. Eisen from the Alfred P. Sloan Foundation as part of the Microbiology of the Built Environment program.",
+          "Study Protocol Description": "Upon successful completion of the swabbing on May 9, 2014, http://blogs.nasa.gov/stationreport/2014/05/09/iss-daily-summary-report-050914/, all swabs were stored at 80C in the Minus Eighty-degree Laboratory Freezer for ISS (MELFI) freezer onboard the ISS, until transfer to the SpaceX Dragon spacecraft. In the Dragon, the swabs were stored at 80C in the General Laboratory Active Cryogenic ISS Experiment Refrigerator (GLACIER), that runs off of Dragon's batteries until it is plugged in (either to the ISS or on the ground.) The Dragon re-entered the Earth's atmosphere and splashed down in the Pacific Ocean at 12:05 pm PT on May 18, 2014. Samples were transferred to a cooler with dry ice, and shipped to the Earth Microbiome Project (EMP) lab     All samples were prepared using a modified version of the Mo BIO UltraClean 96 Well Swab DNA Kit (MO BIO, Carlsbad, CA, USA). Samples were purified using the Zymo ZR-96 DNA Cleanup and Concentrator-5 kit according to Zymo Protocol (Zymo Research, Irvine, CA, USA).     All samples were prepared using a modified version of the Mo BIO UltraClean 96 Well Swab DNA Kit (MO BIO, Carlsbad, CA, USA). Samples were purified using the Zymo ZR-96 DNA Cleanup and Concentrator-5 kit according to Zymo Protocol (Zymo Research, Irvine, CA, USA). DNA was then amplified using the EMP barcoded primer set, adapted for the Illumina HiSeq2000 and MiSeq by adding nine extra bases in the adapter region of the forward amplification primer that support paired-end sequencing. The V4 region of the 16S rRNA gene (515F-806R) was amplified with region-specific primers that included the Illumina flowcell adapter sequences and a twelve-base barcode sequence. Each 25 ul PCR reaction contained the following: 12 ul of PCR water certified DNA-free (MO BIO), 10 ul of 1x5 Prime HotMasterMix (5 Prime), 1 ul of Forward Primer (5 uM concentration, 200 pM final), 1 ul of Golay Barcode Tagged Reverse Primer (5 uM concentration, 200 pM final), and 1 ul of template DNA. The conditions for PCR were as follows: 94C for 3 min to denature the DNA, with 35 cycles at 94C for 45 s, 50C for 60 s, and 72C for 90 s, with a final extension of 10 min at 72C to ensure complete amplification. Amplicons were quantified using PicoGreen (Invitrogen, Carlsbad, CA, USA) and a plate reader. Once quantified, different volumes of each of the products were pooled into a single tube so that each amplicon was represented equally. This pool was then cleaned up using UltraClean PCR Clean-Up Kit (MO BIO, Carlsbad, CA, USA), and then quantified using Qubit (Invitrogen, Carlsbad, CA, USA).     Sequencing of the prepared library was performed on the Illumina MiSeq platform, using the sequencing primers and procedures described in the supplementary methods of Caporaso (2012).     Quality assessment of reads was performed with FastQC v0.11.8 and reports were combined with MultiQC v1.7. Primers had been removed prior to deposition into GeneLab. DADA2 v1.12.1 was utilized for quality-trimming and filtering and inference of amplicon sequence variants (ASVs), and taxonomy was assigned with DECIPHER v2.12.0 using the SILVA r138 reference database.",
+          "Experiment Platform": "International Space Station (ISS)",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Lang JM  Coil DA  Neched RY  Brown WE  Cavalier D  Severance M  Hampton-Marcell JT  Gilbert JA  Eisen JA",
+          "Project Link": "",
+          "Study Publication Title": "A microbial survey of the International Space Station (ISS)",
+          "Managing NASA Center": "Johnson Space Center (JSC)",
+          "Study Description": "16S sequencing of 15 swabs from the International Space Station",
+          "organism": "cellular organisms",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/n6s6-ct40",
+          "url": "https://doi.org/10.26030/n6s6-ct40"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1492560000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "6d_6g4QB28eYt3lGLLX5",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "GLDS-66/",
+          "Flight Program": "International Space Station (ISS)",
+          "Material Type": "",
+          "Project Identifier": "ISS-MO",
+          "Accession": "OSD-66",
+          "Project Link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13629",
+          "Study Identifier": "MT1-Antimicrobial",
+          "Study Protocol Name": "sample collection     sample processing     library construction     nucleic acid sequencing     sequence analysis data transformation",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "We thank Aleksandra Checinska.",
+          "Study Assay Technology Platform": "Life Tech",
+          "Study Person": {
+            "Last Name": "Venkateswaran",
+            "Middle Initials": "",
+            "First Name": "Kasthuri"
+          },
+          "Study Protocol Type": "sample collection     sample processing     library construction     nucleic acid sequencing     sequence analysis data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Microbial Observatory (ISS-MO): Antimicrobial resistance genes",
+          "Study Factor Type": "Space Flight",
+          "Study Public Release Date": "1467874800",
+          "Parameter Value": "",
+          "thumbnail": "/genelab/img/GLDS66__study_image.png",
+          "Study Factor Name": "spaceflight",
+          "Study Assay Measurement Type": "environmental gene survey",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Data Source Type": "cgene",
+          "Project Title": "Microbial Tracking Payload Series (Microbial Observatory-1)",
+          "Study Funding Agency": "Funding provided by NASA under NNH12ZTT001N grant no. 19-12829-26",
+          "Study Protocol Description": "The sampling wipes were assembled in Jet Propulsion Laboratory (JPL Pasadena CA). Briefly each polyester wipe (9  x 9 ) (ITW Texwipe Mahwah NJ) was folded two times and soaked in 15 mL of sterile molecular grade (Sigma-Aldrich St. Louis MO) water for 30 minutes followed by the transfer to a sterile zip lock bag. The wipes were packed along with the other kit elements at Ames Research Center (ARC Moffett Field CA): TC (Total Count Tryptic Soy Agar) and SDX (Sabouraud Dextrose Agar) contact slides (Hycon EMD Millipore Billerica MA); Opsite Adhesive tape (Smith & Nephew Inc. London UK); Air Sampling Device with gelatin filters (Sartorius G xc3 xb6ttingen Germany); and sterile gloves (manufacturer). The sampling session details are described in Table 1. Briefly each sampling kit was sent to International Space Station as a part of the Space-X cargo and returned to the Earth on Soyuz TM-14 or Dragon capsule. The kits were delivered to JPL immediately after the arrival to Earth (Table 1).",
+          "Experiment Platform": "International Space Station (ISS)",
+          "Characteristics": "",
+          "Study Grant Number": "NNH12ZTT001N grant no. 19-12829-26",
+          "Study Publication Author List": "Urbaniak C Sielaff AC Frey KG Allen JE Singh N Jaing C Wheeler K Venkateswaran K",
+          "Mission": {
+            "End Date": "10-JUN-2015",
+            "Start Date": "10-NOV-2014",
+            "Name": "ISS Increments 42 43"
+          },
+          "Study Publication Title": "Detection of antimicrobial resistance genes associated with the International Space Station environmental surfaces.",
+          "Managing NASA Center": "Jet Propulsion Lab (JPL)",
+          "Study Description": "The environmental samples were collected with the polyester wipes from eight different locations in the International Space Station (ISS) during two consecutive sampling sessions (three months apart) within the ISS Microbial Observatory Experiment. DNA extracted from each of the samples was used to create amplicon libraries based on customized panel of 500 antimicrobial resistance genes followed by next-generation sequencing. This is the first study of that shows the reservoir of antimicrobial genes in the ISS. The International Space Station (ISS) as a closed built environment has its own environmental microbiome which is shaped by microgravity radiation and limited human presence. The microbial diversity associated with ISS environmental surfaces was investigated during this study. Polyester wipes and contact slides were used for sampling of eight various surface locations on the ISS at different time periods. The samples were retrieved and analyzed immediately upon the return to the Earth (via Soyuz TMA-14M or Dragon capsule from SpaceX). After surface sample collection contact slides containing nutrient media for the growth of bacteria and fungi were incubated at 25 xcb x9aC. The polyester wipes were processed to measure microbial burden (R2A Blood Agar and Potato Dextrose Agar) and recover cultivable bacteria as well as fungi. Subsequently viable microbial burden was assessed using Adenosine Triphosphate (ATP) assay and quantitative polymerase chain reaction (PCR) methods after propidium monoazide (PMA) treatment. The 16S-tag and metagenome analyses were used to elucidate viable microbial diversity. The cultivable bacterial population yield from the polyester wipes was very high (5 to 7-logs) when compared with the contact slides (102 to 103 CFU/m2). The PMA-qPCR analysis showed considerable variation of viable bacterial population (105 to 109 16S rDNA gene copies/m2) among locations sampled. Unlike contact slides polyester wipes cover much larger sample surface (~1 m2) and produce much more reliable results of the microbial diversity of the ISS covering both cultivable and non-cultivable species. The cultivable total and viable microbial diversity was determined utilizing state-of-the art molecular techniques. The implementation of the PMA assay before DNA extraction allowed distinguishing viable microorganisms which is crucial for determining their role to the crew health the ISS maintenance and the general knowledge of the closed environmentally controlled built systems.",
+          "organism": "cellular organisms",
+          "Identifiers": "GLDS-66"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1467874800
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "nt_6g4QB28eYt3lGO7YY",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "GLDS-69/",
+          "Flight Program": "International space station (ISS)",
+          "Material Type": "",
+          "Project Identifier": "ISS-MO",
+          "Accession": "OSD-69",
+          "Project Link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13629",
+          "Study Identifier": "GLDS-69",
+          "Study Protocol Name": "sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     qc and data transformation     GeneLab metagenomic data processing protocol",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "Nitin Singh (postdoc), Aleksandra Checinska (postdoc)",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Venkateswaran",
+            "Middle Initials": "",
+            "First Name": "Kasthuri"
+          },
+          "Study Protocol Type": "sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     qc and data transformation     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Microbial Observatory (ISS-MO): Indoor microbiome study of the International Space Station surfaces",
+          "Study Factor Type": "Space Flight     treatment",
+          "Study Public Release Date": 1467849600.0,
+          "Parameter Value": "",
+          "thumbnail": "/genelab/img/GLDS69__study_image.png",
+          "Study Factor Name": "Spaceflight     Treatment",
+          "Study Assay Measurement Type": "metagenome profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Data Source Type": "cgene",
+          "Project Title": "ISS Microbial Observatory - a Genetic Approach",
+          "Study Funding Agency": "NASA-funded, ISS-based experiment, and space biology experiment, under NNH12ZTT001N grant no. 19-12829-26",
+          "Study Protocol Description": "The sampling wipes were assembled in Jet Propulsion Laboratory (JPL, Pasadena, CA). Briefly, each polyester wipe (9 x 9) (ITW Texwipe, Mahwah, NJ) was folded two times and soaked in 15 mL of sterile molecular grade (Sigma-Aldrich, St. Louis, MO) water for 30 minutes followed by the transfer to a sterile zip lock bag. The wipes were packed along with the other kit elements at Ames Research Center (ARC, Moffett Field, CA): TC (Total Count, Tryptic Soy Agar) and SDX (Sabouraud Dextrose Agar) contact slides (Hycon, EMD Millipore, Billerica, MA); Opsite Adhesive tape, (Smith & Nephew, Inc., London, UK); Air Sampling Device with gelatin filters (Sartorius, Gottingen, Germany); and sterile gloves. Briefly, each sampling kit was sent to International Space Station as a part of the Space-X cargo, and returned to the Earth on Soyuz TM-14 or Dragon capsule. The kits were delivered to JPL immediately after the arrival to Earth. During each sampling session on the ISS, each wipe was used to collect a sample of one-meter square. The control wipe (environmental control) was only taken out from the Zip lock bag, unfolded and packed back to the zip lock. The samples were stored at 4C until the return trip to Earth and subsequent processing.     The sample processing took place in 10K class cleanroom at JPL immediately upon the return kits delivery. Each wipe was aseptically taken out from the zip lock bag and transferred to a 500-mL bottle containing 200 mL of sterile PBS. The bottle with the wipe was shaken for two minutes followed by the concentration with a Concentrating Pipette (Innova Prep, Drexel, MO) using 0.45 um Hollow Fiber Polysulfone tips and PBS elution fluid. The environmental control and each sample were concentrated to 4 mL. A 200-uL aliquot was serially diluted in PBS (up to 10-6) to estimate cultivable population with ATP assay (Kikkoman Corp., Noda, Japan). A 3-mL aliquot was split into a half. One aliquot was treated with PMA to assess viability, while the second was handled the same but without the addition of PMA. Briefly, 18.25 uL of 25 mM PMA in water was added to each treated sampled followed by 5-minute incubation at the room temperature in the dark and 15-minute exposure to the activation system (PMA LED device, Biotium, Hayward, CA). The samples were then split in half again and transferred to bead beating tubes containing Lysing Matrix E (MP Biomedicals, Santa Ana, CA). One half of PMA treated and non-PMA treated sample was subjected to bead beating for 60 s using the vortex sample holder (MO Bio, Carlsbad, CA). The bead-beaten half and the unprocessed half were combined for PMA treated and non-treated samples followed by the DNA extraction with the Maxwell 16 automated system (Promega, Madison, WI), in accordance with manufacture instructions. Resulting DNA samples in water (50 uL each) were stored at 20C until the downstream analysis.\n\nMaterials from the swab IIF2SW-P-M was extracted twice so there are two replicates.     Samples were prepped for sequencing with the Illumina Nextera kit and quantified with Quant-iT dsDNA High Sensitivity assay Nextera DNA Processing: 1) Random fragmentation of DNAs is performed using transposons and adapters are added (tag-mentation). 2) Libraries that have adapters ligated to both ends are enriched by PCR.     After library is annealed to the flow cell, clusters are generated by bridge amplification method. 1) In sequencing using SBS (Sequencing by Synthesis), signal intensity of four types fluorescence bases in each cluster of flow cells could be identified by laser and save on images. 2) Base calling process of image files from sequencer is performed and fastq raw data files are generated. Libraries were pooled and run with 100 bp paired-end sequencing protocols on the Illumina HiSeq 2500 platform.     Contaminating human reads were removed by mapping all reads with bowtie2 to a masked version of the hg19 genome. Masked regions included: 1) Areas containing multiple repeat short kmers, 2) Windows of low entropy, calculated using pentamer frequencies, 3) Areas to which 70-80 bp fragments from any fungal, plant or zebrafish genome map with 85% identity. Reads that mapped were discarded, while reads that did not map were kept and published to GeneLab.     Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.9. Quality-trimming and filtering was performed with bbmap v38.86. Read-based processing was performed with humann v3.0.0.alpha.3. Individual samples were assembled with megahit v1.2.9. Genes were called with prodigal v2.6.3. Taxonomic classification of genes and contigs was performed with CAT v5.2.2. Functional annotation was done with KOFamScan v1.3.0. Reads were mapped to assemblies with bowtie2 v2.3.5.1, and coverage information was extracted for reads and contigs with samtools v1.9 and bbmap v38.86. Binning of contigs was performed with metabat2 v2.15. Bins were summarized with bit v1.8.13 and estimates of quality were generated with checkm v1.1.3. High-quality bins (> 90% est. completeness and < 10% est. redundancy) were taxonomically classified with gtdb-tk v1.4.0.",
+          "Experiment Platform": "International space station (ISS)",
+          "Characteristics": "",
+          "Study Grant Number": "NNH12ZTT001N grant no. 19-12829-26",
+          "Study Publication Author List": "Singh NK  Wood JM  Karouia F  Venkateswaran K.",
+          "Mission": {
+            "End Date": "10-Jun-2015",
+            "Start Date": "10-Nov-2014",
+            "Name": "ISS Increments 42"
+          },
+          "Study Publication Title": "Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces.",
+          "Managing NASA Center": "Jet Propulsion Laboratory (JPL)",
+          "Study Description": "Presented here is the environmental microbiome study of the International Space Station surfaces. The environmental samples were collected with the polyester wipes from eight different locations in the ISS during two consecutive sampling sessions (three months apart). The specific objective was to unveil the pool of genes for each location during two separate sessions to learn of functional and metabolic diversity of microorganisms in the ISS. The International Space Station (ISS) as a closed built environment has its own environmental microbiome which is shaped by microgravity, radiation, and limited human presence. The microbial diversity associated with ISS environmental surfaces was investigated during this study. Polyester wipes and contact slides were used for sampling of eight various surface locations on the ISS at different time periods. The samples were retrieved and analyzed immediately upon the return to the Earth (via Soyuz TMA-14M or Dragon capsule from SpaceX). After surface sample collection, contact slides containing nutrient media for the growth of bacteria and fungi were incubated at 25C. The polyester wipes were processed to measure microbial burden (R2A, Blood Agar, and Potato Dextrose Agar) and recover cultivable bacteria as well as fungi. Subsequently, viable microbial burden was assessed using Adenosine Triphosphate (ATP) assay, and quantitative polymerase chain reaction (PCR) methods after propidium monoazide (PMA) treatment. The 16S-tag and metagenome analyses were used to elucidate viable microbial diversity. The cultivable bacterial population yield from the polyester wipes was very high (5 to 7-logs) when compared with the contact slides (10^2 to 10^3 CFU/m2). The PMA-qPCR analysis showed considerable variation of viable bacterial population (10^5 to 10^9 16S rDNA gene copies/m2) among locations sampled. Unlike contact slides, polyester wipes cover much larger sample surface (~1 m2) and produce much more reliable results of the microbial diversity of the ISS covering both cultivable and non-cultivable species. The cultivable, total, and viable microbial diversity was determined utilizing state-of-the art molecular techniques. The implementation of the PMA assay before DNA extraction allowed distinguishing viable microorganisms, which is crucial for determining their role to the crew health, the ISS maintenance and the general knowledge of the closed environmentally controlled built systems.",
+          "organism": "cellular organisms",
+          "Identifiers": "GLDS-69"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1467849600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "rN_6g4QB28eYt3lGPLaH",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "GLDS-26/",
+          "Flight Program": "International Space Station (ISS)",
+          "Material Type": "Cells",
+          "Project Identifier": "ISS-MO (MT-1A)",
+          "Accession": "OSD-26",
+          "Project Link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13629",
+          "Study Identifier": "GLDS-26",
+          "Study Protocol Name": "sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     GeneLab amplicon-seq data processing protocol",
+          "Study Assay Technology Type": "amplicon sequencing assay",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Roche",
+          "Study Person": {
+            "Last Name": "Venkateswaran Checinska",
+            "Middle Initials": "",
+            "First Name": "Kasthuri Aleksandra"
+          },
+          "Study Protocol Type": "sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Microbiomes of the Dust Particles Collected from the International Space Station and Spacecraft Assembly Facilities",
+          "Study Factor Type": "Sample Location     Space Flight",
+          "Study Public Release Date": 1354320000.0,
+          "Parameter Value": "",
+          "thumbnail": "/genelab/img/GLDS26__study_image.png",
+          "Study Factor Name": "Sample Location     Spaceflight",
+          "Study Assay Measurement Type": "metagenome profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA179105  PRJNA236117",
+          "Data Source Type": "cgene",
+          "Project Title": "ISS Microbial Observatory (Microbial Tracking-1A)",
+          "Study Funding Agency": "This research was funded by NASA Space Biology Grant no. 19-12829-27 under Task Order NNN13D111T award to K. Venkateswaran.",
+          "Study Protocol Description": "Surface sampling of spacecraft assembly cleanroom (SAC) floors and ground support equipment (GSE) was performed using either premoistened polyester wipes or biological sampling kits (BiSKit; QuickSilver Analytics, Abingdon, MD) as previously described. The two cleanroom facilities examined during this study were both certified as class 8 per ISO 14644-1. Spacecraft hardware and components were undergoing active assembly in the first cleanroom site, the Jet Propulsion Laboratory Spacecraft Assembly Facility (JPL-SAF), whereas the second cleanroom site, JPL cleanroom 144, was not supporting spacecraft assembly activities at the time of sampling but was maintaining its class 100K certification. Both of those cleanroom facilities were operated under conditions of positive air pressure, with temperatures in the range of 20 +/- 4C and relative humidity ranging from 30% to 50%. In both cases, the total hydrocarbon content of the facility air (gases and vapors) was below 15 ppm (calculated as methane content). The GSE consisted of nonflight hardware items associated with the project, employed prior to or during hardware receipt, assembly, integration, testing, storage, shipment, and prelaunch activities. All GSE materials used in direct contact with flight hardware or inside the cleanroom were inspected for compliance with visible cleanliness levels. To ensure that contamination was not transferred to flight hardware, GSE such as mating gas/liquid lines and electrical connectors were also precleaned according to established in-house protocols.     All BiSKit samples, and the vast majority of polyester wipes examined, were processed and analyzed immediately after collection. Only the group IV wipes collected at Kennedy Space Center (group IV samples) were stored at -20C (14 days) prior to being transported on dry ice to JPL for further processing and analysis. To facilitate recovery of microorganisms and biomolecules from the polyester matrix, 200 ml of sterile rinse solution (85 mg of potassium dihydrogen phosphate, 200 mg of Tween 80 [per liter of water], pH 7.2) was added to each polyester wipe-containing Corning bottle prior to vigorous shaking and ultrasonic treatment, as previously described. Previous studies have demonstrated that SAC samples contain extremely low biomass and seldom yield detectable PCR amplification products. We therefore pooled multiple samples from each sampling event. All samples were filtered using Amicon Ultra-50 Ultracel centrifugal filter tubes (Millipore, Billerica, MA), which facilitated the concentration of microbial cells, endospores, and exogenous nucleic acid fragments greater than 100 bp in size into a final volume of 500 ul. Samples were divided into two aliquots, one of which was subjected to bead-beating protocols with a FastPrep instrument (MP Biomedicals, Solon, OH) (5 m/s, 60 s) to maximize the resulting detectable microbial diversity. After bead beating was performed, the two aliquots were combined and subjected to total DNA purification using the Maxwell MDx automated nucleic acid extraction system (Promega, Madison, WI), in accordance with the manufacturer's instructions. DNA extracts were then stored at -20C.     Bacterium-biased primers 28F (5'-GAG TTT GAT CNT GGC TCA G-3') and 519R (5'-GTN TTA CNG CGG CKG CTG-3') were used to amplify ~500-bp fragments spanning the V1 to V3 hypervariable regions of the bacterial 16S rRNA gene. Archaeon-biased primers 341F (5'-GYG CAS CAG KCG MGA AW-3') and 958R (5'-GGA CTA CVS GGG TAT CTA AT-3') were used to amplify ~600-bp fragments spanning the V3 to V5 hypervariable regions of the archaeal 16S rRNA gene. A fungus-biased primer set consisting of ITS1F (5'-CTT GGT CAT TTA GAG GAA GTA A-3') and ITS4R (5'-TCC TCC GCT TAT TGA TAT GC-3') was employed to amplify ~600-bp fragments of the fungal internal transcribed spacer (ITS) region. These primer pairs were tailored for pyrosequencing by adding a fusion linker and a proprietary 12-nucleotide (12-nt) barcode sequence at the 5' end of the forward primer and a biotin and fusion linker sequence at the 5' end of the reverse primer. A HotStarTaq Plus master mix kit (Qiagen, Valencia, CA) was used to catalyze the PCR under the following thermal cycling conditions: initial denaturing at 95C for 5 min, followed by 35 cycles of denaturing at 95C for 30 s, annealing at 54C for 40 s, and extension at 72C for 1 min, finalized by a 10-min elongation at 72C. Resulting PCR products were purified using Diffinity RapidTip (Diffinity Genomics, Inc., West Henrietta, NY) chemistry and were then pooled according to the experimental plan. Small fragments were removed with Agencourt Ampure Beads (Beckman Coulter, Brea, CA).     A four-region 454 pyrosequencing run was performed on a GS PicoTiterPlate (PTP) housing a Genome Sequencer FLX system in accordance with manufacturer's instructions (Roche, Nutley, NJ). Twenty-four to 30 tagged samples were applied to each of the four regions of the PTP. All pyrosequencing procedures were performed at the Research and Testing Laboratory (Lubbock, TX) in accordance with established protocols. None of the negative controls, handling controls (sampling devices briefly exposed to the ambient sampling environment), or reagent blanks gave rise to measurable PCR products; thus, none of those controls were subjected to pyrosequencing analysis.     Quality assessment of reads was performed with FastQC v0.11.8 and reports were combined with MultiQC v1.7. Primers were removed with cutadapt v2.3. Quality-trimming and filtering was performed with bbmap v38.86. vsearch v2.15.1 was utilized for generating operational taxonomic units (OTUs), and taxonomy was assigned with DECIPHER v2.12 using the SILVA r138 reference database.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "19-12829-27",
+          "Study Publication Author List": "La Duc MT  Vaishampayan P  Nilsson HR  Torok T  Venkateswaran K.     Venkateswaran K  Vaishampayan P  Cisneros J  Pierson DL  Rogers SO  Perry J.     Checinska A  Probst AJ  Vaishampayan P  White JR  Kumar D  Stepanov VG  Fox GE  Nilsson HR  Pierson DL  Perry J  Venkateswaran K.",
+          "Mission": {
+            "End Date": "25-Sep-2010",
+            "Start Date": "01-Jun-2010",
+            "Name": "Expedition 24"
+          },
+          "Study Publication Title": "Pyrosequencing-derived bacterial, archaeal, and fungal diversity of spacecraft hardware destined for Mars.     International Space Station environmental microbiome - microbial inventories of ISS filter debris.     Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly  Facilities.",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "The safety of the International Space Station (ISS) crewmembers and maintenance of ISS hardware are the primary rationale for monitoring microorganisms in this closed habitat. The composition of the microbial community of this built environment is unique due to microgravity, space radiation, and elevated carbon dioxide levels. As built environments are known to have their own microbiomes, next-generation sequencing methods have to be utilized to explore the ISS microbial profile, and use this data for further development of safety and maintenance practices. ISS vacuum cleaner bag components (surface) and vacuum cleaner bag components of two cleanrooms at Jet Propulsion Laboratory (JPL, Pasadena, CA) were examined. 16S rRNA gene and ITS sequencing based on the 454 platform was used to elucidate the ISS microbial diversity and explore differences between the microbiomes of the ISS and Earth-based cleanrooms.",
+          "organism": "cellular organisms",
+          "Identifiers": "GLDS-26"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1354320000
+        ]
+      }
+    ]
+  }
+}

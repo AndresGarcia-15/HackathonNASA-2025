@@ -1,0 +1,142 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 2,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "CN_6g4QB28eYt3lGS7dW",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "GLDS-497/",
+          "Flight Program": "",
+          "Material Type": "Cells",
+          "Project Identifier": "",
+          "Accession": "OSD-497",
+          "Project Link": "",
+          "Study Identifier": "GLDS-497",
+          "Study Protocol Name": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Assembly",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Chander Venkateswaran",
+            "Middle Initials": "M",
+            "First Name": "Atul Kasthuri"
+          },
+          "Study Protocol Type": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Assembly",
+          "Space Program": "NASA",
+          "Study Title": "Fungal Diversity associated with space-craft assembly facility (SAF)",
+          "Study Factor Type": "strain",
+          "Study Public Release Date": 1653523200.0,
+          "Parameter Value": "",
+          "thumbnail": "/genelab/img/GLDS497__study_image.png",
+          "Study Factor Name": "Strain",
+          "Study Assay Measurement Type": "genome sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA800051",
+          "Data Source Type": "cgene",
+          "Project Title": "",
+          "Study Funding Agency": "This research was supported by the NASA Planetary Protection Office 15-PPR15-0001 awarded to Kasthuri Venkateswaran.",
+          "Study Protocol Description": "The samples were collected by using moist polyester wipes and subsequently the wipes were agitated in sterile phosphate-buffered saline (PBS). The PBS suspension was concentrated using an InnovaPrep CP150 concentrating pipette, and spread onto different media plates (Dichloran Rose bengal Agar, Potato Dextrose Agar (PDA) and Dichloran glycerol agar). The plates were incubated at 25˚C for 7 to 14 days before isolating fungal strains and stored for further identification. Fungal isolates were restreaked on PDA plates to obtain pure culture and suitable biomass for DNA isolation.     The genomic DNA extraction was performed using the ZymoBIOMICS MagBead DNA kit as per manufacturer’s instructions.     WGS libraries were prepared with an Illumina Nextera DNA Flex library preparation kit.     The fungal genomes were sequenced on the NovaSeq 6000 paired-end 2 X 150-bp platform by using a S4 flow cell.     FastQC v0.11.7 and Fastp v0.20.0 was used for filtering and trimming of reads and the genomes were assembled using SPAdes v3.11.1.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "15-PPR15-0001",
+          "Study Publication Author List": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Study Publication Title": "",
+          "Managing NASA Center": "Jet Propulsion Laboratory (JPL)",
+          "Study Description": "Draft genome sequences of Fungi isolated from Mars 2020 Spacecraft assembly facility are reported. The fungal strains were isolated from samples collected from cleanroom surfaces of Kennedy Space Center-Payload Hazardous Servicing Facility and Jet Propulsion Laboratory-Spacecraft Assembly Facility. Whole genome sequencing (WGS) of these isolates was carried out.",
+          "organism": "Septoriella neoarundinis     fungal sp.     Talaromyces ruber     Penicillium fuscoglaucum     Botryosphaeria agaves     Cladosporium colombiae     Barbatosphaeria neglecta     Neophaeococcomyces aloes     Penicillium caseifulvum     Penicillium brevicompactum     Zalaria obscura     Penicillium decumbens     Pseudopyrenochaeta terrestris     Neocatenulostroma microsporum     Acremonium citrinum     Aureobasidium lini     Roussoella neopustulans     Phialocephala fluminis     Alternaria angustiovoidea     Talaromyces liani     Cystobasidium benthicum     Penicillium sumatraense     Aureobasidium melanogenum     Aspergillus pseudoglaucus     Phaeophleospora eucalypticola     Aspergillus calidoustus     Trichoderma citrinoviride     Aspergillus quadricinctus     Cladosporium austrohemisphaericum     Xylona heveae     Aspergillus costaricaensis     Ganoderma meredithae     Gamszarea kalimantanensis     Cladosporium endophytica     Fusarium nygamai     Exophiala oligosperma",
+          "Identifiers": "GLDS-497"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1653523200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "9t_6g4QB28eYt3lGR7Y7",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-265/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "UV_Ionizing_Irradiation, Simulated_Environmental_Factors",
+          "Accession": "OSD-265",
+          "Identifiers": "GLDS-265",
+          "Study Identifier": "OSD-265",
+          "Study Protocol Name": "growth protocol     treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Settles",
+            "Middle Initials": "A",
+            "First Name": "Mark"
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Space Program": "",
+          "Study Title": "Selecting for Chlamydomonas reinhardtii fitness in the KSC Veggie Unit",
+          "Study Factor Type": "Growth Cycle     strain     Sample Storage     UV Mutagenesis     Organism Part",
+          "Study Public Release Date": 1579564800.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-265/image",
+          "Study Factor Name": "Growth Cycle     Strain     Sample Storage     UV Mutagenesis     Organism Part",
+          "Study Assay Measurement Type": "genome sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "Domesticating algae for sustainable production of feedstocks in space",
+          "Study Funding Agency": "CASIS, Florida Space Research Intitute; GA-2017-254",
+          "Study Protocol Description": "Strains and culturing conditions: Strains CC-5082 (WT) and CC-1883 (cw15) were obtained from the Chlamydomonas Resource Center. CC-5082 is a sequence-verified clone of CC-1690, which is a wild-type strain of mating type mt+ (Gallaher et al., 2015). CC-1883 is an mt- cw15 cell wall mutant, which allows transformation of exogenous DNA by vortexing with cells and glass beads (Kindle et al., 1989). Strains were maintained at room temperature (20-25C) on agar plates with Tris acetate-phosphate (TAP) medium (Gorman and Levine, 1965), under 50 to 100 umol/m2/s continuous photosynthetically active radiation (PAR) from daylight fluorescent bulbs (6500 K). To initiate liquid cultures, 1-2 mm colonies were scraped from TAP agar plate and inoculated into 50 mL TAP media. Traditional liquid cultures were grown with continuous light in 250 mL Erlenmeyer flasks with 100 rpm gyratory shaking. For spaceflight analogs, liquid cultures were grown in 120 mL PermaLife cell culture bags (OriGen Biomedical, Austin, TX, USA). Liquid cultures were grown in daylight fluorescent lighting, LED lighting with a ratio of red: green: blue of 4:1:1, or in the Veggie Vegetable Production System at the Kennedy Space Center (Merritt Island, FL, USA) with a ratio of red: green: blue of 8:1:1. All lighting was 80-100 umol/m2/s.  The UVC mutagenesis dose that caused ~10% cell survival was determined by transferring 7 mL of early-log phase culture at OD600 equals 0.45 to 15 cm sterile petri plates in a sterile laminar flow hood. The petri plates were opened in a GS Gene Linker UV Chamber (Bio-Rad, Hercules, CA, and exposed to increasing doses of UVC light from germicidal bulbs. Petri plates were closed, wrapped in aluminum foil, and agitated overnight in the dark at 50 rpm. Mutagenized cultures were plated on TAP agar plates with non-treated samples diluted 1:5 prior to plating. Colonies were grown under continuous light, counted, and normalized relative to non-mutagenized cultures.     Colonies from TAP agar plates were scraped and suspended in 600 uL liquid TAP media and adjusted to an optical density of 1 at 600 nm using a visible light spectrophotometer (SmartSpec 3000, Bio-Rad, Hercules, CA, USA). The Chlamydomonas suspension was used to inoculate TAP liquid media at a 1:250 dilution, i.e. 0.2 mL of OD600 equals 1 suspension was added to 50 mL TAP media. WT was inoculated on day 1 of the experiment and cw15 was inoculated on day 2. The cultures were grown in flasks until reaching an OD600 of 0.4-0.5 on day 4. Non-mutagenized cells from the culture were sampled for whole genome sequencing by centrifuging 2 mL of the culture and freezing the cell pellet at -80C until DNA was extracted. For each mutagenesis, 7 mL of early-log phase culture was exposed to 8 mJ of UV light. The mutagenized cells were then used to inoculate 100 mL of TAP media in a PermaLife tissue culture bag in a sterile laminar flow hood. Inoculated tissue culture bags were held at room temperature in the dark for 7 d and then transferred to the Veggie growth chamber. The Veggie chamber was set with the reservoir at maximum distance from the lighting. The red light was set to 'medium'; the blue light was set to 'low'; and the green light was set to 'on'. The bellows were closed during growth cycles, and the fan was set to 'low'.     The initial mutagenized cultures were grown for 7 d in Veggie. The cultures were then passaged by transferring 1 mL of culture to a bag containing fresh TAP media using a sterile syringe. The second culture was grown for 6 d and then passaged to a third tissue culture bag for 6 d of growth. During each passage, 2 mL of culture was sampled, centrifuged, and the cell pellet was frozen at -80C until DNA was extracted. The remaining cultures were stored in a soft stowage, Cargo Transport Bag (CTB) until 36 d after the initial inoculation. For each dark-stored culture, 2 mL was sampled for DNA extraction.     DNA was extracted from the flash-frozen and dark-stored cell pellets as described with some minor modifications (Newman et al., 1990). Cell pellets were resuspended in 150 uL H2O on ice, and 300 uL of SDS-EB buffer (2% SDS, 400 mM NaCl, 40 mM EDTA, 100 mM Tris-HCl, pH 8.0) was added and vortexed. The cell suspension was then extracted with 350 uL phenol: chloroform: isoamyl alcohol 25:24:1 (v:v) for 2-5 min by intermittent mixing using a vortex. The organic and aqueous phases were separated with a 5 min centrifugation at maximum speed in a microcentrifuge. The aqueous phase was then extracted with 300 uL chloroform: isoamyl alcohol (24:1). The RNA in the aqueous phase was digested with RNase A at room temperature for 10 min. DNA was precipitated by adding 1 mL 100% ethanol, incubating on ice for 30 min, and centrifuging for 10 min. The pellet was washed with 200 uL 70% ethanol, dried in vacuum centrifuge and resuspended in 30 uL H2O. DNA sample integrity was evaluated with an Agilent TapeStation (Santa Clara, CA, USA), and concentration was determined with Qubit dsDNA HS Assay Kit (Life Technologies, Carlsbad, CA) according to the manufacturer’s instructions.     For each library, 3 ug of DNA was sheared to 350 bp average size using an S220 Focused- ultrasonicator (Covaris, Woburn, MA, USA). Barcoded, TruSeq PCR-Free Low Throughput libraries were prepared for each DNA sample following the manufacturer’s instructions (Illumina, San Diego, CA, USA). Each sample had a unique index from Illumina TruSeq DNA CD Indexes (96 indexes/samples). The libraries were split into two pools to sequence a total of 38 samples: 9 dark-stored and 9 flash-frozen samples for each strain, growth cycle, and biological replicate as well as the two non-mutagenized initial cultures.     Library pools were color- balanced and sequenced with paired-end 150 bp reads on the Illumina HiSeq X platform at MedGenome (Foster City, CA, USA).",
+          "Experiment Platform": "Vegetable Production System (VEGGIE)",
+          "Characteristics": "",
+          "Study Grant Number": "GA-2017-254",
+          "Study Publication Author List": "Zhang J  Muller BS  Tyre KN  Hersh HL  Bai F  Hu Y  Resende MFR  Rathinasabapathi B  Settles AM",
+          "Project Link": "",
+          "Study Publication Title": "Competitive Growth Assay of Mutagenized Chlamydomonas reinhardtii Compatible With the International Space Station Veggie Plant Growth Chamber",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "The Space Algae Experiment Verification Test completed a competitive growth selection on mutagenized microalgae in a series of batch cultures that were passaged for three growth cycles. The experiment was conducted with ground control conditions similar to those actually used in spaceflight. Cultures were limited in growth rate due to gas permeable membranes to provide oxygen and carbon dioxide exchange and a lack of agitation to mix the cells throughout the liquid media. Two strains were grown and three biological replicates were completed for each strain. Specific variables (factors) tested were: 1) The effect of UVC (short-wave ultraviolet light) mutagenesis was tested by sampling the algae cultures prior to mutagenesis. 2) The sensitivity of different strains was tested by conducting the experiment with a wild-type and cell wall mutant (cw15) strain. 3) The effect of competitive growth was tested by sampling each biological replicate experiment at the end of each growth cycle. 4) The effect of live culture storage in the dark was tested by sampling each growth cycle twice. At the time of passage, a sample of cells was pelleted and frozen. The cultures were then stored in the dark in a Cargo Transport Bag (CTB) to simulate storage on the ISS and return of cultures. This factor tested whether cultures could be stored alive in the dark or if samples needed to be fixed at the time of passage in order to get an accurate representation of the genetic variation in each cycle of growth. Paired-end, whole genome sequencing was completed for 38 samples: 2 strains pre mutagenesis and 2 strains X 3 biological replicates X 3 growth cycles X 2 storage conditions.",
+          "organism": "Chlamydomonas reinhardtii",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/g74v-0j27",
+          "url": "https://doi.org/10.26030/g74v-0j27"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1579564800
+        ]
+      }
+    ]
+  }
+}

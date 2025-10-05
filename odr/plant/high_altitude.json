@@ -1,0 +1,400 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 6,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "f2Rsf40BA9RL2X-SJu7Q",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-624/",
+          "Flight Program": "Virgin Galactic SpaceShipTwo",
+          "Mission": {
+            "End Date": "2021-06-11",
+            "Start Date": "2021-06-11",
+            "Name": "Unity 22"
+          },
+          "Material Type": "",
+          "Project Identifier": "UF-HT-KFT-01",
+          "Accession": "OSD-624",
+          "Identifiers": "GLDS-611",
+          "Study Identifier": "OSD-624",
+          "Study Protocol Name": "Growth Protocol     Treatment Protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "The authors also thank NASA FOP Ryan Dibley, for on-site support of the operations and guidance. We thank the Virgin Galactic personnel who supported experiment operations at Spaceport America launch facilities, in particular Maya Naphade and the other members of the flight crew. We appreciate support and services from members of UF Interdisciplinary Center for Biotechnology Research (ICBR) in cores of Bioinformatics (RRID:SCR_019120), NextGen DNA sequencing (RRID:SCR_019152) and Gene Expression and Genotyping (RRID:SCR_019145), and the support of all members of the UF Space Plants Laboratory.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Ferl Zhou Strickland Haveman Callaham Bandla Ambriz Paul",
+            "Middle Initials": " F J B",
+            "First Name": "Robert Mingqi Hunter Natasha Jordan Sirisha Daniel Anna-Lisa"
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Arabidopsis transcriptome in Virgin Galactic human-tended suborbital spaceflight",
+          "Study Factor Type": "time     Gravity, Altered     Organism Part",
+          "Study Public Release Date": 1707177600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-624/image",
+          "Study Factor Name": "Time     Altered Gravity     Organism Part",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "High Altitude Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA984625",
+          "Project Title": "",
+          "Study Funding Agency": "NASA Flight Opportunities Program (FOP) grant #80NSSC18K1294",
+          "Study Protocol Description": "Plant growth conditions applying Kennedy Space Center Fixation Tubes (KFTs) has been previously described. In brief, the Arabidopsis thaliana seeds of Col-0 were grown on 10cm square petri plates on solid nutrient gel (1% Phytagel, 0.5× MS media, 5g/L sucrose) under constant light in a broad-spectrum LED bank (100 µmoles/m2 ) . After 4 days plants were hand-carried to the launch location on a commercial air flight (around 8-h dark), and then the plates of seedlings were placed in an LED-lit (80 µmoles/m2 ) growth habitat fashioned in the Virgin Galactic Hanger and flown for three additional days.     At 04:00 on Launch Day six, 7-day old plants were transferred from the surface of the growth plates to the surface of a previously prepared stainless steel coupon containing a surface layer of nutrient gel (1% Phytagel, 0.5× MS media, 5g/L sucrose) . The prepared coupons were kept vertical in a ventilated, cool (23°-25° C) environment until being assembled into the Flight and the Ground Control KFTs at 07:00. The Flight KFTs were Turned Over to the Virgin Galactic support crew at 07:20, and were then taken by the support crew to the astronaut.     Samples were taken throughout the VG Unity 22 suborbital spaceflight profile. Plant materials were fixed at three time points, including F1 (During the climb phase of the spaceflight system – approximately 4 minutes before release of spaceship from mothership), F2 (the end of hyper-g and the beginning of approximate 3-min microgravity), and F3 (the end of 3-min microgravity). These three timepoints bracket major transitions from ground to space. Arabidopsis thaliana, Col-0 (Arabidopsis) seedlings were well settled onto agar coated mesh coupons and sealed in the KFT supported environment as previously described. KFTs were actuated (which brings the fixative into contact with the biology) by the suborbital astronaut at the three designated time points. The KFTs were deployed as a wearable payload attached to the astronaut’s calf for easy-access during the flight. The loaded KFTs were secured within the pouch by the astronaut just prior to being deployed to the vehicle. Each KFT remained secured in the pouch until astronaut-actuation in turn at F1, F2 and F3, and then re-stowed in turn until their return to the investigators post-flight. Ground Controls were kept in an analog pouch that was worn by one of the investigators, and actuated approximately at the same F1, F2 and F3 time points, these times within the Ground Control are labeled G1, G2, and G3.     At least two individual plants from one KFT in each condition constituted a biological replicate and 3 replicates were generated for each condition. Seedlings were dissected into roots, leaves and hypocotyls for downstream applications, whereas the intervening hypocotyls were set aside. RNA extraction for tissues of roots or leaves was performed using Qiagen RNeasy Plant mini kit (Qiagen, Germantown, USA). The concentration of resulted RNA samples was determined on Qubit 2.0 Fluorometer (Thermo Fisher Scientific, Waltham, USA) and the quality was assessed using Agilent 2100 Bioanalyzer (Agilent, Santa Clara, USA). Approximately 100 ng of total RNA was used to produce mRNA using NEBNext Poly(A) mRNA Magnetic Isolation Module (NEB, Ipswich, USA).     RNA library construction was performed using NEBNext Ultra II Directional RNA Library Prep Kit (NEB) with 2/3 of poly A enriched RNA. Each uniquely barcoded library was enriched by 15 cycles of amplification, and then purified with AMPure beads (Beckman Coulter, Indianapolis, USA). The prepared libraries were sized on the Bioanalyzer and quantified using the Qubit 2.0 Fluorometer.     The individual libraries were pooled in equimolar concentration, then treated with Free Adapter Blocking Reagent (Illumina, San Diego, USA) in order to minimize the presence of adapter-dimers and index hopping rates. This library pool was diluted to 0.8 nM and sequenced on Illumina NovaSeq6000 platform using one S4 flow cell lane (2 × 150 cycles). The instrument computer was using NovaSeq Control Software v1.6 while Cluster and SBS consumables were v1.5. The final library loading concentration was 120 pM with 1% PhiX spike-in as a control. The fastq files were generated using the BCL2fastQ function in Illumina BaseSpace portal.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of A-thaliana rRNA sequences retrieved from NCBI on 01-Sep-2021.     Data were processed as described in GL-DPPD-7101-F (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-F.md), using NF_RCP-F version 1.0.4 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_RCP-F_1.0.4/RNAseq/Workflow_Documentation/NF_RCP-F). In short, raw fastq files were filtered using Trim Galore! (version 0.6.7) powered by Cutadapt (version 3.7). Trimmed fastq file quality was evaluated with FastQC (version 0.11.9), and MultiQC (version 1.12) was used to generate MultiQC reports. Arabidopsis thaliana STAR and RSEM references were built using STAR (version 2.7.10a) and RSEM (version 1.3.1), respectively, Ensembl Plants release 54, genome version TAIR10 (Arabidopsis_thaliana.TAIR10.dna.toplevel.fa) and the following gtf annotation file: Arabidopsis_thaliana.TAIR10.54.gtf. Trimmed reads were aligned to the Arabidopsis thaliana STAR reference with STAR (version 2.7.10a) and alignment log files were compiled with MultiQC (version 1.12). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 4.0.0), gene body coverage using RSeQC geneBody_coverage.py (version 4.0.0), inner distance was assessed using RSeQC inner_distance.py (version 4.0.0), and distribution of RNA features using RSeQC read_distribution.py (version 4.0.0). Aligned reads from all samples were quantified using RSEM (version 1.3.1), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.12). The runsheet was generated with dp_tools (version 1.3.4) and the runsheet and quantification data were imported to R (version 4.1.3) with tximport (version 1.27.1) to generate the RSEM_Unnormalized_Counts_GLbulkRNAseq.csv table.",
+          "Experiment Platform": "Kennedy Space Center Fixation Tubes (KFTs)",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Ferl RJ  Zhou M  Strickland HF  Haveman NJ  Callaham JB  Bandla S  Ambriz D  Paul AL.",
+          "Project Link": "",
+          "Study Publication Title": "Transcriptomic dynamics in the transition from ground to space are revealed by Virgin Galactic human-tended suborbital spaceflight.",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "The Virgin Galactic Unity 22 mission conducted the first astronaut-manipulated suborbital spaceflight experiment. The experiment examined the operationalization of Kennedy Space Center Fixation Tubes (KFTs) as a generalizable approach to preserving biology at various phases of suborbital flight. The biology chosen for this experiment was Arabidopsis thaliana, ecotype Col-0, because of the plant’s history of spaceflight experimentation within KFTs and wealth of comparative data from orbital experiments. KFTs were deployed as a wearable device, a leg pouch attached to the astronaut, which proved to be operationally effective during the course of the flight. Data from the inflight samples indicated that the microgravity period of the flight elicited the strongest transcriptomic responses as measured by the number of genes showing differential expression. Genes related to reactive oxygen species and stress, as well as genes associated with orbital spaceflight, were highly represented among the suborbital gene expression profile. In addition, gene families largely unaffected in orbital spaceflight were diversely regulated in suborbital flight, including stress-responsive transcription factors. The human-tended suborbital experiment demonstrated the operational effectiveness of the KFTs in suborbital flight and suggests that rapid transcriptomic responses are a part of the temporal dynamics at the beginning of physiological adaptation to spaceflight.",
+          "organism": "Arabidopsis thaliana",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/8ane-wq52",
+          "url": "https://doi.org/10.26030/8ane-wq52"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1707177600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "3N_6g4QB28eYt3lGRLZ4",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-450/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "01-Mar-2013",
+            "Start Date": "26-Feb-2013",
+            "Name": "PF2013"
+          },
+          "Material Type": "",
+          "Project Identifier": "",
+          "Accession": "OSD-450",
+          "Identifiers": "GLDS-450",
+          "Study Identifier": "OSD-450",
+          "Study Protocol Name": "growth protocol     treatment protocol     sample collection     RNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Ferl",
+            "Middle Initials": "J",
+            "First Name": "Robert"
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     RNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     data transformation",
+          "Space Program": "",
+          "Study Title": "Arabidopsis thaliana in altered gravity: the 14-3-3κ:GFP overexpression line in C-9 parabolic flight, 2013",
+          "Study Factor Type": "Gravity, Altered     time",
+          "Study Public Release Date": 1617408000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-450/image",
+          "Study Factor Name": "Altered Gravity     Time",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Parabolic Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE159865",
+          "Project Title": "",
+          "Study Funding Agency": "This work was made possible by programmatic support from the University of Florida, Florida Space Institute, NASA Flight Opportunities and NASA Space Biology. Specific funding was provided by NASA Space Biology grant NNX15AB12G, NASA Flight Opportunities grant 80NSSC20K0113, and Florida Space Grant Consortium grant UCFOI-0000262765.",
+          "Study Protocol Description": "Petri dishes (100 mm x 15 mm; Fisher Scientific, Pittsburgh, PA, USA), containing 50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1x Gamborg's Vitamin Mixture, were prepared aseptically for planting. Seeds were sterilized via treatment with 70% ethanol for 10 minutes, and then with 50% bleach supplemented with Tween-20 at 2-3 drops per mL for 20 minutes, with seeds being mixed throughout the process. Seeds were washed with sterile water at least 6 times, and stored at 4 C for 3-5 days. Seeds were dispensed onto the media surface in a laminar flow hood in one row of 12-15 seeds, and plates were sealed with Micropore tape (3M, Maplewood, MN, USA). Plates were grown vertically at the University of florida in growth rooms at 19 +/-- 2 C, and 24-h fluorescent lighting at approximately 80 umol m-2 s-1 PAR until the time of transport to the experimental location. Plates were transported to Ellington Airport in Houston, Texas, inside a cooler lit with an LED light bank, and maintained onsite in a mobile growth setup consisting of a fluorescent light bank, with room temperature similar to that used for early growth.     The morning before the flight, seedlings were transplanted from plates into Kennedy Space Center Fixation Tubes (KFTs) loaded with RNALater fixative internally fitted with wetted Kimwipes cut into a cylinder. On the flight day, KFTs were taken onboard the C-9 aircraft. Members of the group actuated the KFTs in level flight before the first parabola, and after the first, third, and tenth parabolas, fixing seedlings in RNALater     Samples were stored at 4 C, and transported on ice back to UF, where they were stored at -80 C. Samples were later removed from -80 C, and seedling roots were dissected from shoot tissues. Roots were grouped into 3-4 replicates per condition, and total RNA was extracted from roots and submitted for microarray analysis. The Affymetrix GeneChip Arabidopsis Gene (AraGene) 1.0 ST array was used to measure gene expression levels.     RNALater-fixed samples were removed from -80 C storage, and thawed overnight at 4 C. Seedlings were disentangled, and roots were dissected from shoots. Root tissues were used for RNA extraction, and shoots were restored to -80 C storage. For each experimental condition, 3-4 biological replicates, derived from roots fixed in a single KFT, were used. Excess RNALater was removed from roots, and RNA was extracted using the QIAshredder and RNAeasy kits from QIAGEN (QIAGEN Sciences, MD, USA), using the manufacturer's instructions. RNase-free DNase (QIAGEN GmbH, Hilden, Germany) was used for on-column digestion and removal of DNA     cDNA was synthesized from 100 ng of total RNA, and the cDNA was used as a template for in vitro transcription (IVT). The antisense RNA synthesized during the IVT reaction was used to generate sense DNA. Sense strand DNA was fragmented, biotin-labeled using the Affymetrix GeneChip WT Terminal Labeling Kit (ThermoFisher Scientific, Catalog   900670) per the manufacturer's protocol.     3.5 ug of sense DNA was hybridized, with rotation, onto an Affymetrix GeneChip Arabidopsis Gene 1.0 ST Array for 16 h at 45 C. Arrays were washed on a Fluidics Station 450 (ThermoFisher Scientific, Catalog   00-0079) using the Hybridization Wash and Stain Kit (Thermofisher Scientific, Catalog   900720) and the Washing Procedure FS450_0002.     KFTs were actuated in level flight before the onset of parabolic flight, and after the first, third, and tenth parabolas. Samples were stored at 4 C, and transported on ice back to UF, where they were stored at -80 C. Samples were later removed from -80 °C, and seedling roots were dissected from shoot tissues. Roots were grouped into 3-4 replicates per condition, and total RNA was extracted from roots and submitted for microarray analysis. The Affymetrix GeneChip Arabidopsis Gene (AraGene) 1.0 ST array was used to measure gene expression levels. The transcriptomic data from the samples fixed in parabolic flight were then compared to those fixed during level flight in order to identify differentially-expressed genes associated with parabolic flight patterns.     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.1 (GitHub link coming soon).  In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.2). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0).  Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using the Plants Ensembl database ftp server (plants.ensembl.org, release 54). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.At.tair.db (version 3.15.0).",
+          "Experiment Platform": "C-9 aircraft",
+          "Characteristics": "",
+          "Study Grant Number": "NASA Space Biology grant NNX15AB12G  NASA Flight Opportunities  grant  80NSSC20K0113  Florida  Space Grant Consortium grant UCFOI-0000262765",
+          "Study Publication Author List": "Califar Brandon  Zupanska Agata  Callaham Jordan A.  Bamsey Matthew T.  Graham Thomas  Paul Anna-Lisa  Ferl Robert J.",
+          "Project Link": "",
+          "Study Publication Title": "Shared Metabolic Remodeling Processes Characterize the Transcriptome of Arabidopsis thaliana within Various Suborbital Flight Environments",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "The increasing availability of flights on suborbital rockets creates new avenues for the study of spaceflight effects on biological systems, in particular the transitions between hypergravity and microgravity. This paper presents an initial comparison of the responses of Arabidopsis thaliana to suborbital and atmospheric parabolic flights as an important step toward characterizing these emerging suborbital platforms and their effects on biology. Transcriptomic profiling of the response of the Arabidopsis ecotype Wassilewskija (WS) to the aggregate spaceflight experiences in the Blue Origin New Shepard and Virgin Galactic SpaceShipTwo rockets revealed that the transcriptomic load induced by flight differed greatly between the two flights, yet was biologically related to traditional parabolic flight responses. The sku5 skewing mutant and 14-3-3κ:GFP regulatory protein overexpression lines each showed altered intra-platform responses compared to WS in the Blue Origin and parabolic flights, respectively. An additional parabolic flight using the F-104 Starfighter showed that the response of 14-3-3κ:GFP to flight was modulated in a similar manner to the WS line. Despite the differing genotypes, experimental workflows, flight profiles and platforms, alteration of gene expression remodeling central metabolic processes was commonly observed as a response to the flights. The processes included carbon and nitrogen metabolism, branched-chain amino acid degradation, and hypoxic responses. The timing and directionality of differentially-expressed genes involved in the conserved pathways differed among the platforms. The data presented herein highlight the potential for various suborbital platforms to contribute insights into biological responses to spaceflight, and further suggest that in-flight fixation during suborbital experiments will provide insights into responses to each phase of flight.",
+          "organism": "Arabidopsis thaliana",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/x1et-v026",
+          "url": "https://doi.org/10.26030/x1et-v026"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1617408000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "29_6g4QB28eYt3lGRLZo",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-436/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "",
+          "Project Identifier": "",
+          "Accession": "OSD-436",
+          "Identifiers": "GLDS-436",
+          "Study Identifier": "OSD-436",
+          "Study Protocol Name": "growth protocol     treatment protocol     sample collection     RNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Ferl",
+            "Middle Initials": "J",
+            "First Name": "Robert"
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     RNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection",
+          "Space Program": "",
+          "Study Title": "Arabidopsis thaliana in altered gravity: WS in C-9 parabolic flight, 2015",
+          "Study Factor Type": "Gravity, Altered     time",
+          "Study Public Release Date": 1617235200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-436/image",
+          "Study Factor Name": "Altered Gravity     Time",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Parabolic Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE159864",
+          "Project Title": "",
+          "Study Funding Agency": "This work was made possible by programmatic support from the University of Florida, Florida Space Institute, NASA Flight Opportunities and NASA Space Biology. Specific funding was provided by NASA Space Biology grant NNX15AB12G, NASA Flight Opportunities grant 80NSSC20K0113, and Florida Space Grant Consortium grant UCFOI-0000262765.",
+          "Study Protocol Description": "Petri dishes (100 mm x 15 mm; Fisher Scientific, Pittsburgh, PA, USA), containing 50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1x Gamborg’s Vitamin Mixture, were prepared aseptically for planting. Seeds were sterilized via treatment with 70% ethanol for 10 minutes, and then with 50% bleach supplemented with Tween-20 at 2-3 drops per mL for 20 minutes, with seeds being mixed throughout the process. Seeds were washed with sterile water at least 6 times, and stored at 4 C for 3-5 days. Seeds were dispensed onto the media surface in a laminar flow hood in one row of 12-15 seeds, and plates were sealed with Micropore tape (3M, Maplewood, MN, USA). Plates were grown vertically at the University of florida in growth rooms at 19 +/- 2 °C, and 24-h fluorescent lighting at approximately 80 umol m-2 s-1 PAR until the time of transport to the experimental location. Plates were transported to Ellington Airport in Houston, Texas, inside a cooler lit with an LED light bank, and maintained onsite in a mobile growth setup consisting of a fluorescent light bank, with room temperature similar to that used for early growth.     The morning before the flight, seedlings were transplanted from plates into Kennedy Space Center Fixation Tubes (KFTs) loaded with RNALater fixative internally fitted with wetted Kimwipes cut into a cylinder. On the flight day, KFTs were taken onboard the C-9 aircraft. Members of the group actuated the KFTs in level flight soon before the first parabola, immediately at the start of the first parabola, mid-way through the first parabola, and after the first, third, and tenth parabolas, fixing seedlings in RNALater.     Samples were later removed from -80 °C, roots were dissected from shoot tissues, and roots were grouped into 3 replicates per condition. Total RNA was extracted from roots and submitted for microarray analysis. The Affymetrix GeneChip Arabidopsis Gene (AraGene) 1.0 ST array was used to measure gene expression levels. The transcriptomic data from the samples fixed in parabolic flight were then compared to those fixed during level flight in order to identify differentially-expressed genes associated with parabolic flight patterns.     RNALater-fixed samples were removed from -80 °C storage, and thawed overnight at 4°C. Seedlings were disentangled, and roots were dissected from shoots. Root tissues were used for RNA extraction, and shoots were restored to -80 °C storage. For each experimental condition, 3-4 biological replicates, derived from roots fixed in a single KFT, were used. Excess RNALater was removed from roots, and RNA was extracted using the QIAshredder and RNAeasy kits from QIAGEN (QIAGEN Sciences, MD, USA), using the manufacturer’s instructions. RNase-free DNase (QIAGEN GmbH, Hilden, Germany) was used for on-column digestion and removal of DNA.     cDNA was synthesized from 100 ng of total RNA, and the cDNA was used as a template for in vitro transcription (IVT). The antisense RNA synthesized during the IVT reaction was used to generate sense DNA. Sense strand DNA was fragmented, biotin-labeled using the Affymetrix GeneChip WT Terminal Labeling Kit (ThermoFisher Scientific, Catalog   900670) per the manufacturer’s protocol.     3.5 ug of sense DNA was hybridized, with rotation, onto an Affymetrix GeneChip Arabidopsis Gene 1.0 ST Array for 16 h at 45 °C. Arrays were washed on a Fluidics Station 450 (ThermoFisher Scientific, Catalog   00-0079) using the Hybridization Wash and Stain Kit (Thermofisher Scientific, Catalog   900720) and the Washing Procedure FS450_0002.     Samples were later removed from -80 °C, roots were dissected from shoot tissues, and roots were grouped into 3 replicates per condition. Total RNA was extracted from roots and submitted for microarray analysis. The Affymetrix GeneChip Arabidopsis Gene (AraGene) 1.0 ST array was used to measure gene expression levels. The transcriptomic data from the samples fixed in parabolic flight were then compared to those fixed during level flight in order to identify differentially-expressed genes associated with parabolic flight patterns.",
+          "Experiment Platform": "C-9 aircraft",
+          "Characteristics": "",
+          "Study Grant Number": "NASA Space Biology grant NNX15AB12G  NASA Flight Opportunities grant 80NSSC20K0113  Florida Space Grant Consortium grant UCFOI-0000262765",
+          "Study Publication Author List": "Califar Brandon  Zupanska Agata  Callaham Jordan A.  Bamsey Matthew T.  Graham Thomas  Paul Anna-Lisa  Ferl Robert J.",
+          "Project Link": "",
+          "Study Publication Title": "Shared Metabolic Remodeling Processes Characterize the Transcriptome of Arabidopsis thaliana within Various Suborbital Flight Environments",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "The increasing availability of flights on suborbital rockets creates new avenues for the study of spaceflight effects on biological systems, in particular the transitions between hypergravity and microgravity. This paper presents an initial comparison of the responses of Arabidopsis thaliana to suborbital and atmospheric parabolic flights as an important step toward characterizing these emerging suborbital platforms and their effects on biology. Transcriptomic profiling of the response of the Arabidopsis ecotype Wassilewskija (WS) to the aggregate spaceflight experiences in the Blue Origin New Shepard and Virgin Galactic SpaceShip. Two rockets revealed that the transcriptomic load induced by flight differed greatly between the two flights, yet was biologically related to traditional parabolic flight responses. The sku5 skewing mutant and 14-3-3k:GFP regulatory protein overexpression lines each showed altered intra-platform responses compared to WS in the Blue Origin and parabolic flights, respectively. An additional parabolic flight using the F-104 Starfighter showed that the response of 14-3-3k:GFP to flight was modulated in a similar manner to the WS line. Despite the differing genotypes, experimental workflows, flight profiles and platforms, alteration of gene expression remodeling central metabolic processes was commonly observed as a response to the flights. The processes included carbon and nitrogen metabolism, branched-chain amino acid degradation, and hypoxic responses. The timing and directionality of differentially-expressed genes involved in the conserved pathways differed among the platforms. The data presented herein highlight the potential for various suborbital platforms to contribute insights into biological responses to spaceflight, and further suggest that in-flight fixation during suborbital experiments will provide insights into responses to each phase of flight.",
+          "organism": "Arabidopsis thaliana",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/mbng-6c84",
+          "url": "https://doi.org/10.26030/mbng-6c84"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1617235200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "3d_6g4QB28eYt3lGRLaI",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-434/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "",
+          "Project Identifier": "",
+          "Accession": "OSD-434",
+          "Identifiers": "GLDS-434",
+          "Study Identifier": "OSD-434",
+          "Study Protocol Name": "growth protocol     treatment protocol     sample collection     RNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Ferl",
+            "Middle Initials": "J",
+            "First Name": "Robert"
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     RNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     data transformation",
+          "Space Program": "",
+          "Study Title": "Arabidopsis thaliana in altered gravity: the 14-3-3k:GFP overexpression line on the F-104 Starfighter, first flight",
+          "Study Factor Type": "Gravity, Altered     time",
+          "Study Public Release Date": 1617235200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-434/image",
+          "Study Factor Name": "Altered Gravity     Time",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Parabolic Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE159863",
+          "Project Title": "",
+          "Study Funding Agency": "This work was made possible by programmatic support from the University of Florida, Florida Space Institute, NASA Flight Opportunities and NASA Space Biology. Specific funding was provided by NASA Space Biology grant NNX15AB12G, NASA Flight Opportunities grant 80NSSC20K0113, and Florida Space Grant Consortium grant UCFOI-0000262765.",
+          "Study Protocol Description": "The Arabidopsis thaliana wild-type Wassilewskija (WS) line that was used has been maintained internally at The University of Florida for longer than 25 years.  The 14-3-3κ:GFP overexpression line was previously generated via vacuum infiltration of WS with Agrobacterium tumefasciens, containing a construct with the coding region of 14-3-3κ coupled to GFP (S65T), driven by the CaMV35s promoter.\n\nPetri dishes (100 mm x 15 mm; Fisher Scientific, Pittsburgh, PA, USA), containing 50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1x Gamborg’s Vitamin Mixture, were prepared aseptically for planting. Seeds were sterilized via treatment with 70% ethanol for 10 minutes, and then with 50% bleach supplemented with Tween-20 at 2-3 drops per mL for 20 minutes, with seeds being mixed throughout the process. Seeds were washed with sterile water at least 6 times, and stored at 4 C for 3-5 days. Seeds were dispensed onto the media surface in a laminar flow hood in one row of 12-15 seeds, and plates were sealed with Micropore tape (3M, Maplewood, MN, USA). Plates were grown vertically at the University of Florida in growth rooms at 19 +/- 2 C, and 24-h fluorescent lighting at approximately 80 umol m-2 s-1 PAR until the time of transport to the experimental location. Plates were transported to the Kennedy Space Center in Cape Canaveral, Florida, inside a cooler lit with an LED light bank.     Seedlings were transplanted from plates into Kennedy Space Center Fixation Tubes (KFTs) loaded with RNAlater fixative internally fitted with wetted Kimwipes cut into a cylinder. KFTs were either inserted into pockets of the flight suit of the team member performing the in-flight fixation, or held by a member of the team on the ground. The flight profile consisted of a high-speed take-off, acceleration to supersonic speeds at level flight and low-altitude, then a 90 degree upward climb at 4g for roughly 30 seconds. An inversion of the plane at the peak of the climb created about ten seconds of microgravity during the following descent, and a brief period of hyper-g during the pull-up. One ground control KFT was actuated during the flight, and the two in-flight KFTs were actuated during the low-altitude acceleration and after the parabola.     Whole roots were separated into three biological replicates for each condition. Excess RNAlater was removed from roots, and RNA was extracted using the QIAshredder and RNeasy kits from QIAGEN (QIAGEN Sciences, MD, USA), using the manufacturer's instructions. RNase-free DNase (QIAGEN GmbH, Hilden, Germany) was used for on-column digestion and removal of DNA. Total RNA was extracted from roots comprising each replicate and submitted for microarray analysis.     RNAlater-fixed samples were removed from -80 C storage, and thawed overnight at 4 C. Seedlings were disentangled, and roots were dissected from shoots. Root tissues were used for RNA extraction, and shoots were restored to -80 C storage. For each experimental condition, 3-4 biological replicates, derived from roots fixed in a single KFT, were used. Excess RNAlater was removed from roots, and RNA was extracted using the QIAshredder and RNeasy kits from QIAGEN (QIAGEN Sciences, MD, USA), using the manufacturer’s instructions. RNase-free DNase (QIAGEN GmbH, Hilden, Germany) was used for on-column digestion and removal of DNA     cDNA was synthesized from 100 ng of total RNA, and the cDNA was used as a template for in vitro transcription (IVT). The antisense RNA synthesized during the IVT reaction was used to generate sense DNA. Sense strand DNA was fragmented, biotin-labeled using the Affymetrix GeneChip WT Terminal Labeling Kit (ThermoFisher Scientific, Catalog   900670) per the manufacturer's protocol.     3.5 ug of sense DNA was hybridized, with rotation, onto an Affymetrix GeneChip Arabidopsis Gene 1.0 ST Array for 16 h at 45 C. Arrays were washed on a Fluidics Station 450 (ThermoFisher Scientific, Catalog 00-0079) using the Hybridization Wash and Stain Kit (Thermofisher Scientific, Catalog   900720) and the Washing Procedure FS450_0002.     Total RNA was extracted from roots comprising each replicate and submitted for microarray analysis. The Affymetrix GeneChip Arabidopsis Gene (AraGene) 1.0 ST array was used to measure gene expression levels. The transcriptomic data from the flight-actuated samples were then compared to those of the ground controls in order to identify differentially-expressed genes between the ground control and the two flight conditions.     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.1 (GitHub link coming soon).  In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.2). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0).  Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using the Plants Ensembl database ftp server (plants.ensembl.org, release 54). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.At.tair.db (version 3.15.0).",
+          "Experiment Platform": "F-104 Starfighter",
+          "Characteristics": "",
+          "Study Grant Number": "NASA Space Biology grant NNX15AB12G  NASA Flight Opportunities grant 80NSSC20K0113  Florida Space Grant Consortium grant UCFOI-0000262765",
+          "Study Publication Author List": "Califar Brandon  Zupanska Agata  Callaham Jordan A.  Bamsey Matthew T.  Graham Thomas  Paul Anna-Lisa  Ferl Robert J.",
+          "Project Link": "",
+          "Study Publication Title": "Shared Metabolic Remodeling Processes Characterize the Transcriptome of Arabidopsis thaliana within Various Suborbital Flight Environments",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "The increasing availability of flights on suborbital rockets creates new avenues for the study of spaceflight effects on biological systems, in particular the transitions between hypergravity and microgravity. This paper presents an initial comparison of the responses of Arabidopsis thaliana to suborbital and atmospheric parabolic flights as an important step toward characterizing these emerging suborbital platforms and their effects on biology. Transcriptomic profiling of the response of the Arabidopsis ecotype Wassilewskija (WS) to the aggregate spaceflight experiences in the Blue Origin New Shepard and Virgin Galactic SpaceShipTwo rockets revealed that the transcriptomic load induced by flight differed greatly between the two flights, yet was biologically related to traditional parabolic flight responses. The sku5 skewing mutant and 14-3-3κ:GFP regulatory protein overexpression lines each showed altered intra-platform responses compared to WS in the Blue Origin and parabolic flights, respectively. An additional parabolic flight using the F-104 Starfighter showed that the response of 14-3-3k:GFP to flight was modulated in a similar manner to the WS line. Despite the differing genotypes, experimental workflows, flight profiles and platforms, alteration of gene expression remodeling central metabolic processes was commonly observed as a response to the flights. The processes included carbon and nitrogen metabolism, branched-chain amino acid degradation, and hypoxic responses. The timing and directionality of differentially-expressed genes involved in the conserved pathways differed among the platforms. The data presented herein highlight the potential for various suborbital platforms to contribute insights into biological responses to spaceflight, and further suggest that in-flight fixation during suborbital experiments will provide insights into responses to each phase of flight.",
+          "organism": "Arabidopsis thaliana",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/qrj2-1d26",
+          "url": "https://doi.org/10.26030/qrj2-1d26"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1617235200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "3t_6g4QB28eYt3lGRLaY",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-428/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "",
+          "Project Identifier": "",
+          "Accession": "OSD-428",
+          "Identifiers": "GLDS-428",
+          "Study Identifier": "OSD-428",
+          "Study Protocol Name": "growth protocol     treatment protocol     sample collection     RNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Ferl",
+            "Middle Initials": "J",
+            "First Name": "Robert"
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     RNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     data transformation",
+          "Space Program": "",
+          "Study Title": "Profiling the response of Arabidopsis thaliana to altered gravity environments: Exposure of the 14-3-3k:GFP overexpression line on the F-104 Starfighter, second flight",
+          "Study Factor Type": "Gravity, Altered     time",
+          "Study Public Release Date": 1617235200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-428/image",
+          "Study Factor Name": "Altered Gravity     Time",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Parabolic Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE159862",
+          "Project Title": "",
+          "Study Funding Agency": "This work was made possible by programmatic support from the University of Florida, Florida Space Institute, NASA Flight Opportunities and NASA Space Biology. Specific funding was provided by NASA Space Biology grant NNX15AB12G, NASA Flight Opportunities grant 80NSSC20K0113, and Florida Space Grant Consortium grant UCFOI-0000262765.",
+          "Study Protocol Description": "Petri dishes (100 mm x 15 mm; Fisher Scientific, Pittsburgh, PA, USA), containing 50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1x Gamborg's Vitamin Mixture, were prepared aseptically for planting. Seeds were sterilized via treatment with 70% ethanol for 10 minutes, and then with 50% bleach supplemented with Tween-20 at 2-3 drops per mL for 20 minutes, with seeds being mixed throughout the process. Seeds were washed with sterile water at least 6 times, and stored at 4 C for 3-5 days. Seeds were dispensed onto the media surface in a laminar flow hood in one row of 12-15 seeds, and plates were sealed with Micropore tape (3M, Maplewood, MN, USA). Plates were grown vertically at the University of florida in growth rooms at 19 +/- 2 C, and 24-h fluorescent lighting at approximately 80 umol m-2 s-1 PAR until the time of transport to the experimental location. Plates were transported to the Kennedy Space Center in Cape Canaveral, Florida, inside a cooler lit with an LED light bank.     Seedlings were transplanted from plates into Kennedy Space Center Fixation Tubes (KFTs) loaded with RNAlater fixative internally fitted with wetted Kimwipes cut into a cylinder. KFTs were either inserted into pockets of the flight suit of the team member performing the in-flight fixation, or held by a member of the team on the ground. The flight profile consisted of a high-speed take-off, acceleration to supersonic speeds at level flight and low-altitude, then a 90 degree upward climb at 4g for roughly 30 seconds. An inversion of the plane at the peak of the climb created about ten seconds of microgravity during the following descent, and a brief period of hyper-g during the pull-up. One ground control KFT was actuated during the flight, and the two in-flight KFTs were actuated immediately after the microgravity exposure and after level flight had been maintained for about a minute and a half after the parabola.     RNAlater-fixed samples were removed from -80 C storage, and thawed overnight at 4 C. Seedlings were disentangled, and roots were dissected from shoots. Root tissues were used for RNA extraction, and shoots were restored to -80 C storage. For each experimental condition, 3 biological replicates, derived from roots fixed in a single KFT, were used.     RNAlater-fixed samples were removed from -80 C storage, and thawed overnight at 4 C. Seedlings were disentangled, and roots were dissected from shoots. Root tissues were used for RNA extraction, and shoots were restored to -80 C storage. For each experimental condition, 3 biological replicates, derived from roots fixed in a single KFT, were used. Excess RNAlater was removed from roots, and RNA was extracted using the QIAshredder and RNeasy kits from QIAGEN (QIAGEN Sciences, MD, USA), using the manufacturer's instructions. RNase-free DNase (QIAGEN GmbH, Hilden, Germany) was used for on-column digestion and removal of DNA.     cDNA was synthesized from 100 ng of total RNA, and the cDNA was used as a template for in vitro transcription (IVT). The antisense RNA synthesized during the IVT reaction was used to generate sense DNA. Sense strand DNA was fragmented, biotin-labeled using the Affymetrix GeneChip WT Terminal Labeling Kit (ThermoFisher Scientific, Catalog   900670) per the manufacturer's protocol.     3.5 ug of sense DNA was hybridized, with rotation, onto an Affymetrix GeneChip Arabidopsis Gene 1.0 ST Array for 16 h at 45 C. Arrays were washed on a Fluidics Station 450 (ThermoFisher Scientific, Catalog   00-0079) using the Hybridization Wash and Stain Kit (Thermofisher Scientific, Catalog   900720) and the Washing Procedure FS450_0002.     For each experimental condition, 3 biological replicates, derived from roots fixed in a single KFT, were used. Excess RNAlater was removed from roots, and RNA was extracted using the QIAshredder and RNeasy kits from QIAGEN (QIAGEN Sciences, MD, USA), using the manufacturer's instructions.     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.2 (GitHub link coming soon). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using the Plants Ensembl database ftp server (plants.ensembl.org, release 54). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.At.tair.db (version 3.15.0).",
+          "Experiment Platform": "F-104 Starfighter",
+          "Characteristics": "",
+          "Study Grant Number": "NASA  Space  Biology  grant  NNX15AB12G  NASA Flight Opportunities grant 80NSSC20K0113  Florida Space Grant Consortium grant UCFOI-0000262765",
+          "Study Publication Author List": "Califar Brandon  Zupanska Agata  Callaham Jordan A.  Bamsey Matthew T.  Graham Thomas  Paul Anna-Lisa  Ferl Robert J.",
+          "Project Link": "",
+          "Study Publication Title": "Shared Metabolic Remodeling Processes Characterize the Transcriptome of Arabidopsis thaliana within Various Suborbital Flight Environments",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "The increasing availability of flights on suborbital rockets creates new avenues for the study of spaceflight effects on biological systems, in particular the transitions between hypergravity and microgravity. This paper presents an initial comparison of the responses of Arabidopsis thaliana to suborbital and atmospheric parabolic flights as an important step toward characterizing these emerging suborbital platforms and their effects on biology. Transcriptomic profiling of the response of the Arabidopsis ecotype Wassilewskija (WS) to the aggregate spaceflight experiences in the Blue Origin New Shepard and Virgin Galactic SpaceShipTwo rockets revealed that the transcriptomic load induced by flight differed greatly between the two flights, yet was biologically related to traditional parabolic flight responses. The sku5 skewing mutant and 14-3-3κ:GFP regulatory protein overexpression lines each showed altered intra-platform responses compared to WS in the Blue Origin and parabolic flights, respectively. An additional parabolic flight using the F-104 Starfighter showed that the response of 14-3-3κ:GFP to flight was modulated in a similar manner to the WS line. Despite the differing genotypes, experimental workflows, flight profiles and platforms, alteration of gene expression remodeling central metabolic processes was commonly observed as a response to the flights. The processes included carbon and nitrogen metabolism, branched-chain amino acid degradation, and hypoxic responses. The timing and directionality of differentially-expressed genes involved in the conserved pathways differed among the platforms. The data presented herein highlight the potential for various suborbital platforms to contribute insights into biological responses to spaceflight, and further suggest that in-flight fixation during suborbital experiments will provide insights into responses to each phase of flight.",
+          "organism": "Arabidopsis thaliana",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/ps2s-3p43",
+          "url": "https://doi.org/10.26030/ps2s-3p43"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1617235200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "2d_6g4QB28eYt3lGRLY9",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-406/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "12/13/2018",
+            "Start Date": "12/13/2018",
+            "Name": "VSS Unity"
+          },
+          "Material Type": "root",
+          "Project Identifier": "VP-03",
+          "Accession": "OSD-406",
+          "Identifiers": "GLDS-406",
+          "Study Identifier": "OSD-406",
+          "Study Protocol Name": "Nucleic Acid Extraction     Spike-in Protocol     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol     growth protocol     treatment protocol     sample collection protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Ferl",
+            "Middle Initials": "J",
+            "First Name": "Robert"
+          },
+          "Study Protocol Type": "nucleic acid extraction     spike-in protocol     library construction     nucleic acid sequencing     data transformation     data transformation     growth protocol     treatment protocol     sample collection protocol",
+          "Space Program": "",
+          "Study Title": "Transcriptomic responses of Arabidopsis thaliana lines WS and sku5 to the Blue Origin NS-12 and Virgin Galactic VP-03 suborbital flights",
+          "Study Factor Type": "Spacecraft     Gravity, Altered     ecotype     Genotype",
+          "Study Public Release Date": 1617235200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-406/image",
+          "Study Factor Name": "Spacecraft     Altered Gravity     Ecotype     Genotype",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Parabolic Flight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE160846",
+          "Project Title": "",
+          "Study Funding Agency": "This work was made possible by programmatic support from the University of Florida, Florida Space Institute, NASA Flight Opportunities and NASA Space Biology. Specific funding was provided by NASA Space Biology grant NNX15AB12G, NASA Flight Opportunities grant 80NSSC20K0113, and Florida Space Grant Consortium grant UCFOI-0000262765.",
+          "Study Protocol Description": "For each experimental condition, 3-4 biological replicates, derived from roots fixed in a single KFT, were used. Excess RNALater was removed from roots, and RNA was extracted using the QIAshredder and RNAeasy kits from QIAGEN (QIAGEN Sciences, MD, USA), using the manufacturer's instructions. RNase-free DNase (QIAGEN GmbH, Hilden, Germany) was used for on-column digestion and removal of DNA.\n\nThe BO and VG RNA extracts were submitted for RNA-Seq analysis. The total RNA concentration was determined with a Qubit 2.0 Fluorometer (ThermoFisher Scientific, Grand Island, NY, USA), and RNA quality was assessed using the Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA). The RINs of the total RNA used for RNA-Seq library construction were between 7.1 and 9.4.     Briefly, 1 ul of 1:2000 diluted RNA spike-in ERCC (half the amount suggested in the ERCC user guide) spike to 50 ng of total RNA followed by mRNA isolation using the NEBNext Poly(A) mRNA Magnetic Isolation module (New England Biolabs, Catalog   E7490).     RNA-Seq libraries were constructed at the UF ICBR Gene Expression Core using the NEBNext Ultra Directional RNA Library Prep Kit for Illumina (New England Biolabs, Ipswich, MA, USA) following the manufacturer's recommendations. Two ERCC controls were used for the experiment: ERCC Mix 1 was used for flight samples and ERCC 2 was used for ground control samples. Briefly, 1 ul of 1:2000 diluted RNA spike-in ERCC (half the amount suggested in the ERCC user guide) spike to 50 ng of total RNA followed by mRNA isolation using the NEBNext Poly(A) mRNA Magnetic Isolation module (New England Biolabs, Catalog # E7490). RNA-Seq libraries were then constructed with the NEBNext Ultra Directional Library Prep Kit (New England Biolabs, catalog #E7420) according to the manufacturer's user guide. Briefly, RNA was fragmented in NEBNext First Strand Synthesis Buffer by heating at 94 C for the desired time. This step was followed by first strand cDNA synthesis using reverse transcriptase and oligo(dT) primers. Synthesis of double-stranded cDNA was performed using the 2nd strand master mix provided in the kit, followed by end-repair and Illumina adaptor ligation. Finally, the uniquely-barcoded libraries were enriched by 10 cycles of PCR amplification, and purified by Agencourt AMPure beads (Beckman Coulter, catalog # A63881). 24 barcoded libraries were sized on the Bioanalyzer, and quantitated via the Qubit 2.0 Fluorometer. Finally, the 24 individual libraries were pooled equimolarly.     Illumina NovaSeq 6000     Raw fastq files from each sample were assessed for % rRNA using HTStream SeqScreener (version 1.3.2) screened against a fasta file of Arabidopsis thaliana rRNA sequences retrieved from NCBI on 01-Sep-2021. Raw fastq file quality was evaluated with FastQC (version 0.11.9) and MultiQC (version 1.12) was used to generate MultiQC reports.     Data were processed as described in GL-DPPD-7101-F (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-F.md), using NF_RCP-F version 1.0.3 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_RCP-F_1.0.3/RNAseq/Workflow_Documentation/NF_RCP-F). In short, raw fastq files were filtered using Trim Galore! (version 0.6.7) powered by Cutadapt (version 3.7). Trimmed fastq file quality was evaluated with FastQC (version 0.11.9), and MultiQC (version 1.12) was used to generate MultiQC reports. Arabidopsis Thaliana STAR and RSEM references were built using STAR (version 2.7.10a) and RSEM (version 1.3.1), respectively, Ensembl Plants release 54, genome version TAIR10 (Arabidopsis_thaliana.TAIR10.dna.toplevel.fa) concatenated with ERCC92.fa from ThermoFisher (https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip), and the following gtf annotation file: Arabidopsis_thaliana.TAIR10.54.gtf concatenated with the ERCC92.gtf file from ThermoFisher (https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip). Trimmed reads were aligned to the Arabidopsis Thaliana + ERCC STAR reference with STAR (version 2.7.10a) and alignment log files were compiled with MultiQC (version 1.12). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 4.0.0), gene body coverage using RSeQC geneBody_coverage.py (version 4.0.0), inner distance was assessed using RSeQC inner_distance.py (version 4.0.0), and distribution of RNA features using RSeQC read_distribution.py (version 4.0.0). Aligned reads from all samples were quantified using RSEM (version 1.3.1), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.12). The runsheet was generated with dp_tools (version 1.1.8) and the runsheet and quantification data were imported to R (version 4.1.3) with tximport (version 1.27.1) and normalized with DESeq2 (version 1.34.0) median of ratios method. The data were normalized twice, each time using a different size factor. The first used non-ERCC genes for size factor estimation, and the second used only ERCC group B genes to estimate the size factor*. Both sets of normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.1.3) using DESeq2 (version 1.34.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.At.tair.db (version 3.15.0). Assessment regarding ERCC spiked genes was performed as detailed in the ERCC_analysis.html report.\n\n*ERCC-normalized data are available upon request.     Petri dishes (100 mm x 15 mm; Fisher Scientific, Pittsburgh, PA, USA), containing 50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1x Gamborg's Vitamin Mixture, were prepared aseptically for planting. Seeds were sterilized via treatment with 70% ethanol for 10 minutes, and then with 50% bleach supplemented with Tween-20 at 2-3 drops per mL for 20 minutes, with seeds being mixed throughout the process. Seeds were washed with sterile water at least 6 times, and stored at 4 C for 3-5 days. Seeds were dispensed onto the media surface in a laminar flow hood in one row of 12-15 seeds, and plates were sealed with Micropore tape (3M, Maplewood, MN, USA). Plates were maintained vertically in a growth room at 19 +/- 2 C, with 24-h fluorescent lighting at approximately 80 umol m-2 s-1 PAR, until the time of transport to the experimental location. At the VG site, plates were maintained in the ambient conditions of the payload facility, under an LED light bank. At the BO site, plates were maintained in the payload processing facility in a Danby herb cultivator at 26 C (Danby, Ontario, CA; Catalog   DFG17A1B). For each experiment, flight plates were wrapped in Duvetyne Black-Out Cloth (Seattle Fabrics) and this package was Velcro-mounted to the inner wall of the FLEX imaging payload as a piggyback payload.     The VG VP-03 flight launched on December 13th, 2018 from the Mojave Air and Spaceport in California. The VSS Unity detached from its mothership one hour after takeoff, to begin the suborbital portion of the flight. The one minute ascent was characterized by hyper-g which increased steadily to nearly 4.5g over 30 seconds, and then decreased. This was followed by three minutes of microgravity, and one minute of hyper-g on descent, increasing to around 3.5g and decreasing again. A glide of about nine minutes followed, containing a mixture of short hyper- and hypo-g spikes. The VSS Unity landed, and access was provided to the cabin for opening of the FLEX payload. The plates were removed and transported from the runway to a nearby vehicle with a harvest station set up in the rear bay.\n\nThe BO payload was transported to the launch pad, and loaded into the payload stack of the New Shepard capsule. The NS-12 mission launched at 12:53 PM EST on December 11th, 2019 from the BO West Texas Launch Site. The ascent took about two minutes, reaching a maximum of near 3g before engine cutoff. After a three minute window of microgravity was a one minute hyper-g portion of the descent, with a peak of 5.7g measured. The release of the capsules' drogue and primary parachutes generated short spikes between 3g and 3.5g, but otherwise this portion of the descent was around 1g, and lasted for four minutes. The FLEX payload was removed from the capsule after landing, and before capsule recovery operations. Plates were removed from the FLEX payload, and carried briefly to a nearby area set up for harvest. The 11-day-old seedlings were harvested and fixed in the same manner as in the VG experiment. The fixation was 33 minutes after landing, with an elapsed time of 43 minutes for the experiment. GC seedlings, which were maintained in the BO Payload Processing Facility during the flight , were removed from the Danby unit and harvested one hour after the FLT seedlings.     RNALater-fixed samples were removed from -80C storage, and thawed overnight at 4C. Seedlings were disentangled, and roots were dissected from shoots.",
+          "Experiment Platform": "Virgin Galactic SpaceShipTwo  Blue Origin New Shepard",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Califar Brandon  Zupanska Agata  Callaham Jordan A.  Bamsey Matthew T.  Graham Thomas  Paul Anna-Lisa  Ferl Robert J.",
+          "Project Link": "",
+          "Study Publication Title": "Shared Metabolic Remodeling Processes Characterize the Transcriptome of Arabidopsis thaliana within Various Suborbital Flight Environments",
+          "Managing NASA Center": "Kennedy Space Center (KSC)",
+          "Study Description": "The increasing availability of flights on suborbital rockets creates new avenues for the study of spaceflight effects on biological systems, in particular the transitions between hypergravity and microgravity. This paper presents an initial comparison of the responses of Arabidopsis thaliana to suborbital and atmospheric parabolic flights as an important step toward characterizing these emerging suborbital platforms and their effects on biology. Transcriptomic profiling of the response of the Arabidopsis ecotype Wassilewskija (WS) to the aggregate spaceflight experiences in the Blue Origin New Shepard and Virgin Galactic SpaceShipTwo rockets revealed that the transcriptomic load induced by flight differed greatly between the two flights, yet was biologically related to traditional parabolic flight responses. The sku5 skewing mutant and 14-3-3κ:GFP regulatory protein overexpression lines each showed altered intra-platform responses compared to WS in the Blue Origin and parabolic flights, respectively. An additional parabolic flight using the F-104 Starfighter showed that the response of 14-3-3κ:GFP to flight was modulated in a similar manner to the WS line. Despite the differing genotypes, experimental workflows, flight profiles and platforms, alteration of gene expression remodeling central metabolic processes was commonly observed as a response to the flights. The processes included carbon and nitrogen metabolism, branched-chain amino acid degradation, and hypoxic responses. The timing and directionality of differentially-expressed genes involved in the conserved pathways differed among the platforms. The data presented herein highlight the potential for various suborbital platforms to contribute insights into biological responses to spaceflight, and further suggest that in-flight fixation during suborbital experiments will provide insights into responses to each phase of flight. Multiple genotypes of Arabidopsis thaliana seedlings were flown on either the Virgin Galactic SpaceShipTwo (VG VP-03; Col-0 and WS) or Blue Origin New Shepard (BO NS-12; WS and sku5) suborbital flight platforms. Plates containing the seedlings, 10 days and 11 days old in VG and BO, respectively, were wrapped in Duvetyn Black-Out cloth and mounted to the internal wall of the FLEX imaging system payload used in these flights. Gene expression was compared between the ground control and spaceflight-exposed seedlings via RNA-Seq analysis of extracted total RNA from the roots of these seedlings",
+          "organism": "Arabidopsis thaliana",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/m4mm-3414",
+          "url": "https://doi.org/10.26030/m4mm-3414"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1617235200
+        ]
+      }
+    ]
+  }
+}

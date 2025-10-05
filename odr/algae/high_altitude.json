@@ -1,0 +1,80 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "A9_6g4QB28eYt3lGSrek",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-485/",
+          "Flight Program": "Airbus A310, 29th DLR parabolic flight campaign",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "",
+          "Accession": "OSD-485",
+          "Identifiers": "GLDS-485",
+          "Study Identifier": "OSD-485",
+          "Study Protocol Name": "RNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     growth protocol     sample collection",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Agilent",
+          "Study Person": {
+            "Last Name": "Krüger Richter Stoltze Strauch Krüger Daiker Prasad Sonnewald Reid Lebert",
+            "Middle Initials": "",
+            "First Name": "Julia Peter Julia Sebastian M Marcus Viktor Binod Sophia Stephen Michael"
+          },
+          "Study Protocol Type": "RNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     growth protocol     sample collection",
+          "Space Program": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
+          "Study Title": "Changes of Gene Expression in Euglena gracilis Obtained During the 29th DLR Parabolic Flight Campaign",
+          "Study Factor Type": "Gravity, Altered     parabola     time",
+          "Study Public Release Date": 1562630400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-485/image",
+          "Study Factor Name": "Altered Gravity     Parabola     Time",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "High Altitude Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-MTAB-8064",
+          "Project Title": "",
+          "Study Funding Agency": "The work was funded by the DLR on behalf of the BMWi (grant 50WB1128). S.M.S.was supported by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES)",
+          "Study Protocol Description": "For the isolation of total RNA from cells, 2.6 mL of chloroform (Merck, Darmstadt, Germany) were added to all parabolic flight samples. Samples were shaken vigorously for 15 s and incubated for 3 min at room temperature. Following this, the upper aqueous phase obtained after centrifugation at 14,000g and 4°C for 40 min was transferred into a fresh tube and RNA was precipitated by the addition of 2 mL isopropanol (Sigma-Aldrich, St. Louis, USA). Samples were carefully inverted and incubated at room temperature for 10 min, followed by centrifugation at 12,000g and 4°C for 30 min. Subsequently, the RNA pellet was washed twice with 75 % ethanol (VWR, Radnor, USA), dried at 50°C and resuspended in 20 µL of nuclease-free water (Thermo Fischer Scientific, Waltham, USA). RNA concentration and quality were checked using the NanoDrop lite spectrophotometer (Thermo Fischer Scientific, Waltham, USA) and the Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, USA) according to the Agilent Technologies RNA 6000 Nano Assay protocol.     For hybridization on a microarray, fluorescent cRNA was generated using the Low Input Quick Amp Labeling Kit (Agilent Technologies, Santa Clara, USA) according to manufacturer’s instruction. In brief, 100 ng of total RNA was complemented with 2 µL spike-in RNA (One-color RNA Spike-In Kit, Agilent Technologies, Santa Clara, USA), and a T7 primer mix. Primer and template RNA were denaturized for 10 min at 65°C, followed by 5 min incubation on ice. For reverse transcription, 5× first-strand buffer, 0.1 M DTT, 10 mM dNTP mix, and Affinity Script RNase Block Mix were added to the RNA mix and the reaction was performed at 40°C for 2 h, followed by a heat inactivation of the reverse transcriptase at 70°C for 15 min. In a subsequent in-vitro transcription step, the cDNA was used as a template in order to produce Cy3-labeled cRNA. The cDNA was mixed with T7 polymerase, a transcription master mix and Cy3-labelled CTP and incubated for 2 h at 40°C. Resulting cRNA was column purified using the RNeasy Mini Kit (Qiagen, Hilden, Germany) according to the manufacturer’s instructions and eluted in 30 µL nuclease-free water. Concentration and labeling efficacy of cRNA was determined with a NanoDrop ND-1000 UV-VIS spectrophotometer version 3.2.1 (NanoDrop Technologies, Inc., USA).     Hybridization reactions were performed using the Gene Expression Hybridization Kit (Agilent Technologies, Santa Clara, USA) according to the manufacturer’s instructions for 8-pack microarrays. In brief, 600 ng cRNA was fragmented with 25x fragmentation buffer, mixed with 10× gene expression blocking agent and incubated for 30 min at 60°C. Subsequently, 2× Hi-RPM hybridization buffer was added to the samples. After centrifugation (13000 rpm, 1 min), samples were loaded onto the array. For each single array on the slide, 40 µL were pipetted into individual gaskets of an Agilent gasket slide and the microarray was placed on top and sealed in a SureHyb hybridization chamber (G2534, Agilent, Santa Clara, USA). The slide was incubated in a rotator rack (G2530-60029, Agilent, USA) in a hybridization oven (G2545A, Agilent Technologies, Santa Clara, USA) for a minimum of 17 h at 65°C, at a rotational speed of 10 rpm. After overnight incubation, the hybridization chamber was disassembled and the microarray was immediately subjected to stringency washes using the Gene Expression Wash Buffer kit (Agilent, Santa Clara, USA) as recommended by the manufacturer. Slides were washed with wash buffer 1 at room temperature for 1 min, followed by another 1 min wash in wash buffer 2 at approximately 37°C. Slides were then dried in an oil-free air stream and immediately used for scanning of the microarrays.  Samples were generated on 4 consecutive flight days for 8 different in-flight conditions (fixations in parabola 1 and 31 at 1xg, 1.8g-1, µg, 1.8g-2). Each sample was fixated as a duplicated (termed A and B; total number of samples: 64). Due to the limited number of microarrays only one of the replicates was hybridized (total number of hybridized samples: 32). However, on flight day 2 the 1xg sample in parabola 1 and the µg sample in parabola 31 were not fixated due to technical issues with the flight hardware. Therefore, none of the replicates of the corresponding sample was hybridized on a microarray. Instead, both replicates from flight day 3 in parabola 1 at 1xg, and in parabola 31 at µg were hybridized. Replicates are termed accordingly as A and B.     Microarray slides were scanned with an Agilent C microarray scanner (G2565CA, Agilent Technologies, Santa Clara, USA). Excitation of cyanin-3-labelled samples was performed with a SHG-YAG laser (emission: 532 nm) in combination with an emission filter (550-610 nm). Fluorescence signals were converted into electrical signals, which were subsequently digitized to 16-bit TIFF files. Settings of the scanner were as follows: Channel Green, resolution 3 µm, scan region Agilent HD 61×21.6 mm, TIFF 16-bit, dynamic range 100 - 10 %. The images obtained with the microarray scanner were analyzed with Agilent Feature Extraction software (version 11.5.1.1, Agilent Technologies, Santa Clara, USA). The settings of the extraction protocol were as follows: Extraction protocol: GE1_1105_0ct12, Grid 084219_D_F_20160803, Background method: No Background, Background detrend: On, Multiplicative detrend: True.     E. gracilis KLEBS strain Z cells (obtained from the SAG, Göttingen) were grown in a complex medium in 300 mL Erlenmeyer flasks containing 150 mL of medium. A fresh culture was inoculated for every flight day with 3 million cells per 150 mL of medium. Cell number was determined using a Thoma chamber. To generate a controlled growth condition, a portable, isolated plastic container was used as a culture chamber. The culture was grown at 20°C and defined constant illumination of 25 W/m2 achieved with mixed warm-white and cold-white illumination (Solarox, Stendal, Germany; same mix and intensity as in the cell culture room used for stock cultures in the laboratory). The experiments were performed with eight days old cell cultures showing pronounced negative gravitaxis.  Cell culture and cultivation of Euglena gracilis: Cells were cultivated in complex media as published by Starr 1964 containing 0.2 % tryptone (Sigma-Aldrich, USA), 0.2 % yeast extract (Sigma-Aldrich, USA), 0.1 % peptone (Carl Roth, Germany), 0.1 % sodium acetate trihydrate (Merck, Germany), and 0.00132 % sodium chloride dihydrate (Merck, Germany).     Samples were collected on four consecutive parabolic flight days. Experiments were conducted in the course of the 29th DLR parabolic flight campaign in September 2016 in Bordeaux, France. A modified Airbus A310 performed flight maneuvers resulting in short periods (22 s) of µg, flanked by two hyper-g periods (each about 20 s) before and after the µg phase. Detailed descriptions about parabolic flight campaigns are provided in Pletser et al.52. The schedule of the campaign was as follows: Ten days sample preparation as well as validation of the experiments in terms of safety followed by four subsequent flight days with 31 parabolas each day.For inflight fixation of samples, a syringe-based fixation unit was used, allowing manual release of a fixative into syringes containing E. gracilis cells. During preflight preparations, 2 mL of cells from the cell culture flask were carefully filled into 20 mL syringes (Henke-Sass Wolf GmbH, Tuttlingen, Germany). Each syringe was sealed with parafilm and connected by serological tubing (Extension line type Heidelberger, B. Braun Melsungen AG, Melsungen Germany) to another 20 mL syringe containing 13 mL TRIzol (Life Technologies, Karlsbad, USA) as a fixative. The syringe pairs were mounted into a custom-made holder, which provided space for 16 syringe-pairs in total, allowing fixation of eight independent samples in duplicates. The syringe holder was integrated into the experimental rack, constructed according to the parabolic flight safety requirements. For fixation, TRIzol was released from one syringe into the counterpart containing cells. The applied pressure destroyed the parafilm membrane. Due to safety requirements, the pistons of the syringes were activated by sliders, which connect the inside of the box mechanically with the outside. The sliders were pushed manually in defined time intervals during the first and the last parabola. The fixation time points for each of the parabolas were chosen as follows: first fixation step: 1g phase ten seconds before onset of hypergravity, second step: end of hyper-g phase (20 s 1.8g), third step: end of microgravity phase (20 s of microgravity) and fourth step: end of second hyper-g phase (20 s hyper-g). Each fixation step was performed in duplicate. All four consecutive flight days were used to collect sample material. Samples were stored at -80C.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Krüger J  Richter P  Stoltze J  Strauch SM  Krüger M  Daiker V  Prasad B  Sonnewald S  Reid S  Lebert M.",
+          "Project Link": "",
+          "Study Publication Title": "Changes of Gene Expression in Euglena gracilis Obtained During the 29th DLR Parabolic Flight Campaign.",
+          "Managing NASA Center": "",
+          "Study Description": "Parabolic flight maneuvers of Novespace's Airbus A310 ZERO-G produce subsequent phases of hypergravity (about 20 s), microgravity (about 22 s) and another 20 s hypergravity on experiments located in the experiment area of the aircraft. The 29th DLR parabolic flight campaign consisted of four consecutive flight days with thirty-one parabolas each day. Euglena gracilis cells were fixed with TRIzol during different acceleration conditions at the first and the last parabola of each flight. Samples were collected and analyzed with microarrays for one-color gene expression analysis. The data indicate significant changes in gene expression in E. gracilis within short time. Hierarchical clustering shows that changes induced by the different accelerations yield reproducible effects at independent flight days. Transcription differed between the first and last parabolas indicating adaptation effects in the course of the flight. Different gene groups were found to be affected in different phases of the parabolic flight, among others, genes involved in signal transduction, calcium signaling, transport mechanisms, metabolic pathways, and stress-response as well as membrane and cytoskeletal proteins. In addition, transcripts of other areas, e.g., DNA and protein modification, were altered. The study contributes to the understanding of short-term effects of microgravity and different accelerations on cells at a molecular level.",
+          "organism": "Euglena gracilis",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/rbsc-jj93",
+          "url": "https://doi.org/10.26030/rbsc-jj93"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1562630400
+        ]
+      }
+    ]
+  }
+}

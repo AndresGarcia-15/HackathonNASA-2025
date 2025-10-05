@@ -1,0 +1,592 @@
+{
+  "took": 5,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 9,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "LSz5i4oBQNpn7gUYWkKY",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-628/",
+          "Flight Program": "International Space Station",
+          "Mission": {
+            "End Date": "2020-03-17",
+            "Start Date": "2019-11-02",
+            "Name": "NG-12"
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "Space Biofilms",
+          "Accession": "OSD-628",
+          "Identifiers": "LSDS-54",
+          "Study Identifier": "OSD-628",
+          "Study Protocol Name": "Treatment Protocol     sample collection     Image File Dimensions     Platform And Sample     Labeling Information     Labeling Protocol     ALSDA Transformed Data",
+          "Study Assay Technology Type": "Confocal",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Nikon SIM A1 Laser scanning Confocal Microscope",
+          "Study Person": {
+            "Last Name": "Zea Flores",
+            "Middle Initials": "",
+            "First Name": "Luis Pamela"
+          },
+          "Study Protocol Type": "sample treatment protocol     sample collection     Image File Dimensions     Platform And Sample     Labeling Information     Labeling Protocol     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Characterization of Biofilm Formation, Growth, and Gene Expression on Different Materials and Environmental Conditions in Microgravity (Morphology of Penicillium rubens biofilms)",
+          "Study Factor Type": "Space Flight     growth environment     time",
+          "Study Public Release Date": 1694476800.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-628/image",
+          "Study Factor Name": "Spaceflight     Growth Environment     Time",
+          "Study Assay Measurement Type": "Molecular Cellular Imaging",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "This project was supported by the National Aeronautics and Space Administration under Grants No. 80NSSC17K0036 and 80NSSC21K1950",
+          "Study Protocol Description": "For each of the materials except SS316, six replicates of each incubation time were launched to ISS to be fixed with 4% paraformaldehyde (PFA) at the end of the incubation period (for the post-flight morphology studies presented in this manuscript). SS316 was set up similarly but had 12 replicates per incubation time to enable more in-depth morphology analyses. Additionally, all materials had seven replicates of per incubation time launched to the ISS to be preserved in RNAlater (except MIT’s Nanograss, which only had 6 replicates) for post-flight differential gene expression analyses (samples available through NASA’s space Biology Biospecimen Sharing Program). This yielded a total of 288 space samples. An equivalent set (288 samples) was prepared at the same time as the Earth control. 211 total of these samples were used for the microscopy experiment presented in this study. Samples consisted of a material coupon (1cm2). Each coupon was inoculated with fungal spores per the “dry conidia” method. A 5 g weight (McMaster, Hamilton, ON, Canada, Cat. 1777T23) was stuck to the back of the coupon using double-sided tape and then gently placed face down on top of 6-day-old mold of P. rubens grown on PGA plates. Each coupon was placed on a new unused area of the mold for exactly 10 s to transfer comparable amounts of spores (on average 777 spores/mm2) onto each coupon’s surface. The plates contained 24 coupons placed in a random fashion (ISS and Earth equivalent plates matching) to reduce the effect of a possible humidity or oxygen gradient in the Plate Habitat (PHAB). To ensure the safety of the crew and the space station, a sterile and gas-permeable Breathe-Easy membrane (Sigma, Cat. Z380059) was placed over each plate to seal and contain the fungi and spores. The start of the experiment began at sample “activation” when samples were removed from cold stow (after ~12.5 days) and provided with high relative humidity (RH) (greater than 90%), oxygen availability (ISS’ atmosphere), warm temperature (25 °C), and darkness, rendering the ideal environment for fungal growth. To activate the samples, the PHABs were opened, the plastic bag around the four plates was removed, and the two pieces of absorbent mat (one on the lid and one on the floor of the PHAB) were wet with three water syringes (9 mL total of water per PHAB). Then, the plates were returned to the PHAB, and the PHAB was placed at 25 °C undisturbed for 10 d 2 h, 14 d 19 h, or 20 d 3.5 h. After the designated incubation period, the samples were “terminated” while in microgravity to fix the spaceflight morphology. Termination of the experiment consisted of flooding the wells with 4% PFA (morphology samples) and took place inside the Life Sciences Glovebox (LSG).     The start of the experiment began at sample “activation” when samples were removed from cold stow (after ~12.5 days) and provided with high relative humidity (RH) (greater than 90%), oxygen availability (ISS’ atmosphere), warm temperature (25 °C), and darkness, rendering the ideal environment for fungal growth. To activate the samples, the PHABs were opened, the plastic bag around the four plates was removed, and the two pieces of absorbent mat (one on the lid and one on the floor of the PHAB) were wet with three water syringes (9 mL total of water per PHAB). Then, the plates were returned to the PHAB, and the PHAB was placed at 25 °C undisturbed for 10 d 2 h, 14 d 19 h, or 20 d 3.5 h. After the designated incubation period, the samples were “terminated” while in microgravity to fix the spaceflight morphology. Termination of the experiment consisted of flooding the wells with 4% PFA (morphology samples) and took place inside the Life Sciences Glovebox (LSG).     Microscopy images were acquired with a Nikon A1 Confocal Microscope using the 40 × 0.6NA objective and the NIS Elements 5.21.03 (Nikon Instruments Inc., Tokyo, Japan) imaging software. Two emission filters were used: 425–475 nm for Calcofluor White and 500–550 nm for Biofilm Ruby, with a 405 nm and 561 nm laser, respectively. The 3D structure of the biofilm was captured using a z-stack (step size of 0.243–2.096, 30 slices minimum), and each coupon was imaged in one large field (2 × 2 fields of 302.35 µm × 302.35 µm each, for a total of 604.70 µm × 604.70 µm). The coupons were always imaged in the center to avoid potential user bias looking for a particular section of biofilm.     To prepare the slides for microscopy, 65 µL of VectaShield anti-fade hardening mounting medium (Vector Laboratories, Burlingame, CA, USA, H-1900) and a cover slip were gently placed on top of the coupon. The coupons then stayed protected from light for 2.5 h to allow the mounting medium to harden.     Each coupon was stained with a mixture of 400 µL of Calcofluor White (Sigma-Aldrich, 18909-100ML-F), staining the chitin present in fungal cell walls, and 400 µL of Biofilm Ruby (Invitrogen, Waltham, MA, USA, F10318), marking proteins present in the extracellular matrix, for 30 min protected from light.     Each coupon was stained with a mixture of 400 µL of Calcofluor White (Sigma-Aldrich, 18909-100ML-F), staining the chitin present in fungal cell walls, and 400 µL of Biofilm Ruby (Invitrogen, Waltham, MA, USA, F10318), marking proteins present in the extracellular matrix, for 30 min protected from light. Then, each coupon was gently dipped in distilled water four times to remove excess stain and glued onto a microscope slide.     To enable maximal data reuse (for machine-readable approaches), the submitted version of the tabular dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining. While included in the attached data files, samples from groups 'Aluminum (ground) 10 Days' and 'MIT (ground) 20 Days' were excluded from the author's original statistical analysis due to only having two samples per group. Information about excluded data can be found in the supplementary file 'Excluded Groups'.",
+          "Experiment Platform": "BioServe Space Technologies' Fluid Processing Apparatus (FPA)",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Hupka Megan  Kedia Raj  Schauer Rylee  Shepard Brooke  Granados-Presa María  Vande Hei Mark  Flores Pamela  Zea Luis     Zea L  Nisar Z  Rubin P  Cortesão M  Luo J  McBride SA  Moeller R  Klaus D  Müller D  Varanasi KK  Muecklich F  Stodieck L.     Zea L  McLean RJC  Rook TA  Angle G  Carter DL  Delegard A  Denvir A  Gerlach R  Gorti S  McIlwaine D  Nur M  Peyton BM  Stewart PS  Sturman P  Velez Justiniano YA.",
+          "Project Link": "",
+          "Study Publication Title": "Morphology of Penicillium rubens Biofilms Formed in Space     Design of a spaceflight biofilm experiment.     Potential biofilm control strategies for extended spaceflight missions.",
+          "Managing NASA Center": "Marshall Space Flight Center (MSFC)",
+          "Study Description": "Microorganisms' natural ability to live as organized multicellular communities – also known as biofilms – provides them with unique survival advantages. For instance, biofilms are protected against environmental stresses thanks to their extracellular matrix, which could contribute to persistent infections after treatment. Biofilms are also capable of strongly attaching to surfaces, where their metabolism byproducts could lead to surface material degradation. Furthermore, microgravity can alter biofilm behavior in unexpected ways, making the presence of biofilms in space a risk for both astronauts and spaceflight hardware. Despite the efforts to eliminate microorganism contamination from spacecrafts surfaces, it is impossible to prevent human-associated bacteria or fugus from eventually establishing biofilm surface colonization. Nevertheless, by understanding the changes that biofilms undergo in microgravity, it is possible to identify key differences and pathways that could be targeted to significantly reduce biofilm formation. The Space Biofilms project, performed at the International Space Station, contributes to such understanding by characterizing the morphology and gene expression of bacterial and fungal biofilms formed in microgravity with respect to ground controls. Pseudomonas aeruginosa was used as model organism for the bacterial morphology and transcriptomic studies, while Penicillium rubens was used for the fungal morphology study. The data presented on this study page represent the morphology of Penicillium rubens using the confocal microscopy assay.",
+          "organism": "Penicillium rubens",
+          "Data Source Type": "alsda",
+          "DOI": "10.26030/6evj-8x91",
+          "url": "https://doi.org/10.26030/6evj-8x91"
+        },
+        "highlight": {
+          "all": [
+            "Image File Dimensions     Platform And Sample     Labeling Information     Labeling Protocol     <em>ALSDA</em>",
+            "with a reusable template, which was created through feedback provided by subject matter experts in the <em>ALSDA</em>",
+            "<em>alsda</em>"
+          ]
+        },
+        "sort": [
+          1694476800
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "7d_6g4QB28eYt3lGRrYg",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-400/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "MT-2 (ISS-MOP)",
+          "Accession": "OSD-400",
+          "Identifiers": "GLDS-400",
+          "Study Identifier": "OSD-400",
+          "Study Protocol Name": "Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Assembly     sample collection",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Simpson Urbaniak Singh Bateh Wood Debieu O'Hara Houbraken Mason Venkateswaran",
+            "Middle Initials": " K M B E",
+            "First Name": "Anna Camilla Nitin John Jason Marilyne Niamh Jos Chris Kasthuri"
+          },
+          "Study Protocol Type": "Nucleic acid extraction     Library Construction     Nucleic Acid Sequencing     Sequence Assembly     sample collection",
+          "Space Program": "NASA",
+          "Study Title": "Draft Genomes of Fungi Isolated from the International Space Station during the Microbial Tracking-2 Experiment",
+          "Study Factor Type": "Space Flight     strain",
+          "Study Public Release Date": 1627344000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-400/image",
+          "Study Factor Name": "Spaceflight     Strain",
+          "Study Assay Measurement Type": "genome sequencing",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA723004",
+          "Project Title": "International Space Station Microbial Observatory of Pathogenic Virus Bacteria and Fungi Project (ISS_MOP)",
+          "Study Funding Agency": "2014 Space Biology Flight (ILSRA) NNH14ZTT002N",
+          "Study Protocol Description": "Genomic DNA from isolated colonies was extracted using the ZymoBIOMICS DNA MagBead kit according to the manufacturer's instructions.     Libraries for whole-genome shotgun sequencing were prepared using the Illumina Nextera DNA Flex Library Prep as in Be et al. 2017.     Libraries were sequenced using the NovaSeq 6000 S4 flow cell paired-end 2x150-bp platform.     Sequencing reads were quality-filtered and trimmed, and adapter sequences removed, using fastQC v0.11.7 and fastp v02.20.0, reads were assembled into scaffolds using SPAdes v3.11.1 and assembly quality was determined using Quast v5.0.2.     Samples were collected using pre-moistened polyester from 8 surfaces on the ISS: cupola, Waste and Hygiene Compartment (WHC), crew quarters, Advanced Resistive Exercise Device (ARED), Overhead 4, dining table, Permanent Multipurpose Module (PMM) 1, and Lab 3 Overhead. Wipes were stored at 4 degrees C until return to Earth. Upon return to Earth, wipes were shaken in PBS (Phosphate-buffered saline). PBS was concentrated and plated onto R2A and PDA (25 degrees C, 7 days) and blood agar (37 degrees C, 3 days). Details of sampling locations and methods have been reported in Checinska et al, 2019 and Singh et al, 2018.",
+          "Experiment Platform": "International Space Station (ISS)",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "",
+          "Project Link": "https://lsda.jsc.nasa.gov/Experiment/exper/13751",
+          "Study Publication Title": "",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "Draft genomes of fungi isolated from different surfaces on the International Space Station, as part of the Microbial Tracking 2 mission (ISS-MOP).",
+          "organism": "Aspergillus unguis     Cladosporium sphaerospermum     Rhodotorula mucilaginosa     Penicillium palitans     Aureobasidium pullulans     Penicillium rubens     Penicillium corylophilum     Cladosporium cladosporioides     Penicillium citrinum     Fusarium annulatum     Fusarium veterinarium",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/ch2t-8b03",
+          "url": "https://doi.org/10.26030/ch2t-8b03"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1627344000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "nd_6g4QB28eYt3lGOrbh",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-350/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "ISS-MO",
+          "Accession": "OSD-350",
+          "Identifiers": "GLDS-350",
+          "Study Identifier": "OSD-350",
+          "Study Protocol Name": "Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Assembly     Sample Collection",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Blachowicz Venkateswaran Singh Wood Debieu O’Hara Mason",
+            "Middle Initials": " M B E",
+            "First Name": "Adriana Kasthuri Nitin Kumar Jason Marilyne Niamh Christopher"
+          },
+          "Study Protocol Type": "Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Assembly     Sample Collection",
+          "Space Program": "NASA",
+          "Study Title": "Draft genome sequences of Aspergillus and Penicillium species isolated from the International Space Station and Crew Resupply Vehicle Capsule",
+          "Study Factor Type": "Space Flight     strain",
+          "Study Public Release Date": 1616457600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-350/image",
+          "Study Factor Name": "Spaceflight     Strain",
+          "Study Assay Measurement Type": "genome sequencing",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA659567  PRJNA667181",
+          "Project Title": "",
+          "Study Funding Agency": "This research was funded by 2012 Space Biology NNH12ZTT001N grant number 19-12829-26 under task order NNN13D111T awarded to K.V., also funded a postdoctoral fellowship for A.B.",
+          "Study Protocol Description": "Total nucleic acid extraction was carried out using ZymoBIOMICS 96 MagBead DNA kit (Lysis tubes) (Zymo Research, USA) after bead beating using Bertin Precelys.     This was followed by library preparation using the Illumina Nextera Flex Protocol. The initial amount of DNA for library preparation was quantified and depending on the input DNA concentration, 5-12 cycles of PCR were carried out to normalize the output. The amplified genomic DNA fragments were indexed and pooled in 384 plex configuration.     Whole-genome shotgun sequencing was performed on a NovaSeq 6000 S4 flowcell PE 2x150 platform with a paired-end module.     The data was filtered with NGS QC Toolkit v2.3 for high-quality (HQ) vector- and adaptor free reads for genome assembly(cutoff read length for HQ, 80%; cutoff quality score, 20). The number of filtered reads obtained were used for assembly with SPAdes genome assembler (k-mer size- 32-72 bases).     Sampling wipes were prepared at the Jet Propulsion Laboratory (JPL; Pasadena, CA). Briefly, each polyester wipe (9 x 9 inch; ITW Texwipe, Mahwah, NJ) was folded two times and soaked in 15 mL of sterile molecular grade water (Sigma-Aldrich, St. Louis, MO) for 30 min followed by the transfer to a sterile zip lock bag. The sampling kit was assembled at NASA Ames Research Center (ARC, Moffett Field, CA). The implementation team at NASA ARC delivered the kit to the Cargo Mission Contract at Johnson Space Center (Texas) which was then transferred to Kennedy Space Center (Florida) in order to be loaded into the Space Exploration Technologies (SpaceX) Dragon spacecraft prior to launch. The samples were stored at room temperature in orbit. The kits were delivered to JPL immediately after arrival to Earth at 4C with processing at JPL commencing within 2 h of receipt.",
+          "Experiment Platform": "International Space Station (ISS)",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Adriana Blachowicz  Nitin Kumar Singh  Jason M. Wood  Marilyne Debieu  Niamh B. O’Hara  Christopher E. Mason  Kasthuri Venkateswarana",
+          "Project Link": "",
+          "Study Publication Title": "Draft Genome Sequences of Aspergillus and Penicillium Species Isolated from the International Space Station and Crew Resupply Vehicle Capsule",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "Genome sequencing and assembly of fungal isolates belonging to Penicilliium and Aspergillus genera isolated from International Space Station",
+          "organism": "Aspergillus niger     Penicillium griseoroseum     Penicillium camemberti     Penicillium polonicum     Penicillium dipodomyicola     Aspergillus unguis     Penicillium chrysogenum",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/76rj-q375",
+          "url": "https://doi.org/10.26030/76rj-q375"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1616457600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "4d_6g4QB28eYt3lGLLV-",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-293/",
+          "Flight Program": "Internation Space Station (ISS)",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "ISS-MO",
+          "Accession": "OSD-293",
+          "Identifiers": "GLDS-293",
+          "Study Identifier": "OSD-293",
+          "Study Protocol Name": "nucleic acid extraction     library construction     nucleic acid sequencing     sequence assembly     sample collection",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina NovaSeq 6000",
+          "Study Person": {
+            "Last Name": "Venkateswaran Daudu",
+            "Middle Initials": "",
+            "First Name": "Kasthuri Robert"
+          },
+          "Study Protocol Type": "nucleic acid extraction     library construction     nucleic acid sequencing     sequence assembly     sample collection",
+          "Space Program": "NASA",
+          "Study Title": "Draft Genome sequences of Rhodotorula mucilaginosa isolated from the International space station",
+          "Study Factor Type": "Space Flight     strain",
+          "Study Public Release Date": 1589500800.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-293/image",
+          "Study Factor Name": "Spaceflight     Strain",
+          "Study Assay Measurement Type": "genome sequencing",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA625575  PRJNA628952",
+          "Project Title": "Microbial Tracking-1A",
+          "Study Funding Agency": "",
+          "Study Protocol Description": "Purified culture were subjected to DNA extraction By Zymo using ZymoBIOMICS DNA Magbead Kit according to the manufacturer's instructions.     The Shotgun library was prepared by use of illuminq Nextera Flex Protocol (Singh et al, 2018).     A pair-end sequencing was performed on the DNA fragments with a NovaSeq 6000 s4 flowcell PE 2x150 platform. The sequenced data was saved in a FASTQ format.     The FASTQ files were cleaned and assembled by SPAdes (v3.11.1) (Bankevich et al, 2012), and the contigs generated were scaffolded in a FASTA format.     During the microbial tracking-1 (MT-1) investigation to characterize airborne and surface-associated microbial population aboard the International Space Station (ISS), Samples were collected from 8 locations across the ISS across 2 flights, and ground samples were collected from Space-X on the ground. A sterile polyester wipe premoistened with Phosphate buffer saline (PBS) was used to collect the samples from various areas across those 8 locations, and the details and description of the sample collection and cultivation have already been reported in Checinska et al, 2019 and Singh et al, 2018.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "",
+          "Project Link": "https://lsda.jsc.nasa.gov/Experiment/exper/13629#data",
+          "Study Publication Title": "",
+          "Managing NASA Center": "Jet Propulsion Laboratory (JPL)",
+          "Study Description": "Draft Genome sequences of Rhodotorula mucilaginosa isolated from the International space station.",
+          "organism": "Rhodotorula mucilaginosa",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/714q-xt55",
+          "url": "https://doi.org/10.26030/714q-xt55"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1589500800
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "4N_6g4QB28eYt3lGLLVr",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-290/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "ISS-MO",
+          "Accession": "OSD-290",
+          "Identifiers": "GLDS-290",
+          "Study Identifier": "OSD-290",
+          "Study Protocol Name": "sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     sequence assembly",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina NovaSeq 6000",
+          "Study Person": {
+            "Last Name": "Venkateswaran Bijlani Singh",
+            "Middle Initials": " K",
+            "First Name": "Kasthuri Swati Nitin"
+          },
+          "Study Protocol Type": "sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     sequence assembly",
+          "Space Program": "NASA",
+          "Study Title": "Lower eukaryotic isolates belonging to class Tremellomycetes isolated from International Space Station Genome sequencing and assembly",
+          "Study Factor Type": "Space Flight     strain",
+          "Study Public Release Date": 1586131200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-290/image",
+          "Study Factor Name": "Spaceflight     Strain",
+          "Study Assay Measurement Type": "genome sequencing",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA623412",
+          "Project Title": "Microbial Tracking-1A",
+          "Study Funding Agency": "This research 92 was funded by a 2012 Space Biology NNH12ZTT001N grant nos. 19-12829-26 under Task 93 Order NNN13D111T award to KV, which also subcontracted to CCCW, and funded post- 94 doctoral fellowship for SB.",
+          "Study Protocol Description": "Sampling wipes were prepared at the Jet Propulsion Laboratory (JPL; Pasadena, CA). Briefly, each polyester wipe (9 x 9 inch; ITW Texwipe, Mahwah, NJ) was folded two times and soaked in 15 mL of sterile molecular grade water (Sigma-Aldrich, St. Louis, MO) for 30 min followed by the transfer to a sterile zip lock bag. The sampling kit was assembled at NASA Ames Research Center (ARC, Moffett Field, CA). The implementation team at NASA ARC delivered the kit to the Cargo Mission Contract at Johnson Space Center (Texas) which was then transferred to Kennedy Space Center (Florida) in order to be loaded into the Space Exploration Technologies (SpaceX) Dragon spacecraft prior to launch. The samples were stored at room temperature in orbit. The kits were delivered to JPL immediately after arrival to Earth at 4C with processing at JPL commencing within 2 h of receipt.     Total nucleic acid extraction was carried out using ZymoBIOMICS 96 MagBead DNA kit (Lysis tubes) (Zymo Research, USA) after bead beating using Bertin Precelys.     This was followed by library preparation using the Illumina Nextera Flex Protocol. The initial amount of DNA for library preparation was quantified and depending on the input DNA concentration, 5-12 cycles of PCR were carried out to normalize the output. The amplified genomic DNA fragments were indexed and pooled in 384 plex configuration.     Whole-genome shotgun sequencing was performed on a NovaSeq 6000 S4 flowcell PE 2x150 platform with a paired-end module.     The data was filtered with NGS QC Toolkit v2.3 for high-quality (HQ) vector- and adaptor free reads for genome assembly(cutoff read length for HQ, 80%; cutoff quality score, 20). The number of filtered reads obtained were used for assembly with SPAdes genome assembler (k-mer size- 32-72 bases).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "NNH12ZTT001N grant nos. 19-12829-26",
+          "Study Publication Author List": "Bijlani S  Singh NK  Mason CE  Wang CCC  and Venkateswaran K",
+          "Project Link": "https://lsda.jsc.nasa.gov/Experiment/exper/13629#data",
+          "Study Publication Title": "Draft Genome Sequences of Tremellomycetes strains Isolated from the International Space Station",
+          "Managing NASA Center": "Jet Propulsion Laboratory (JPL)",
+          "Study Description": "Genome sequencing and assembly of lower Eukaryotic isolates belonging to class Tremellomycetes isolated from International Space Station",
+          "organism": "Naganishia sp.     Naganishia adeliensis     Papiliotrema laurentii     Naganishia albida",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/td9j-ga98",
+          "url": "https://doi.org/10.26030/td9j-ga98"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1586131200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "tN_6g4QB28eYt3lGKLXJ",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-233/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "11-May-2016",
+            "Start Date": "08-Apr-2016",
+            "Name": "SpaceX-8"
+          },
+          "Material Type": "mycelia",
+          "Project Identifier": "ISS-MO",
+          "Accession": "OSD-233",
+          "Identifiers": "GLDS-233",
+          "Study Identifier": "OSD-233",
+          "Study Protocol Name": "sample treatment     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Venkateswaran",
+            "Middle Initials": "",
+            "First Name": "Kasthuri"
+          },
+          "Study Protocol Type": "sample treatment     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Space Program": "NASA",
+          "Study Title": "International Space Station conditions alter genomics, proteomics, and metabolomics in Aspergillus nidulans",
+          "Study Factor Type": "Space Flight     strain     timepoint",
+          "Study Public Release Date": 1537142400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-233/image",
+          "Study Factor Name": "Spaceflight     Strain     Growth Time",
+          "Study Assay Measurement Type": "genome sequencing",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA486827",
+          "Project Title": "Microbial Tracking-1C",
+          "Study Funding Agency": "This research was funded by a 2012 Space Biology NNH12ZTT001N grant nos. 19-12829-26",
+          "Study Protocol Description": "The WT A. nidulans FGSC A4 strain was obtained from the Fungal Genetics Stock Center (McCluskey et al. 2010). LO1362 and LO8158 were obtained from previous studies (Oakley et al. 2017). The laeA overexpression strain (CW12001) was generated using the constitutive gpdA promoter according to standard protocol (Hunter et al. 1992). Protoplast production, construction of fusion PCR products, and transformation were carried out as described previously (Szewczyk et al. 2006; Nayak et al. 2006). All strains were seeded onto Nunc OmniTray plates (Thermo Fisher Scientific, Waltham, MA, USA) containing 46 mL of solid GMM media (6 g/L NaNO3, 0.52 g/L KCl, 0.52 g/L MgSO4⋅7H2O, 1.52 g/L KH2PO4, 10 g/L D-glucose, 15 g/L agar supplemented with 1 mL/L of Hutner’s trace elements). Seeded Nunc OmniTrays were loaded into Plate Habitat (PHAB) systems (BioServe Space Technologies, Boulder, CO, USA), with six OmniTray plates in each PHAB, and immediately transferred to 4 °C. The PHAB system is a growth platform for biological materials that allows for gas exchange. Each PHAB was equipped with a temperature logger (HOBO) that accurately measured the temperature throughout the duration of the experiment. PHABs containing cultures bound for the ISS were transferred to 4 °C cold bags approximately 28 h prior to launch and transported to the ISS on the SpaceX CRS-8 (Space Exploration Technologies) mission that launched on April 8, 2016. On the ISS, PHABs were loaded into Space Automated Bioproduct Lab (SABL) systems, where the 7- and 4-day samples remained at 4 °C for approximately 23 and 26 days, respectively. Ground culture PHABs were near-synchronously transferred to on ground containers mimicking ISS SABL systems. To initiate growth, ISS and ground cultures were subjected to 37 °C, where they remained for either 4 or 7 days, which are optimal growth conditions for SM production in A. nidulans. Following growth, all samples were subjected to 4 °C, where they remained until ISS-grown agar plates were transported back to Earth on May 11, 2016.     Mycelia were collected from Earth-grown (7-day) and spacegrown (4- and 7-day) GMM agar OmniTrays for all strains (FGSC A4, LO1362, LO8158, and CW12001), frozen with liquid nitrogen, and ground using a mortar and pestle.     DNA was extracted using the Mo Bio PowerMax Soil DNA Isolation Kit (Mo Bio Laboratories, Carlsbad, CA, USA) according to the manufacturer’s protocol.     Library preparation and whole genome sequencing were performed at the Duke Center for Genomic and Computational Biology (Duke University Medical Center, Durham, NC, USA). DNA quality and quantity were checked using the Agilent 2100 Bioanalyzer DNA assay (Agilent Technologies, Santa Clara, CA, USA) and Qubit 2.0 Fluorometer (Thermo Fisher Scientific, Waltham, MA, USA). The library was prepared for paired-end sequencing using the TruSeq Nano DNA Library Preparation Kit (Illumina, San Diego, CA, USA).     Samples were sequenced using a HiSeq 4000 Illumina Sequencer and 101 base read lengths were generated.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Romsdahl J  Blachowicz A  Chiang AJ  Chiang YM  Masonjones S  Yaegashi J  Countryman S  Karouia F  Kalkum M  Stajich JE  Venkateswaran K  Wang CCC",
+          "Project Link": "https://lsda.jsc.nasa.gov/Experiment/exper/13671#data",
+          "Study Publication Title": "International Space Station conditions alter genomics, proteomics, and metabolomics in Aspergillus nidulans",
+          "Managing NASA Center": "Jet Propulsion Laboratory (JPL)",
+          "Study Description": "The first global genomic, proteomic, and secondary metabolomic characterization of the filamentous fungus Aspergillus nidulans following growth onboard the International Space Station (ISS) is reported. The investigation included the A. nidulans wild-type and three mutant strains, two of which were genetically engineered to enhance secondary metabolite production. Whole genome sequencing revealed that ISS conditions altered the A. nidulans genome in specific regions. In strain CW12001, which features overexpression of the secondary metabolite global regulator laeA, ISS conditions induced the loss of the laeA stop codon. Differential expression of proteins involved in stress response, carbohydrate metabolic processes, and secondary metabolite biosynthesis was also observed. ISS conditions significantly decreased prenyl xanthone production in the wild-type strain and increased asperthecin production in LO1362 and CW12001, which are deficient in a major DNA repair mechanism. These data provide valuable insights into the adaptation mechanism of A. nidulans to spacecraft environments.",
+          "organism": "Aspergillus nidulans",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/vhts-b617",
+          "url": "https://doi.org/10.26030/vhts-b617"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1537142400
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "vt_6g4QB28eYt3lGKbWR",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-260/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "vegetative cell (sensu Fungi)",
+          "Project Identifier": "",
+          "Accession": "OSD-260",
+          "Identifiers": "GLDS-260",
+          "Study Identifier": "OSD-260",
+          "Study Protocol Name": "sample collection     protein extraction     labeling     mass spectrometry     data transformation     growth protocol",
+          "Study Assay Technology Type": "mass spectrometry",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Orbitrap Fusion Tribrid",
+          "Study Person": {
+            "Last Name": "Chiang Kalkum",
+            "Middle Initials": "",
+            "First Name": "Abby Markus"
+          },
+          "Study Protocol Type": "sample collection     extraction     labeling     mass spectrometry     data transformation     growth protocol",
+          "Space Program": "NASA",
+          "Study Title": "Genomic and Proteomic characterization of Aspergillus niger isolated from the International Space Station",
+          "Study Factor Type": "Space Flight     strain",
+          "Study Public Release Date": 1534809600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-260/image",
+          "Study Factor Name": "Spaceflight     Strain",
+          "Study Assay Measurement Type": "protein expression profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "PXD008588",
+          "Project Title": "",
+          "Study Funding Agency": "",
+          "Study Protocol Description": "     For protein extraction, the lysis buffer consisted of 100mM triethylammonium bicarbonate (TEAB) with 1x Halt protease inhibitor cocktail (100x), with the final concentration of each component being 1 mM AEBSF [4-(2-aminoethyl)benzenesulfonyl fluoride hydrochloride], 800 nM aprotinin, 50 uM bestatin, 15 uM E64, 20 uM leupeptin, and 10 uM pepstatin A (Thermo Scientific, Rockford, IL) and 200 ug/ml phenylmethylsulfonyl fluoride (Sigma-Aldrich, St. Louis, MO). Mycelia were homogenized directly using Precellys 24 homogenizer (Bertin, Rockville, MD) in which each sample was processed inside a 2-ml cryotube with 0.5-mm glass beads three times (at 4C and 6,500 rpm for 1 min., repeated 3 times with 15-s pauses in between). The lysed fungi were centrifuged at 17,000 x g for 15 min. Protein concentrations in the supernatants were measured by the Bradford assay with albumin for the standard curve (Bio-Rad Laboratories, Inc., Hercules, CA).     Two hundred micrograms of proteins from each sample was precipitated in 20% trichloroacetic acid (TCA) at 4C. Protein pellets were obtained by centrifugation (17,000 x g), washed with ice-cold acetone, and resuspended in 25 ul TEAB (50mM final concentration) and 25 ul 2,2,2-trifluoroethanol (TFE) (50% final concentration). Proteins were reduced by adding 1 ul of tris(2-carboxyethyl)phosphine (TCEP; 500mM) followed by incubation for 1 h at 37C (10mM final TCEP concentration). Proteins were alkylated in the presence of iodoacetamide (IAA; 30mM) in the dark for 1 h at room temperature. A 2.5ug-per-sample quantity of mass-spectrometry-grade trypsin-LysC (Promega, Madison, WI) was used to digest the peptides overnight at 37C.\n\nThe digested peptides were quantified using the Pierce quantitative colorimetric peptide assay (Thermo Scientific). Forty micrograms of peptides from each specific sample was labeled with the Thermo Scientific TMTsixplex isobaric mass tagging kit (ATCC 1015-GMM with TMT6-128, and JSC-GMM with TMT6-129) according to the manufacturer's protocol. The TMT6-130 and -131 labels were used as a reference that contained an equal amount of the peptides from each of the four samples. All labeled-peptide mixtures were combined into a single tube, mixed, and fractionated using the Thermo Scientific Pierce high-pH reversed-phase peptide fractionation kit. Fractions were dried using a SpeedVac concentrator and resuspended in 1% formic acid prior to LC-tandem MS (MS/MS) analysis.     The samples were analyzed on an Orbitrap Fusion Tribrid mass spectrometer with an Easy-nLC 1000 liquid chromatograph, a 75um by 2-cm Acclaim PepMap100 C18 trapping column, a 75um by 25-cm PepMap RSLC C18 analytical column, and an Easy-Spray ion source (Thermo Scientific). The column temperature was maintained at 45C, and the peptides were eluted at a flow rate of 300 nl/min over a 110-min gradient, from 3 to 30% solvent B (100 min), 30 to 50% solvent B (3 min), 50 to 90% solvent B (2 min), and 90% solvent B (2 min). Solvent A was 0.1% formic acid in water, and solvent B was 0.1% formic acid in acetonitrile.\n\nThe full MS survey scan (m/z 400 to 1,500) was acquired in the Orbitrap at a resolution of 120,000 and an automatic gain control (AGC) target of 2x10^5. The maximum injection time for MS scans was 50 ms. Monoisotopic precursor ions were selected with charge states 2 to 7, a +/- 10ppm mass window, and 70-s dynamic exclusion. The MS2 scan (m/z 400 to 2,000) was performed using the linear ion trap with the collision-induced dissociation (CID) collision energy set to 35%. The ion trap scan rate was set to 'rapid' with an AGC target of 4x10^3 and a maximum injection time of 150 ms. Ten fragment ions from each MS2 experiment were subsequently selected for an MS3 experiment. The MS3 scan (m/z 100 to 500) was performed to generate the TMT reporter ions in the linear ion trap using heated capillary dissociation (HCD) at a collision energy setting of 55%, a rapid scan rate and an AGC target of 5x10^3, and a maximum injection time of 250 ms.     The resulting MS/MS spectra were searched using the Proteome Discoverer (version 2.1.0.81, Thermo Scientific) with the Sequest-HT searching engines against an Aspergillus niger CBS513.88 database from NCBI containing 10549 sequences. Raw files were converted into a .mzML file format using ProteoWizard 3.0.10875.     JSC-093350089 and ATCC 1015 were cultivated on 10-cm petri dishes containing 25-ml glucose minimal medium (GMM) agar plates (6 g/liter NaNO3, 0.52 g/liter KCl, 0.52 g/liter MgSO4.7H2O, 1.52 g/liter KH2PO4, 10 g/liter d-glucose, 15 g/liter agar supplemented with 1ml/liter of Hutner's trace elements) with a cellophane membrane on top, on which the fungus was grown. Unless otherwise specified, 1 x 10^7 conidia per petri dish (D=10cm) were inoculated into each medium and incubated at 30C for 5days. Mycelia from GMM agar plates were collected and stored at -80C prior to protein extraction.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Romsdahl J  Blachowicz A  Chiang AJ  Singh N  Stajich JE  Kalkum M  Venkateswaran K  Wang CCC",
+          "Project Link": "",
+          "Study Publication Title": "Characterization of Aspergillus niger Isolated from the International Space Station",
+          "Managing NASA Center": "",
+          "Study Description": "Genomic and proteomic characterization of the Aspergillus niger isolate, JSC-093350089, collected from U.S. segment surfaces of the International Space Station (ISS) is reported, along with a comparison to the experimentally established strain ATCC 1015. Whole-genome sequencing of JSC-093350089 revealed enhanced genetic variance when compared to publicly available sequences of A. niger strains. Analysis of the isolate‚Äôs proteome revealed significant differences in the molecular phenotype of JSC-093350089, including increased abundance of proteins involved in the A. niger starvation response, oxidative stress resistance, cell wall integrity and modulation, and nutrient acquisition. Together, these data reveal the existence of a distinct strain of A. niger onboard the ISS and provide insight into the molecular phenotype that is selected for by melanized fungal species inhabiting spacecraft environments.",
+          "organism": "Aspergillus niger",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/7c74-jk03",
+          "url": "https://doi.org/10.26030/7c74-jk03"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1534809600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Ld_6g4QB28eYt3lGMrZC",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-132/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Soil     Wipes",
+          "Project Identifier": "",
+          "Accession": "OSD-132",
+          "Identifiers": "GLDS-132",
+          "Study Identifier": "OSD-132",
+          "Study Protocol Name": "nucleic acid extraction     library construction     nucleic acid sequencing     sequence assembly     sample collection",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "We thank the implementation team of the Center for Advanced Study in Space and Duane Pierson, Johnson Space Center for providing the A. niger strain. The other fungal strains are maintained at Lawrence Berkeley National Laboratory.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Singh Blachowicz Romsdahl Wang Torok Venkateswaran",
+            "Middle Initials": "K",
+            "First Name": "Nitin Adriana Jillian Clay Tamas Kasthuri"
+          },
+          "Study Protocol Type": "nucleic acid extraction     library construction     nucleic acid sequencing     sequence assembly     sample collection",
+          "Space Program": "NASA",
+          "Study Title": "Whole genome sequencing and assembly of Eukaryotic microbes isolated from ISS environmental surface, Kirovograd region soil, Chernobyl Nuclear Power Plant and Chernobyl Exclusion Zone",
+          "Study Factor Type": "Radiation",
+          "Study Public Release Date": 1492041600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-132/image",
+          "Study Factor Name": "radiation",
+          "Study Assay Measurement Type": "genome sequencing",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA355122",
+          "Project Title": "",
+          "Study Funding Agency": "Part of the research described in this publication was carried out at the Jet Propulsion Laboratory (JPL), California Institute of Technology, under a contract with NASA. This research was supported by the JPL Advanced Concept Development fund awarded to K.V. that funded a student fellowship to A.B. Part of the research described in this publication was carried out at Lawrence Berkeley National Laboratory (T.T.) and the University of Southern California (C.W.), which funded a student fellowship to J.R.",
+          "Study Protocol Description": "          The whole-genome sequences of these eight fungal strains were obtained by shotgun sequencing performed on an Illumina HiSeq2500 platform with a paired-end module.     The NGS QC toolkit version 2.3 was used to filter the data for high-quality vector- and adaptor-free reads for genome assembly (cutoff read length for high quality: 80%; cutoff quality score: 20). High-quality vector-filtered reads were used for assembly with the MaSuRCA genome assembler (k-mer size=70).     We thank the implementation team of the Center for Advanced Study in Space and Duane\nPierson, Johnson Space Center for providing the A. niger\nstrain. The other fungal strains are maintained at Lawrence Berkeley National Laboratory.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Singh NK  Blachowicz A  Romsdahl J  Wang C  Torok T  Venkateswaran K.",
+          "Project Link": "",
+          "Study Publication Title": "Draft Genome Sequences of Several Fungal Strains Selected for Exposure to Microgravity at the International Space Station.",
+          "Managing NASA Center": "JPL",
+          "Study Description": "The whole-genome sequences of eight fungal strains that were selected for exposure to microgravity at the International Space Station are presented here. These baseline sequences will help to understand the observed production of novel bioactive compounds.",
+          "organism": "Beauveria bassiana     Aspergillus niger     Aspergillus terreus     Aureobasidium pullulans     Cladosporium cladosporioides     Fusarium solani     Trichoderma virens     Cladosporium sphaerospermum",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/28tq-h280",
+          "url": "https://doi.org/10.26030/28tq-h280"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1492041600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "VN_6g4QB28eYt3lGNbYa",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-20/",
+          "Flight Program": "Space Transportation System (STS)",
+          "Mission": {
+            "End Date": "09/21/2006",
+            "Start Date": "09/09/2006",
+            "Name": "STS-115"
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "12A",
+          "Accession": "OSD-20",
+          "Identifiers": "GLDS-20",
+          "Study Identifier": "OSD-20",
+          "Study Protocol Name": "growth protocol     radiation dosimetry     nucleic acid extraction protocol     labelling protocol     hybridization protocol     array scanning protocol     normalization data transformation protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "spotted DNA-cDNA",
+          "Study Person": {
+            "Last Name": "Nielsen Crabbe",
+            "Middle Initials": "",
+            "First Name": "Sheila Aurelie"
+          },
+          "Study Protocol Type": "growth protocol     Radiation Dosimetry     nucleic acid extraction protocol     labelling protocol     hybridization protocol     array scanning protocol     normalization data transformation protocol",
+          "Space Program": "NASA",
+          "Study Title": "Candida albicans response to spaceflight (NASA STS-115)",
+          "Study Factor Type": "Space Flight",
+          "Study Public Release Date": 1383264000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-20/image",
+          "Study Factor Name": "Spaceflight",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-GEOD-50881",
+          "Project Title": "Effect of Spaceflight on Microbial Gene Expression and Virulence",
+          "Study Funding Agency": "This work was supported by National Aeronautics and Space Administration grants NCC2-1362, NNX09AH40G, and NNX10AO52G (to C.A.N.)",
+          "Study Protocol Description": "Prior to flight, 6 x 10^6 cells grown in YPD medium were suspended in 0.5 mL sterile ddH2O and loaded into specialized spaceflight hardware, termed Fluid Processing Apparatuses (FPA. Briefly, growth was initiated in flight (nine days post launch) by addition of 2 mL YPD to the fungal suspension (termed activation). Cultures were grown in spaceflight conditions or synchronous ground control conditions for 25 hours at ambient temperature (23C). Subsequently, cells were fixed for RNA, proteins and morphological imaging by addition of 2.5 mL RNA Later II reagent (Ambion, Austin, TX) (termed termination).)     The absorbed dose from ionizing radiation received by the flight specimens was estimated using TLD passive dosimeters located in the middeck of the space shuttle, where the payload was located. More specifically, we computed the average between three dosimeters (DLOC1, DLOC2, and DLOC3) for the mission and we divided it by the total duration of the mission to estimate the average absorbed dose rate in mGy/day. This dose rate did not include any shielding effects from the hardware where the specimens resided. The total absorbed dose in water was then computed by simply multiplying the average dose rate with the duration of the experiment. The duration of the experiment was defined as the time in space during which the specimen was “living”. Once the specimen was frozen or fixed, the experiment was considered stopped. A table with these detailed computations for all space shuttle datasets is available on GeneLab at https://genelab.nasa.gov/environmental/radiation. The ground samples were not assessed for radiation exposure.     Two and a half hours after landing at Kennedy Space Center, the culture samples fixed in RNA Later II were recovered, removed from the FPA, and stored at -80C. Yeast cells were disrupted by homogenization in the presence of glass beads in a Mini-Beadbeater-8 (Biospec Products) and RNA was isolated using the RNeasy Micro kit (Qiagen). RNA quality and quantity were evaluated using the Nanodrop technology (Thermo Scientific) and an Agilent 2100 bioanalyzer (Agilent Technologies).     First strand cDNA is generated by oligo-dT primed reverse transcription (Superscript II; Invitrogen) utilizing the 3DNA Array 350 kit (Genisphere). Modified oligo-dT primers are utilized in which a fluorophore/dendrimer specific oligo sequence is attached to the 5' end of the dT primer. For cDNA synthesis, 1ul of fluorophore specific oligo-dT primer is added to 8ug of total RNA and the solution is incubated at 80C for 10 minutes then cooled on ice for 2 minutes. To each sample are added RNase inhibitor (Superase-In; Ambion) (1ul), 5X first strand buffer (4ul), dNTP mix (10mM each dATP, dCTP, dGTP, and dTTP) (1ul), 0.1M DTT (2ul), and Superscript II RNase H- Reverse Transcriptase (1ul). Reverse transcription is carried out at 42C for 2 hours. The reaction is terminated by adding 0.5M NaOH/ 50mM EDTA (3.5ul) and incubation at 65C for 15 minutes then neutralized with 1M Tris-HCL, pH 7.5 (5ul). For RNA expression level comparison, samples are paired and concentrated using Microcon YM30 microconcentrators (Millipore) according to the manufacturer's protocol.     Each sample pair (~5ul) is resuspended in Formamide-based hybridization buffer (vial 7-Genisphere) (26ul), Array 50dT blocker (Genisphere) (2ul), and Rnase/Dnase-free water (19ul). Two hybridizations are carried out in a sequential manner. The primary hybridization is performed by adding 48ul of sample to the microarray under a supported glass coverslip (Erie Scientific) at 43C for 16-20 hours at high humidity. Prior to the secondary hybridization, slides are gently submerged into 2X SSC, 0.2% SDS (at 43C) for 11 min., transferred to 2X SSC (at room temp.) for 11 min., transferred to 0.2X SSC (at room temp.) for 11 min., and then spun dry by centrifugation. Secondary hybridization is carried out using the complimentary capture reagents provided in the 3DNA Array 350 kit (Genisphere). For each reaction, the following are added: 3DNA capture reagent with Cy3 (2.5ul), 3DNA capture reagent with Cy5 (2.5ul), SDS-based hybridization buffer (vial 6-Genisphere) (26ul), and Rnase/Dnase-free water (21ul). The secondary hybridization solution is incubated in the dark at 80C for 10 min. then 50C for 15 min. Hybridization is performed by adding 48ul secondary hybridization solution to the slide under a supported glass coverslip at 65C for 3 hr at high humidity in the dark. At hybridization termination, arrays are gently submerged into 2X SSC, 0.2% SDS (at 65C) for 11 min., transferred to 2X SSC (at room temp.) for 11 min., transferred to 0.2X SSC (at room temp.) for 11 min., and then spun dry by centrifugation. To prevent fluorophore degredation, the arrays are treated with Dyesaver (Genisphere).     Slides are scanned on a Perkin Elmer ScanArray Express HT scanner to detect Cy3 and Cy5 fluorescence. Laser power is kept constant for Cy3/Cy5 scans and PMT is varied for each experiment based on optimal signal intensity with lowest possible background fluorescence. A low pmt setting scan is also performed to recover signal from saturated elements. Gridding and analysis of images is performed using ScanArray v3.0 (Perkin Elmer).     The median value of each set of replicate spots from each array was used.  Data was log2 transformed and quantile normalized.  The Ch2 N Log Ratio is the normalized log (base2) transformation of the  ratio of the medians.  These log ratios are cy5/cy3, or as listed in the raw data files, ch2/ch1.  However, in the dye-swap samples, the values were inversed so that all sample data values represent flight/ground (test/reference) ratio. Three-way ANOVA analysis was then performed on the data using treatment (flight vs. ground), dye, and experimental data as factors.  Flight to ground linear contrast was performed with ANOVA.  False Discovery Rate was controlled using the Step Up method.  The Candida Genome Database (CGD) gene ontology (GO) Slim Mapper was used to classify differentially expressed genes into functional categories. Analysis was initially restricted to genes that had high intensity on the array and were differentially expressed by at least 2-fold with a confidence interval of 95%. ID_REF =  VALUE = log2, quantile normalized ratio representing (flight/ground)",
+          "Experiment Platform": "Fluid Processing Apparatus (FPA)",
+          "Characteristics": "",
+          "Study Grant Number": "NCC2-1362  NNX09AH40G  NNX10AO52G",
+          "Study Publication Author List": "Crabbe A  Nielsen-Preiss SM  Woolley CM  Barrila J  Buchanan K  McCracken J \nInglis DO  Searles SC  Nelman-Gonzalez MA  Ott CM  Wilson JW  Pierson DL \nStefanyshyn-Piper HM  Hyman LE  Nickerson CA.",
+          "Project Link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=1329",
+          "Study Publication Title": "Spaceflight enhances cell\naggregation and random budding in Candida albicans.",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "This study presents the first global transcriptional profiling and phenotypic characterization of the major human opportunistic fungal pathogen, Candida albicans, grown in spaceflight conditions. Microarray analysis revealed that C. albicans subjected to short-term spaceflight culture differentially regulated 454 genes compared to synchronous ground controls, which represented 8.4% of the analyzed ORFs. Spaceflight-cultured C. albicans induced genes involved in cell aggregation (similar to flocculation), which was validated by microscopic and flow cytometry analysis. We also observed enhanced random budding of spaceflight-cultured cells as opposed to more normal bipolar budding patterns for ground samples, in accordance with the gene expression data. Furthermore, genes involved in antifungal agent and stress resistance were differentially regulated in spaceflight, including induction of ABC transporters and members of the major facilitator family, downregulation of ergosterol-encoding genes, and upregulation of genes involved in oxidative stress resistance. Finally, downregulation of genes involved in the actin cytoskeleton was observed. Interestingly, the transcriptional regulator Cap1 and over 30% of the Cap1 regulon was differentially expressed in spaceflight-cultured C. albicans. A potential role for Cap1 in the spaceflight response of C. albicans is suggested, as this regulator is involved in random budding, cell aggregation, actin cytoskeleton, and oxidative stress resistance; all related to observed spaceflight-associated changes of C. albicans. While culture of C. albicans in microgravity potentiates a global change in gene expression that could induce a virulence-related phenotype, no increased virulence in a murine intraperitoneal (i.p.) infection model was observed. This study represents an important basis for the assessment of the risk that commensal flora could play during spaceflight missions. Furthermore, since the low fluid-shear environment of microgravity is relevant to physical forces encountered by pathogens during the infection process, insights gained from this study could identify novel infectious disease mechanisms, with downstream benefits for the general public. Cells were grown for 24 hours on the space shuttle or as ground-based controls, preserved in RNALater, and stored at -80C. Four samples of each flight- and ground-based controls were harvested for microarray analysis. GAP is Group Activation Pack and each GAP contains 8 FPAs. The numbers represent the # assigned to the particular GAP and the number assigned to the specific FPA (1-8) within the indicated GAP. The same hardware is used for the flight samples and the ground samples.",
+          "organism": "Candida albicans",
+          "Data Source Type": "cgene"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1383264000
+        ]
+      }
+    ]
+  }
+}

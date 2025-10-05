@@ -1,0 +1,78 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "xd_6g4QB28eYt3lGKrUC",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "GLDS-40/",
+          "Flight Program": "NA",
+          "Material Type": "",
+          "Project Identifier": "",
+          "Accession": "OSD-40",
+          "Project Link": "NA",
+          "Study Identifier": "E-GEOD-14475",
+          "Study Protocol Name": "P-GSE14475-2     P-GSE14475-4     P-GSE14475-5     P-GSE14475-6     P-GSE14475-7     P-GSE14475-1",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "",
+          "Study Person": {
+            "Last Name": "Ishioka     Hashizume     Higashibata",
+            "Middle Initials": "",
+            "First Name": "Noriaki     Toko     Akira"
+          },
+          "Study Protocol Type": "grow     labeling     hybridization     image_aquisition     feature_extraction     bioassay_data_transformation",
+          "Space Program": "JAXA",
+          "Study Title": "Gene expression profiling of C. elegans under various thermal conditions",
+          "Study Factor Type": "exposure temperature",
+          "Study Public Release Date": "1277881200",
+          "Parameter Value": "",
+          "thumbnail": "/genelab/img/GLDS40__study_image.png",
+          "Study Factor Name": "temperature",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-GEOD-14475",
+          "Data Source Type": "cgene",
+          "Project Title": "",
+          "Study Funding Agency": "",
+          "Study Protocol Description": "The Bristol N2 strain was pre-cultured in C. elegans maintenance medium (CeMM) for 1 month at 20  xa1C. Approximately 5000 worms of mixed larval stage were transferred into 5 mL culture bags containing fresh CeMM at 10 for 2 weeks.     Total RNA was amplified using the Agilent Low RNA Input Fluorescent Linear Amplification Kit protocol. Cy3 labeled cRNA was produced according to manufacturer  s protocol.     Labeled cRNA (1.65  xb5g/sample) was hybridized to a C. elegans oligo microarray using a gene expression hybridization kit at 60  xa1C for 17 hours.     Chips were scanned with an Agilent Scanner and processed with Agilent Feature Extraction Software (Version 9.1.3.1).     Microarray data were analyzed using Gene Spring software (Agilent Technologies). Log ratios are derived by per Chip (Normalize to 50th percentile) and per Gene.     ID_REF =",
+          "Experiment Platform": "NA",
+          "Characteristics": "",
+          "Study Grant Number": "NA",
+          "Study Publication Author List": "",
+          "Mission": {
+            "End Date": "NA",
+            "Start Date": "NA",
+            "Name": "NA"
+          },
+          "Study Publication Title": "",
+          "Managing NASA Center": "NA",
+          "Study Description": "To realistically evaluate the effects of the environment in space it is necessary to understand the effects of external factors during sample transport from Earth to space. The present study focused on temperature profiling the altered gene expression that develops under low cultivation temperatures in C. elegans used as a space life science model. The 7903 genes were selected as differentially expressed genes and divided into five sets with similar expression patterns using k-means clustering. Results from Gene Ontology analysis are significantly indicated that the cell cycle related genes and the TGF?/insulin-like signal pathway related genes changed. The TGF?/insulin-like signal pathway is expected to be activated due to low temperatures as well as by other stressors. To determine the genes whose expression changed four thermal conditions (10 15 20 and 25  xa1C) DNA microarray analysis was performed. The data consisted of 12 samples consisting of three biological replicates at each temperature.",
+          "organism": "Caenorhabditis elegans",
+          "Identifiers": "GLDS-40"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1277881200
+        ]
+      }
+    ]
+  }
+}

@@ -1,112 +1,150 @@
-# --- Python básico ---
+# =============================
+# PROYECTO NASA-2025 - .gitignore
+# =============================
+# Ajusta según lo que realmente quieras versionar.
+
+###############################
+# 1. PYTHON / BUILD BASICO
+###############################
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.so
-*.egg-info/
 *.egg
+*.egg-info/
+*.manifest
+*.spec
 build/
 dist/
+pip-wheel-metadata/
 .Python
 .venv/
 venv/
 env/
+ENV/
 
-# --- Entornos / herramientas ---
+###############################
+# 2. HERRAMIENTAS / IDE
+###############################
 .idea/
 .vscode/
 .mypy_cache/
 .pytest_cache/
+.ruff_cache/
 .coverage
-coverage.xml
+coverage.*
 htmlcov/
+.DS_Store
+Thumbs.db
 
-# --- Notebooks ---
+###############################
+# 3. NOTEBOOKS
+###############################
 *.ipynb_checkpoints/
+# Ignora notebooks por defecto (descomenta la línea para subirlos todos)
+*.ipynb
+# Si quieres conservar alguno específico, añádelo con ! delante, ej:
+# !demo_explicacion.ipynb
 
-# --- Datos pesados / artefactos (mantener muestras con README) ---
+###############################
+# 4. ENTORNOS / CONFIG LOCAL
+###############################
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+
+###############################
+# 5. LOGS / TEMPORALES
+###############################
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+hs_err_pid*.log
+replay_pid*.log
+
+###############################
+# 6. DATOS (mantener README / muestras)
+###############################
+# Data genérica
 data/raw/*
 !data/raw/README.md
 data/processed/*
 !data/processed/README.md
+
+# Resultados derivados
 results/*
 !results/.gitkeep
 
-# Directorio ODR completo (se sugiere no versionar dataset completo)
-odr/*
-!odr/README.md
+# ODR: ahora se versionan los JSON necesarios para la API (no se ignoran)
+# (Si en el futuro son muy grandes, evaluar Git LFS)
 
-# --- Logs / temporales ---
-*.log
-logs/
-tmp/
-*.tmp
+# Archivos JSON auxiliares (se versionan actualmente)
 
-# --- Sistemas Operativos ---
-.DS_Store
-Thumbs.db
-
-# --- PDFs y binarios grandes (ajusta según necesidad) ---
+###############################
+# 7. ARCHIVOS COMPARTIDOS / BINARIOS
+###############################
 *.pdf
 *.PDF
 *.zip
 *.ZIP
+*.tar
+*.tar.gz
+*.7z
+*.bak
+*.old
+*.orig
+*.rej
+*.diff
+*.patch
+
+# PDFs específicos generados
 backend_documentacion.pdf
 backend_doc_v1.pdf
 morpheus_process_documentation.pdf
 NSLSL-External-Users-Guide-Version-1.0.pdf
 OSD-877_sup_MMP 21243 - APOLLO 15 EXPERIMENT DATA AND SUMMARIES.pdf
 
-# --- Paquetes/comprimidos auxiliares ---
+# Zips específicos
 app.zip
 app1.zip
 odr.zip
 
-# --- Notebooks de trabajo (sube sólo si son imprescindibles) ---
-*.ipynb
-!README*.ipynb
-hackathon.ipynb
-procesamiento.ipynb
-odr_finetuning.ipynb
-
-# --- Logs de errores JVM / sistema ---
-hs_err_pid*.log
-replay_pid*.log
-
-# --- Archivos de entorno ---
-.env
-.env.*
-!.env.example
-
-# --- Carpetas auxiliares vacías o temporales ---
-offload_folder/
-
-# --- Archivos de configuración locales ---
-setup.ps1
-
-# --- JSON de datasets grandes fuera de muestra ---
-humanos-espacio.json
-pmc_articlesv3.json
-
-# --- Documentos guía auxiliares si no deben versionarse ---
-GUIA_MULTIPLES_ARCHIVOS.md
-
-# --- Cache Python adicional ---
-app/__pycache__/
-
-# --- Residuos editor / merge ---
-*.orig
-*.rej
-*.diff
-*.patch
-*.merge
-
-# --- Streamlit ---
+###############################
+# 8. STREAMLIT / FRONTEND
+###############################
 .streamlit/
 
-# --- Otros ---
-*.bak
+###############################
+# 9. SCRIPTS / CONFIG LOCALES
+###############################
+setup.ps1
+GUIA_MULTIPLES_ARCHIVOS.md
+
+###############################
+# 10. CACHE / MODELOS NLP (si llegas a descargarlos)
+###############################
+spacy_models/
+nlp_models/
+model_cache/
+
+###############################
+# 11. OTROS
+###############################
+offload_folder/
 *.swp
-*.orig
-*.patch
+*.swo
+*~
+
+# Si decides usar Git LFS, crea .gitattributes y configura patrones (ej: *.json *.pdf)
+
+# FIN
+# Modelos y binarios grandes (no versionar) - sección consolidada arriba
+# Asegura que cualquier carpeta de modelo cuantizado no se trackee
+odr/odr_model_quantized_int8/
+**/odr_model_quantized_int8/
+*.safetensors

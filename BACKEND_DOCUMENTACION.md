@@ -6,7 +6,7 @@ Documento diseñado para conversión a PDF con estilos. Evitar la palabra "heur�
 # Plataforma de Catálogo Científico – Documentación de Backend
 
 > Versión: 1.0  
-> Última actualización: (actualizar según despliegue)  
+> Última actualización: 2025-10-05  
 > Alcance: Catálogo unificado de estudios y artículos
 
 ---
@@ -222,3 +222,16 @@ El backend constituye una base robusta para descubrimiento científico: integra 
 
 ---
 Fin del documento.
+
+## Apéndice A. Variables de Entorno (Planeadas)
+| Variable | Propósito | Valor por defecto |
+|----------|-----------|-------------------|
+| API_TITLE | Título visible en docs | NASA Studies API |
+| API_VERSION | Versionado semántico | 0.1.0 |
+| LOG_LEVEL | Nivel logging | info |
+| ENABLE_CACHE | Activar/desactivar cache | true |
+| MAX_PAGE_SIZE | Límite superior page_size | 200 |
+| DATA_PATH | Ruta base de datasets | ./odr |
+
+## Apéndice B. Licenciamiento
+Código bajo MIT (ver archivo LICENSE). Datos sujetos a los términos de origen; revisar antes de redistribuir masivamente.

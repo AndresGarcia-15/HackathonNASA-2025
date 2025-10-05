@@ -1,0 +1,78 @@
+{
+  "took": 3,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "CN_6g4QB28eYt3lGS7dW",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "GLDS-497/",
+          "Flight Program": "",
+          "Material Type": "Cells",
+          "Project Identifier": "",
+          "Accession": "OSD-497",
+          "Project Link": "",
+          "Study Identifier": "GLDS-497",
+          "Study Protocol Name": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Assembly",
+          "Study Assay Technology Type": "nucleotide sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Chander Venkateswaran",
+            "Middle Initials": "M",
+            "First Name": "Atul Kasthuri"
+          },
+          "Study Protocol Type": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Assembly",
+          "Space Program": "NASA",
+          "Study Title": "Fungal Diversity associated with space-craft assembly facility (SAF)",
+          "Study Factor Type": "strain",
+          "Study Public Release Date": 1653523200.0,
+          "Parameter Value": "",
+          "thumbnail": "/genelab/img/GLDS497__study_image.png",
+          "Study Factor Name": "Strain",
+          "Study Assay Measurement Type": "genome sequencing",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJNA800051",
+          "Data Source Type": "cgene",
+          "Project Title": "",
+          "Study Funding Agency": "This research was supported by the NASA Planetary Protection Office 15-PPR15-0001 awarded to Kasthuri Venkateswaran.",
+          "Study Protocol Description": "The samples were collected by using moist polyester wipes and subsequently the wipes were agitated in sterile phosphate-buffered saline (PBS). The PBS suspension was concentrated using an InnovaPrep CP150 concentrating pipette, and spread onto different media plates (Dichloran Rose bengal Agar, Potato Dextrose Agar (PDA) and Dichloran glycerol agar). The plates were incubated at 25˚C for 7 to 14 days before isolating fungal strains and stored for further identification. Fungal isolates were restreaked on PDA plates to obtain pure culture and suitable biomass for DNA isolation.     The genomic DNA extraction was performed using the ZymoBIOMICS MagBead DNA kit as per manufacturer’s instructions.     WGS libraries were prepared with an Illumina Nextera DNA Flex library preparation kit.     The fungal genomes were sequenced on the NovaSeq 6000 paired-end 2 X 150-bp platform by using a S4 flow cell.     FastQC v0.11.7 and Fastp v0.20.0 was used for filtering and trimming of reads and the genomes were assembled using SPAdes v3.11.1.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "15-PPR15-0001",
+          "Study Publication Author List": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Study Publication Title": "",
+          "Managing NASA Center": "Jet Propulsion Laboratory (JPL)",
+          "Study Description": "Draft genome sequences of Fungi isolated from Mars 2020 Spacecraft assembly facility are reported. The fungal strains were isolated from samples collected from cleanroom surfaces of Kennedy Space Center-Payload Hazardous Servicing Facility and Jet Propulsion Laboratory-Spacecraft Assembly Facility. Whole genome sequencing (WGS) of these isolates was carried out.",
+          "organism": "Septoriella neoarundinis     fungal sp.     Talaromyces ruber     Penicillium fuscoglaucum     Botryosphaeria agaves     Cladosporium colombiae     Barbatosphaeria neglecta     Neophaeococcomyces aloes     Penicillium caseifulvum     Penicillium brevicompactum     Zalaria obscura     Penicillium decumbens     Pseudopyrenochaeta terrestris     Neocatenulostroma microsporum     Acremonium citrinum     Aureobasidium lini     Roussoella neopustulans     Phialocephala fluminis     Alternaria angustiovoidea     Talaromyces liani     Cystobasidium benthicum     Penicillium sumatraense     Aureobasidium melanogenum     Aspergillus pseudoglaucus     Phaeophleospora eucalypticola     Aspergillus calidoustus     Trichoderma citrinoviride     Aspergillus quadricinctus     Cladosporium austrohemisphaericum     Xylona heveae     Aspergillus costaricaensis     Ganoderma meredithae     Gamszarea kalimantanensis     Cladosporium endophytica     Fusarium nygamai     Exophiala oligosperma",
+          "Identifiers": "GLDS-497"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1653523200
+        ]
+      }
+    ]
+  }
+}

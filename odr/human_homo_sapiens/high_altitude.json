@@ -1,0 +1,464 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 7,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "M9_6g4QB28eYt3lGT7eh",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-539/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "human engineered cartilage",
+          "Project Identifier": "",
+          "Accession": "OSD-539",
+          "Identifiers": "GLDS-539",
+          "Study Identifier": "OSD-539",
+          "Study Protocol Name": "Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol     sample collection",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Ma Aissiou Dhunnoo Jha Ravin Kunze Ma Li Wong Adesida",
+            "Middle Initials": "",
+            "First Name": "Zhiyao AK K. S. R. M. HZ DX K. AB"
+          },
+          "Study Protocol Type": "Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation     data transformation     sample collection",
+          "Space Program": "",
+          "Study Title": "Transcriptomic response of bioengineered human cartilage to parabolic flight microgravity is sex-dependent",
+          "Study Factor Type": "Sex     treatment",
+          "Study Public Release Date": 1664496000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-539/image",
+          "Study Factor Name": "Sex     Treatment",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "High Altitude Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE206008",
+          "Project Title": "",
+          "Study Funding Agency": "The project was supported by the National Research Council of Canada (NRC), NRC’s Aerospace Flight Research Laboratory, SEDS-Canada, Canadian Space Agency, the University of Alberta Engineering Students’ Society, Faculty of Engineering, Natural Sciences and Engineering Research Council (NSERC RGPIN-2018-06290 Adesida), the Alberta Women’s Health Foundation through the Women and Children’s Health Research Institute (UOFAB WCHRIIG 3126 Adesida), the Canadian Institutes of Health Research (CIHR MOP 125921 Adesida), the Cliff Lede Family Charitable Foundation through the University Hospital Foundation (RES00045921 Adesida) and the University of Alberta Pilot Seed Grant Program (UOFAB PSGP).",
+          "Study Protocol Description": "RNA was extracted using LunaNano PureSPIN columns with a DNAse digestion step. RNA concentrations were measured using a NanoDrop One. Equal masses of RNA from 4 replicate tissues from each donor in each condition were then pooled together to reduce inter-replicate variability (12 pools in total).     Samples were shipped to the UBC Biomedical Research Center     Samples were shipped to the UBC Biomedical Research Center for RNA sequencing. Illumina NextSeq 500: PolyA selection, 20million paired reads     Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of H-sapiens rRNA sequences retrieved from NCBI on 01-Sep-2021.     Data were processed as described in GL-DPPD-7101-F (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-F.md), using NF_RCP-F version 1.0.3 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_RCP-F_1.0.3/RNAseq/Workflow_Documentation/NF_RCP-F). In short, raw fastq files were filtered using Trim Galore! (version 0.6.7) powered by Cutadapt (version 3.7). Trimmed fastq file quality was evaluated with FastQC (version 0.11.9), and MultiQC (version 1.12) was used to generate MultiQC reports. Homo sapiens STAR and RSEM references were built using STAR (version 2.7.10a) and RSEM (version 1.3.1), respectively, Ensembl release 107, genome version GRCh38 (Homo_sapiens.GRCh38.dna.primary_assembly.fa) and the following gtf annotation file: Homo_sapiens.GRCh38.107.gtf. Trimmed reads were aligned to the Homo sapiens STAR reference with STAR (version 2.7.10a) and alignment log files were compiled with MultiQC (version 1.12). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 4.0.0), gene body coverage using RSeQC geneBody_coverage.py (version 4.0.0), and distribution of RNA features using RSeQC read_distribution.py (version 4.0.0). Aligned reads from all samples were quantified using RSEM (version 1.3.1), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.12). The runsheet was generated with dp_tools (version 1.1.8) and the runsheet and quantification data were imported into R (version 4.1.3) with tximport (version 1.27.1) and normalized with DESeq2 (version 1.34.0) median of ratios method. Differential expression analysis was performed in R (version 4.1.3) using DESeq2 (version 1.34.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Hs.eg.db (version 3.15.0).     Human bone marrow aspirates were collected from the iliac crest of three male (ages 57-64) and three female (ages 59 -64) donors, the mononucleated cells (MNCs) of the aspirates were obtained after centrifugation. The isolated MNC were then expanded in the medium and The adherent hBMSC were then detached using 0.05% w/v trypsin-EDTA and expanded until passage 2 (P2) as previously described. To form bioengineered cartilage-like tissue, hBMSCs were seeded on type I collagen and prrcultured for 3 weeks",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Aissiou AK  Jha S  Dhunnoo K  Ma Z  Li DX  Ravin R  Kunze M  Wong K  Adesida AB.",
+          "Project Link": "",
+          "Study Publication Title": "Transcriptomic response of bioengineered human cartilage to parabolic flight microgravity is sex-dependent.",
+          "Managing NASA Center": "",
+          "Study Description": "Spaceflight and simulated spaceflight microgravity induced osteoarthritic-like alterations at the transcriptomic and proteomic levels in the articular and meniscal cartilages of rodents. But little is known about the effect of spaceflight or simulated spaceflight microgravity on the transcriptome of tissue-engineered cartilage developed from human cells. In this study, we investigate the effect of simulated spaceflight microgravity facilitated by parabolic flights on tissue-engineered cartilage developed from chondrogenically differentiated human bone marrow mesenchymal stem cells obtained from age-matched female and male donors. Our bulk transcriptome data via RNA sequencing demonstrated that the engineered tissues responded to parabolic microgravity in a sex-dependent manner.",
+          "organism": "Homo sapiens",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/fzg4-9534",
+          "url": "https://doi.org/10.26030/fzg4-9534"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1664496000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "h9_6g4QB28eYt3lGOLb2",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-355/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "blood serum",
+          "Project Identifier": "",
+          "Accession": "OSD-355",
+          "Identifiers": "GLDS-355",
+          "Study Identifier": "OSD-355",
+          "Study Protocol Name": "treatment protocol     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Study Assay Technology Type": "miRNA sequencing",
+          "Acknowledgments": "We would like to thank the German Aerospace centre (DLR) as well as the German Federal Ministry for Economic Affairs and Energy for provision by means of support and funding for the conduction of the outlined study.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Hackl Jung",
+            "Middle Initials": "",
+            "First Name": "Matthias Christian"
+          },
+          "Study Protocol Type": "treatment protocol     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Space Program": "German Aerospace Center (DLR)",
+          "Study Title": "Next-generation sequencing analysis of circulating micro-RNA expression in response to parabolic flight as a spaceflight analogue",
+          "Study Factor Type": "time     Gravity, Altered",
+          "Study Public Release Date": 1605484800.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-355/image",
+          "Study Factor Name": "Time     Altered Gravity",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "High Altitude Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE147380",
+          "Project Title": "",
+          "Study Funding Agency": "This work was supported by grants from the National Natural Science Founda- tion of China (31500686, 31702374, 31870855, 31900537, and 81703400) and the ‘‘Huxiang Young Talents Plan’’ Project of Hunan Province (2019RS2030).",
+          "Study Protocol Description": "Eight healthy participants were enrolled in this study. All voluntary participants were recruited and included at the University Clinic Düsseldorf after written informed consent. The study was conducted in accordance with the Declaration of Helsinki. The study protocol was approved by the German Ethics Committee (Medical Faculty of the University Hospital Duesseldorf, Germany) and by the French Ethics Committee (Medical Faculty of the University of Caen). The inclusion criteria were defined as: age >18 years; airworthiness; cardiorespiratory health; spontaneous circulation; signed informed consent. The exclusion criteria were defined as: history of primary cardiovascular and respiratory diseases or regular intake of medication except for oral contraceptives, missing or withdrawal of informed consent, insufficient requirements for airworthiness and pregnancy.\n\nThe term 'Parabolic flight' denominates a special aerial manoeuvre, in which the aircraft follows the trajectory of a parabola. By means of this manoeuvre, short phases of weightlessness and hypergravity can be induced. After starting at steady flight (1 g), an up to 47 degree ascent initiates a phase of hypergravity (1.8 g). After the climb, the plane is decelerated and directed into descent to follow the trajectory. In this state, a phase of weightlessness is achieved (0 g). With the plane tilting forward, an up to 45 degree descent is initiated, again inducing a phase of hypergravity (1.8 g), before re-entering the steady flight (1 g). Each of these phases averages 20–25 s, respectively.\n\nThe present study was performed in the course of the 31st Parabolic Flight Campaign (PFC) of the German space agency (Deutsches Zentrum für Luft- und Raumfahrt - DLR) conducted by the company NoveSpace, which took place from February 26th to March 11th 2018, in Bordeaux, France. The aircraft used in this campaign was a modified Airbus A-310. The PFC consisted of four flight days, with 31 parabolic flight manoeuvres per flight day. Each study subject participated in one complete flight day. In all participants serum samples were withdrawn before entering the plane 1 h prior parabolic flight (baseline 08:00 ± 0.75 h), 1 h after parabolic flight (13:00 ± 1.0 h) and 24 h after parabolic flight 08:00 ± 0.75 h). At each of the time points, serum samples were collected with individual punctures. For each blood withdraw, the following materials were used: BD vacutainer tubes (Becton Dickinson, Mountain View, CA), 3 SST tubes (Reference # 367957, Tube size: 75 × 13 mm, draw volume: 3.5 ml), 1 SST tube (Reference # 367955, Tube size: 100 × 13 mm, Draw volume: 5 ml. After completion of each blood-draw, blood was stored at room-temperature for 3 min. Afterwards, centrifugation at 2000×g for 7 min was conducted. Following centrifugation, serum samples aliquots were frozen and stored at −80 °C until further analysis.     Serum samples were thawed at room temperature followed by centrifugation at 12,000×g for 5 min at 4 C to remove any cellular debris. Extraction was conducted by use of the miRNA easy QIAgen kit. For homogenization, 200 µl of serum were mixed with 1000 µl Qiazol and 1 µl of a mix of three synthetic spike-in controls (Qiagen, Germany). After a 10-min incubation at room temperature, 200 µl chloroform were added to the lysates followed by cooled centrifugation at 12,000×g for 15 min at 4 C. Precisely 650 µl of the upper aqueous phase were mixed with 7 µl glycogen (50 mg/ml) to enhance precipitation. Samples were transferred to a miRNeasy mini column, and RNA was precipitated with 750 µl ethanol followed by automated washing with RPE and RWT buffer in a QiaCube liquid handling robot. Finally, total RNA was eluted in 30 µl nuclease free water and stored at −80 C until further analysis.     Equal volumes of total RNA (2 µl) were used for small RNA library preparation using the CleanTag smallRNA library preparation kit (TriLink Biotechnologies, US). Homogeneity of RNA extraction efficiencies across all samples was confirmed by RT-qPCR. Adapter-ligated libraries were amplified using barcoded Illumina reverse primers in combination with the Illumina forward primer. Twenty-four PCR cycles were used for library preparation according to the manufacturers recommendation for low RNA input samples. A pool consisting of all 24 sequencing libraries was prepared by mixing samples at equimolar rates on the basis of a DNA-1000 high-sensitivity bioanalyzer results (Agilent, CA). The DNA library pool was gel-purified to enrich for microRNAs with an insert size of 18–24 nt, corresponding to a library size of approximately 145 bp.     Sequencing was performed on an Illumina HiSeq 2500 with 50 bp single-end runs.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Jirak P  Wernly B  Lichtenauer M  Franz M et al.",
+          "Project Link": "",
+          "Study Publication Title": "Next-generation sequencing analysis of circulating micro-RNA expression in response to parabolic flight as a spaceflight analogue",
+          "Managing NASA Center": "",
+          "Study Description": "Understanding physiologic reactions to weightlessness is an indispensable requirement for safe human space missions. While adaptations of human organ systems in response to weightlessness have been described in former studies, their molecular background needs further elucidation. The study aims to analyse changes in the expression of circulating miRNAs in serum in response to gravitational changes induced by parabolic flight as a spaceflight analogue.",
+          "organism": "Homo sapiens",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/q77a-cc08",
+          "url": "https://doi.org/10.26030/q77a-cc08"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1605484800
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Rt_6g4QB28eYt3lGM7b3",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-297/",
+          "Flight Program": "TEXUS-49 and TEXUS-51",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "",
+          "Accession": "OSD-297",
+          "Identifiers": "GLDS-297",
+          "Study Identifier": "OSD-297",
+          "Study Protocol Name": "RNA extraction     labeling     nucleic acid hybridization     data collection     normalization data transformation     growth     treatment     sample collection",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "We are grateful to the German Aerospace Center (DLR), to Airbus DS GmbH, the DLR Mobile Rocket Base (MORABA), to the Swedish Space Cooperation (SSC), and to Novespace for their outstanding support and the excellent and highly professional teamwork. We especially thank Markus Braun, Ulrike Friedrich, Claudia Philpot, Otfried Joop, Thierry Gharib, Frederic Gai, Christophe Mora and Mikael Toyra. We express our thanks for the technical support to Sonja Krammer, Miriam Christen, Brita Scholte and Isabell Buttron. We also express our thanks to Jutta Muller and Marianne Ott for their administrative support. We gratefully acknowledge the support of the Swiss Air Force. We are very thankful to Annette Schneider-Solis for the excellent collaboration in media relations.",
+          "Study Assay Technology Platform": "Nimblegen",
+          "Study Person": {
+            "Last Name": "Thiel",
+            "Middle Initials": "S",
+            "First Name": "Cora"
+          },
+          "Study Protocol Type": "RNA extraction     labeling     nucleic acid hybridization     data collection     normalization data transformation     growth     treatment     sample collection",
+          "Space Program": "ESRANGE (European Space and Sounding Rocket Range) Space Center",
+          "Study Title": "Dynamic gene expression response to altered gravity in human myelomonocytic U937 cells [sounding rocket]",
+          "Study Factor Type": "Gravity, Altered     treatment",
+          "Study Public Release Date": 1539648000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-297/image",
+          "Study Factor Name": "Altered Gravity     Treatment",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "High Altitude Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE101299",
+          "Project Title": "",
+          "Study Funding Agency": "This research was funded by the Federal Ministry for Economic Affairs and Energy, German Aerospace Center, Federal Republic of Germany.",
+          "Study Protocol Description": "In summary, samples (1.8 mL) were sheared three times by passing them through a 20 G needle (B. Braun Melsungen, Melsungen, Germany), mixed with 0.2 mL chloroform and centrifuged. The upper phase was mixed with 4 mL RLT buffer and 3 mL ethanol and processed using a RNA Midi column (Qiagen, Hilden, Germany). After elution from the column, RNA was transported and stored at 80C.     Cy3-labeled with the Low RNA Input Linear Amplification Kit, PLUS, One-Color (Agilent Technologies)     Hybridization for 17.5 h to a NimbleGen expression microarray (12x135,000 features) applying the Gene Expression Hybridization Kit (Agilent Technologies, USA).     The image files of the scanner were analyzed with the NimbleScan Software 2.6 using the Robust Multi-Array Analysis (RMA) with default parameters.     RMA represents a probe-level summarization method that identifies probes that are outliers in the overall behavior of the expression measured for a given gene.  The differential expression of transcripts was determined based on the normalized microarray data using Excel 2013 and expression fold changes (FCs) of all of the transcripts on the microarray were calculated.     The human myelomonocytic cell line U937 (ATCC CRL1593.2) was used as a model cell line to analyze the differential gene expression under altered gravity conditions in the human monocyte-macrophage system. U937 cells were cultured in RPMI-1640 (Biochrom/Merck Millipore, Germany), supplemented with 10% fetal bovine serum (FBS Superior; Biochrom/Merck Millipore, Germany), 1% glutamine (200 mM; Gibco/Life Technologies, Germany) and 1% penicillin/streptomycin (10,000 U/ml and 10,000 ug/ml respectively; Gibco/Life Technologies, Germany). Cells were cultured with a density of 0.2x10^6 cells/ml and medium exchange was performed every 48 hours.     Cells were pooled to a concentration of 5x10^7 cells/ml. 0.5ml of cells (i.e. 25 million cells) and filled in sterile 3ml plastic syringes shortly before the handover to the launch team. Additionally, a second set of syringes was filled with 0.3ml of cell culture medium with or without 0.3ml SKF-96365 (25uM; Sigma Aldrich, Germany), and a third set with 1ml Trizol LS (Life Technologies, Germany) per sample unit. The three syringes with small plugs at the outlet ports were mounted on a sterilized plastic T-block with a connecting tubing system. 26 experiment units were prepared and stored at 36.5C +/- 0.5C until integration into the payload of the rocket or until manual execution of the ground controls, respectively.     After landing, recovery of the payload, and disassembly of the experiment units, purification of total RNA immediately started.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "50WB1219 and 50WB1519",
+          "Study Publication Author List": "Johannes Vogel  Cora Sandra Thiel  Svantje Tauber  Christian Stockmann  Max Gassmann and Oliver Ullrich     Cora S. Thiel  Svantje Tauber  Swantje Christoffel  Andreas Huge  Beatrice A. Lauber  Jennifer Polzer  Katrin Paulsen  Hartwin Lier  Frank Engelmann  Burkhard Schmitz  Andreas Schutte  Christiane Raig  Liliana E. Layer  and Oliver Ullrich     Svantje Tauber  Swantje Christoffel  Cora Sandra Thiel  and Oliver Ullrich",
+          "Project Link": "",
+          "Study Publication Title": "Expression of Hypoxia-Inducible Factor 1a (HIF-1a) and Genes of Related Pathways in Altered Gravity     Rapid coupling between gravitational forces and the transcriptome in human myelomonocytic U937 cells     Transcriptional Homeostasis of Oxidative Stress-Related Pathways in Altered Gravity",
+          "Managing NASA Center": "",
+          "Study Description": "We investigated differentially regulated genes in human myelomonocytic U937 cells in 20s and 5min microgravity and in hypergravity and compared expression profiles to identify potential gravity-regulated genes and adaptation processes. Overall design: Human myelomonocytic U937 cells were exposed to altered gravity during a sounding rocket mission.",
+          "organism": "Homo sapiens",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/bb5k-1h18",
+          "url": "https://doi.org/10.26030/bb5k-1h18"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1539648000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "t9_6g4QB28eYt3lGKbUG",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-283/",
+          "Flight Program": "Airbus A300 ZERO-G (reg. no. F-BUAD)",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "",
+          "Accession": "OSD-283",
+          "Identifiers": "GLDS-283",
+          "Study Identifier": "OSD-283",
+          "Study Protocol Name": "growth     treatment     sample collection     RNA extraction     labeling     nucleic acid hybridization     data collection     normalization data transformation",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "We are grateful to the German Aerospace Center (DLR), to Airbus DS GmbH, the DLR Mobile Rocket Base (MORABA), to the Swedish Space Cooperation (SSC), and to Novespace for their outstanding support and the excellent and highly professional teamwork. We especially thank Markus Braun, Ulrike Friedrich, Claudia Philpot, Otfried Joop, Thierry Gharib, Frederic Gai, Christophe Mora and Mikael Toyra. We express our thanks for the technical support to Sonja Krammer, Miriam Christen, Brita Scholte and Isabell Buttron. We also express our thanks to Jutta Muller and Marianne Ott for their administrative support. We gratefully acknowledge the support of the Swiss Air Force. We are very thankful to Annette Schneider-Solis for the excellent collaboration in media relations.",
+          "Study Assay Technology Platform": "Nimblegen",
+          "Study Person": {
+            "Last Name": "Thiel",
+            "Middle Initials": "S",
+            "First Name": "Cora"
+          },
+          "Study Protocol Type": "growth     treatment     sample collection     RNA extraction     labeling     nucleic acid hybridization     data collection     normalization data transformation",
+          "Space Program": "German Aerospace Center (DLR)",
+          "Study Title": "Dynamic gene expression response to altered gravity in human myelomonocytic U937 cells [parabolic]",
+          "Study Factor Type": "Gravity, Altered",
+          "Study Public Release Date": 1539648000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-283/image",
+          "Study Factor Name": "Altered Gravity",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "High Altitude Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE101212",
+          "Project Title": "",
+          "Study Funding Agency": "This research was funded by the Federal Ministry for Economic Affairs and Energy, German Aerospace Center, Federal Republic of Germany.",
+          "Study Protocol Description": "The human myelomonocytic cell line U937 (ATCC CRL1593.2, Manassas, VA, USA) was used as a model cell line to analyze the differential gene expression under altered gravity conditions in the human monocyte-macrophage system. U937 cells were cultured in RPMI 1640 medium (Biochrom/MerckMillipore, Germany), supplemented with 10% fetal bovine serum (FBS Superior; Biochrom/Merck Millipore, Germany), 2mM glutamine (Gibco/Life Technologies, Germany), and 100U/mL penicillin as well as 100 ug/mL streptomycin (Gibco/Life Technologies, Germany). Cells were seeded with a density of 0.2 x 10e6 cells/mL and the medium was exchanged every 48 hours.     During the parabolic flight campaign (19th DLR PFC), U937 cells were subjected to 20s of hypergravity (1.8g) and subsequently to 20s of microgravity during the first parabola, and samples were obtained at the end of each flight phase. Control samples were obtained in-flight 5min before the first parabola and on ground.     Post-flight, all of the samples were directly transported to the on-site laboratory where total RNA was purified.     After landing of the aircraft and transport of the samples to the laboratory facilities, the protective plastic housings were disassembled, the Nutrimix bags were gently agitated, and the lysed cell solution was filled into a T75 straight neck cell culture flask. The cell solution was mixed for 10 s by vortexing and sheared by passing four times through a 0.8 x 120 mm needle (B. Braun Melsungen, Melsungen, Germany) fitted to a sterile 50-mL syringe. Then, 50 mL of absolute ethanol was added, and precipitates were resuspended by vigorous shaking. A Qiavac 24 plus vacuum system (Qiagen, Hilden, Germany) was prepared by placing 24 valves and sterile connective pieces on the Qiavac 24 plus vacuum manifold, and an RNA maxi column (Qiagen, Hilden, Germany) was attached to each connective piece. The system was set to a vacuum level of 200 mbar, and the RNA maxi columns were loaded with the lysed cell suspensions. Subsequently, the valves were closed, and the RNA maxi columns were centrifuged at 3220 g for three min at room temperature. Then, 15 mL of buffer RW1 (Qiagen, Hilden, Germany) was carefully applied to the column to wash the membrane-bound RNA. After centrifugation at 3220 g for seven min at room temperature, the flow through was discarded, and an additional two washing steps were performed with 10 mL of RPE buffer (Qiagen, Hilden, Germany) followed by centrifugation at 3220 g for three min and 10 min at room temperature, respectively. The column-bound RNA was eluted by the application of 600 uL of pre-warmed RNase-free water (Qiagen, Hilden, Germany), incubation for one min at room temperature, and centrifugation for four min at 3220 g again at room temperature. The elution step was repeated with the first eluate, the column was centrifuged for seven min at 3220 g, and the purified RNA was stored in a sterile 1-mL cryotube on dry ice. Finally, the extracted RNA was transported on dry ice and stored at 80 C until the processing of the RNA for the microarray analysis.     Cy3-labeled with the Low RNA Input Linear Amplification Kit, PLUS, One-Color (Agilent Technologies)     Hybridization for 17.5 h to a NimbleGen expression microarray (12 x 135,000) features employing the Gene Expression Hybridization Kit (Agilent Technologies)     The image files of the scanner were analyzed with the NimbleScan Software 2.6 using the Robust Multi-Array Analysis (RMA) with default parameters.     RMA represents a probe-level summarization method that identifies probes that are outliers in the overall behavior of the expression measured for a given gene.  The differential expression of transcripts was determined based on the normalized microarray data using Excel 2013 and expression fold changes (FCs) of all of the transcripts on the microarray were calculated.",
+          "Experiment Platform": "Storage rack  cooling rack  working rack",
+          "Characteristics": "",
+          "Study Grant Number": "50WB1219 and 50WB1519",
+          "Study Publication Author List": "Johannes Vogel  Cora Sandra Thiel  Svantje Tauber  Christian Stockmann  Max Gassmann and Oliver Ullrich     Cora S. Thiel \nSvantje Tauber \nSwantje Christoffel \nAndreas Huge \nBeatrice A. Lauber \nJennifer Polzer \nKatrin Paulsen \nHartwin Lier \nFrank Engelmann \nBurkhard Schmitz \nAndreas Sch�tte \nChristiane Raig \nLiliana E. Layer &\nOliver Ullrich     Svantje Tauber  Swantje Christoffel  Cora Sandra Thiel and Oliver Ullrich",
+          "Project Link": "",
+          "Study Publication Title": "Expression of Hypoxia-Inducible Factor 1a (HIF-1a) and Genes of Related Pathways in Altered Gravity     Rapid coupling between gravitational forces and the transcriptome in human myelomonocytic U937 cells     Transcriptional Homeostasis of Oxidative Stress-Related Pathways in Altered Gravity",
+          "Managing NASA Center": "",
+          "Study Description": "We investigated differentially regulated genes in human myelomonocytic U937 cells in 20s and 5min microgravity and in hypergravity and compared expression profiles to identify potential gravity-regulated genes and adaptation processes. Overall design: Human myelomonocytic U937 cells were exposed to altered gravity during a parabolic flight.",
+          "organism": "Homo sapiens",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/ge2v-wr94",
+          "url": "https://doi.org/10.26030/ge2v-wr94"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1539648000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "0N_6g4QB28eYt3lGKrXq",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-189/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "Simulated_Microgravity, Simulated_Hypergravity",
+          "Accession": "OSD-189",
+          "Identifiers": "GLDS-189",
+          "Study Identifier": "OSD-189",
+          "Study Protocol Name": "growth protocol     treatment protocol     RNA extraction     labeling     nucleic acid hybridization     scan protocol     normalization data transformation     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Thiel",
+            "Middle Initials": "S.",
+            "First Name": "Cora"
+          },
+          "Study Protocol Type": "growth protocol     treatment protocol     RNA extraction     labeling     nucleic acid hybridization     scan protocol     normalization data transformation     data transformation",
+          "Space Program": "German Aerospace Center DLR",
+          "Study Title": "Gene expression response to simulated gravity and hypergravity in human T cells",
+          "Study Factor Type": "Gravity, Altered",
+          "Study Public Release Date": 1520467200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-189/image",
+          "Study Factor Name": "Altered Gravity",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "High Altitude Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE101101",
+          "Project Title": "",
+          "Study Funding Agency": "German Aerospace Center DLR, Federal Ministry for Economic Affairs and Energy of the Federal Republic of Germany",
+          "Study Protocol Description": "Jurkat T cells were cultivated in RPMI 1640 medium, supplemented with 10% fetal bovine serum, 2 mM glutamine and 100 U/ml penicillin as well as 100 µg/ml streptomycin. Cells were cultured with a density of 0.2x10^6 cells/ml and medium exchange was performed every 48 hours.     Human Jurkat T cells were exposed for 5 min to simulated microgravity and hypergravity (9g) during ground based facility experiments.     Jurkat cells were lysed with Trizol LS and total RNA was extracted following the Rneasy Midi Kit protocol (Qiagen).     The fragmented and biotinylated DNA targets were prepared according to the standard Affymetrix WT PLUS Reagent Kit protocol (Affymetrix GeneChip® WT PLUS Reagent Kit, 902280) from 100 ng total RNA starting material and 5.5 µg cDNA intermediate product.     DNA targets were hybridized for 17h at 45°C on GeneChip Human Transcriptome Arrays 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450 according to the standard GeneChip Expression Wash, Stain and Scan protocol (Affymetrix GeneChip Wash, Stain and Scan Kit, 900720).     Subsequently, the GeneChips were scanned using the Affymetrix 3000 7G scanner.     For microarray data analysis, the Affymetrix Expression Console and Transcriptome Analysis Console was used. The robust multi-array (RMA) averaging method was applied for background correction, quantile normalization, and probe summarization.     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Hs.eg.db (version 3.15.0).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "50WB1219",
+          "Study Publication Author List": "Cora S. Thiel  Andreas Huge  Swantje Hauschild  Svantje Tauber  Beatrice A. Lauber  Jennifer Polzer  Katrin Paulsen  Hartwin Lier  Frank Engelmann  Burkhard Schmitz  Andreas Schütte  Liliana E. Layer  and Oliver Ullrich",
+          "Project Link": "",
+          "Study Publication Title": "Stability of gene expression in human T cells in different gravity environments is clustered in chromosomal region 11p15.4",
+          "Managing NASA Center": "",
+          "Study Description": "We investigated differentially regulated and stably expressed genes in human Jurkat T lymphocytic cells in 5min simulated microgravity and hypergravity and compared expression profiles to identify gravity-regulated and unaffected genes as well as adaptation processes. This dataset is part of a series of three, and the other two datasets are deposited in GLDS-172 and GLDS-188.",
+          "organism": "Homo sapiens",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/r0md-de60",
+          "url": "https://doi.org/10.26030/r0md-de60"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1520467200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "gN_6g4QB28eYt3lGOLaL",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-188/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "",
+          "Accession": "OSD-188",
+          "Identifiers": "GLDS-188",
+          "Study Identifier": "OSD-188",
+          "Study Protocol Name": "growth protocol     treatment protocol     RNA extraction     labeling     nucleic acid hybridization     scan protocol     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Thiel",
+            "Middle Initials": "S",
+            "First Name": "Cora"
+          },
+          "Study Protocol Type": "growth protocol     treatment protocol     RNA extraction     labeling     nucleic acid hybridization     scan protocol     data transformation",
+          "Space Program": "German Aerospace Center (DLR)",
+          "Study Title": "Dynamic gene expression response to altered gravity in human T cells (sounding rocket flight)",
+          "Study Factor Type": "Gravity, Altered",
+          "Study Public Release Date": 1502409600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-188/image",
+          "Study Factor Name": "Altered Gravity",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "High Altitude Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE94255",
+          "Project Title": "",
+          "Study Funding Agency": "German Aerospace Center DLR",
+          "Study Protocol Description": "Jurkat T cells were cultivated in RPMI 1640 medium, supplemented with 10% fetal bovine serum, 2 mM glutamine and 100 U/ml penicillin as well as 100 µg/ml streptomycin. Cells were cultured with a density of 0.2x10^6 cells/ml and medium exchange was performed every 48 hours.     Human Jurkat T cells were exposed to altered gravity conditions during a sounding rocket flight.\n\nBaseline: Jurkat T cells were lysed at time point T + 75 s to monitor the hypergravity and vibration effects of the rocket launch.\n\nMicrogravity and 1 g in-flight reference centrifuge control: Jurkat T cells were lysed after 415 s post-launch.\n\nHardware 1 g ground control and cell culture control: Jurkat T cells  were lysed post-flight approximately 15 min after the rocket launch.     Jurkat cells were lysed with Trizol LS and total RNA was extracted following the Rneasy Midi Kit protocol (Qiagen).     The fragmented and biotinylated DNA targets were prepared according to the standard Affymetrix WT PLUS Reagent Kit protocol (Affymetrix GeneChip® WT PLUS Reagent Kit, 902280) from 100 ng total RNA starting material and 5.5 µg cDNA intermediate product.     DNA targets were hybridized for 17h at 45°C on GeneChip Human Transcriptome Arrays 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450 according to the standard GeneChip Expression Wash, Stain and Scan protocol (Affymetrix GeneChip Wash, Stain and Scan Kit, 900720).     Subsequently, the GeneChips were scanned using the Affymetrix 3000 7G scanner.     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Hs.eg.db (version 3.15.0).",
+          "Experiment Platform": "TEXUS-51",
+          "Characteristics": "",
+          "Study Grant Number": "50WB1219",
+          "Study Publication Author List": "Thiel CS  Hauschild S  Huge A  Tauber S  Lauber BA  Polzer J  Paulsen K  Lier H  Engelmann F  Schmitz B  Schütte A  Layer LE  Ullrich O     Thiel CS  Huge A  Hauschild S  Tauber S  Lauber BA  Polzer J  Paulsen K  Lier H  Engelmann F  Schmitz B  Schütte A  Layer LE  Ullrich O.     Vogel J  Thiel CS  Tauber S  Stockmann C  Gassmann M  Ullrich O     Tauber S  Christoffel S  Thiel CS  Ullrich O",
+          "Project Link": "",
+          "Study Publication Title": "Dynamic gene expression response to altered gravity in human T cells     Stability of gene expression in human T cells in different gravity environments is clustered in chromosomal region 11p15.4     Expression of Hypoxia-Inducible Factor 1α (HIF-1α) and Genes of Related Pathways in Altered Gravity     Transcriptional Homeostasis of Oxidative Stress-Related Pathways in Altered Gravity",
+          "Managing NASA Center": "",
+          "Study Description": "We investigated differentially regulated genes in human Jurkat T lymphocytic cells in 20s and 5min microgravity and in hypergravity and compared expression profiles to identify potential gravity-regulated genes and adaptation processes. This dataset is part of a series of three, and the other two datasets are deposited in GLDS-172 and GLDS-189.",
+          "organism": "Homo sapiens",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/3jq1-s218",
+          "url": "https://doi.org/10.26030/3jq1-s218"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1502409600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "zN_6g4QB28eYt3lGKrWH",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-172/",
+          "Flight Program": "Airbus A300 ZERO-G",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Cells",
+          "Project Identifier": "",
+          "Accession": "OSD-172",
+          "Identifiers": "GLDS-172",
+          "Study Identifier": "OSD-172",
+          "Study Protocol Name": "growth protocol     treatment protocol     Nucleic Acid Extraction     Labeling     nucleic acid hybridization     scan protocol     normalization data transformation     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Thiel",
+            "Middle Initials": "S.",
+            "First Name": "Cora"
+          },
+          "Study Protocol Type": "growth protocol     treatment protocol     nucleic acid extraction protocol     labeling     nucleic acid hybridization to array protocol     scan protocol     normalization data transformation     data transformation",
+          "Space Program": "German Aerospace Center (DLR)",
+          "Study Title": "Dynamic gene expression response to altered gravity in human T cells (parabolic flight)",
+          "Study Factor Type": "Gravity, Altered",
+          "Study Public Release Date": 0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-172/image",
+          "Study Factor Name": "Altered Gravity",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "High Altitude Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE94253",
+          "Project Title": "",
+          "Study Funding Agency": "German Aerospace Center DLR, Federal Ministry for Economic Affairs and Energy of the Federal Republic of Germany",
+          "Study Protocol Description": "Jurkat T cells were cultivated in RPMI 1640 medium, supplemented with 10% fetal bovine serum, 2 mM glutamine and 100 U/ml penicillin as well as 100 µg/ml streptomycin. Cells were cultured with a density of 0.2x10^6 cells/ml and medium exchange was performed every 48 hours.     Human Jurkat T cells were exposed to altered gravity conditions during a parabolic flight.     Jurkat cells were lysed with RLT buffer and total RNA was extracted following the Rneasy Maxi Kit protocol (Qiagen).     The fragmented and biotinylated DNA targets were prepared according to the standard Affymetrix WT PLUS Reagent Kit protocol (Affymetrix GeneChip® WT PLUS Reagent Kit, 902280) from 100 ng total RNA starting material and 5.5 µg cDNA intermediate product.     DNA targets were hybridized for 17h at 45°C on GeneChip Human Transcriptome Arrays 2.0. GeneChips were washed and stained in the Affymetrix Fluidics Station 450 according to the standard GeneChip Expression Wash, Stain and Scan protocol (Affymetrix GeneChip Wash, Stain and Scan Kit, 900720).     Subsequently, the GeneChips were scanned using the Affymetrix 3000 7G scanner.     For microarray data analysis, the Affymetrix Expression Console and Transcriptome Analysis Console was used. The robust multi-array (RMA) averaging method was applied for background correction, quantile normalization, and probe summarization.     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Hs.eg.db (version 3.15.0).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "50WB1219",
+          "Study Publication Author List": "Cora S. Thiel  Swantje Hauschild  Andreas Huge  Svantje Tauber  Beatrice A. Lauber  Jennifer Polzer  Katrin Paulsen  Hartwin Lier  Frank Engelmann  Burkhard Schmitz  Andreas Schütte  Liliana E. Layer  and Oliver Ullrich     Cora S. Thiel  Swantje Hauschild  Andreas Huge  Svantje Tauber  Beatrice A. Lauber  Jennifer Polzer  Katrin Paulsen  Hartwin Lier  Frank Engelmann  Burkhard Schmitz  Andreas Schütte  Liliana E. Layer  and Oliver Ullrich",
+          "Project Link": "",
+          "Study Publication Title": "Dynamic gene expression response to altered gravity in human T cells     Stability of gene expression in human T cells in different gravity environments is clustered in chromosomal region 11p15.4",
+          "Managing NASA Center": "",
+          "Study Description": "We investigated differentially regulated genes in human Jurkat T lymphocytic cells in 20s and 5min microgravity and in hypergravity and compared expression profiles to identify potential gravity-regulated genes and adaptation processes. This dataset is part of a series of three, and the other two datasets are deposited in GLDS-188 and GLDS-189.",
+          "organism": "Homo sapiens",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/jx41-b816",
+          "url": "https://doi.org/10.26030/jx41-b816"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          0
+        ]
+      }
+    ]
+  }
+}

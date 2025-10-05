@@ -1,0 +1,336 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 5,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "K9_6g4QB28eYt3lGTrfb",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-524/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "whole embryos",
+          "Project Identifier": "Gamma_Irradiation, High_Dose_Irradiation, Low_LET_Irradiation",
+          "Accession": "OSD-524",
+          "Identifiers": "GLDS-524",
+          "Study Identifier": "OSD-524",
+          "Study Protocol Name": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Animal husbandry     irradiation protocol     GeneLab raw data processing protocol",
+          "Study Assay Technology Type": "Bisulfite sequencing",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Kamstra Hurem Martin Lindeman Legler Oughton Salbu Lyche Aleström",
+            "Middle Initials": " M C L",
+            "First Name": "Jorke Selma Leonardo Leif Juliette Deborah Brit Jan Peter"
+          },
+          "Study Protocol Type": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Animal Husbandry     acute     data transformation",
+          "Space Program": "",
+          "Study Title": "Ionizing radiation induces transgenerational effects of DNA methylation in zebrafish",
+          "Study Factor Type": "ionizing radiation     generation",
+          "Study Public Release Date": 1664323200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-524/image",
+          "Study Factor Name": "Ionizing Radiation     Generation",
+          "Study Assay Measurement Type": "DNA methylation profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE100470",
+          "Project Title": "",
+          "Study Funding Agency": "This research work was supported by the Norwegian Research Council funded through the Centre of Excellence CERAD–Centre for Environmental Radioactivity (project 223268/F50)",
+          "Study Protocol Description": "Pools of 100 embryos from each replicate in both experimental groups were allocated in separate wells, and washed 3 times with 10 mL autoclaved system water (28 ± 2 °C) to remove debris from the previous incubation period. Afterward, each pool of embryos was transferred to 1.5 mL microfuge tubes (Thermo Fisher Scientific, Waltham, MA) and snap-frozen in liquid nitrogen. All samples were stored at − 80 °C for further analysis.     For DNA was purified with the Gentra puregene tissue DNA extraction kit (Qiagen, Germany), with modifications. Embryos were lysed in 300 µL lysis buffer and disrupted with the use of a 20G needle. To remove RNA, 5 µL of 20 mg/mL RNAse A (Qiagen, Germany) was added, followed by an overnight proteinase K incubation (20 µL of 20 mg/mL) (Qiagen, Germany) at 65 °C, under continuous shaking at 300 rpm. Following incubation, an extra 5 µL RNAse A was added and incubated at room temperature for 1 hr to ensure complete removal of RNAs. Protein precipitation buffer (supplied by kit) was added (100 µL) and after vigorously shaking, the precipitate was centrifuged at 13000 rpm for 3 min. Supernatant was added to a 1.5 mL reaction tube containing 300 µL isopropanol, supplemented with 90 µL of 3M sodium acetate (pH 5.3). The mixture was mixed by inverting 50 times and centrifuged for 1 min at 13000 rpm. Supernatant was discarded and the pellet was rinsed twice with 70 % freshly prepared ethanol (300 µL) by gentle shaking and centrifugation at 13000 rpm for 1 min. The pellet was air dried for 5 minutes and resuspended in hydration buffer, supplied with the kit. DNA was assessed for RNA contamination and length with gel electrophoreses and measured for concentration and quality by Nanodrop (ND-1000; Thermo Scientific). DNA was stored at -20 °C until further analysis.\n\nFor samples GSM2684064- GSM2684098: The BisPCR2 method (custom method for targeted bisulfite sequencing, Bernstein et al. 2015) was used, which was adapted in Jorke Kamstra's lab and is extensively described in Kamstra et al. 2017. The method uses specific developed primers for bisulfite converted DNA (Epitect kit, Qiagen, Germany), with an Illumina adapter overhang. Primers were developed using the online Bisearch tool (http://bisearch.enzim.hu/), and validated for specificity and amplicon size by gel electrophoresis, as described previously (Kamstra et al. 2017).     To each sample 0.1% lambda DNA was added to measure bisulfite conversion efficiency. DNA was disrupted into 200-300 bp fragments using the Covaris system (S220, Covaris, US). Library was prepared by the Illumina tru-seq DNA methylation kit (Illumina, US). DNA was terminal repaired, A-ligated, followed by ligation of methylated adapters according to the Illumina tru-seq protocol. Each library was bisulfite converted using the EZ DNA methylation gold kit (Zymo Research, US). Subsequently, the library was size selected and PCR amplified. Library was checked for quality by Qubit measurements and for size by Agilent bioanalyzer 2100, and finally by QPCR.\n\nFor samples GSM2684064- GSM2684098: From every bisulfite converted DNA sample, PCRs for each of the 20 targets were performed, these were pooled in equal volumes, purified (PCR purification kit, Qiagen, Germany) and subjected to a second PCR with Illumina specific barcoded primers (sequences described previously (Bernstein et al. 2015)). Following the second PCR, products were purified with AMPure XP beads (Beckman Coulter, USA), and measured using Qubit. Random samples were analyzed on the Agilent 2100 bioanalyzer for library quality, which showed high quality libraries (data not shown). Concentrations were converted to nM with c (nM) (Qubit conc (ng/µL) * 1000000) / (660 * average length). All second PCR products were pooled in equimolar portions to a final concentration of 2 nM     Each library was analyzed on a separate lane on the Hiseq 4000 (Illumina, US) in paired end mode using 150 bp sequence length.\n\nFor samples GSM2684064- GSM2684098: 150 base paired end sequencing analysis on Miseq (Illumina, US) as described previously (Bernstein et al. 2015).     Zebrafish strain AB wild type was obtained from the Norwegian University of Life Sciences (NMBU) zebrafish facility and kept according to standard operational procedures as previously described by Hurem et al.\n\nThis study was conducted under the approval of the Institutional Animal Ethics Committee (IACUC) and the Norwegian Food Inspection Authority (NFIA), under permit number 5793. NMBU zebrafish facility, is licensed by the NFIA and accredited by the association for assessment and accreditation of laboratory animal care (AAALAC, license number: 2014/225976). The NMBU zebrafish facility and SOPs has AAALAC accreditation (No. 1036) and is approved by the National Animal Research Authority. All experiments were performed according to Norwegian Animal Welfare Act (2009) and the EU Directive 2010/63, following appropriate guidelines.     Adult zebrafish (6 months old) were exposed for 27 days to a 60Co source at 8.7 mGy/h (5.2 Gy total dose), which represents a similar dose rate to that observed in Chernobyl 60 days post-accident. Control fish were kept separately under similar experimental conditions. In both exposure and control groups, three replicates of 30 males and 30 females were used. Cobalt-60 produces gamma rays with energies of 1.173 and 1.332 MeV and has a half-life of 5.27 years. Ionizing radiation energy values were added by GeneLab.     Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Martín Leonardo  Kamstra Jorke H.  Hurem Selma  Lindeman Leif C.  Brede Dag A.  Aanes Håvard  Babiak Igor  Arenal Amilcar  Oughton Deborah  Salbu Brit  Lyche Jan Ludvig  Aleström Peter     Kamstra Jorke H.  Hurem Selma  Martin Leonardo Martin  Lindeman Leif C.  Legler Juliette  Oughton Deborah  Salbu Brit  Brede Dag Anders  Lyche Jan Ludvig  Aleström Peter",
+          "Project Link": "",
+          "Study Publication Title": "Altered non-coding RNA expression profile in F1 progeny 1 year after parental irradiation is linked to adverse effects in zebrafish     Ionizing radiation induces transgenerational effects of DNA methylation in zebrafish",
+          "Managing NASA Center": "",
+          "Study Description": "Ionizing radiation is known to cause DNA damage, yet the mechanisms underlying potential transgenerational effects of exposure have been scarcely studied. Previously, we observed effects in offspring of zebrafish exposed to gamma radiation during gametogenesis. Here, we hypothesize that these effects are accompanied by changes of DNA methylation possibly inherited by subsequent generations. We assessed DNA methylation in F1 embryos (5.5 hours post fertilization) with whole genome bisulfite sequencing following parental exposure to 8.7 mGy/h for 27 days and found 5658 differentially methylated regions (DMRs). DMRs were predominantly located at known regulatory regions, such as gene promoters and enhancers. Pathway analysis indicated the involvement of DMRs related to similar pathways found with gene expression analysis, such as development, apoptosis and cancers, which could be linked to previous observed developmental defects and genomic instability in the offspring. Follow up of 19 F1 DMRs in F2 and F3 embryos revealed persistent effects up to the F3 generation at 5 regions. These results indicate that ionizing radiation related effects in offspring can be linked to DNA methylation changes that partly can persist over generations. Monitoring DNA methylation could serve as a biomarker to provide an indication of ancestral exposures to ionizing radiation.",
+          "organism": "Danio rerio",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/88v3-7g60",
+          "url": "https://doi.org/10.26030/88v3-7g60"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1664323200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "m9_6g4QB28eYt3lGOraa",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-373/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "embryo",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-373",
+          "Identifiers": "GLDS-373",
+          "Study Identifier": "OSD-373",
+          "Study Protocol Name": "treatment protocol     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Zhu",
+            "Middle Initials": "",
+            "First Name": "Lvyun"
+          },
+          "Study Protocol Type": "treatment protocol     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation     data transformation",
+          "Space Program": "",
+          "Study Title": "RNA sequencing of zebrafish embryos under simulated microgravity conditions",
+          "Study Factor Type": "Weightlessness Simulation     treatment",
+          "Study Public Release Date": 1608595200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-373/image",
+          "Study Factor Name": "Microgravity Simulation     Treatment",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE145967",
+          "Project Title": "",
+          "Study Funding Agency": "National Natural Science Foundation of China",
+          "Study Protocol Description": "Wild-type AB Zebrafish (Danio rerio) of both sexes, 3–12 months of age and approximately 3–4 cm in body length, were constantly subjected to a 12/12-h light/dark cycle and maintained in a circulating water bath at 28.5°C under standard laboratory conditions (Zhu et al., 2014). Zebrafish embryos were produced through natural breeding conditions with autoclaved system egg water containing 60 μg/mL sea salt in distilled water according to the previously reported protocols (Galindo-Villegas et al., 2012).\n\nOne-cell stage embryos were microinjected with 2 nL (1 μg/μL) poly I:C or microinjection buffer (0.5% phenol red, 240 mM KCl, and 40 mM HEPES at pH 7.4) control using a microinjector (ASI MPPI-3) and then subjected immediately to the simulated microgravity conditions generated by RCCS or the normal gravity conditions in cell culture dish.\n\nZebrafish embryos were exposed to simulated microgravity using rotary cell culture system (RCCS) designed by the national aeronautics and space administration (NASA) of America (Lei et al., 2011). The microgravity is considered as the acceleration of gravity between 10^−3 to 10^−6 g. When RCCS rolls, the net force that the embryos 'feel' can be approximated by the centripetal acceleration. According to previous publications (Chen et al., 2019; Huang et al., 2011; Wang et al., 2019), setting the rotation speed as 12 rpm (rotation per minute) could simulate the microgravity as 4 × 10^−3 to 7.2 × 10^−3 g. The 'free-fall' status of the embryos should be maintained in a circular orbit without the embryos contacting either the central core or outside wall of the bioreactor. All embryos were maintained at 28.5°C for the duration of the experiments.     After 12 hours post fertilization (hpf), total RNA from each sample was extracted using TRIzol reagent and quantified by a NanoDrop ND-1000 instrument and agarose gel electrophoresis.     1–2 μg total RNA was used to prepare the sequencing library in the following steps: 1) Total RNA is enriched by oligo(dT) magnetic beads (rRNA removed); 2) RNA-seq library is prepared using a KAPA Stranded RNA-Seq Library Prep Kit, which incorporates dUTP into the second cDNA strand and renders the RNA-seq library strand-specific. The completed libraries were qualified with Agilent 2100 Bioanalyzer and quantified by the absolute quantification qPCR method.     To sequence the libraries on the Illumina HiSeq 4000 instrument, the barcoded libraries were mixed, denatured to single stranded DNA in NaOH, captured on Illumina flow cell, amplified in situ, and subsequently sequenced for 150 cycles at both ends on an Illumina HiSeq instrument.     Raw fastq files from each sample were assessed for % rRNA using HTStream SeqScreener (version 1.3.2) screened against a fasta file of Danio rerio rRNA sequences retrieved from NCBI on 22-April-2023. Raw fastq file quality was evaluated with FastQC (version 0.11.9) and MultiQC (version 1.12) was used to generate MultiQC reports.     Data were processed as described in GL-DPPD-7101-F (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-F.md), using NF_RCP-F version 1.0.3 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_RCP-F_1.0.3/RNAseq/Workflow_Documentation/NF_RCP-F). In short, raw fastq files were filtered using Trim Galore! (version 0.6.7) powered by Cutadapt (version 3.7). Trimmed fastq file quality was evaluated with FastQC (version 0.11.9), and MultiQC (version 1.12) was used to generate MultiQC reports. Danio rerio STAR and RSEM references were built using STAR (version 2.7.10a) and RSEM (version 1.3.1), respectively, Ensembl release 107, genome version GRCz11 (Danio_rerio.GRCz11.dna.primary_assembly.fa.) and the following gtf annotation file: Danio_rerio.GRCz11.107.gtf. Trimmed reads were aligned to the Danio rerio STAR reference with STAR (version 2.7.10a) and alignment log files were compiled with MultiQC (version 1.12). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 4.0.0), gene body coverage using RSeQC geneBody_coverage.py (version 4.0.0), and distribution of RNA features using RSeQC read_distribution.py (version 4.0.0). Aligned reads from all samples were quantified using RSEM (version 1.3.1), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.12). The runsheet was generated with dp_tools (version 1.1.8) and the runsheet and quantification data were imported into R (version 4.1.3) with tximport (version 1.27.1) and normalized with DESeq2 (version 1.34.0) median of ratios method. Differential expression analysis was performed in R (version 4.1.3) using DESeq2 (version 1.34.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Dr.eg.db (version 3.15.0).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Zhu L  Nie L  Xie S  Li M  Zhu C  Qiu X  Kuang J  Liu C  Lu C  Li W  Meng E  Zhang D  Zhu L.",
+          "Project Link": "",
+          "Study Publication Title": "Attenuation of Antiviral Immune Response Caused by Perturbation of TRIM25-Mediated RIG-I Activation under Simulated Microgravity.",
+          "Managing NASA Center": "",
+          "Study Description": "To reveal the potential mechanisms involved in the dysfunction of antiviral immune responses under simulated microgravity conditions, we investigated the transcriptional changes related to the status of innate immune responses by RNA-seq with poly I:C or mock PBS treatment under Normal gravity or simulated microgravity conditions. Our results indicate that the retinoic acid inducible gene (RIG)-I-like receptor (RLR) and Toll-like receptor (TLR) signal pathways, which are both involved in the type-I interferon induction, are significantly inhibited by simulated microgravity effects.",
+          "organism": "Danio rerio",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/78a4-5s12",
+          "url": "https://doi.org/10.26030/78a4-5s12"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1608595200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "5t_6g4QB28eYt3lGLLXJ",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-76/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-76",
+          "Identifiers": "GLDS-76",
+          "Study Identifier": "OSD-76",
+          "Study Protocol Name": "P-MTAB-48669     P-MTAB-48670     P-MTAB-48671     P-MTAB-48672     P-MTAB-48673     P-MTAB-48667     P-MTAB-48668",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "We wish to thank the GIGA-R zebrafish facility for providing zebrafish adults and fertilized eggs, the GIGA-R GenoTranscriptomics platform for DNA sequencing and RNA quality control, and the ESA-ESTEC, Prodex, TEC-MMG LIS Lab, and especially Mr Alan Dowson for his support during the study.",
+          "Study Assay Technology Platform": "Agilent",
+          "Study Person": {
+            "Last Name": "Muller Nourizadeh",
+            "Middle Initials": "",
+            "First Name": "Marc Rasoul"
+          },
+          "Study Protocol Type": "RNA extraction     labeling     nucleic acid hybridization     array scanning and feature extraction     normalization data transformation     growth protocol     treatment protocol",
+          "Space Program": "ESA",
+          "Study Title": "Zebrafish larvae submitted to simulated microgravity on a clinostat (CLINO) at 5dpf for one day",
+          "Study Factor Type": "Weightlessness Simulation",
+          "Study Public Release Date": 1455494400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-76/image",
+          "Study Factor Name": "Microgravity Simulation",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-MTAB-4476",
+          "Project Title": "",
+          "Study Funding Agency": "This work was support by the 'Fonds de la Recherche Fondamentale Collective', the University of Liege GAME project, the European Space Agency projects, the Belgian Space Agency Prodex projects, Netherlands Organisation for Scientific (NWO) Research Earth, and Life Sciences via the Netherlands Space Office (NSO) and ESA",
+          "Study Protocol Description": "Larvae at 6dpf, after 24h treatment, were used for the RNA extraction. Total RNA was extracted of 60 larvae per experiment using Trizol, followed by the RNeasy Mini kit (Qiagen, Hilden, Germany) according to the manufacturers instructions and conserved at -80 degrees using. They were treated with Rnase-free Dnase Set (Qiagen, Hilden, Germany). After extraction, the quality and concentration of total RNA was evaluated by electrophoresis on capillary gel and the ratio of absorbance at 260/280nm by spectrophotometer (Bioanalyzer 2100, Agilent Technologies, Diegem, Belgium).     For microarray expression analysis, four replicates from each treatment (control and drug or gravity treatment) were analyzed in 2+2 dye-swap hybridizations. One g total RNA was linearly amplified one round and labeled, using Amino Allyl Message Amp II aRNA amplification kit (Ambion-Life Technologies, Gent, Belgium). Five g of the resulting antisense RNA (aRNA) from the exposed and control groups was labeled either with Cy3-dUTP or Cy5-dUTP (GE Healthcare Bio-Sciences AB, Uppsala, Sweden). The labeled targets were examined for amplification yield and incorporation efficiency by measuring the aRNA concentration at 260 nm, Cy3 incorporation at 550 nm, and Cy5 at 650 nm using Nanodrop (Thermoscientific, Wilmington, DE, USA). A good aRNA probe had a labeling efficiency of 3050 fluorochromes every 1000 bases. One to 5 g of each labeled aRNA target was mixed, 9 l 25 fragmentation buffer (Agilent Technologies, Diegem, Belgium) added, and the final volume adjusted to 225 l with RNase-free H2O followed by incubation for 30 min at 60C.     The hybridization solution was prepared by adding 220.5 l of 2 hybridization buffer (Agilent Technologies, Diegem, Belgium) and 4.5 l sonicated herring sperm DNA (10 g/l; Promega, Madison, WI, USA) to the labeled target aRNA. Microarray slides (4x44K zebrafish V2 or V3, Agilent Technologies, Diegem, Belgium) were prehybridized at 42C, 60 min using 0.1% bovine serum albumin (BSA) Fraction V, 5 SSC, and 0.1% sodium dodecyl sulfate (SDS). Hybridization was performed at 60C in 16 h using gasket slides, hybridization chamber, and oven (Agilent Technologies, Diegem, Belgium) according to Agilent 60-mer oligo microarray processing protocol. Microarray slides were then washed 3  5 min in 0.5  SSC, 0.01% SDS (first wash at 42C and next two at room temperature). Finally, slides were washed 3 times in room temp with 0.06 SSC and dried immediately with centrifugation at 800g for 1 min.     Microarray slides were scanned using a GenePix 4000B (Axon instrument, Foster City, CA). Scanning was performed at a level just before saturation of several spots. Raw data generated from Genepix were imported into the Bioconductor package LIMMA and corrected for background     For within-array and between-array normalization, print tip Loess and scale were used, respectively. An empirical Bayes moderated t-test was applied to detect differently expressed genes across treated and control samples. The p values were corrected for multiple testing using the BenjaminiHochberg (BH) method and p-values <0.1 were selected as differently expressed genes. The generated gene list was further filtered for genes with low intensity and with small changes in expression. In the averaged normalized MA-Plot, the majority of genes were clustered in between M values of 0.4 (fold change 1.3) and selected to be threshold criteria for differently expressed gene list.     Zebrafish (Danio rerio) were maintained under standard conditions1 in the GIGA zebrafish facility (licence LA2610359). Briefly, zebrafish (Danio rerio) of the AB strain were reared in a recirculating system from Techniplast, Italy at a maximal density of 7 fish/l. The water characteristics were as follows: pH equals 7.4, conductivity equals 500 Scm^-1, temperature equals 28C. The light cycle was controlled (14 h light, 10 h dark). Fish were fed twice daily with dry powder (ZM fish food) adapted to their age and once daily with fresh Artemia salina nauplii (ZM fish food). Larvae aged less than 14 days were also fed twice daily with a live paramecia culture. Wild type embryos were used and staged according to Kimmel et al2. The day before breeding, wild-type adult male and female zebrafish were set up in several breeding tanks, separated by a clear plastic wall. After the light was turned on the next morning, walls are removed, eggs are generated by natural mating and collected from 30 minutes to 2 hours after spawning. After sorting, clean eggs are moved to Petri dishes and incubated at 28C in E3 medium (5 mM Na Cl, 0.17 mM KCl, 0.33 mM CaCl2, 0.33 mM MgSO4, 0.00001 % Methylene Blue). All protocols for experiments were evaluated by the Institutional Animal Care and Use Committee of the University of Liege and approved under the file numbers 568, 1074, and 1264 (licence LA 1610002).     60 larvae at 5dpf were transferred into a 5ml tube (pipette) containing E3 medium supplemented and placed on the clinorotation device, alternating rotating or not positions as negative control. They were treated for 1day",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "This work was supported by the 'Fonds de la Recherche Fondamentale Collective': 2.4555.99/ 2.4542.00/2.4561.10; the SSTC PAI: P5/35; the University of Liege GAME project; the European Space Agency projects AO-99-LSS-003 and AO-99-LSS-006; the Belgian Space Agency Prodex projects FISH-GSIM and FISH-SIM. M.M. is a 'Chercheur Qualifie du F.N.R.S.' J.J.W.A.vL. grant MG-057 from the Netherlands Organisation for Scientific (NWO) Research Earth  and Life Sciences via the Netherlands Space Office (NSO) and an ESA contract 4000107455/12/NL/PA.",
+          "Study Publication Author List": "Jessica Aceto  Rasoul Nourizadeh-Lillabadi  Silvia Bradamante  Jeanette A Maier  Peter Alestrom\n  Jack JWA van Loon  and Marc Muller",
+          "Project Link": "",
+          "Study Publication Title": "Effects of microgravity simulation on zebrafish transcriptomes and bone physiology-exposure starting at 5 days post fertilization",
+          "Managing NASA Center": "",
+          "Study Description": "The general objective of the study was to determine modulation of gene expression by environmental factors, specifically simulation of microgravity, with a special emphasis on bone formation. For this reason, the specific period of treatment was chosen between 5-6 days post-fertilization (dpf), when bone formation and calcification are taking place. Zebrafish larvae were placed at 5 dpf into a clinostat (CLINO) for 24 hours, which was shown to simulate microgravity by the specific rotational movements it generates. We show that CLINO exposure causes a clear decrease of bone formation, as illustrated by cranial skeleton staining of the bone matrix by Alizarin Red, by morphometric analysis of the resulting images. Thus, a whole genome micro-array experiment was conducted to identify genes that may be involved in the observed effect on bone formation.",
+          "organism": "Danio rerio",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/w4vh-6165",
+          "url": "https://doi.org/10.26030/w4vh-6165"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1455494400
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "oN_6g4QB28eYt3lGO7ZM",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-123/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "Simulated_Hypergravity",
+          "Accession": "OSD-123",
+          "Identifiers": "GLDS-123",
+          "Study Identifier": "OSD-123",
+          "Study Protocol Name": "P-MTAB-43156     P-MTAB-43157     P-MTAB-43158     P-MTAB-43159     P-MTAB-43160     P-MTAB-43161",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Agilent",
+          "Study Person": {
+            "Last Name": "Nourizadeh Muller",
+            "Middle Initials": "",
+            "First Name": "Rasoul Marc"
+          },
+          "Study Protocol Type": "growth protocol     treatment protocol     nucleic acid extraction protocol     nucleic acid labeling protocol     nucleic acid hybridization     array scanning and feature extraction protocol",
+          "Space Program": "ESA",
+          "Study Title": "Exposure of zebrafish larvae to 3g and 5g hyper gravity between 5-6 days post-fertilization.",
+          "Study Factor Type": "Gravity, Altered",
+          "Study Public Release Date": 1424995200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-123/image",
+          "Study Factor Name": "Altered Gravity",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-MTAB-3289",
+          "Project Title": "",
+          "Study Funding Agency": "This work was supported by the Fonds de la Recherche Fondamentale Collective; 2.4555.99/ 2.4542.00/2.4561.10, the SSTC; PAI: P5/35, the University of Liege; GAME project, the European Space Agency projects AO-99-LSS-003 and AO-99-LSS-006, the Belgian Space Agency Prodex projects FISH-GSIM and FISH-SIM.",
+          "Study Protocol Description": "Zebrafish (Danio rerio) were maintained under standard conditions in the GIGA zebrafish facility (licence LA2610359). Briefly, zebrafish (Danio rerio) of the AB strain were reared in a recirculating system from Techniplast, Italy at a maximal density of 7 fish/l. The water characteristics were as follows: pH = 7.4, conductivity = 500 microScm-1, temperature = 28C. The light cycle was controlled (14 h light, 10 h dark). Fish were fed twice daily with dry powder (ZM fish food) adapted to their age and once daily with fresh Artemia salina nauplii (ZM fish food). Larvae aged less than 14 days were also fed twice daily with a live paramecia culture. Wild type embryos were used and staged. The day before breeding, wild-type adult male and female zebrafish were set up in several breeding tanks, separated by a clear plastic wall. After the light was turned on the next morning, walls are removed, eggs are generated by natural mating and collected from 30 minutes to 2 hours after spawning. After sorting, clean eggs are moved to Petri dishes and incubated at 28C in E3 medium (5 mM Na Cl, 0.17 mM KCl, 0.33 mM CaCl2, 0.33 mM MgSO4, 0.00001 % Methylene Blue). All protocols for experiments were evaluated by the Institutional Animal Care and Use Committee of the University of Liege and approved under the file numbers 568, 1074, and 1264 (licence LA 1610002).     60 larvae at 5dpf were transferred into a 10 cm Petridish containing 20 ml of E3 medium and kept at normal gravity (controls) or transferred to the centrifuge and spun at 3g (3G) or 5g (5G) for 24 h.     Larvae at 6dpf, after 24h treatment, were used for the RNA extraction. Total RNA was extracted of 60 larvae per experiment using Trizol, followed by the RNeasy Mini kit (Qiagen, Hilden, Germany) according to the manufacturer's instructions and conserved at -80 degrees using. They were treated with Rnase-free Dnase Set (Qiagen, Hilden, Germany). After extraction, the quality and concentration of total RNA was evaluated by electrophoresis on capillary gel and the ratio of absorbance at 260/280nm by spectrophotometer (Bioanalyzer 2100, Agilent Technologies, Diegem, Belgium).     For microarray expression analysis, four replicates from each treatment (control and drug or gravity treatment) were analyzed in 2+2 dye-swap hybridizations. One ug total RNA was linearly amplified one round and labeled, using Amino Allyl Message Amp II aRNA amplification kit (Ambion-Life Technologies, Gent, Belgium) as previously described. Five ug of the resulting antisense RNA (aRNA) from the exposed and control groups was labeled either with Cy3-dUTP or Cy5-dUTP (GE Healthcare Bio-Sciences AB, Uppsala, Sweden). The labeled targets were examined for amplification yield and incorporation efficiency by measuring the aRNA concentration at 260 nm, Cy3 incorporation at 550 nm, and Cy5 at 650 nm using Nanodrop (Thermoscientific, Wilmington, DE, USA). A good aRNA probe had a labeling efficiency of 30-50 fluorochromes every 1000 bases. One to 5 ug of each labeled aRNA target was mixed, 9 ul 25X fragmentation buffer (Agilent Technologies, Diegem, Belgium) added, and the final volume adjusted to 225 ul with RNase-free H2O followed by incubation for 30 min at 60C.     The hybridization solution was prepared by adding 220.5 ul of 2X hybridization buffer (Agilent Technologies, Diegem, Belgium) and 4.5 ul sonicated herring sperm DNA (10 ug/ul; Promega, Madison, WI, USA) to the labeled target aRNA. Microarray slides (4x44K zebrafish V2 or V3, Agilent Technologies, Diegem, Belgium) were prehybridized at 42C, 60 min using 0.1% bovine serum albumin (BSA) Fraction V, 5X SSC, and 0.1% sodium dodecyl sulfate (SDS). Hybridization was performed at 60C in 16 h using gasket slides, hybridization chamber, and oven (Agilent Technologies, Diegem, Belgium) according to Agilent 60-mer oligo microarray processing protocol. Microarray slides were then washed 3 x 5 min in 0.5 X SSC, 0.01% SDS (first wash at 42C and next two at room temperature). Finally, slides were washed 3 times in room temp with 0.06X SSC and dried immediately with centrifugation at 800Xg for 1 min.     Microarray slides were scanned using a GenePix 4000B (Axon instrument, Foster City, CA). Scanning was performed at a level just before saturation of several spots. Raw data generated from Genepix were imported into the Bioconductor package LIMMA and corrected for background",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "Fonds de la Recherche Fondamentale Collective; 2.4555.99/ 2.4542.00/2.4561.10",
+          "Study Publication Author List": "Jessica Aceto  Rasoul Nourizadeh-Lillabadi  Raphael Maree  Nathalie Jeanray  Louis Wehenkel  Peter Alestrom  Jack J.W.A. van Loon  Marc Muller",
+          "Project Link": "",
+          "Study Publication Title": "Zebrafish bone and general physiology are differently affected by hormones or changes in gravity.",
+          "Managing NASA Center": "",
+          "Study Description": "The general objective of the study was to determine modulation of gene expression by environmental factors, with a special emphasis on bone formation. For this reason, the specific period of treatment was chosen between 5-6 days post-fertilization (dpf), when bone formation and calcification are taking place. Zebrafish larvae were placed at 5 dpf into a Large Diameter Centrifuge and brought to a gravitational force of 3g or 5g for 24 hours. We show that this treatment causes a clear increase of bone formation, as illustrated by cranial skeleton staining of the bone matrix by Alizarin Red, by morphometric analysis of the resulting images and by gene expression studies of selected genes. Thus, a whole genome micro-array experiment was conducted to identify genes that may be involved in the observed effect on bone formation.",
+          "organism": "Danio rerio",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/g3jt-rb92",
+          "url": "https://doi.org/10.26030/g3jt-rb92"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1424995200
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "1d_6g4QB28eYt3lGK7Vu",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-60/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "",
+          "Accession": "OSD-60",
+          "Identifiers": "GLDS-60",
+          "Study Identifier": "OSD-60",
+          "Study Protocol Name": "nucleic acid extraction protocol     labeling protocol     hybridization protocol     array scanning protocol     animal husbandry protocol     treatment protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "This work was supported by the Fonds de la Recherche Fondamentale Collective; 2.4555.99/ 2.4542.00/2.4561.10, the SSTC; PAI: P5/35, the University of Liege; GAME project, the European Space Agency projects AO-99-LSS-003 and AO-99-LSS-006, the Belgian Space Agency Prodex projects FISH-GSIM and FISH-SIM. M.M. is a Chercheur Qualifie du F.N.R.S. JvL grant MG-057 from the Netherlands Organisation for Scientific (NWO) Research Earth and Life Sciences via the Netherlands Space Office NSO). We wish to thank the GIGA-R zebrafish facility for providing zebrafish adults and fertilized eggs and the GIGA-R GenoTranscriptomics platform for DNA sequencing and RNA quality control, and the ESA ESTEC, TEC-MMG LIS Lab, especially Mr. Alan Dowson for his support.",
+          "Study Assay Technology Platform": "Agilent",
+          "Study Person": {
+            "Last Name": "Nourizadeh Muller",
+            "Middle Initials": "",
+            "First Name": "Rasoul Marc"
+          },
+          "Study Protocol Type": "nucleic acid extraction protocol     labeling protocol     hybridization protocol     array scanning protocol     Animal Husbandry     treatment protocol",
+          "Space Program": "",
+          "Study Title": "Exposure of zebrafish larvae to relative microgravity between 5-6 days post-fertilization",
+          "Study Factor Type": "Hypergravity",
+          "Study Public Release Date": 1424995200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-60/image",
+          "Study Factor Name": "Hypergravity",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-MTAB-3290",
+          "Project Title": "",
+          "Study Funding Agency": "This work was supported by the Fonds de la Recherche Fondamentale Collective; 2.4555.99/ 2.4542.00/2.4561.10, the SSTC; PAI: P5/35, the University of Liege; GAME project, the European Space Agency projects AO-99-LSS-003 and AO-99-LSS-006, the Belgian Space Agency Prodex projects FISH-GSIM and FISH-SIM.",
+          "Study Protocol Description": "Larvae at 6dpf, after treatment, were used for the RNA extraction. Total RNA was extracted of 60 larvae per experiment using Trizol, followed by the RNeasy Mini kit (Qiagen, Hilden, Germany) according to the manufacturer's instructions and conserved at -80 degrees C using. They were treated with Rnase-free Dnase Set (Qiagen, Hilden, Germany). After extraction, the quality and concentration of total RNA was evaluated by electrophoresis on capillary gel and the ratio of absorbance at 260/280nm by spectrophotometer (Bioanalyzer 2100, Agilent Technologies, Diegem, Belgium).     For microarray expression analysis, four replicates from each treatment (control and drug or gravity treatment) were analyzed in 2+2 dye-swap hybridizations. One ug total RNA was linearly amplified one round and labeled, using Amino Allyl Message Amp II aRNA amplification kit (Ambion-Life Technologies, Gent, Belgium) as previously described. Five _g of the resulting antisense RNA (aRNA) from the exposed and control groups was labeled either with Cy3-dUTP or Cy5-dUTP (GE Healthcare Bio-Sciences AB, Uppsala, Sweden). The labeled targets were examined for amplification yield and incorporation efficiency by measuring the aRNA concentration at 260 nm, Cy3 incorporation at 550 nm, and Cy5 at 650 nm using Nanodrop (Thermoscientific, Wilmington, DE, USA). A good aRNA probe had a labeling efficiency of 30Ð50 fluorochromes every 1000 bases. One to 5 ug of each labeled aRNA target was mixed, 9 ul 25x fragmentation buffer (Agilent Technologies, Diegem, Belgium) added, and the final volume adjusted to 225 ul with RNase-free H2O followed by incubation for 30 min at 60C.     The hybridization solution was prepared by adding 220.5 _l of 2x hybridization buffer (Agilent Technologies, Diegem, Belgium) and 4.5 _l sonicated herring sperm DNA (10 ug/_l; Promega, Madison, WI, USA) to the labeled target aRNA. Microarray slides (4x44K zebrafish V2 or V3, Agilent Technologies, Diegem, Belgium) were prehybridized at 42C, 60 min using 0.1% bovine serum albumin (BSA) Fraction V, 5x SSC, and 0.1% sodium dodecyl sulfate (SDS). Hybridization was performed at 60C in 16 h using gasket slides, hybridization chamber, and oven (Agilent Technologies, Diegem, Belgium) according to Agilent 60-mer oligo microarray processing protocol. Microarray slides were then washed 3 x 5 min in 0.5 x SSC, 0.01% SDS (first wash at 42C and next two at room temperature). Finally, slides were washed 3 times in room temp with 0.06x SSC and dried immediately with centrifugation at 800_g for 1 min.     Microarray slides were scanned using a GenePix 4000B (Axon instrument, Foster City, CA). Scanning was performed at a level just before saturation of several spots. Raw data generated from Genepix were imported into the Bioconductor package LIMMA and corrected for background     Zebrafish (Danio rerio) were maintained under standard conditions in the GIGA zebrafish facility (licence LA2610359). Briefly, zebrafish (Danio rerio) of the AB strain were reared in a recirculating system from Techniplast, Italy at a maximal density of 7 fish/l. The water characteristics were as follows: pH equals 7.4, conductivity equals 500 uScm^-1, temperature equals 28 C. The light cycle was controlled (14 h light, 10 h dark). Fish were fed twice daily with dry powder (ZM fish food) adapted to their age and once daily with fresh Artemia salina nauplii (ZM fish food). Larvae aged less than 14 days were also fed twice daily with a live paramecia culture. Wild type embryos were used and staged according to.\n\nThe day before breeding, wild-type adult male and female zebrafish were set up in several breeding tanks, separated by a clear plastic wall. After the light was turned on the next morning, walls are removed, eggs are generated by natural mating and collected from 30 minutes to 2 hours after spawning. After sorting, clean eggs are moved to Petri dishes and incubated at 28 C in E3 medium (5 mM Na Cl, 0.17 mM KCl, 0.33 mM CaCl2, 0.33 mM MgSO4, 0.00001% Methylene Blue). All protocols for experiments were evaluated by the Institutional Animal Care and Use Committee of the University of Liege and approved under the file numbers 568, 1074, and 1264 (licence LA 1610002).     4x60 embryos at 3 hpf were transferred into a 10 cm Petridish  each containing 20 ml of E3 medium. One was kept at 1g (Inc), the others were transferred to the centrifuge and spun at 3g for 5 days. Medium was changed every day. At 5 dpf, the 3g larvae were either transferred to 1g outside the centrifuge (1g; 3g then 1g), at 1g on the axis of the centrifuge (axe; 3g then axe) or kept at 3g for one additional day.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Jessica Aceto  Rasoul Nourizadeh-Lillabadi  Raphael Maree  Nathalie Jeanray  Louis Wehenkel  Peter Alestrom  Jack J.W.A. van Loon  Marc Muller",
+          "Project Link": "",
+          "Study Publication Title": "Zebrafish bone and general physiology are differently affected by hormones or changes in gravity.",
+          "Managing NASA Center": "",
+          "Study Description": "The general objective of the study was to determine modulation of gene expression by environmental factors, with a special emphasis on bone formation. For this reason, the specific period of treatment was chosen between 5-6 days post-fertilization (dpf), when bone formation and calcification are taking place. This experiment was designed as a new type of gravitational experiment, which we like to call relative microgravity, referring to the fact that the larvae first grow in hyper gravity for 5 days and are then returned to 1g normal gravity for 1 day. Zebrafish embryos were placed on a Large Diameter Centrifuge at 3 hpf, brought to a gravitational force of 3 g until 5 dpf. Reference embryos were kept in parallel at 1g (Inc). At 5dpf, one batch was left at 3g (3g), one batch was returned to 1g (3g>1g), while a third batch was returned to 1g, but left on the axis of the centrifuge (Axe; 3g>Axe). The experiment was repeated 4 times, each time with 4 batches of 60 larvae.",
+          "organism": "Danio rerio",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/htq8-e274",
+          "url": "https://doi.org/10.26030/htq8-e274"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1424995200
+        ]
+      }
+    ]
+  }
+}

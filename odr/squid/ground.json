@@ -1,0 +1,144 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 2,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "IQsDOZUBWrv14Z5vsxEM",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-722/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Light Organ",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-722",
+          "Identifiers": "GLDS-643",
+          "Study Identifier": "OSD-722",
+          "Study Protocol Name": "Growth Protocol     Treatment Protocol     sample collection     RNA Extraction     Nucleic Acid Hybridization     Data Collection",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "NanoString nCounter MAX system",
+          "Study Person": {
+            "Last Name": "Duscher Vroom Foster",
+            "Middle Initials": "",
+            "First Name": "Alexandrea A Madeline M Jamie"
+          },
+          "Study Protocol Type": "growth protocol     treatment protocol     sample collection     RNA Extraction     Nucleic Acid Hybridization     Data Collection",
+          "Space Program": "",
+          "Study Title": "Impact of modeled microgravity stress on innate immunity in a beneficial animal-microbe symbiosis",
+          "Study Factor Type": "Weightlessness Simulation     treatment     time",
+          "Study Public Release Date": 1707868800.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-722/image",
+          "Study Factor Name": "Microgravity Simulation     Treatment     Time",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE247559",
+          "Project Title": "",
+          "Study Funding Agency": "The work was also supported by NASA Space Biology grants 80NSSC19K0138 and 80NSSC18K1465 awarded to JSF and a NASA Florida Space Grant Consortium Dissertation Improvement grant awarded to AAD. The NanoString experiments were supported by public donations made through the crowdfunding site Experiment.com/squidinspace.",
+          "Study Protocol Description": "Animal husbandry and general procedures: All cephalopod procedures were approved by both the University of Florida (approval number 201910899) and Kennedy Space Center (approval number GDR-20-128) Institutional Animal Care and Use Committees and were performed in accordance with the approved protocols and guidelines. Mature E. scolopes squid were maintained in aquaria within an environmental growth chamber at 23°C on a 12 h light/dark cycle. Clutches of eggs were removed from the adult tanks and incubated separately in individual aquaria for their full developmental cycle (~ 21 days). After hatching, the juvenile squid were maintained in filtered-sterilized seawater (FSW) as either aposymbiotic (i.e., no symbiosis-competent V. fischeri) or rendered symbiotic. For symbiotic treatments, animals were inoculated with 1 × 10^5 cells of V. fischeri ES114 per ml of FSW. The concentration of V. fischeri was determined spectrophotometrically (A600nm) as an OD of 1 corresponds to 4 × 10^8 cells per ml of culture, as previously determined by plate counts (Boettcher and Ruby, 1990). In all treatments, the onset of symbiosis was monitored by luminescence levels using an ATP photometer (GloMax 20/20 Luminometer, Promega, Corps., Madison, WI).     Simulated low-shear modeled microgravity (LSMMG) conditions: To simulate the LSMMG conditions, a rotary culture system was used with 16 replicate 50-mL volume high-aspect ratio vessels (HARVs; Synthecon, Houston, TX) and rotated at a constant 13 rpm. The HARVs were either rotated around a horizontal axis to simulate LSMMG or a vertical axis to serve as a normal gravity (1 × g) control as previously described. For all time points, gravity controls were conducted in HARVs where the axis of rotation was perpendicular to the test system to ensure that the phenotypes detected were not simply the results of being in the HARV system. Both LSMMG treatments and gravity controls were run simultaneously within a environmental growth chamber on a 12 h light/dark cycle and maintained at a constant 23 °C.  Juvenile squid were kept aposymbiotic or symbiotic as described above. The animals were added to the HARVs through an opening on the surface of the HARVs and then sealed with zero headspace. A semipermeable membrane provided aeration for the host and symbiont. Previous studies have shown no change in oxygen levels during animal and bacteria co-incubations.     A total of four replicate animals were incubated in each HARV vessel for 2, 6, 8, 10, 12, 16, 18, or 24 h and then animals were removed and immediately flash frozen in liquid nitrogen and stored at − 80 °C. Additionally, a subset of animals were collected within 5 min (i.e., 0 h) of hatching and frozen in liquid nitrogen for comparison purposes.     Total RNA was extracted in triplicate from dissected light organs using RNeasy and Qiashredder kits according to the manufacturer’s protocol (Qiagen, Germantown, MD). A minimum of three light organs was used for each replicate RNA extraction. RNA was pooled from a minimum of three separate extractions derived from three different technical replicates of HARV exposure to increase overall genetic variability and to ensure that gene expression results were not based on variability between egg clutches. RNA quantity was assessed using Qubit 2.0 (Thermo Fisher Scientific, Waltham, MA) and RNA quality was assessed with a 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA).     All samples were normalized to 20 ng per µl of RNA and 100 ng of RNA was run for each sample on the NanoString nCounter MAX system (NanoString Technologies, Seattle, WA). Note due to space limitations in the NanoString 96-well sequencing plate, 24 h LSMMG-treated symbiotic animals were not able to be sequenced and were thus not included in some of the data analysis. Target genes were chosen from the data mining results to give an overall representation of elements of the NFκB pathway in E. scolopes. Optimal fluorescently tagged probes of 100 bp length were designed and synthesized at NanoString Technologies, Inc. in Seattle, WA for the selected genes to ensure no off-target binding. Probes were designed to hit whole genes and not specific isoforms. There were a total of 33 target genes and two housekeeping genes designed and successfully assayed by NanoString gene expression technology. During hybridization, the specific Reporter Tags and universal Capture Tag hybridize to a pair of target-specific oligonucleotide probes, which in turn hybridize directly to the single-stranded RNA or DNA target. Probe A hybridizes to a specific Reporter Tag and the 5’ region of the target nucleic acid sequence. Probe B hybridizes to the universal Capture Tag and the 3’ region of the target nucleic acid sequence. Each complete structure—containing the target RNA or DNA, two oligonucleotide probes, and the Reporter and Capture Tags—is referred to as a Tag Complex.     Performed by NanonString Technologies. Used the nCounter Analysis System and nCounter SPRINT Profiler.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Duscher AA  Vroom MM  Foster JS.",
+          "Project Link": "",
+          "Study Publication Title": "Impact of modeled microgravity stress on innate immunity in a beneficial animal-microbe symbiosis.",
+          "Managing NASA Center": "",
+          "Study Description": "The innate immune response is the first line of defense for all animals to not only detect invading microbes and toxins but also sense and interface with the environment. One such environment that can significantly affect innate immunity is spaceflight. In this study, we explored the impact of microgravity stress on key elements of the NFκB innate immune pathway. The symbiosis between the bobtail squid Euprymna scolopes and its beneficial symbiont Vibrio fischeri was used as a model system under a simulated microgravity environment. The expression of genes associated with the NFκB pathway was monitored over time as the symbiosis progressed. Results revealed that although the onset of the symbiosis was the major driver in the differential expression of NFκB signaling, the stress of simulated low-shear microgravity also caused a dysregulation of expression. Several genes were expressed at earlier time points suggesting that elements of the E. scolopes NFκB pathway are stress-inducible, whereas expression of other pathway components was delayed. The results provide new insights into the role of NFκB signaling in the squid-vibrio symbiosis, and how the stress of microgravity negatively impacts the host immune response. Together, these results provide a foundation to develop mitigation strategies to maintain host-microbe homeostasis during spaceflight.",
+          "organism": "Euprymna scolopes",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/hvfw-q764",
+          "url": "https://doi.org/10.26030/hvfw-q764"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1707868800
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "NN_6g4QB28eYt3lGMrao",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-119/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Light organ",
+          "Project Identifier": "Simulated_Microgravity",
+          "Accession": "OSD-119",
+          "Identifiers": "GLDS-119",
+          "Study Identifier": "OSD-119",
+          "Study Protocol Name": "Animal Husbandry     sample treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Casaburi Foster",
+            "Middle Initials": "",
+            "First Name": "Giorgio Jamie"
+          },
+          "Study Protocol Type": "Animal Husbandry     sample treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing",
+          "Space Program": "NASA",
+          "Study Title": "Effect of microgravity on an animal-bacteria symbiosis",
+          "Study Factor Type": "Weightlessness Simulation     treatment     time",
+          "Study Public Release Date": 1493337600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-119/image",
+          "Study Factor Name": "Microgravity Simulation     Treatment     Time",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "Impact of Microgravity on the Cell-Cell Interactions between a Mutualistic Bacterium and Its Animal Host",
+          "Study Funding Agency": "This study was supported by NASA's Space Biology program grant NNX13AM44G.",
+          "Study Protocol Description": "A colony of adult E. scolopes was maintained in recirculating aquaria within an environmental growth chamber at 23 °C and a 12 h light/dark cycle. Clutches of eggs were removed from the adult tanks and incubated separately in individual aquaria for their full developmental cycle (≈21 days). After hatching, the juvenile squid were washed with filtered-sterilized seawater (FSW) and either maintained aposymbiotic (i.e., no symbiosis competent bacteria) or rendered symbiotic. For symbiotic treatments, animals were inoculated with 1 × 105 cells of V. fischeri ES114 per ml of FSW. The concentration of V. fischeri was determined spectrophotometrically (A600 nm) as an OD of 1 corresponds to 3 × 108 cells per ml of culture as previously determined by plate counts. In some experiments the light organs were dissected from the host, homogenized in FSW and plated on SWT media to monitor the CFUs recovered from the different treatments as previously described. In all treatments the onset of symbiosis was monitored using a photometer (GloMax 20/20 Luminometer, Promega, Corps., Madison, WI).     To simulate a low-shear modeled microgravity environment (LSMMG), rotary culture systems were used with 50-ml volume high aspect ratio vessels (HARVs; Synthecon, Houston, TX) at 13 rpm. To model the microgravity environment, HARVs were rotated around a horizontal axis, whereas gravity (1 × g) controls were rotated around a vertical axis. For the symbiotic treatments the HARVs were filled with FSW containing 1 × 105 cells per ml of V. fischeri (unless otherwise indicated), whereas aposymbiotic treatments contained only FSW. The animals were added to the HARVs through an opening on the surface of the HARVs and then sealed. A semipermeable membrane provided aeration for the host and symbiont. Animals (between 4 and 5) were incubated in each HARV for either 12 or 24 h then immediately flash frozen in liquid nitrogen. For comparison purposes a subset of animals were collected immediately after hatching and frozen in liquid nitrogen.     Animals (between 4 and 5) were incubated in each HARV for either 12 or 24 h then immediately flash frozen in liquid nitrogen. For comparison purposes a subset of animals were collected immediately after hatching and frozen in liquid nitrogen.     For each treatment RNA was  from 10 dissected light organs using the RNeasy Kit (Qiagen, Valencia, CA). The manufacturer’s protocol was slightly modified as light organs underwent bead beating using a 6-mm stainless steel bead and then transferred to a QIAshredder column (Qiagen, Valencia, CA) before completing RNA extraction.\nThe recovered RNA was DNAse-treated using a TURBO DNA-freeTM Kit (Life technologies, Carlsbad, CA) and quantified using a Qubit 2.0 fluorometer (Life technologies, Carlsbad, CA) and normalized between treatments. RNA quality was assessed on an Agilent 2100 Bioanalyzer using a RNA 6000 Nano Kit (Agilent Technologies, Palo Alto, CA). High quality RNA underwent polyA selection.     cDNA library synthesis using the NEBNext UltraTM RNA Library Prep Kit for Illumina (New England Biolab, Ipswich, MA)     Sequenced with the Illumina NextSeq 500 platform, generating 2 x 150 bp paired end reads.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "NNX13AM44G",
+          "Study Publication Author List": "Giorgio Casaburi  Irina Goncharenko-Foster  Alexandrea A. Duscher & Jamie S. Foster",
+          "Project Link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13466",
+          "Study Publication Title": "Transcriptomic changes in an animal-bacterial symbiosis under modeled microgravity conditions",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "Spaceflight imposes numerous adaptive challenges for terrestrial life. The reduction in gravity, or microgravity, represents a novel environment that can disrupt homeostasis of many physiological processes. Additionally, it is becoming increasingly clear that an organism's microbiome is critical for host health and examining its resiliency in microgravity represents a new frontier for space biology research. In this study, we examine the impact of microgravity on the interactions between the squid Euprymna scolopes and its beneficial symbiont Vibrio fischeri, which form a highly specific binary mutualism. First, animals inoculated with V. fischeri aboard the space shuttle showed effective colonization of the host light organ, the site of the symbiosis, during spaceflight. Second, RNA-Seq analysis of squid exposed to modeled microgravity conditions exhibited extensive differential gene expression in the presence and absence of the symbiotic partner. Transcriptomic analyses revealed in the absence of the symbiont during modeled microgravity there was an enrichment of genes and pathways associated with the innate immune and oxidative stress response. The results suggest that V. fischeri may help modulate the host stress responses under modeled microgravity. This study provides a window into the adaptive responses that the host animal and its symbiont use during modeled microgravity.",
+          "organism": "Euprymna scolopes",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/50yb-ga49",
+          "url": "https://doi.org/10.26030/50yb-ga49"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1493337600
+        ]
+      }
+    ]
+  }
+}

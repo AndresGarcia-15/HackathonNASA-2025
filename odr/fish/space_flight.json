@@ -1,0 +1,142 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 2,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Wt_6g4QB28eYt3lGNbZ7",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-133/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "13-Mar-2013",
+            "Start Date": "23-Oct-2012",
+            "Name": "Expedition 33/34"
+          },
+          "Material Type": "Whole Organism     Pharyngeal",
+          "Project Identifier": "",
+          "Accession": "OSD-133",
+          "Identifiers": "GLDS-133",
+          "Study Identifier": "OSD-133",
+          "Study Protocol Name": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "We thank Dr. K. Inohaya in Tokyo Institute of Technology for providing the osterix and osteocalcin transgenic lines, Mr. K. Terada in Tokyo Institute of Technology for examining the results of the transcriptome analysis, Ms. M. Hattori in Chiyoda Corporation for embedding of medaka larvae, Mr. T. Sakimura in Japan Space Forum for preparing the medaka chamber, and Dr. R. Kajitani in Tokyo Institute of Technology for registration of sequence data to the DDBJ. We also thank astronauts Mr. K. Wakata in JAXA for setting the medaka chambers for fluorescence microscopy at the ISS",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Kudo",
+            "Middle Initials": "",
+            "First Name": "Akira"
+          },
+          "Study Protocol Type": "sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing",
+          "Space Program": "JAXA",
+          "Study Title": "Acute transcriptional up-regulation specific to osteoblasts/osteoclasts in medaka fish immediately after exposure to microgravity",
+          "Study Factor Type": "Space Flight     time",
+          "Study Public Release Date": 1488326400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-133/image",
+          "Study Factor Name": "Spaceflight     Time",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "PRJDB5292",
+          "Project Title": "",
+          "Study Funding Agency": "RNAseq libraries constructions and analysis was partially supported by Russian Science Foundation grant for international groups (No. 14-44-00022) work was mainly by grants-in-aid from the Ministry of Education, Culture, Sports, Science and Technology of Japan (grant no. 25514003, 16K15778, 16H01635) and partly by the Ground-based Research Program for Space Utilization promoted by the Japan Space Forum.",
+          "Study Protocol Description": "In the experiment at the ISS in 2012, at days 2 and 6 after launch, medaka fish were transported into the Fish Fixation Apparatus for analysis of mRNA expression levels. The buffer used in the Fish Fixation Apparatus was RNAlater (Sigma-Aldrich, MO, USA). Specimens were frozen and stored at -95C for later mRNA analyses. These specimens were maintained at -95C and transported from NASA to Japan.     Medaka fish were preserved by use of RNAlater at days 2 and 6 after launch into spaceflight in 2012. For flight specimens, RNAs from pharyngeal bones, or whole bodies were extracted at day 2 , or at days 2 and 6 after launch. Ground control fish were preserved at Baikonur at day 2 after launch, and RNAs from pharyngeal bones, or whole bodies were extracted as day 2 control, or days and 6 control. Since a small amount of RNA was extracted from pharyngeal bones at day 2 after launch, flight- and ground- cDNAs were synthesized by using a mixture of RNAs of all extracted samples.     cDNA sequencing was performed for whole-transcriptome analysis (Takara bio). A cDNA library was constructed by using a TruSeq RNA Sample Preparation Kit v2 (illuminakk.co.jp). Double-stranded cDNAs were synthesized by using fragments of PolyA+RNA as templates.     The sequence data was analyzed with an HiSeq system (illuminakk.co.jp) using a sequence library.",
+          "Experiment Platform": "Aquatic Habitat",
+          "Characteristics": "",
+          "Study Grant Number": "Russian Science Foundation grant for international groups (No. 14-44-00022);grant no. 25514003  16K15778  16H01635",
+          "Study Publication Author List": "Chatani M  Morimoto H  Takeyama K  Mantoku A  Tanigawa N  Kubota K  Suzuki H  Uchida S  Tanigaki F  Shirakawa M  Gusev O  Sychev V  Takano Y  Itoh T  Kudo A",
+          "Project Link": "",
+          "Study Publication Title": "Acute transcriptional up-regulation specific to osteoblasts/osteoclasts in medaka fish immediately after exposure to microgravity",
+          "Managing NASA Center": "",
+          "Study Description": "During space flight, bone mineral density is decreased by the influence of osteoclast activation, which molecular mechanism is expectantly investigated. In the study of medaka bone development, we investigated the system of vertebra formation, and firstly identified the presence of osteoclasts in medaka. Moreover, osteoclast rsorbing activity was affected by hypergravity, indicating the possibility that we can investigate the effect of microgravity on osteoclasts in space. To find this effect, we examine the alteration of osteoclast activity under microgravity with the histological analysis or the expression analysis by RNA in-situ hybridization. Furthermore, since we have succeeded the establishment of the medaka osteoclast-specific transgenic lines, we perform the in-vivo imaging analyses for gene expression and cell mobility. Finally, to examine the gravity sensing system, we employ tooth and bone as the high density organs, which are highly sensitive to gravity, and perform the histological analysis and the gene expression analysis of such gravity-sensitive tissues at surrounding pharyngeal teeth and supporting bone.",
+          "organism": "Oryzias latipes",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/m3tm-7178",
+          "url": "https://doi.org/10.26030/m3tm-7178"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1488326400
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "xd_6g4QB28eYt3lGQLa6",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "GLDS-83/",
+          "Flight Program": "International Space Station",
+          "Material Type": "Brain     Eye     Testis     Intestines     Liver     Ovary",
+          "Project Identifier": "",
+          "Accession": "OSD-83",
+          "Project Link": "http://trace.ddbj.nig.ac.jp/BPSearch/bioproject?acc=PRJDB3903",
+          "Study Identifier": "GLDS-83",
+          "Study Protocol Name": "growth protocol     sample preparation     nucleic acid extraction     library construction     nucleic acid sequencing     sequence assembly     GeneLab RNAseq data processing protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Mitani Terai",
+            "Middle Initials": "",
+            "First Name": "Hiroshi Shuji"
+          },
+          "Study Protocol Type": "growth protocol     sample preparation     nucleic acid extraction     library construction     nucleic acid sequencing     sequence assembly     data transformation",
+          "Space Program": "JAXA",
+          "Study Title": "Comparative Transcriptomic Analysis of Adult Medaka Tissues Sampled after Adaptation to a Space Environment",
+          "Study Factor Type": "Space Flight     Tissue",
+          "Study Public Release Date": 1444867200.0,
+          "Parameter Value": "",
+          "thumbnail": "/genelab/img/GLDS83__study_image.png",
+          "Study Factor Name": "Spaceflight     Tissue",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "DRA003542",
+          "Data Source Type": "cgene",
+          "Project Title": "Comparative Transcriptomic Analysis of Adult Medaka Tissues Sampled after Adaptation to a Space Environment",
+          "Study Funding Agency": "This research was supported by a Grant-in-Aid for Scientific Research to H.M. from the Ministry of Education, Culture, Sports, Science and the unspecified fund from Technology of Japan and Japan Aerospace eXploration Agency.",
+          "Study Protocol Description": "The F1 fish (16 mm in length, six-weeks old at launch, and n = 8 in each of two aquaria) were transferred from the Fish Carrier to the two aquaria of the AQH, which is installed in a small powered multipurpose payload rack and housed in the Japanese Experiment Module (Kibo) on the ISS. The fish were maintained in the Aquatic Habitat (AQH) system for two months in the ISS. This habitat provides automatic feeding for the fish, an air-water interface, temperature control, and a specimen sampling mechanism, and enables the monitoring of behavior 24 hours a day. There are two chambers for habitation, each holding about 700 ml of water. Light-emitting diodes were used to simulate 14-h day and 10-h night cycles.     Sample fixations were performed between 8:20-14:00 without feeding in the morning on the sampling day. Four samples were used for RNA-seq analysis at 60 days.  Fish were transferred using the Fish Catcher (a special large pipette used to remove fish from each aquarium for transfer to the Fish Fixation Apparatus, which is a chemical fixation kit constructed from triple-layered plastic bags, with 6 ml of breeding water for histology and 5 ml for RNA-seq analysis of each fish. For the RNA-seq analysis, four fish were used and two each were stacked into a bag with 320 mg/L of anesthetic MS222 by breaking the pouch containing 5 ml of 700 mg/L MS222 and mixing the solution. Then anesthetics were removed by sponge absorption, replaced by the RNA stabilization reagent RNAlater (Thermo Fisher Scientific Inc., Waltham, MA, USA), and kept at -95C. Fixed samples in RNAlater, which became hard, were carefully dissected on a 90-mm dish (As One, GD 90-15) using noyes spring scissors (Nisshin Em Co., Ltd. Tokyo, 5 m/m), forceps (Dumont 5-Inox-H), and ring forceps (Napox A-26) under a microscope. The brain and eyes were separated from the head region, and the liver, intestine, testis, and ovary were separated by an abdominal operation.     To compare the gene expression pattern between spaceflight samples and ground controls, fixed samples were dissected under a microscope and total RNA was isolated from 2-4 siblings using TRIzol reagent (Thermo Fisher Scientific Inc.) from the brain, eye, liver, intestine, testis, and ovary. The intestine was separated into four portions longitudinally and high quality RNA could only be obtained from most caudal part of the intestine. RNA quality was evaluated using an Agilent Bioanalyzer 2100 total RNA Nano series II chip (Agilent Technologies Inc., Santa Clara, CA, USA) and total RNA was pooled from the same tissue as a single sample in this study.     RNA-seq analysis was conducted commercially by the Takara de novo RNA-seq service (Takara Bio Inc., Shiga, Japan). Transcriptome libraries were prepared from total RNA using Illumina TruSeq Stranded RNA Sample Preparation kits (Illumina Inc., San Diego, CA, USA).     Libraries were sequenced by a single read length of 100 nucleotides on the Illumina Hi-Seq2500 instrument as per the manufacturer's recommendations.     The resulting reads were trimmed of low quality nucleotides and aligned against 24662 cDNA sequences predicted by Ensembl's Oryzias latipes Genebuild (version 56). Gene expression levels were determined by measuring the sum of the reads per kilobase per million mapped read (RPKM) values of each exon. Alignment counts were normalized for transcript lengths and total aligned RPKM values. To acquire more accurate results, we filtered out the data for samples when the estimated RPKM values in the SF or GC sample were < 1.0 or when the read numbers were < 5.  These transgenic fish were cultured as the spaceflight group (SF) in the AQH from October 26 to December 24, 2012.     Raw fastq files were assessed for % rRNA using HTStream SeqScreener (version 1.1.0) and filtered using Trim Galore! (version 0.6.4). Raw and trimmed fastq file quality was evaluated with FastQC (version 0.11.9), and MultiQC (version 1.8) was used to generate MultiQC reports. Oryzias latipes STAR and RSEM references were built using STAR (version 2.7.3a) and RSEM (version 1.3.1), respectively, Ensembl genome version ASM223467v1, release-99 (Oryzias_latipes.ASM223467v1.dna.toplevel.fa) and the following gtf annotation file: Oryzias_latipes.ASM223467v1.99.gtf. Trimmed reads were aligned to the Oryzias latipes STAR reference with STAR (version 2.7.3a) and aligned reads from 3 samples were assessed for strandedness using RSeQC Infer Experiment (version 4.0.0) then aligned reads from all samples were quantified using RSEM (version 1.3.1), with strandedness set to none. Quantification data was imported to R (version 4.0.3) with tximport (version 1.18.0) to generate unnormalized (raw) counts table. Differential expression analysis was not performed due to lack of biological replicates.",
+          "Experiment Platform": "Aquatic Habitat",
+          "Characteristics": "",
+          "Study Grant Number": "Grant-in-Aid for Scientific Research (S) Number 25220102",
+          "Study Publication Author List": "Murata Y  Yasuda T  Watanabe-Asaka T  Oda S  Mantoku A  Takeyama K  Chatani M  Kudo A  Uchida S  Suzuki H  Tanigaki F  Shirakawa M  Fujisawa K  Hamamoto Y  Terai S  Mitani H.",
+          "Mission": {
+            "End Date": "24-Dec-2012",
+            "Start Date": "26-Oct-2012",
+            "Name": "Expedition 33/34"
+          },
+          "Study Publication Title": "Histological and Transcriptomic Analysis of Adult Japanese Medaka Sampled Onboard the International Space Station.",
+          "Managing NASA Center": "",
+          "Study Description": "To understand how humans adapt to space environments, many experiments can be conducted on astronauts while they work aboard the Space Shuttle or the International Space Station (ISS). We also need animal experiments that can apply to human models and help prevent or solve the physical issues we face in space travel. The medaka is a suitable model fish for studying space adaptation because in the second International Microgravity Laboratory mission in 1994, adult fish mated successfully in space during 15 days of flight. In 2012, another space experiment 'Medaka Osteoclast' was performed. Male and female fish (6 weeks old at launching) were maintained in the Aquatic Habitat system for 2 months in the ISS. The RNA-seq analysis of tissues from these fish will revealed tissue-specific responsiveness and common stress responses during space adaptation.",
+          "organism": "Oryzias latipes",
+          "Identifiers": "GLDS-83"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1444867200
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,650 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 10,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "09_6g4QB28eYt3lGQ7Z9",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-425/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "",
+          "Accession": "OSD-425",
+          "Identifiers": "GLDS-425",
+          "Study Identifier": "OSD-425",
+          "Study Protocol Name": "sample collection     RNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Agilent",
+          "Study Person": {
+            "Last Name": "Higashibata",
+            "Middle Initials": "",
+            "First Name": "Akira"
+          },
+          "Study Protocol Type": "sample collection     RNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     data transformation",
+          "Space Program": "JAXA",
+          "Study Title": "The effect of microgravity on the epigenetic modification in C. elegans - JAXA EPIGENETICS spaceflight experiment",
+          "Study Factor Type": "Space Flight     Genotype     generation     Gravity, Altered",
+          "Study Public Release Date": 1630368000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-425/image",
+          "Study Factor Name": "Spaceflight     Genotype     Generation     Altered Gravity",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE173985",
+          "Project Title": "",
+          "Study Funding Agency": "This work was supported by KIBO utilization program conducted by the Human Spaceflight Technology Directorate in JAXA, and was also supported by grants from the Ministry of Education, Culture, Sports, science and Technology, MEXT KAKENHI (15H05937 and 15K21745), and Advanced Research and Development Programs for Medical Innovation, AMED-CREST (16814305).",
+          "Study Protocol Description": "To synchronize the growth of the worms, an egg preparation was made in a laboratory at the Kennedy Space Center as described previously. All L1 larvae (each strain, 9,000 worms) were kept in a 1-ml plastic syringe in M9 buffer containing 5 mg/L cholesterol (M9C) until the initiation of the experiment. The synchronized culture was started by injecting 9000 L1 larvae through a NIPRO-manufactured connection port into a NIPRO culture bag containing a 14 ml suspension of E. coli OP50 in S-basal medium (OD600 is 5) in the International Space Station (ISS) Japanese Experiment Module KIBO. After culturing at 20 C for about 4 days in the ISS's Cell Biology Experiment Facility (CBEF), a 2 ml suspension of the next generation of L1 larvae was filtered through a 10 μm nylon mesh filter (Semitec Corporation, Japan) and inoculated into a new culture bag. The remaining culture bag was frozen at −95 C in the ISS freezer MELFI. Each culture was repeated 3 times in the same way to produce samples for a total of four generations. Two independent replicate experiments were performed for each strain in microgravity and artificial 1G conditions with centrifuge in the CBEF.     RNA was prepared using ISGEN (Nippon gene)following the manufacturer's recommendations. RNA was quantified using a NanoDrop-1000 spectrophotometer and quality was monitored with the Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA).     Cyanine-3 (Cy3) labeled cRNA was prepared from 200ng RNA using the One-Color Low RNA Input Linear Amplification kit (Agilent) according to the manufacturer's instructions, followed by RNAeasy column purification (QIAGEN, Valencia, CA).     The labeled cRNA (1.65 ug/sample) was hybridized to a microarray using the Agilent Gene Expression Hybridization Kit at 65C for 17 hours.     Slides were scanned immediately after washing on the Agilent DNA Microarray Scanner (G49000DA) using one color scan setting for 4x44k array slides.     Data were processed as described in GL-DPPD-7112 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Agilent_1-channel/Pipeline_GL-DPPD-7112_Versions/GL-DPPD-7112.md), using NF_MAAgilent1ch version 1.0.3 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAgilent1ch_1.0.3/Microarray/Agilent_1-channel/Workflow_Documentation/NF_MAAgilent1ch). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.1). The raw array data files were loaded into R (version 4.1.3) using limma (version 3.50.3). Raw data quality assurance density, pseudo image, MA, and foreground-background plots were generated using limma (version 3.50.3), and boxplots were generated using ggplot2 (version 3.4.0). The raw intensity data was background corrected and normalized across arrays via the limma (version 3.50.3) quantile method. Normalized data quality assurance density, pseudo image, and MA plots were generated using limma (version 3.50.3), and boxplots were generated using ggplot2 (version 3.4.0). Ensembl gene ID mappings were retrieved for each probe using the Ensembl database ftp server (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probe to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Ce.eg.db (version 3.15.0).",
+          "Experiment Platform": "Cell Biology Experiment Facility (CBEF)",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Higashitani A  Hashizume T  Takiura M  Higashitani N  Teranishi M  Oshima R  Yano S  Kuriyama K  Higashibata A.     Sudevan S  Muto K  Higashitani N  Hashizume T  Higashibata A  Ellwood RA  Deane CS  Rahman M  Vanapalli SA  Etheridge T  Szewczyk NJ  Higashitani A.",
+          "Project Link": "",
+          "Study Publication Title": "Histone deacetylase HDA-4-mediated epigenetic regulation in space-flown C. elegans.     Loss of physical contact in space alters the dopamine system in C. elegans.",
+          "Managing NASA Center": "",
+          "Study Description": "We compared the entire gene expression of wild-type and mutants under µG and artificial 1G conditions. Two independent culture samples were analyzed for each condition. DNA microarray analyses were performed to determine the gene expression profiles of space-flown worms over four generations. N2 wild-type, RB756 hda-4 (ok518), and VC199 sir-2.1 (ok434) mutants were used to analyze epigenome alterations by histone deacetylase.",
+          "organism": "Caenorhabditis elegans",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/1rkt-t974",
+          "url": "https://doi.org/10.26030/1rkt-t974"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1630368000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Y9_6g4QB28eYt3lGNrYh",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-165/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "11/17/2011",
+            "Start Date": "10/31/2011",
+            "Name": "Shenzhou-8"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "SIBMOX-CELEGANS_SHENZHOU-8",
+          "Accession": "OSD-165",
+          "Identifiers": "GLDS-165",
+          "Study Identifier": "OSD-165",
+          "Study Protocol Name": "sample collection     Nucleic Acid Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     normalization data transformation     unknown protocol",
+          "Study Assay Technology Type": "miRNA Microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Exiqon",
+          "Study Person": {
+            "Last Name": "Gao",
+            "Middle Initials": "",
+            "First Name": "Ying"
+          },
+          "Study Protocol Type": "sample collection     Nucleic Acid Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     data transformation     ",
+          "Space Program": "",
+          "Study Title": "Synergistic effects of space radiation and microgravity (miRNA WT and dys-mutant)",
+          "Study Factor Type": "Gravity, Altered     Space Flight     strain",
+          "Study Public Release Date": 1488326400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-165/image",
+          "Study Factor Name": "Altered Gravity     Spaceflight     Strain",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE90823",
+          "Project Title": "",
+          "Study Funding Agency": "This work is supported by “National Natural Science Foundation of China (31270903)” and “the Fundamental Research Funds for the Central Universities (3132016330)”.",
+          "Study Protocol Description": "Shenzhou-8 was launched in the Jiuquan Satellite Launch Center on 1 November 2011. About 10 h before the launch, fresh solid NGM and approximately 100,000 dauer worms were successively loaded in the containers.Containers were settled into the centrifugal and static slots of BIOBOX. The Shenzhou-8 mission was ﬂown from 1 – 17 November 2011, with a total mission time of 16.5 days. Throughout the duration of the experiment, the containers maintained a temperature of 23+/- 0.5C. G-force peaks did not exceed levels of 0.01 g, while most of the time values oscillated between 0.005 g. Space radiations dose was measured in the static slot (1.92 mGy) and centrifuge slot (2.27 mGy), respectively. Seven hours after landing, worms were collected and kept in liquid nitrogen. The corresponding ground controls of the experiment were performed in parallel at the Payload Integration Test Center in Beijing 2 days later. Here, the samples were kept in a static slot in BIOBOX and temperature was maintained at 23 +/-0.5°C. The ground group was stopped after 16.5 days and the samples were collected after 7 h later.\nWorms were cultured on Nematode Growth Medium (NGM) at 23°C and synchronized to dauer larvae by 1% sodium dodecyl sulfonate (SDS) (Sangon Biotec, Shanghai, China) according to the protocols in Wormbook (Stiernagle 2006).     Total RNA was isolated using TRIzol (Invitrogen) and miRNeasy mini kit (QIAGEN) according to manufacturer’s instructions, which efficiently recovered all RNA species, including miRNAs. RNA quality and quantity was measured by using nanodrop spectrophotometer (ND-1000, Nanodrop Technologies) and RNA Integrity was determined by gel electrophoresis.     One ug total RNA from each samplewas labeled with Hy3 fluorescent label using the miRCURY Hy3/Hy5 Power labeling kit (Exiqon, Vedbaek, Denmark) following the procedure described by the manufacturer.     The Hy3-labeled samples were hybridized on the miRCURY LNA Array (v.11.0) (Exiqon) according to array manual in a 12-Bay Hybridization Systems (Hybridization System - Nimblegen Systems, Inc., Madison, WI, USA).     The slides were scanned using the Axon GenePix 4000B microarray scanner (Axon Instruments, Foster City, CA).Scanned images were then imported into GenePix Pro 6.0 software (Axon) for grid alignment and data extraction.     Replicated miRNAs were averaged and miRNAs that intensities greater than or equal to 50 in all samples were chosen for calculating normalization factor. Expressed data were normalized using the Median normalization.     This protocol was auto-generated where a protocol could not be determined.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "National Natural Science Foundation of China #31270903  Fundamental Research Funds for the Central Universities #3132016330",
+          "Study Publication Author List": "Xu D  Gao Y  Guo L  Lin C  Sun Y",
+          "Project Link": "",
+          "Study Publication Title": "Effect of dys-1 mutation on gene expression\nprofile in space-flown C. elegans.",
+          "Managing NASA Center": "",
+          "Study Description": "Space radiations and microgravity both could cause DNA damage in cells, but the effects of microgravity on DNA damage response to space radiations are still controversial. A mRNA microarray and microRNA microarray in dauer larvae of Caenorhabditis elegans (C. elegans) that endured spaceflight environment and space radiations environment during 16.5-day Shenzhou-8 space mission were performed. In our study, wild type and dys-1 mutant strains of C.elegans endured four conditions during shenzhou-8 spaceflight mission, including spaceflight static condition(ss), spaceflight 1-g centrifugal condition(sc), ground control condition(gc) and no-transport control. Limited to the quantity of worm samples, we performed technical-repeat test but not sample-repeat test. Accordingly, eight miRNA microarrays were performed.",
+          "organism": "Caenorhabditis elegans",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/nw8g-gj44",
+          "url": "https://doi.org/10.26030/nw8g-gj44"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1488326400
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "r9_6g4QB28eYt3lGPLbK",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-167/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "11/17/2011",
+            "Start Date": "10/31/2011",
+            "Name": "Shenzhou-8"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "SIBMOX-CELEGANS_SHENZHOU-8",
+          "Accession": "OSD-167",
+          "Identifiers": "GLDS-167",
+          "Study Identifier": "OSD-167",
+          "Study Protocol Name": "sample collection     RNA extraction     labeling     nucleic acid hybridization     data collection     normalization data transformation",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Nimblegen",
+          "Study Person": {
+            "Last Name": "Gao",
+            "Middle Initials": "",
+            "First Name": "Ying"
+          },
+          "Study Protocol Type": "sample collection     RNA extraction     labeling     nucleic acid hybridization     data collection     normalization data transformation",
+          "Space Program": "",
+          "Study Title": "Synergistic effects of microgravity and space radiation (Nimblegen)",
+          "Study Factor Type": "Space Flight     Gravity, Altered     strain",
+          "Study Public Release Date": 1488326400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-167/image",
+          "Study Factor Name": "Spaceflight     Altered Gravity     Strain",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE90786",
+          "Project Title": "",
+          "Study Funding Agency": "This work is supported by National Natural Science Foundation of China (31270903) and the Fundamental Research Funds for the Central Universities (3132016330).",
+          "Study Protocol Description": "Shenzhou-8 was launched in the Jiuquan Satellite Launch Center on 1 November 2011. About 10 h before the launch, fresh solid NGM and approximately 100,000 dauer worms were successively loaded in the containers.Containers were settled into the centrifugal and static slots of BIOBOX. The Shenzhou-8 mission was flown from 1 - 17 November 2011, with a total mission time of 16.5 days. Throughout the duration of the experiment, the containers maintained a temperature of 23+/- 0.5C. G-force peaks did not exceed levels of 0.01 g, while most of the time values oscillated between 0.005 g. Space radiations dose was measured in the static slot (1.92 mGy) and centrifuge slot (2.27 mGy), respectively. Seven hours after landing, worms were collected and kept in liquid nitrogen. The corresponding ground controls of the experiment were performed in parallel at the Payload Integration Test Center in Beijing 2 days later. Here, the samples were kept in a static slot in BIOBOX and temperature was maintained at 23 +/-0.5C. The ground group was stopped after 16.5 days and the samples were collected after 7 h later. Worms were cultured on Nematode Growth Medium (NGM) at 23C and synchronized to dauer larvae by 1% sodium dodecyl sulfonate (SDS) (Sangon Biotec, Shanghai, China) according to the protocols in Wormbook (Stiernagle 2006).     Total RNA was isolated using Invitrogen TRIzol (Invitrogen, Carlsbad, CA, USA) according to the manufacturer's instructions. Total RNA was quantified using a NanoDrop-1000 spectrophotometer (Thermo Fisher, Wilmington, DE, USA) and RNA quality monitored by GelDoc-ItTM 310 Imaging System (UVP, Cambridge, CA, EUA).     For Cy3 labeling of cDNA, the NimbleGen One-Color DNA labeling kit was used according to the manufacturer's guideline detailed in the Gene Expression Analysis protocol (NimbleGen Systems, Inc., Madison, WI, USA).     Microarrays were hybridized at 42C during 16 to 20h with 4 ug of Cy3 labeled ds-cDNA in NimbleGen hybridization buffer/ hybridization component A in a hybridization chamber (Hybridization System - NimbleGen Systems, Inc., Madison, WI, USA). Following hybridization, washing was performed using the NimbleGen Wash Buffer kit (NimbleGen Systems, Inc., Madison, WI, USA).     Slides were scanned at 5 um/pixel resolution using an Axon GenePix 4000 B scanner (Molecular Devices Corporation) piloted by GenePix Pro 6.0 software (Axon).     Scanned images (TIFF format) were imported into NimbleScan software (version 2.5) for grid alignment and expression data analysis. Expression data were normalized through quantile normalization and the Robust Multichip Average (RMA) algorithm included in the NimbleScan software.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "National Natural Science Foundation of China #31270903  Fundamental Research Funds for the Central Universities #3132016330",
+          "Study Publication Author List": "Ying Gao  Dan Xu  Lei Zhao  Min Zhang  Yeqing Sun",
+          "Project Link": "",
+          "Study Publication Title": "Effects of microgravity on DNA damage response in Caenorhabditis elegans during Shenzhou-8 spaceflight",
+          "Managing NASA Center": "",
+          "Study Description": "Space radiations and microgravity both could cause DNA damage in cells, but the effects of microgravity on DNA damage response to space radiations are still controversial. A mRNA microarray and microRNA microarray in dauer larvae of Caenorhabditis elegans (C. elegans) that endured spaceflight environment and space radiations environment during 16.5-day Shenzhou-8 space mission were performed. In our study, wild type, dys-1 mutant and ced-1 mutant strains of C.elegans endured four conditions during shenzhou-8 spaceflight mission, including spaceflight static condition(ss), spaceflight 1-g centrifugal condition(sc), ground control condition(gc) and no-transport control. Limited to the quantity of worm samples, we performed technical-repeat test but not sample-repeat test.Accordingly, 12 mRNA microarrays were performed.",
+          "organism": "Caenorhabditis elegans",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/ba19-tb28",
+          "url": "https://doi.org/10.26030/ba19-tb28"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1488326400
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "y9_6g4QB28eYt3lGKrVc",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-166/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "11/17/2011",
+            "Start Date": "10/31/2011",
+            "Name": "Shenzhou-8"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "SIBMOX-CELEGANS_SHENZHOU-8",
+          "Accession": "OSD-166",
+          "Identifiers": "GLDS-166",
+          "Study Identifier": "OSD-166",
+          "Study Protocol Name": "sample collection     Nucleic Acid Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     normalization data transformation     unknown protocol",
+          "Study Assay Technology Type": "miRNA Microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Exiqon",
+          "Study Person": {
+            "Last Name": "Gao",
+            "Middle Initials": "",
+            "First Name": "Ying"
+          },
+          "Study Protocol Type": "sample collection     Nucleic Acid Extraction     Labeling     Nucleic Acid Hybridization     Data Collection     data transformation     ",
+          "Space Program": "",
+          "Study Title": "Synergistic effects of space radiation and microgravity (miRNA WT and ced-1 mutant)",
+          "Study Factor Type": "Gravity, Altered     Space Flight     strain",
+          "Study Public Release Date": 1488326400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-166/image",
+          "Study Factor Name": "Altered Gravity     Spaceflight     Strain",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE90872",
+          "Project Title": "",
+          "Study Funding Agency": "This work is supported by “National Natural Science Foundation of China (31270903)” and “the Fundamental Research Funds for the Central Universities (3132016330)”.",
+          "Study Protocol Description": "Shenzhou-8 was launched in the Jiuquan Satellite Launch Center on 1 November 2011. About 10 h before the launch, fresh solid NGM and approximately 100,000 dauer worms were successively loaded in the containers.Containers were settled into the centrifugal and static slots of BIOBOX. The Shenzhou-8 mission was ﬂown from 1 – 17 November 2011, with a total mission time of 16.5 days. Throughout the duration of the experiment, the containers maintained a temperature of 23+/- 0.5C. G-force peaks did not exceed levels of 0.01 g, while most of the time values oscillated between 0.005 g. Space radiations dose was measured in the static slot (1.92 mGy) and centrifuge slot (2.27 mGy), respectively. Seven hours after landing, worms were collected and kept in liquid nitrogen. The corresponding ground controls of the experiment were performed in parallel at the Payload Integration Test Center in Beijing 2 days later. Here, the samples were kept in a static slot in BIOBOX and temperature was maintained at 23 +/-0.5°C. The ground group was stopped after 16.5 days and the samples were collected after 7 h later.\nWorms were cultured on Nematode Growth Medium (NGM) at 23°C and synchronized to dauer larvae by 1% sodium dodecyl sulfonate (SDS) (Sangon Biotec, Shanghai, China) according to the protocols in Wormbook (Stiernagle 2006).     Total RNA was isolated using TRIzol (Invitrogen) and miRNeasy mini kit (QIAGEN) according to manufacturer’s instructions, which efficiently recovered all RNA species, including miRNAs. RNA quality and quantity was measured by using nanodrop spectrophotometer (ND-1000, Nanodrop Technologies) and RNA Integrity was determined by gel electrophoresis.     One ug total RNA from each samplewas labeled with Hy3 fluorescent label using the miRCURY Hy3/Hy5 Power labeling kit (Exiqon, Vedbaek, Denmark) following the procedure described by the manufacturer.     The Hy3-labeled samples were hybridized on the miRCURY LNA Array (v.11.0) (Exiqon) according to array manual in a 12-Bay Hybridization Systems (Hybridization System - Nimblegen Systems, Inc., Madison, WI, USA).     The slides were scanned using the Axon GenePix 4000B microarray scanner (Axon Instruments, Foster City, CA).Scanned images were then imported into GenePix Pro 6.0 software (Axon) for grid alignment and data extraction.     Replicated miRNAs were averaged and miRNAs that intensities greater than or equal to 50 in all samples were chosen for calculating normalization factor. Expressed data were normalized using the Median normalization.     This protocol was auto-generated where a protocol could not be determined.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "National Natural Science Foundation of China #31270903  Fundamental Research Funds for the Central Universities #3132016330",
+          "Study Publication Author List": "",
+          "Project Link": "",
+          "Study Publication Title": "",
+          "Managing NASA Center": "",
+          "Study Description": "Space radiations and microgravity both could cause DNA damage in cells, but the effects of microgravity on DNA damage response to space radiations are still controversial. A mRNA microarray and microRNA microarray in dauer larvae of Caenorhabditis elegans (C. elegans) that endured spaceflight environment and space radiations environment during 16.5-day Shenzhou-8 space mission were performed. In our study, wild type and ced-1 mutant strains of C.elegans endured three conditions during shenzhou-8 spaceflight mission, including spaceflight static condition(ss), spaceflight 1-g centrifugal condition(sc) and ground control condition(gc). Limited to the quantity of worm samples, we performed technical-repeat test but not sample-repeat test.Accordingly，six miRNA microarrays were performed.",
+          "organism": "Caenorhabditis elegans",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/9yqt-c437",
+          "url": "https://doi.org/10.26030/9yqt-c437"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1488326400
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Mt_6g4QB28eYt3lGMraN",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-113/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "23-Oct-2004",
+            "Start Date": "18-Apr-2004",
+            "Name": "Expedition 9"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "ICE-FIRST",
+          "Accession": "OSD-113",
+          "Identifiers": "GLDS-113",
+          "Study Identifier": "OSD-113",
+          "Study Protocol Name": "sample collection     RNA extraction     labeling     nucleic acid hybridization     data collection     normalization data transformation     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Agilent",
+          "Study Person": {
+            "Last Name": "Higashibata Hashizume",
+            "Middle Initials": "",
+            "First Name": "Akira T"
+          },
+          "Study Protocol Type": "sample collection     RNA extraction     labeling     nucleic acid hybridization     data collection     normalization data transformation     data transformation",
+          "Space Program": "JAXA",
+          "Study Title": "Expression Data from International C. elegans Experiment 1st (ICE-FIRST)",
+          "Study Factor Type": "Space Flight",
+          "Study Public Release Date": 1472601600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-113/image",
+          "Study Factor Name": "Spaceflight",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE71771",
+          "Project Title": "",
+          "Study Funding Agency": "ICE-FIRST was a collaborative effort among four nations: France, the United States, Japan, and Canada.",
+          "Study Protocol Description": "Approximately 10000 mixed stage worms were cultured in C. elegans maintenance medium (CeMM). During transporting the worms to the International Space Station, it took 2 days at 12 degree. The worms were cultured at 18 degree for 8 days in international space station. To recover the sample, it took 1day at 18 degree. The recovered worms were frozen by liquid N2 on the earth.     RNA was prepared using ISOGEN (Nippon Gene, Tokyo, Japan) following the manufacturer's recommendations. The residual DNA was eliminated by treating with DNase I (Takara Bio, Shiga, Japan) during an isolation process of total RNA. RNA was quantified using a NanoDrop-1000 spectrophotometer and quality was monitored with the Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA).     Cyanine-3 (Cy3) labeled cRNA was prepared from 0.5 ug RNA using the One-Color Low RNA Input Linear Amplification kit (Agilent) according to the manufacturer's instructions, followed by RNAeasy column purification (QIAGEN, Valencia, CA).     The labeled cRNA (1.65 ug/sample) was hybridized to a microarray using the Agilent Gene Expression Hybridization Kit at 65C for 17 hours.     Slides were scanned immediately after washing on the Agilent DNA Microarray Scanner (G2505C) using one color scan setting for 4x44k array slides.     The scanned images were analyzed with Feature Extraction Software 10.7.3.1. Microarray data were analyzed using Gene Spring software (Agilent Technologies). Normalized data were produced by Normalize to 75 percentile sift protocol and baseline to median of control sample protocol'. Arrays were filtered on expression (20-100)th percentile in raw data.     Data were processed as described in GL-DPPD-7112 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Agilent_1-channel/Pipeline_GL-DPPD-7112_Versions/GL-DPPD-7112.md), using NF_MAAgilent1ch version 1.0.1 (GitHub link coming soon). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.1). The raw array data files were loaded into R (version 4.1.3) using limma (version 3.50.3). Raw data quality assurance density, pseudo image, MA, and foreground-background plots were generated using limma (version 3.50.3), and boxplots were generated using ggplot2 (version 3.4.0). The raw intensity data was background corrected and normalized across arrays via the limma (version 3.50.3) quantile method. Normalized data quality assurance density, pseudo image, and MA plots were generated using limma (version 3.50.3), and boxplots were generated using using ggplot2 (version 3.4.0). Ensembl gene ID mappings were retrieved for each probe using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probe to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probe that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Ce.eg.db (version 3.15.0).",
+          "Experiment Platform": "Cell Biology Experiment Facility",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "",
+          "Project Link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=1327",
+          "Study Publication Title": "",
+          "Managing NASA Center": "",
+          "Study Description": "The effect of microgravity on gene expression in C.elegans was comprehensively analysed by DNA microarray (Agilent). Overall design: Mix staged C. elegans N2 was exposed microgravity for 10 days.",
+          "organism": "Caenorhabditis elegans",
+          "Data Source Type": "cgene"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1472601600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "M9_6g4QB28eYt3lGMraa",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-112/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "11/27/2009",
+            "Start Date": "11/16/2009",
+            "Name": "STS-129"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "CERISE",
+          "Accession": "OSD-112",
+          "Identifiers": "GLDS-112",
+          "Study Identifier": "OSD-112",
+          "Study Protocol Name": "sample collection     RNA extraction     labeling     nucleic acid hybridization     data collection     normalization data transformation     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "We are grateful to the entire crew of the CERISE for their work on STS-129, STS-130, and the ISS. The CERISE was organized with the support of the JAXA.",
+          "Study Assay Technology Platform": "Agilent",
+          "Study Person": {
+            "Last Name": "Higashibata Hashizume",
+            "Middle Initials": "",
+            "First Name": "Akira T"
+          },
+          "Study Protocol Type": "sample collection     RNA extraction     labeling     nucleic acid hybridization     data collection     normalization data transformation     data transformation",
+          "Space Program": "JAXA",
+          "Study Title": "Microgravity effect on C. elegans N2/VC (CERISE, 4 days)",
+          "Study Factor Type": "Gravity, Altered     Space Flight",
+          "Study Public Release Date": 1472601600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-112/image",
+          "Study Factor Name": "Altered Gravity     Spaceflight",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE71770",
+          "Project Title": "CERISE experiment",
+          "Study Funding Agency": "This experiment was supported by the Cell Biology Experiment Project conducted by the Institute of Space and Astronautical Science in JAXA, and was funded in part by JSPS KAKENHI Grant Numbers 26506029, 15H05937, the Medical Research Council UK (G0801271), and National Institutes of Health (NIH NIAMS ARO54342).",
+          "Study Protocol Description": "The worms were cultured at 20 degree for 4 days in international space station (ISS). The 2 mL of M9 cholesterol buffer suspended 9,000 of the hatched L1 larvae and the 12 mL of S-basal media suspended E. coli (OD600 equals 5) were separately packed into a monolayer polyethylene bag. The experiment was activated once onboard the ISS by reintroducing worms to bacterial food.\n\nThe worms were washed by M9 buffer. The worms were homoginaized with four rounds of 20-secound beating at 5000rpm in a MicroSmash MS-100 bead beater (Tomy seiko,Tokyo JAPAN).     RNA was prepared using ISOGEN (Nippon Gene, Tokyo, Japan) following the manufacturer's recommendations. The residual DNA was eliminated by treating with DNase I (Takara Bio, Shiga, Japan) during an isolation process of total RNA. RNA was quantified using a NanoDrop-1000 spectrophotometer and quality was monitored with the Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA).     Cyanine-3 (Cy3) labeled cRNA was prepared from 0.5 ug RNA using the One-Color Low RNA Input Linear Amplification kit (Agilent) according to the manufacturer's instructions, followed by RNAeasy column purification (QIAGEN, Valencia, CA).     The labeled cRNA (1.65 µg/sample) was hybridized to a microarray using the Agilent Gene Expression Hybridization Kit at 65C for 17 hours.     Slides were scanned immediately after washing on the Agilent DNA Microarray Scanner (G2505C) using one color scan setting for 4x44k array slides.     The scanned images were analyzed with Feature Extraction Software 10.7.3.1.\nMicroarray data were analyzed using Gene Spring software (Agilent Technologies). Normalized data were produced by Normalize to 75 percentile sift protocol and baseline to median of control sample protocol''. Arrays were filtered on expression (20-100)th percentile in raw data.''     Data were processed as described in GL-DPPD-7112 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Agilent_1-channel/Pipeline_GL-DPPD-7112_Versions/GL-DPPD-7112.md), using NF_MAAgilent1ch version 1.0.3 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAgilent1ch_1.0.3/Microarray/Agilent_1-channel/Workflow_Documentation/NF_MAAgilent1ch). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.1). The raw array data files were loaded into R (version 4.1.3) using limma (version 3.50.3). Raw data quality assurance density, pseudo image, MA, and foreground-background plots were generated using limma (version 3.50.3), and boxplots were generated using ggplot2 (version 3.4.0). The raw intensity data was background corrected and normalized across arrays via the limma (version 3.50.3) quantile method. Normalized data quality assurance density, pseudo image, and MA plots were generated using limma (version 3.50.3), and boxplots were generated using ggplot2 (version 3.4.0). Ensembl gene ID mappings were retrieved for each probe using the Ensembl database ftp server (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probe to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Ce.eg.db (version 3.15.0).",
+          "Experiment Platform": "Cell Biology Experiment Facility (CBEF)",
+          "Characteristics": "",
+          "Study Grant Number": "JSPS KAKENHI Grant Numbers 26506029  15H05937  the Medical Research Council UK (G0801271)  and National Institutes of Health (NIH NIAMS ARO54342).",
+          "Study Publication Author List": "Higashibata A  Hashizume T  Nemoto K  Higashitani N  Etheridge T  Mori C  Harada S  Sugimoto T  Szewczyk NJ  Baba SA  Mogami Y  Fukui K  and Higashitani A.",
+          "Project Link": "http://iss.jaxa.jp/en/kiboexp/news/cerise_start.html",
+          "Study Publication Title": "Microgravity elicits reproducible alterations in cytoskeletal and metabolic gene and protein expression in space-flown Caenorhabditis elegans",
+          "Managing NASA Center": "",
+          "Study Description": "Microgravity effect on C. elegans gene expression was analysed by whole genome microarray. The worms were cultivated under microgravity for 4 days in the Japanese Module of the International Space Station. C. elegans N2 was exposed microgravity for 4 days. The worms synchronously were cultivated from L1 larvae to adult. There are two control groups, onboard 1G and ground 1G control.",
+          "organism": "Caenorhabditis elegans",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/sj8n-th33",
+          "url": "https://doi.org/10.26030/sj8n-th33"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1472601600
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "1t_6g4QB28eYt3lGK7WC",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "GLDS-41/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "Nov-27-2009",
+            "Start Date": "Nov-16-2009",
+            "Name": "STS-129"
+          },
+          "Material Type": "",
+          "Project Identifier": "CERISE",
+          "Accession": "OSD-41",
+          "Study Identifier": "E-GEOD-27338",
+          "Study Protocol Name": "P-GSE27338-1     P-GSE27338-6     P-GSE27338-5     P-GSE27338-3     P-GSE27338-2     P-GSE27338-4     P-GSE27338-7",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Agilent",
+          "Study Person": {
+            "Last Name": "Higashibata     Hashizume",
+            "Middle Initials": "",
+            "First Name": "Akira     Toko"
+          },
+          "Study Protocol Type": "bioassay_data_transformation     image_aquisition     hybridization     nucleic_acid_extraction     grow     labeling     feature_extraction",
+          "Space Program": "JAXA",
+          "Study Title": "Microgravity effect on C. elegans N2/VC (CERISE 8days)",
+          "Study Factor Type": "Gravitation",
+          "Study Public Release Date": "1340942400",
+          "Parameter Value": "",
+          "thumbnail": "/genelab/img/GLDS41__study_image.png",
+          "Study Factor Name": "gravity",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-GEOD-27338",
+          "Data Source Type": "cgene",
+          "Project Title": "C. elegans RNAi space experiment: CERISE",
+          "Study Funding Agency": "",
+          "Study Protocol Description": "ID_REF =",
+          "Experiment Platform": "KIBO",
+          "Characteristics": "",
+          "Study Grant Number": "UK MRC (G0801271) and the US NIH NIAMS (AR054342)",
+          "Study Publication Author List": "Atsushi Higashitani Toko Hashizume Tomoko Sugimoto Chihiro Mori Kanako Nemoto Timothy Etheridge Nahoko Higashitani Takako Takanami Hiromi Suzuki Keiji Fukui Takashi Yamazaki Noriaki Ishioka Nathaniel Szewczyk and Akira Higashibata     Timothy Etheridge Kanako Nemoto Toko Hashizume Chihiro Mori Tomoko Sugimoto Hiromi Suzuki Keiji Fukui Takashi Yamazaki Akira Higashibata Nathaniel J. Szewczyk Atsushi Higashitani",
+          "Project Link": "http://iss.jaxa.jp/en/kiboexp/news/cerise_start.html",
+          "Study Publication Title": "C. elegans RNAi space experiment (CERISE) in Japanese Experiment",
+          "Managing NASA Center": "NA",
+          "Study Description": "Microgravity effect on C. elegans gene expression was analysed by whole genome microarray. The worms were cultivated under microgravity for 8 days in the Japanese Module of the International Space Station. The samples of this study were divided three experimental groups: 1. microgravity for 8 days 2. artificial 1G control for 8 days on orbit 3. ground 1G control for 8 days This study was repeated with three biological and two technical replicates.",
+          "organism": "Caenorhabditis elegans",
+          "Identifiers": "GLDS-41"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1340942400
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "dN_6g4QB28eYt3lGN7aE",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-35/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "04/30/2004",
+            "Start Date": "04/19/2004",
+            "Name": "Expedition 9"
+          },
+          "Material Type": "",
+          "Project Identifier": "ICE FIRST",
+          "Accession": "OSD-35",
+          "Identifiers": "GLDS-35",
+          "Study Identifier": "OSD-35",
+          "Study Protocol Name": "growth protocol     P-GSE36358-4     P-GSE36358-5     P-GSE36358-6     P-GSE36358-7     P-GSE36358-1     P-GSE36358-8     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "We are grateful to the entire crew of the ICE 1st for operation in orbit. The ICE 1st was well organized with the support of the European Space Agency, the Space Research Organization of the Netherlands, the Japan Aerospace Exploration Agency, National Aeronautics and Space Administration (NASA), the Canadian Space Agency and the French Space Agency. We thank Drs. M. Viso, G. Gasset, B. Eche and K. Fukui for their kind support in the space experiment. We acknowledge NASA Ames Research Center for preparation of CeMM. We also thank Dr. R. Morimoto for kindly supplying the Q35-YFP strain. We are grateful to N. Endo for his support with respect to fluorescence microscope observation.",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Higashibata Imamizo",
+            "Middle Initials": "",
+            "First Name": "Akira Mari"
+          },
+          "Study Protocol Type": "growth protocol     nucleic acid extraction     labeling     hybridization     image aquisition     bioassay data transformation     feature extraction     data transformation",
+          "Space Program": "JAXA",
+          "Study Title": "Expression Data from International C.elegans Experiment 1st",
+          "Study Factor Type": "Gravity, Altered     Space Flight",
+          "Study Public Release Date": 1333152000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-35/image",
+          "Study Factor Name": "Altered Gravity     Spaceflight",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "E-GEOD-36358",
+          "Project Title": "International Caenorhabditis elegans Experiment first flight",
+          "Study Funding Agency": "Some strains were provided by the Caenorhabditis Genetics Center funded by the National Institutes of Health National Center for Research Resources (NCRR) and the International C. elegans Gene Knockout Consortium and National Bioresource Project for the nematode. YH was supported by a grant-in-aid from the Ministry of Education, Science and Culture of Japan and by the program “Grand-based Research Announcement for Space Utilization” promoted by the Japan Space Forum. NJS was supported by NIAMS AR054342.",
+          "Study Protocol Description": "The C. elegans strains were maintained at 20C on nematode growth medium (NGM) agar with E. coli OP50 as a food source.  Briefly, eggs isolated after treatment of gravid adult worms with hypochlorite were incubated in a chemically defined liquid medium, C. elegans Maintenance Medium (CeMM) and allowed to hatch and grow. Approximately 70 worms at the L4 larva/young adult stage were placed into a gas-permeable culture bag containing 2.5mL CeMM with 40 uM 5-fluoro-2-deoxyuridine (FUdU, Sigma Aldrich, St. Louis, MO, USA) which was used to prevent self-fertilization. Approximately 100 hatched L1 worms were also placed in a culture bag containing 2.5mL CeMM without FUdR. Both of them were incubated for 5 days at 12C on the ground. After the launch, they were flown for 2 days at 12C and on board the International Space Station for 9 days at 20C. When samples were returned to earth, they were flash frozen (freezing time less than 1min) in liquid nitrogen within 2h of landing. Control worms underwent the same procedures at the same time on the ground.     ISOGEN extraction of total RNA was performed according to the manufacturer's instructions.     Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 15 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix).     Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Drosophila Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 450.     GeneChips were scanned using the Affimetryx GeneChip Scanner 3000.     VALUE = GCOS version 1.0 signal intensity     The data were analyzed with GeneChip Operating Software version 1.0 using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100.     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Ce.eg.db (version 3.15.0).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Honda Y  Higashibata A  Matsunaga Y  Yonezawa Y  Kawano T  Higashitani A \nKuriyama K  Shimazu T  Tanaka M  Szewczyk NJ  Ishioka N  Honda S.     Adenle AA  Johnsen B  Szewczyk NJ",
+          "Project Link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=1327",
+          "Study Publication Title": "Genes\ndown-regulated in spaceflight are involved in the control of longevity in\nCaenorhabditis elegans.     Review of the results from the International C. elegans first experiment (ICE-FIRST)",
+          "Managing NASA Center": "",
+          "Study Description": "The effect of microgravity on gene expression in C.elegans was comprehensively analysed by DNA microarray. This is the first DNA microarray analysis for C.elegans grown under microgravity. Hyper gravity and clinorotation experiments were performed as reference against the flight experiment.",
+          "organism": "Caenorhabditis elegans",
+          "Data Source Type": "cgene",
+          "DOI": "10.25966/qsg1-2490",
+          "url": "https://doi.org/10.25966/qsg1-2490"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1333152000
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Ot_6g4QB28eYt3lGM7YH",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-42/",
+          "Flight Program": "Space Transportation System (STS), International Space Station (ISS)",
+          "Mission": {
+            "End Date": "12/22/2006",
+            "Start Date": "12/09/2006",
+            "Name": "STS-116"
+          },
+          "Material Type": "",
+          "Project Identifier": "CSI-01",
+          "Accession": "OSD-42",
+          "Identifiers": "GLDS-42",
+          "Study Identifier": "OSD-42",
+          "Study Protocol Name": "P-GSE32949-3     P-GSE32949-2     P-GSE32949-4     P-GSE32949-5     P-GSE32949-6     P-GSE32949-8     P-GSE32949-7     GeneLab microarray data processing protocol",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Study Person": {
+            "Last Name": "Then Jusoh Then",
+            "Middle Initials": " M",
+            "First Name": "Sue-Mian N-F S"
+          },
+          "Study Protocol Type": "grow     sample treatment protocol     nucleic_acid_extraction     labeling     hybridization     feature_extraction     image_aquisition     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Expression data from C. elegans",
+          "Study Factor Type": "Space Flight",
+          "Study Public Release Date": 1318550400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-42/image",
+          "Study Factor Name": "Spaceflight",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE32949",
+          "Project Title": "",
+          "Study Funding Agency": "Universiti Kebangsaan Malaysia",
+          "Study Protocol Description": "The worms were cultured in C. elegans maintenance medium; CeMM provided by Bioserve Space Technology, University of Colorado, USA.     The CHab was flown as part of the Commercial Generic Bioprocessing Apparatus (CGBA) Science Insert-01 (CSI-01) on the STS-116 flight (December 2006) to the International Space Station. The worms were incubated in the CGBA for six months at 25\nC and were passaged every month from one opticell to the next. Upon landing, surviving worms were extracted and RNAlater added. The asynchronous stages of C. elegans were grown through multi-generation (up to +10 generations) on the International Space Station (ISS). The worms were automatically transferred from one chamber to another chamber with fresh CeMM at approximately 1-month intervals. The ground sample was passaged synchronously to the flight sample at the same time.     Trizol extraction of total RNA was performed according to the manufacturer's instructions.     Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 10ng - 100 ng total RNA (GeneChip® Expression Analysis Technical Manual, 2005-2006, Affymetrix).     Following fragmentation, 15 ug of cRNA were hybridized for 16 hr at 45C on Affymetrix GeneChip® C. elegans Genome Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400.     The data were analyzed with GeneChip Operation Software using Affymetrix default analysis settings and global scaling as normalization method. The trimmed mean target intensity of each array was arbitrarily set to 100.     GeneChips were scanned using the GeneChip Scanner 3000.     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Ce.eg.db (version 3.15.0).",
+          "Experiment Platform": "C. elegans Habitat (CHab)",
+          "Characteristics": "",
+          "Study Grant Number": "UKM-ANGKASA-NBD-0018-2007",
+          "Study Publication Author List": "Jamal R  Nurul-Faizah J  Then SM  Szewczyk NJ  Stodieck LS  Harun R     Celen I  Jayasinghe A  Doh J  Sabanayagam CR",
+          "Project Link": "http://www.ncbi.nlm.nih.gov/bioproject/PRJNA146465",
+          "Study Publication Title": "Gene expression changes in space flown Caenorhabditis elegans exposed to a long period of microgravity.     Comparative Transcriptomic Signature of the Simulated Microgravity Response in Caenorhabditis elegans",
+          "Managing NASA Center": "",
+          "Study Description": "We used microarrays to investigate the effects of microgravity and space radiation on the genome-wide expression of the C. elegans. Three technical replicates of wild type C. elegans (CC1 strain) which exposed to space radiation are analyzed along with ground control.",
+          "organism": "Caenorhabditis elegans",
+          "Data Source Type": "cgene",
+          "DOI": "10.26030/333a-7x76",
+          "url": "https://doi.org/10.26030/333a-7x76"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1318550400
+        ]
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "sd_6g4QB28eYt3lGKLWQ",
+        "_score": null,
+        "_source": {
+          "Authoritative Source URL": "OSD-75/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "11/27/2009",
+            "Start Date": "11/16/2009",
+            "Name": "STS-129"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "CERISE",
+          "Accession": "OSD-75",
+          "Identifiers": "GLDS-75",
+          "Study Identifier": "OSD-75",
+          "Study Protocol Name": "growth protocol     RNA extraction     labeling     nucleic acid hybridization     scan protocol     sample treatment protocol",
+          "Study Assay Technology Type": "miRNA Microarray",
+          "Acknowledgments": "We are grateful to the entire crew of the C. elegans RNAi space experiment (CERISE) for operation in STS129, STS130 and the ISS Kibo module. We thank the Caenorhabditis elegans Genetic Center for kind supply of the GFP-fusion strains and Lew Jacobson, University of Pittsburgh for the asp-4 RNAi construct. We also extend thanks to Freya Shephard who prepared some of the dauer animals used in these experiments.",
+          "Study Assay Technology Platform": "Filgen",
+          "Study Person": {
+            "Last Name": "Higashitani Nemoto",
+            "Middle Initials": "",
+            "First Name": "Atsushi K"
+          },
+          "Study Protocol Type": "growth protocol     RNA extraction     labeling     nucleic acid hybridization     scan protocol     sample treatment protocol",
+          "Space Program": "JAXA",
+          "Study Title": "MicroRNA expression of C. elegans in space environment",
+          "Study Factor Type": "Gravity, Altered     duration     Space Flight",
+          "Study Public Release Date": 1297814400.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-75/image",
+          "Study Factor Name": "Altered Gravity     Duration     Spaceflight",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE27288",
+          "Project Title": "CERISE",
+          "Study Funding Agency": "This work was supported by a Grant-in-Aid for Scientific Research from the Ministry of Education, Culture, Sports, Science, and Technology of Japan, the Japan Society for the Promotion of Science, and Ground-Based Research Announcement for Space Utilization promoted by the Japan Space Forum. TE was supported by the Medical Research Council UK. NJS was supported by the National Institutes of Health.",
+          "Study Protocol Description": "A full description of the experimental procedures and flight hardware, including illustrations, employed on this experiment can be found in (Higashitani et al., 2010, Biol. Sci. Space, 23, 183-187). All experiments were carried out under temperature controlled conditions in the Cell Biology Experiment Facility (CBEF) within the KIBO module.Cultures for microRNA expression analysis were grown for 4 d and 8 d. Experiments were stopped by first observing the animals by light microscopy and then by freezing with subsequent storage at -80C in MELFI. Flight samples were thawed on ice with M9 buffer containing 0.05% gelatine, and approximately 10^3 adult hermaphrodites were collected in each experimental condition by picking under stereo microscopy.     Total RNA was isolated with TRIzol Reagent (Invitrogen).     Total RNA (17 micro-g) was purified by flash PAGE^TM system. Label  IT miRNA Labeling Kit (Mirus Bio Corp., cat.#MIR8305) was used for probe label with Cy5.      After pre-hybridization for 60 min at 37C with 6 x SSPE, 1% SDS, 0.2% BSA, hybridization was performed at 37C for 4 hr hybridization in Hybridization Buffer (6xSSPE, 0.8% BSA, 12% DI-Formamide, 2.5% SDS). Array was washed 4 times with 6 x SSPE, 0.05% Tween-20 (25C) for 3 min, 3 x SSPE, 0.05% Tween-20 (25C) for 3 min, 0.5 x SSPE, 0.05% Tween-20 (25C) for 3 min and 0.5 x SSPE, 0.05% Tween-20 (25C) for 3 min.     GenePix 4000B scanner (Molecular Devices)     condition: micro gravity for 4 d\n\n",
+          "Experiment Platform": "Cell Biology Experiment Facility (CBEF)",
+          "Characteristics": "",
+          "Study Grant Number": "Medical Research Council UK G0801271; NIH NIAMS ARO54342",
+          "Study Publication Author List": "Etheridge T  Nemoto K  Hashizume T  Mori C  Sugimoto T  Suzuki H  Fukui K  Yamazaki T  Higashibata A  Szewczyk NJ  Higashitani A.",
+          "Project Link": "http://iss.jaxa.jp/en/kiboexp/news/cerise_start.html",
+          "Study Publication Title": "The effectiveness of RNAi in Caenorhabditis elegans is maintained during spaceflight.",
+          "Managing NASA Center": "",
+          "Study Description": "Entire microRNA expression were analyzed using the Filgen Array miRNA Caenorhabditis elegans 232 probes (Filgen). In the microRNA expression analysis, we compared the expression data between two groups: micro-gravity samples (4 d and 8 d) and controls (4 d and 8 d ground control and 1 G centrifuge onboard ISS).",
+          "organism": "Caenorhabditis elegans",
+          "Data Source Type": "cgene"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>"
+          ]
+        },
+        "sort": [
+          1297814400
+        ]
+      }
+    ]
+  }
+}
