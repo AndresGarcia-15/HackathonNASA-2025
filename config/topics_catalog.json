@@ -1,0 +1,811 @@
+[
+  {
+    "id": "organism:homo_sapiens",
+    "category": "organism",
+    "label": "Homo sapiens",
+    "frequency": 21,
+    "normalized_frequency": 1.0,
+    "emerging": false,
+    "score": 1.0,
+    "sample_studies": [
+      "OSD-811",
+      "OSD-867",
+      "OSD-689"
+    ]
+  },
+  {
+    "id": "organism:homo_sapiens_not_applicable_rattus_norvegicus",
+    "category": "organism",
+    "label": "Homo sapiens Not Applicable Rattus norvegicus",
+    "frequency": 3,
+    "normalized_frequency": 0.1429,
+    "emerging": false,
+    "score": 0.1429,
+    "sample_studies": [
+      "OSD-832",
+      "OSD-834",
+      "OSD-833"
+    ]
+  },
+  {
+    "id": "organism:homo_sapiens_microbiota_not_applicable",
+    "category": "organism",
+    "label": "Homo sapiens Microbiota Not Applicable",
+    "frequency": 1,
+    "normalized_frequency": 0.0476,
+    "emerging": false,
+    "score": 0.0476,
+    "sample_studies": [
+      "OSD-574"
+    ]
+  },
+  {
+    "id": "condition:spaceflight",
+    "category": "condition",
+    "label": "Spaceflight",
+    "frequency": 19,
+    "normalized_frequency": 1.0,
+    "emerging": false,
+    "score": 1.0,
+    "sample_studies": [
+      "OSD-811",
+      "OSD-867",
+      "OSD-689"
+    ]
+  },
+  {
+    "id": "condition:ground_control",
+    "category": "condition",
+    "label": "Ground Control",
+    "frequency": 9,
+    "normalized_frequency": 0.4737,
+    "emerging": false,
+    "score": 0.4737,
+    "sample_studies": [
+      "OSD-832",
+      "OSD-834",
+      "OSD-833"
+    ]
+  },
+  {
+    "id": "condition:radiation",
+    "category": "condition",
+    "label": "Radiation",
+    "frequency": 4,
+    "normalized_frequency": 0.2105,
+    "emerging": false,
+    "score": 0.2105,
+    "sample_studies": [
+      "OSD-832",
+      "OSD-834",
+      "OSD-833"
+    ]
+  },
+  {
+    "id": "condition:hindlimb_unloading",
+    "category": "condition",
+    "label": "Hindlimb Unloading",
+    "frequency": 3,
+    "normalized_frequency": 0.1579,
+    "emerging": false,
+    "score": 0.1579,
+    "sample_studies": [
+      "OSD-832",
+      "OSD-834",
+      "OSD-833"
+    ]
+  },
+  {
+    "id": "condition:co_culture",
+    "category": "condition",
+    "label": "Co-culture",
+    "frequency": 2,
+    "normalized_frequency": 0.1053,
+    "emerging": false,
+    "score": 0.1053,
+    "sample_studies": [
+      "OSD-863",
+      "OSD-871"
+    ]
+  },
+  {
+    "id": "condition:donor_medical_history",
+    "category": "condition",
+    "label": "Donor Medical History",
+    "frequency": 2,
+    "normalized_frequency": 0.1053,
+    "emerging": false,
+    "score": 0.1053,
+    "sample_studies": [
+      "OSD-863",
+      "OSD-871"
+    ]
+  },
+  {
+    "id": "mission:iss",
+    "category": "mission",
+    "label": "ISS",
+    "frequency": 11,
+    "normalized_frequency": 1.0,
+    "emerging": false,
+    "score": 1.0,
+    "sample_studies": [
+      "OSD-811",
+      "OSD-867",
+      "OSD-689"
+    ]
+  },
+  {
+    "id": "mission:spacex_inspiration4",
+    "category": "mission",
+    "label": "SpaceX Inspiration4",
+    "frequency": 7,
+    "normalized_frequency": 0.6364,
+    "emerging": false,
+    "score": 0.6364,
+    "sample_studies": [
+      "OSD-575",
+      "OSD-571",
+      "OSD-656"
+    ]
+  },
+  {
+    "id": "mission:spacex_17",
+    "category": "mission",
+    "label": "SpaceX-17",
+    "frequency": 2,
+    "normalized_frequency": 0.1818,
+    "emerging": false,
+    "score": 0.1818,
+    "sample_studies": [
+      "OSD-516",
+      "OSD-635"
+    ]
+  },
+  {
+    "id": "mission:spacex_19",
+    "category": "mission",
+    "label": "SpaceX-19",
+    "frequency": 2,
+    "normalized_frequency": 0.1818,
+    "emerging": false,
+    "score": 0.1818,
+    "sample_studies": [
+      "OSD-863",
+      "OSD-871"
+    ]
+  },
+  {
+    "id": "mission:ng_16",
+    "category": "mission",
+    "label": "NG-16",
+    "frequency": 1,
+    "normalized_frequency": 0.0909,
+    "emerging": false,
+    "score": 0.0909,
+    "sample_studies": [
+      "OSD-781"
+    ]
+  },
+  {
+    "id": "mission:spacex_10",
+    "category": "mission",
+    "label": "SpaceX-10",
+    "frequency": 1,
+    "normalized_frequency": 0.0909,
+    "emerging": false,
+    "score": 0.0909,
+    "sample_studies": [
+      "OSD-867"
+    ]
+  },
+  {
+    "id": "mission:spacex_20",
+    "category": "mission",
+    "label": "SpaceX-20",
+    "frequency": 1,
+    "normalized_frequency": 0.0909,
+    "emerging": false,
+    "score": 0.0909,
+    "sample_studies": [
+      "OSD-811"
+    ]
+  },
+  {
+    "id": "mission:spacex_21",
+    "category": "mission",
+    "label": "SpaceX-21",
+    "frequency": 1,
+    "normalized_frequency": 0.0909,
+    "emerging": false,
+    "score": 0.0909,
+    "sample_studies": [
+      "OSD-684"
+    ]
+  },
+  {
+    "id": "mission:spaceflight_unspecified",
+    "category": "mission",
+    "label": "Spaceflight (Unspecified)",
+    "frequency": 1,
+    "normalized_frequency": 0.0909,
+    "emerging": false,
+    "score": 0.0909,
+    "sample_studies": [
+      "OSD-530"
+    ]
+  },
+  {
+    "id": "assay:rna_seq",
+    "category": "assay",
+    "label": "RNA-Seq",
+    "frequency": 13,
+    "normalized_frequency": 1.0,
+    "emerging": false,
+    "score": 1.0,
+    "sample_studies": [
+      "OSD-811",
+      "OSD-867",
+      "OSD-783"
+    ]
+  },
+  {
+    "id": "assay:transcriptomics",
+    "category": "assay",
+    "label": "Transcriptomics",
+    "frequency": 13,
+    "normalized_frequency": 1.0,
+    "emerging": false,
+    "score": 1.0,
+    "sample_studies": [
+      "OSD-811",
+      "OSD-867",
+      "OSD-783"
+    ]
+  },
+  {
+    "id": "assay:metabolomics",
+    "category": "assay",
+    "label": "Metabolomics",
+    "frequency": 5,
+    "normalized_frequency": 0.3846,
+    "emerging": false,
+    "score": 0.3846,
+    "sample_studies": [
+      "OSD-832",
+      "OSD-834",
+      "OSD-833"
+    ]
+  },
+  {
+    "id": "assay:mass_spectrometry",
+    "category": "assay",
+    "label": "Mass Spectrometry",
+    "frequency": 3,
+    "normalized_frequency": 0.2308,
+    "emerging": false,
+    "score": 0.2308,
+    "sample_studies": [
+      "OSD-832",
+      "OSD-834",
+      "OSD-833"
+    ]
+  },
+  {
+    "id": "assay:transcription_profiling_transcription_profiling",
+    "category": "assay",
+    "label": "transcription profiling transcription profiling",
+    "frequency": 2,
+    "normalized_frequency": 0.1538,
+    "emerging": false,
+    "score": 0.1538,
+    "sample_studies": [
+      "OSD-689",
+      "OSD-530"
+    ]
+  },
+  {
+    "id": "assay:transcription_profiling_chromatin_accessibility_transcription_profiling_transcription_profiling",
+    "category": "assay",
+    "label": "transcription profiling Chromatin Accessibility transcription profiling transcription profiling",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-570"
+    ]
+  },
+  {
+    "id": "assay:single_cell_rna_sequencing_single_cell_atac_seq_single_cell_rna_sequencing_single_cell_rna_sequencing",
+    "category": "assay",
+    "label": "single-cell RNA sequencing single-cell ATAC-seq single-cell RNA sequencing single-cell RNA sequencing",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-570"
+    ]
+  },
+  {
+    "id": "assay:protein_dna_binding_site_identification",
+    "category": "assay",
+    "label": "protein-DNA binding site identification",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-687"
+    ]
+  },
+  {
+    "id": "assay:mass_spectrometry_mass_spectrometry_mass_spectrometry_nucleotide_sequencing_rna_sequencing_rna_seq",
+    "category": "assay",
+    "label": "mass spectrometry mass spectrometry mass spectrometry nucleotide sequencing RNA Sequencing (RNA-Seq)",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-571"
+    ]
+  },
+  {
+    "id": "assay:whole_genome_shotgun_sequencing_spatial_transcriptomics_rna_sequencing_rna_seq",
+    "category": "assay",
+    "label": "Whole-Genome Shotgun Sequencing spatial transcriptomics RNA Sequencing (RNA-Seq)",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-574"
+    ]
+  },
+  {
+    "id": "assay:chic_seq_chromatin_immunocleavage_sequencing",
+    "category": "assay",
+    "label": "ChIC-seq (Chromatin Immunocleavage Sequencing)",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-687"
+    ]
+  },
+  {
+    "id": "assay:rna_sequencing_rna_seq_single_cell_rna_sequencing",
+    "category": "assay",
+    "label": "RNA Sequencing (RNA-Seq) single-cell RNA sequencing",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-689"
+    ]
+  },
+  {
+    "id": "assay:complete_blood_count_transcription_profiling_genome_sequencing_transcription_profiling_targeted_genome_sequencing",
+    "category": "assay",
+    "label": "Complete Blood Count transcription profiling genome sequencing transcription profiling Targeted Genome Sequencing",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-569"
+    ]
+  },
+  {
+    "id": "assay:multiplex",
+    "category": "assay",
+    "label": "Multiplex",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-656"
+    ]
+  },
+  {
+    "id": "assay:metagenomic_sequencing_transcription_profiling_metatranscriptome_sequencing_assay",
+    "category": "assay",
+    "label": "Metagenomic sequencing transcription profiling metatranscriptome sequencing assay",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-574"
+    ]
+  },
+  {
+    "id": "assay:immunoassay_immunoassay_immunoassay_analytical_chemistry",
+    "category": "assay",
+    "label": "Immunoassay Immunoassay Immunoassay Analytical Chemistry",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-575"
+    ]
+  },
+  {
+    "id": "assay:immunoassay",
+    "category": "assay",
+    "label": "Immunoassay",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-656"
+    ]
+  },
+  {
+    "id": "assay:hematology_analyzer_nanopore_long_read_rna_sequencing_nucleotide_sequencing_rna_sequencing_rna_seq_nucleotide_sequencing",
+    "category": "assay",
+    "label": "Hematology Analyzer Nanopore long read RNA Sequencing nucleotide sequencing RNA Sequencing (RNA-Seq) nucleotide sequencing",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-569"
+    ]
+  },
+  {
+    "id": "assay:rna_sequencing_rna_seq_rna_sequencing_rna_seq",
+    "category": "assay",
+    "label": "RNA Sequencing (RNA-Seq) RNA Sequencing (RNA-Seq)",
+    "frequency": 1,
+    "normalized_frequency": 0.0769,
+    "emerging": false,
+    "score": 0.0769,
+    "sample_studies": [
+      "OSD-530"
+    ]
+  },
+  {
+    "id": "sample_type:cells",
+    "category": "sample_type",
+    "label": "Cells",
+    "frequency": 6,
+    "normalized_frequency": 1.0,
+    "emerging": false,
+    "score": 1.0,
+    "sample_studies": [
+      "OSD-811",
+      "OSD-867",
+      "OSD-812"
+    ]
+  },
+  {
+    "id": "sample_type:cultured",
+    "category": "sample_type",
+    "label": "Cultured",
+    "frequency": 5,
+    "normalized_frequency": 0.8333,
+    "emerging": false,
+    "score": 0.8333,
+    "sample_studies": [
+      "OSD-811",
+      "OSD-867",
+      "OSD-812"
+    ]
+  },
+  {
+    "id": "sample_type:primary_cell",
+    "category": "sample_type",
+    "label": "primary cell",
+    "frequency": 2,
+    "normalized_frequency": 0.3333,
+    "emerging": false,
+    "score": 0.3333,
+    "sample_studies": [
+      "OSD-516",
+      "OSD-781"
+    ]
+  },
+  {
+    "id": "sample_type:vastus_lateralis",
+    "category": "sample_type",
+    "label": "Vastus Lateralis",
+    "frequency": 2,
+    "normalized_frequency": 0.3333,
+    "emerging": false,
+    "score": 0.3333,
+    "sample_studies": [
+      "OSD-784",
+      "OSD-787"
+    ]
+  },
+  {
+    "id": "sample_type:plasma",
+    "category": "sample_type",
+    "label": "Plasma",
+    "frequency": 2,
+    "normalized_frequency": 0.3333,
+    "emerging": false,
+    "score": 0.3333,
+    "sample_studies": [
+      "OSD-571",
+      "OSD-530"
+    ]
+  },
+  {
+    "id": "sample_type:plasma_cortex_hippocampus_and_cortex_hippocampus_not_applicable",
+    "category": "sample_type",
+    "label": "Plasma Cortex Hippocampus and Cortex Hippocampus Not Applicable",
+    "frequency": 2,
+    "normalized_frequency": 0.3333,
+    "emerging": false,
+    "score": 0.3333,
+    "sample_studies": [
+      "OSD-834",
+      "OSD-833"
+    ]
+  },
+  {
+    "id": "sample_type:swab_skin_biopsy_not_applicable",
+    "category": "sample_type",
+    "label": "Swab Skin Biopsy Not Applicable",
+    "frequency": 1,
+    "normalized_frequency": 0.1667,
+    "emerging": false,
+    "score": 0.1667,
+    "sample_studies": [
+      "OSD-574"
+    ]
+  },
+  {
+    "id": "sample_type:isolated_cells",
+    "category": "sample_type",
+    "label": "isolated cells",
+    "frequency": 1,
+    "normalized_frequency": 0.1667,
+    "emerging": false,
+    "score": 0.1667,
+    "sample_studies": [
+      "OSD-689"
+    ]
+  },
+  {
+    "id": "sample_type:urine",
+    "category": "sample_type",
+    "label": "Urine",
+    "frequency": 1,
+    "normalized_frequency": 0.1667,
+    "emerging": false,
+    "score": 0.1667,
+    "sample_studies": [
+      "OSD-656"
+    ]
+  },
+  {
+    "id": "sample_type:t_cell",
+    "category": "sample_type",
+    "label": "T cell",
+    "frequency": 1,
+    "normalized_frequency": 0.1667,
+    "emerging": false,
+    "score": 0.1667,
+    "sample_studies": [
+      "OSD-687"
+    ]
+  },
+  {
+    "id": "sample_type:3d_cells",
+    "category": "sample_type",
+    "label": "3D cells",
+    "frequency": 1,
+    "normalized_frequency": 0.1667,
+    "emerging": false,
+    "score": 0.1667,
+    "sample_studies": [
+      "OSD-577"
+    ]
+  },
+  {
+    "id": "sample_type:soleus",
+    "category": "sample_type",
+    "label": "Soleus",
+    "frequency": 1,
+    "normalized_frequency": 0.1667,
+    "emerging": false,
+    "score": 0.1667,
+    "sample_studies": [
+      "OSD-783"
+    ]
+  },
+  {
+    "id": "sample_type:serum",
+    "category": "sample_type",
+    "label": "Serum",
+    "frequency": 1,
+    "normalized_frequency": 0.1667,
+    "emerging": false,
+    "score": 0.1667,
+    "sample_studies": [
+      "OSD-575"
+    ]
+  },
+  {
+    "id": "sample_type:plasma_not_applicable",
+    "category": "sample_type",
+    "label": "Plasma Not Applicable",
+    "frequency": 1,
+    "normalized_frequency": 0.1667,
+    "emerging": false,
+    "score": 0.1667,
+    "sample_studies": [
+      "OSD-832"
+    ]
+  },
+  {
+    "id": "sample_type:peripheral_blood_mononuclear_cell",
+    "category": "sample_type",
+    "label": "Peripheral Blood Mononuclear Cell",
+    "frequency": 1,
+    "normalized_frequency": 0.1667,
+    "emerging": false,
+    "score": 0.1667,
+    "sample_studies": [
+      "OSD-570"
+    ]
+  },
+  {
+    "id": "sample_type:myoblasts",
+    "category": "sample_type",
+    "label": "Myoblasts",
+    "frequency": 1,
+    "normalized_frequency": 0.1667,
+    "emerging": false,
+    "score": 0.1667,
+    "sample_studies": [
+      "OSD-684"
+    ]
+  },
+  {
+    "id": "sample_type:rbc_pellet_whole_blood",
+    "category": "sample_type",
+    "label": "RBC pellet Whole Blood",
+    "frequency": 1,
+    "normalized_frequency": 0.1667,
+    "emerging": false,
+    "score": 0.1667,
+    "sample_studies": [
+      "OSD-569"
+    ]
+  },
+  {
+    "id": "biological_focus:metabolism",
+    "category": "biological_focus",
+    "label": "Metabolism",
+    "frequency": 11,
+    "normalized_frequency": 1.0,
+    "emerging": false,
+    "score": 1.0,
+    "sample_studies": [
+      "OSD-832",
+      "OSD-834",
+      "OSD-833"
+    ]
+  },
+  {
+    "id": "biological_focus:immune_response",
+    "category": "biological_focus",
+    "label": "Immune Response",
+    "frequency": 10,
+    "normalized_frequency": 0.9091,
+    "emerging": false,
+    "score": 0.9091,
+    "sample_studies": [
+      "OSD-689",
+      "OSD-863",
+      "OSD-871"
+    ]
+  },
+  {
+    "id": "biological_focus:muscle_atrophy",
+    "category": "biological_focus",
+    "label": "Muscle Atrophy",
+    "frequency": 8,
+    "normalized_frequency": 0.7273,
+    "emerging": false,
+    "score": 0.7273,
+    "sample_studies": [
+      "OSD-811",
+      "OSD-867",
+      "OSD-783"
+    ]
+  },
+  {
+    "id": "biological_focus:neurobiology",
+    "category": "biological_focus",
+    "label": "Neurobiology",
+    "frequency": 8,
+    "normalized_frequency": 0.7273,
+    "emerging": false,
+    "score": 0.7273,
+    "sample_studies": [
+      "OSD-832",
+      "OSD-834",
+      "OSD-833"
+    ]
+  },
+  {
+    "id": "biological_focus:oxidative_stress",
+    "category": "biological_focus",
+    "label": "Oxidative Stress",
+    "frequency": 6,
+    "normalized_frequency": 0.5455,
+    "emerging": false,
+    "score": 0.5455,
+    "sample_studies": [
+      "OSD-689",
+      "OSD-863",
+      "OSD-871"
+    ]
+  },
+  {
+    "id": "biological_focus:bone_loss",
+    "category": "biological_focus",
+    "label": "Bone Loss",
+    "frequency": 4,
+    "normalized_frequency": 0.3636,
+    "emerging": false,
+    "score": 0.3636,
+    "sample_studies": [
+      "OSD-811",
+      "OSD-867",
+      "OSD-516"
+    ]
+  },
+  {
+    "id": "biological_focus:cardiovascular",
+    "category": "biological_focus",
+    "label": "Cardiovascular",
+    "frequency": 4,
+    "normalized_frequency": 0.3636,
+    "emerging": false,
+    "score": 0.3636,
+    "sample_studies": [
+      "OSD-811",
+      "OSD-575",
+      "OSD-635"
+    ]
+  },
+  {
+    "id": "biological_focus:aging",
+    "category": "biological_focus",
+    "label": "Aging",
+    "frequency": 2,
+    "normalized_frequency": 0.1818,
+    "emerging": false,
+    "score": 0.1818,
+    "sample_studies": [
+      "OSD-689",
+      "OSD-569"
+    ]
+  },
+  {
+    "id": "biological_focus:microbiome",
+    "category": "biological_focus",
+    "label": "Microbiome",
+    "frequency": 2,
+    "normalized_frequency": 0.1818,
+    "emerging": false,
+    "score": 0.1818,
+    "sample_studies": [
+      "OSD-570",
+      "OSD-574"
+    ]
+  }
+]

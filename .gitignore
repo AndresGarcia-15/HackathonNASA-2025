@@ -1,0 +1,112 @@
+# --- Python básico ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+.Python
+.venv/
+venv/
+env/
+
+# --- Entornos / herramientas ---
+.idea/
+.vscode/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# --- Notebooks ---
+*.ipynb_checkpoints/
+
+# --- Datos pesados / artefactos (mantener muestras con README) ---
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+results/*
+!results/.gitkeep
+
+# Directorio ODR completo (se sugiere no versionar dataset completo)
+odr/*
+!odr/README.md
+
+# --- Logs / temporales ---
+*.log
+logs/
+tmp/
+*.tmp
+
+# --- Sistemas Operativos ---
+.DS_Store
+Thumbs.db
+
+# --- PDFs y binarios grandes (ajusta según necesidad) ---
+*.pdf
+*.PDF
+*.zip
+*.ZIP
+backend_documentacion.pdf
+backend_doc_v1.pdf
+morpheus_process_documentation.pdf
+NSLSL-External-Users-Guide-Version-1.0.pdf
+OSD-877_sup_MMP 21243 - APOLLO 15 EXPERIMENT DATA AND SUMMARIES.pdf
+
+# --- Paquetes/comprimidos auxiliares ---
+app.zip
+app1.zip
+odr.zip
+
+# --- Notebooks de trabajo (sube sólo si son imprescindibles) ---
+*.ipynb
+!README*.ipynb
+hackathon.ipynb
+procesamiento.ipynb
+odr_finetuning.ipynb
+
+# --- Logs de errores JVM / sistema ---
+hs_err_pid*.log
+replay_pid*.log
+
+# --- Archivos de entorno ---
+.env
+.env.*
+!.env.example
+
+# --- Carpetas auxiliares vacías o temporales ---
+offload_folder/
+
+# --- Archivos de configuración locales ---
+setup.ps1
+
+# --- JSON de datasets grandes fuera de muestra ---
+humanos-espacio.json
+pmc_articlesv3.json
+
+# --- Documentos guía auxiliares si no deben versionarse ---
+GUIA_MULTIPLES_ARCHIVOS.md
+
+# --- Cache Python adicional ---
+app/__pycache__/
+
+# --- Residuos editor / merge ---
+*.orig
+*.rej
+*.diff
+*.patch
+*.merge
+
+# --- Streamlit ---
+.streamlit/
+
+# --- Otros ---
+*.bak
+*.swp
+*.orig
+*.patch
