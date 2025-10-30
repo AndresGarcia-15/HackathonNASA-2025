@@ -271,7 +271,41 @@ async def health():
         'columns': list(_df.columns),
         'source': 'odr_raw_json',
         'organisms': int(_df['organism_label'].nunique()) if 'organism_label' in _df else 0,
-        'projects': int(_df['project_label'].nunique()) if 'project_label' in _df else 0
+        'projects': int(_df['project_label'].nunique()) if 'project_label' in _df else 0,
+        'features': {
+            'spell_checking': True,
+            'smart_q_mode': True,
+            'query_expansion': True
+        }
+    }
+
+@app.get('/spell-check')
+async def spell_check_query(q: str):
+    """
+    Endpoint para probar corrección ortográfica sin hacer búsqueda completa.
+    
+    Ejemplo: /spell-check?q=bacterios%20in%20micrograviti
+    """
+    if not q or not q.strip():
+        return {
+            'error': 'Query parameter "q" is required',
+            'example': '/spell-check?q=bacterios%20in%20micrograviti'
+        }
+    
+    # Usar el spell checker del pipeline
+    spell_checker = pipeline.filter_engine.spell_checker
+    result = spell_checker.check_query(q)
+    
+    return {
+        'query': q,
+        'analysis': result,
+        'suggestions_detail': [
+            {
+                'original': corr['original'],
+                'suggestions': corr['suggestions']
+            }
+            for corr in result.get('corrections', [])
+        ]
     }
 
 @app.get('/facets')

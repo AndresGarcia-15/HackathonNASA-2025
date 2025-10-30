@@ -1,5 +1,6 @@
-from typing import Dict, List, Any, Set
+from typing import Dict, List, Any, Set, Optional
 import pandas as pd
+from .spell_checker import SpellChecker, QueryEnhancer
 
 class FilterEngine:
     def __init__(self, studies_df: pd.DataFrame, id_col: str, global_token_studies):
@@ -7,6 +8,14 @@ class FilterEngine:
         self.id_col = id_col
         self.global_token_studies = global_token_studies
         self.last_stats: Dict[str,int] = {}
+        
+        # Inicializar corrector ortográfico con el vocabulario del corpus
+        vocabulary_freq = {token: len(ids) for token, ids in global_token_studies.items()}
+        self.spell_checker = SpellChecker(vocabulary_freq, min_freq=2)
+        self.query_enhancer = QueryEnhancer(vocabulary_freq)
+        
+        # Stats para corrección ortográfica
+        self.spell_corrections: Dict[str, Any] = {}
 
     @staticmethod
     def _normalize_token(t: str) -> str:
@@ -83,75 +92,188 @@ class FilterEngine:
         if sel_kws:
             self.last_stats['after_keywords'] = len(working)
 
-        # free text q (configurable and/or + min match) con fallback inteligentes
+        # free text q con corrección ortográfica y modo mejorado
         q_text = filters.get('q') or filters.get('query') or ''
         if q_text:
             original_working = working.copy()
-            q_mode = (filters.get('q_mode') or 'and').lower()  # 'and' | 'or'
-            terms = self._tokens_from_text(q_text)
-            # Filtrar tokens que no aparezcan nunca para no matar la query entera
+            q_mode = (filters.get('q_mode') or 'and').lower()  # 'and' | 'or' | 'smart'
+            
+            # 🔥 NUEVA FUNCIONALIDAD: Análisis ortográfico
+            spell_check_result = self.spell_checker.check_query(q_text)
+            self.spell_corrections = spell_check_result
+            
+            # Si hay correcciones con alta confianza, usar query corregida
+            use_corrected = False
+            if spell_check_result['has_errors'] and spell_check_result['confidence'] < 0.7:
+                # Hay errores significativos, intentar con query corregida
+                corrected_query = spell_check_result['corrected_query']
+                self.last_stats['spell_correction_applied'] = True
+                self.last_stats['original_query'] = q_text
+                self.last_stats['corrected_query'] = corrected_query
+                # Intentar primero con query corregida
+                q_text_to_use = corrected_query
+                use_corrected = True
+            else:
+                q_text_to_use = q_text
+            
+            terms = self._tokens_from_text(q_text_to_use)
+            
+            # Filtrar tokens que existen vs. los que faltan
             existing_terms = [t for t in terms if self.global_token_studies.get(t)]
             missing_terms = [t for t in terms if t not in existing_terms]
+            
+            # Si hay términos faltantes, intentar corregirlos individualmente
+            if missing_terms and not use_corrected:
+                corrected_missing = []
+                for mterm in missing_terms:
+                    suggestions = self.spell_checker.suggest(mterm, top_n=1, min_score=0.5)
+                    if suggestions:
+                        corrected_missing.append({
+                            'original': mterm,
+                            'corrected': suggestions[0]['word'],
+                            'confidence': suggestions[0]['score']
+                        })
+                        # Añadir término corregido a existing_terms
+                        existing_terms.append(suggestions[0]['word'])
+                
+                if corrected_missing:
+                    self.last_stats['individual_corrections'] = corrected_missing
+            
             if missing_terms:
                 self.last_stats['ignored_tokens'] = missing_terms
-            # Si no queda ningún término utilizable, aplicar fallback frase directa
+            
+            # 🎯 LÓGICA MEJORADA DE q_mode
+            # Si no hay términos válidos, fallback a búsqueda de frase
             executed_phrase_fallback = False
             if not existing_terms:
                 phrase_ids = self._phrase_match_ids(q_text)
                 working &= phrase_ids if phrase_ids else set()
                 executed_phrase_fallback = True
+                self.last_stats['search_strategy'] = 'phrase_fallback_no_terms'
             else:
-                if q_mode == 'or':
-                    term_sets = [self.global_token_studies.get(t, set()) for t in existing_terms]
-                    min_match = filters.get('q_min_match') or 1
-                    from collections import Counter
-                    counter = Counter()
-                    for tset in term_sets:
-                        for sid in tset:
-                            counter[sid] += 1
-                    valid = {sid for sid, c in counter.items() if c >= min_match}
-                    working &= valid
-                else:  # AND estricto con fallback
-                    for term in existing_terms:
-                        matches = self.global_token_studies.get(term, set())
-                        if not matches:
-                            continue
-                        working &= matches
-                        if not working:
-                            break
-                    # Fallback automático: si AND devolvió vacío, intentar OR con min_match dinámico
-                    if not working:
-                        term_sets = [self.global_token_studies.get(t, set()) for t in existing_terms]
-                        from collections import Counter
-                        counter = Counter()
-                        for tset in term_sets:
-                            for sid in tset:
-                                counter[sid] += 1
-                        # min_match = ceil(50% de los términos) pero al menos 1
+                # Tenemos términos válidos, aplicar estrategia según q_mode
+                
+                if q_mode == 'smart':
+                    # 🧠 MODO SMART: Decide automáticamente basado en el contexto
+                    # - Si hay filtros de organism/project_type activos: usa AND (más específico)
+                    # - Si NO hay filtros: usa OR con min_match inteligente
+                    has_filters = bool(filters.get('organism') or filters.get('project_type') or filters.get('keywords'))
+                    
+                    if has_filters:
+                        # Con filtros activos: AND para refinar aún más
+                        working = self._apply_and_search(existing_terms, working, original_working)
+                        self.last_stats['search_strategy'] = 'smart_and_with_filters'
+                    else:
+                        # Sin filtros: OR con min_match para amplitud
                         import math
-                        min_match_auto = max(1, math.ceil(0.5 * len(existing_terms)))
-                        fallback_valid = {sid for sid, c in counter.items() if c >= min_match_auto}
-                        if fallback_valid:
-                            working = original_working & fallback_valid
-                            self.last_stats['fallback_or_min_match'] = min_match_auto
-                        # Segundo fallback: búsqueda de frase parcial (subcadena en título/descr)
-                        if not working:
-                            phrase_ids = self._phrase_match_ids(q_text)
-                            if phrase_ids:
-                                working = original_working & phrase_ids
-                                executed_phrase_fallback = True
-            # Si después de todo seguimos vacíos, quizá usar similitud fuzzy en títulos
+                        min_match = max(1, math.ceil(0.6 * len(existing_terms)))
+                        working = self._apply_or_search(existing_terms, working, min_match)
+                        self.last_stats['search_strategy'] = f'smart_or_no_filters_min{min_match}'
+                
+                elif q_mode == 'or':
+                    # 🔵 MODO OR: Busca cualquier término
+                    min_match = filters.get('q_min_match') or 1
+                    working = self._apply_or_search(existing_terms, working, min_match)
+                    self.last_stats['search_strategy'] = f'explicit_or_min{min_match}'
+                
+                else:  # AND (default)
+                    # 🟢 MODO AND: Busca todos los términos con fallbacks inteligentes
+                    working = self._apply_and_search(existing_terms, working, original_working)
+                    self.last_stats['search_strategy'] = 'explicit_and_with_fallbacks'
+            
+            # Fallback final: fuzzy match si seguimos vacíos
             if q_text and not working:
                 fuzzy_ids = self._fuzzy_title_match_ids(q_text, top_k=25, threshold=0.72)
                 if fuzzy_ids:
                     working = fuzzy_ids
                     self.last_stats['fuzzy_fallback'] = True
+                    self.last_stats['search_strategy'] = 'fuzzy_similarity'
+            
             self.last_stats['after_q'] = len(working)
             if executed_phrase_fallback:
                 self.last_stats['phrase_fallback'] = True
 
         self.last_stats['final'] = len(working)
         return working
+    
+    # --- NUEVOS MÉTODOS AUXILIARES PARA q_mode ---
+    
+    def _apply_and_search(self, terms: List[str], working: Set[str], original_working: Set[str]) -> Set[str]:
+        """
+        Aplica búsqueda AND con fallbacks inteligentes.
+        
+        Estrategia:
+        1. Intentar AND estricto (todos los términos)
+        2. Si vacío: AND parcial (al menos 70% de términos)
+        3. Si vacío: AND parcial (al menos 50% de términos)
+        4. Si vacío: búsqueda de frase
+        """
+        result = working.copy()
+        
+        # Intento 1: AND estricto
+        for term in terms:
+            matches = self.global_token_studies.get(term, set())
+            result &= matches
+            if not result:
+                break
+        
+        if result:
+            self.last_stats['and_strategy'] = 'strict_all_terms'
+            return result
+        
+        # Intento 2: AND parcial (70%)
+        import math
+        min_match_70 = max(1, math.ceil(0.7 * len(terms)))
+        result = self._apply_or_search(terms, working, min_match_70)
+        
+        if result:
+            self.last_stats['and_strategy'] = f'partial_70pct_min{min_match_70}'
+            self.last_stats['and_fallback_level'] = 1
+            return result
+        
+        # Intento 3: AND parcial (50%)
+        min_match_50 = max(1, math.ceil(0.5 * len(terms)))
+        result = self._apply_or_search(terms, working, min_match_50)
+        
+        if result:
+            self.last_stats['and_strategy'] = f'partial_50pct_min{min_match_50}'
+            self.last_stats['and_fallback_level'] = 2
+            return result
+        
+        # Último recurso: búsqueda OR con min_match=1
+        result = self._apply_or_search(terms, working, 1)
+        if result:
+            self.last_stats['and_strategy'] = 'fallback_or_any'
+            self.last_stats['and_fallback_level'] = 3
+        
+        return result
+    
+    def _apply_or_search(self, terms: List[str], working: Set[str], min_match: int = 1) -> Set[str]:
+        """
+        Aplica búsqueda OR con mínimo de coincidencias.
+        
+        Args:
+            terms: Lista de términos a buscar
+            working: Set de IDs donde buscar
+            min_match: Mínimo de términos que deben coincidir
+        """
+        from collections import Counter
+        
+        term_sets = [self.global_token_studies.get(t, set()) for t in terms]
+        counter = Counter()
+        
+        for tset in term_sets:
+            for sid in tset:
+                counter[sid] += 1
+        
+        # Filtrar por min_match y por working set
+        valid = {sid for sid, count in counter.items() if count >= min_match}
+        result = working & valid
+        
+        self.last_stats['or_min_match_used'] = min_match
+        self.last_stats['or_candidates_found'] = len(valid)
+        
+        return result
 
     # --- Métodos auxiliares de fallback ---
     def _phrase_match_ids(self, phrase: str) -> Set[str]:
